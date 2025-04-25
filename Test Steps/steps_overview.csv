@@ -1,0 +1,326 @@
+Flow ID,Name,Description,Test Steps,Flow Priority,Status
+5,Navigate to Dock Management Interface and Verify Page,Navigate to the Dock Management Interface from the Live Worksheet and verify that the page loads correctly.,"Step 1: Navigate to */*/*
+Step 2: Hover over link dockLayout
+Step 3: Click on link dockLayout2 -> Navigate to page 'dock management interface#*/*'
+Step 4: Take full page screenshot as checkpoint
+",High,NEW
+11,Submit Trailer Utilization and Send to Yard,"Navigate to the Dock Management Interface, submit trailer utilization details, and send the trailer to the yard.","Step 1: Navigate to */*/*
+Step 2: Hover over link dockLayout
+Step 3: Click on link dockLayout2 -> Navigate to page 'dock management interface#*/*'
+Step 4: Click on link doorOptions (closeToBos)
+Step 5: Click on input trailerUtilization
+Step 6: Enter input value in input trailerUtilization
+Step 7: Click on input sendToYard (sendToYardAndClose)
+Step 8: Click on button confirmationActions (continue)
+Step 9: Click on input actualTrailerUtilization
+Step 10: Enter input value in input actualTrailerUtilization
+Step 11: Click on input submitTrailerUtilization
+Step 12: Click on label removeFromDoor
+Step 13: Click on span removeFromDoor
+Step 14: Click on input closeTrailerAtDoor
+Step 15: Click on input createDockMove
+Step 16: Click on input requestReplacement
+Step 17: Click on button confirmationActions (confirm)
+Step 18: Click on button okActions (ok) -> Navigate to page ''
+Step 19: Take full page screenshot as checkpoint
+",High,NEW
+1,Reset Dock Layout and Save Door Data,"Reset the dock layout, save door data, and verify that changes are reflected in the Dock Management Interface.","Step 1: Navigate to */*
+Step 2: Hover over link dockLayout
+Step 3: Click on link resetLayout -> Navigate to page 'reset layout#*/*/ResetLayout'
+Step 4: Click on input submit
+Step 5: Enter input value in input password
+Step 6: Click on input submit2
+Step 7: Hover over link dockLayout
+Step 8: Click on link dockLayout2 -> Navigate to page 'dock management interface#*/*'
+Step 9: Click on link doorData
+Step 10: Click on link doorLoadData (doorData2)
+Step 11: Click on input saveLayout
+Step 12: Click on button ok3
+Step 13: Hover over link dockLayout
+Step 14: Click on link resetLayout -> Navigate to page 'reset layout#*/*/ResetLayout'
+Step 15: Click on input submit
+Step 16: Enter input value in input password
+Step 17: Click on input submit2
+Step 18: Click on link close
+Step 19: Hover over link dockLayout
+Step 20: Click on link dockLayout2 -> Navigate to page 'dock management interface#*/*'
+Step 21: Take full page screenshot as checkpoint
+",High,NEW
+14,Morning Check In and Verify Reports,Perform morning check-in procedures and verify that the reports are correctly displayed.,"Step 1: Navigate to */*/*
+Step 2: Hover over link pd
+Step 3: Click on link pdcheckIn -> Navigate to page 'pd morning check in#*/*/*'
+Step 4: Hover over link reports
+Step 5: Click on link proMovement -> Navigate to page 'pro movement reports#*/*/*'
+Step 6: Click on div mainContainer -> Navigate to page 'pd morning check in#*/*/*'
+Step 7: Click on button checkIn
+Step 8: Click on button submit
+Step 9: Click on button ok
+Step 10: Take full page screenshot as checkpoint
+",High,NEW
+10,Search and Verify Pro Movement Reports,"Navigate to the Door History Reports, perform searches, and verify the results in the Pro Movement Reports.","Step 1: Navigate to */*
+Step 2: Click on input refresh
+Step 3: Click on input refresh -> Navigate to page 'door history reports#*/*/*'
+Step 4: Enter input value in input trailerNumber
+Step 5: Click on input search -> Navigate to page 'pro movement reports#*/*/*'
+Step 6: Enter input value in input proNumber
+Step 7: Click on input proSearch
+Step 8: Click on div proSearchForm
+Step 9: Enter input value in input proNumber
+Step 10: Click on input proSearch -> Navigate to page 'live worksheet#*/*/*'
+Step 11: Enter input value in input searchString
+Step 12: Click on input searchString
+Step 13: Select option with input value from select layoutSelectedTerminal
+Step 14: Select option with input value from select searchOption
+Step 15: Click on input searchString -> Navigate to page ''
+Step 16: Take full page screenshot as checkpoint
+",Medium,NEW
+3,Review Closed Trailers and Generate Reports,Review closed trailers and generate movement reports to verify accurate data entry.,"Step 1: Navigate to */*
+Step 2: Click on div mainContainer
+Step 3: Select option with input value from select layoutSelectedTerminal
+Step 4: Hover over link linehaul
+Step 5: Click on link closedTrailersReview -> Navigate to page 'closed trailers review#*/*/*'
+Step 6: Click on input search
+Step 7: Click on input search
+Step 8: Hover over link reports
+Step 9: Click on link proLoadedThenDocked
+Step 10: Click on link proMovement -> Navigate to page 'pro movement reports#*/*/*'
+Step 11: Click on input proNumber
+Step 12: Click on input proNumber
+Step 13: Click on div proSearchForm2
+Step 14: Click on input proNumber
+Step 15: Enter input value in input proNumber
+Step 16: Click on input proSearch
+Step 17: Click on td osdExceptionPieces -> Navigate to page ''
+Step 18: Take full page screenshot as checkpoint
+",Medium,NEW
+4,Prepare Billing and Check In Process,"Navigate to the billing preparation page, input necessary details, and verify the check-in process.","Step 1: Navigate to *
+Step 2: Click on input terminal
+Step 3: Enter input value in input terminal
+Step 4: Click on link man
+Step 5: Click on input driver
+Step 6: Enter input value in input driver
+Step 7: Click on link name
+Step 8: Click on input trailer
+Step 9: Enter input value in input trailer
+Step 10: Click on input door
+Step 11: Click on input door
+Step 12: Enter input value in input door
+Step 13: Click on input checkIn
+Step 14: Click on input checkIn
+Step 15: Enter input value in input checkIn
+Step 16: Press key Enter on input checkIn
+Step 17: Click on input checkIn
+Step 18: Enter input value in input checkIn
+Step 19: Press key Enter on input checkIn
+Step 20: Click on input checkIn
+Step 21: Enter input value in input checkIn
+Step 22: Press key Enter on input checkIn
+Step 23: Click on input checkIn
+Step 24: Enter input value in input checkIn
+Step 25: Press key Enter on input checkIn
+Step 26: Click on button sendToDock
+Step 27: Take full page screenshot as checkpoint
+",Medium,NEW
+8,Manage Trailer Summary and Confirm Move,"Access the Trailer Summary, initiate a move shipment, and confirm the action before returning to the Dock Management Interface.","Step 1: Navigate to */*/*
+Step 2: Hover over link dockLayout
+Step 3: Click on link dockLayout2 -> Navigate to page 'dock management interface#*/*'
+Step 4: Click on link doorOptions (doorNumber)
+Step 5: Click on link trailerSummary -> Navigate to page 'move shipment#*/*/*'
+Step 6: Click on button ok
+Step 7: Click on input dockIt
+Step 8: Click on input buffer
+Step 9: Click on input enter -> Navigate to page 'move confirmation#*/*/MoveConfirmation'
+Step 10: Click on input ok -> Navigate to page 'dock management interface#*/*'
+Step 11: Click on link close
+Step 12: Click on link close (close2)
+Step 13: Click on input refresh -> Navigate to page ''
+Step 14: Take full page screenshot as checkpoint
+",Low,NEW
+7,Assign Work and Verify Dock Management Interface,Assign work to employees and verify the Dock Management Interface for successful updates.,"Step 1: Navigate to */*/*
+Step 2: Hover over link dockLayout
+Step 3: Click on link dockLayout2 -> Navigate to page 'dock management interface#*/*'
+Step 4: Hover over link dock
+Step 5: Click on link liveWorksheet -> Navigate to page 'live worksheet#*/*/*'
+Step 6: Select option with input value from select selectedWorkType
+Step 7: Click on input actionButton
+Step 8: Select option with input value from select doorYard
+Step 9: Select option with input value from select employeeDoor
+Step 10: Click on input arriveTrailer
+Step 11: Select option with input value from select selectedWorkType
+Step 12: Click on label door
+Step 13: Click on label door
+Step 14: Click on label door
+Step 15: Click on link deleteAssignWork
+Step 16: Select option with input value from select workAssignmentEmployeeId
+Step 17: Click on input saveWork
+Step 18: Hover over link dockLayout
+Step 19: Click on link dockLayout2 -> Navigate to page 'dock management interface#*/*'
+Step 20: Take full page screenshot as checkpoint
+",Low,NEW
+12,Change City Routes and Manage Vehicle Details,"Change city routes and manage vehicle details, ensuring all inputs are correctly submitted.","Step 1: Navigate to */*/*
+Step 2: Hover over link pd
+Step 3: Click on link changeCityRoutes -> Navigate to page 'project management#*/*/CreateNewRoute'
+Step 4: Click on input vehicleDetails (trailerNumber)
+Step 5: Enter input value in input vehicleDetails (trailerNumber)
+Step 6: Click on input vehicleDetails (tractorNumber)
+Step 7: Click on input vehicleDetails (driverCode)
+Step 8: Click on input vehicleDetails (doorNumber)
+Step 9: Enter input value in input vehicleDetails (doorNumber)
+Step 10: Click on input proNumber
+Step 11: Click on input proNumber
+Step 12: Click on input proNumber
+Step 13: Enter input value in input proNumber
+Step 14: Click on label proSearch
+Step 15: Click on input proNumber
+Step 16: Enter input value in input proNumber
+Step 17: Click on label proSearch
+Step 18: Click on input submit
+Step 19: Click on button ok
+Step 20: Take full page screenshot as checkpoint
+",Low,NEW
+6,Perform Multiple Dock Moves and Confirm Actions,Execute multiple dock moves with trailer utilization inputs and confirm actions throughout the process.,"Step 1: Navigate to */*/*
+Step 2: Hover over link dockLayout
+Step 3: Click on link dockLayout2 -> Navigate to page 'dock management interface#*/*'
+Step 4: Hover over link dock
+Step 5: Click on link trek -> Navigate to page 'move shipment#*/*/*'
+Step 6: Click on input buffer2
+Step 7: Enter input value in input buffer2
+Step 8: Click on input enter2
+Step 9: Click on input dockIt2
+Step 10: Click on input enter2 -> Navigate to page 'move confirmation#*/*/MoveConfirmation'
+Step 11: Click on input ok2 -> Navigate to page 'move shipment#*/*/*'
+Step 12: Click on input buffer2
+Step 13: Enter input value in input buffer2
+Step 14: Click on input enter2
+Step 15: Click on input dockIt2
+Step 16: Click on input enter2 -> Navigate to page 'move confirmation#*/*/MoveConfirmation'
+Step 17: Click on input ok2 -> Navigate to page 'move shipment#*/*/*'
+Step 18: Click on input buffer2
+Step 19: Enter input value in input buffer2
+Step 20: Click on input enter2
+Step 21: Click on input dockIt2
+Step 22: Click on input enter2 -> Navigate to page 'move confirmation#*/*/MoveConfirmation'
+Step 23: Click on input ok2 -> Navigate to page 'move shipment#*/*/*'
+Step 24: Click on input buffer2
+Step 25: Enter input value in input buffer2
+Step 26: Click on input enter2
+Step 27: Click on input dockIt2
+Step 28: Click on input enter2 -> Navigate to page 'move confirmation#*/*/MoveConfirmation'
+Step 29: Click on input ok2 -> Navigate to page 'dock management interface#*/*'
+Step 30: Click on link close
+Step 31: Click on input refresh
+Step 32: Click on link doorOptions (doorNumber2)
+Step 33: Click on input sendToYard
+Step 34: Click on button confirmationActions (confirm2)
+Step 35: Click on button okActions (ok2) -> Navigate to page ''
+Step 36: Take full page screenshot as checkpoint
+",Trivial,NEW
+9,Load New Trailer and Confirm Dock Actions,"Load a new trailer and perform actions on the dock, confirming each step before returning to the Dock Management Interface.","Step 1: Navigate to */*/*
+Step 2: Hover over link dockLayout
+Step 3: Click on link dockLayout2 -> Navigate to page 'dock management interface#*/*'
+Step 4: Click on link doorOptions (closeToBos2)
+Step 5: Select option with input value from select newLoadToTerminal
+Step 6: Click on input newTrailerNumber
+Step 7: Enter input value in input newTrailerNumber
+Step 8: Click on input saveTrailer
+Step 9: Click on button ok3
+Step 10: Hover over link dock
+Step 11: Click on link trek -> Navigate to page 'move shipment#*/*/*'
+Step 12: Click on input buffer
+Step 13: Enter input value in input buffer
+Step 14: Click on input enter
+Step 15: Click on input loadIt
+Step 16: Click on input override
+Step 17: Click on input buffer
+Step 18: Enter input value in input buffer
+Step 19: Click on input enter
+Step 20: Click on input override -> Navigate to page 'move confirmation#*/*/MoveConfirmation'
+Step 21: Click on input ok -> Navigate to page 'move shipment#*/*/*'
+Step 22: Click on input buffer
+Step 23: Enter input value in input buffer
+Step 24: Click on input enter
+Step 25: Click on input loadIt
+Step 26: Click on input override
+Step 27: Click on input buffer
+Step 28: Enter input value in input buffer
+Step 29: Click on input enter
+Step 30: Click on input override -> Navigate to page 'move confirmation#*/*/MoveConfirmation'
+Step 31: Click on input ok -> Navigate to page 'dock management interface#*/*'
+Step 32: Click on link close
+Step 33: Click on input refresh
+Step 34: Click on link doorOptions (closeToBos)
+Step 35: Click on link close (close2) -> Navigate to page ''
+Step 36: Take full page screenshot as checkpoint
+",Trivial,NEW
+2,Edit Employee Status and Save Work Assignments,"Edit employee working status and save work assignments, ensuring all actions are correctly recorded.","Step 1: Navigate to */*/*
+Step 2: Hover over link dockLayout
+Step 3: Click on link dockLayout2 -> Navigate to page 'dock management interface#*/*'
+Step 4: Click on input startEditEmployee
+Step 5: Select option with input value from select selectedWorkingStatus
+Step 6: Click on link saveNewActions (new)
+Step 7: Click on button editStartTime (editStartTime)
+Step 8: Click on link saveNewActions (save)
+Step 9: Click on link saveNewActions (new2)
+Step 10: Click on button editStartTime (editStartTime2)
+Step 11: Click on link saveNewActions (save2)
+Step 12: Click on link close (close2)
+Step 13: Hover over link dock
+Step 14: Click on link liveWorksheet -> Navigate to page 'live worksheet#*/*/*'
+Step 15: Click on input addWork
+Step 16: Select option with input value from select workType
+Step 17: Select option with input value from select workAssignmentTrailerNumber
+Step 18: Select option with input value from select workAssignmentEmployeeId2
+Step 19: Select option with input value from select workAssignmentDockLocId
+Step 20: Click on input saveWork
+Step 21: Hover over link dock
+Step 22: Click on link liveWorksheet
+Step 23: Select option with input value from select selectedWorkType
+Step 24: Hover over link dockLayout
+Step 25: Click on link dockLayout2 -> Navigate to page 'dock management interface#*/*'
+Step 26: Hover over link dock
+Step 27: Click on link liveWorksheet -> Navigate to page 'live worksheet#*/*/*'
+Step 28: Click on input refresh
+Step 29: Click on input refresh -> Navigate to page ''
+Step 30: Take full page screenshot as checkpoint
+",Trivial,NEW
+13,Perform ERP Reset and Manage Dock Actions,"Reset ERP settings, manage dock actions, and confirm all changes are reflected in the Dock Management Interface.","Step 1: Navigate to */*/*
+Step 2: Click on link dockLayout3 -> Navigate to page 'dock management interface#*/*'
+Step 3: Select option with input value from select layoutSelectedDockView
+Step 4: Hover over link dockLayout
+Step 5: Click on link erpReset -> Navigate to page 'city load plans#*/*/*'
+Step 6: Click on input submitButtonMainPageErp
+Step 7: Click on input passwordTextBoxErp
+Step 8: Enter input value in input passwordTextBoxErp
+Step 9: Click on input searchButtonDialogBoxErp
+Step 10: Click on input printDocuments
+Step 11: Click on input submitButtonDialogBoxErp
+Step 12: Click on link close
+Step 13: Hover over link dockLayout
+Step 14: Click on link dockLayout2 -> Navigate to page 'dock management interface#*/*'
+Step 15: Click on link doorOptions (doorNumber3)
+Step 16: Hover over link object
+Step 17: Click on link close3
+Step 18: Click on link doorLoadData (loadName)
+Step 19: Click on link pdloadManifest -> Navigate to page 'move shipment#*/*/*'
+Step 20: Click on input loadIt2
+Step 21: Click on input enter3
+Step 22: Click on input position2
+Step 23: Click on input submitAction (submit) -> Navigate to page 'move confirmation#*/*/MoveConfirmation'
+Step 24: Click on input ok3 -> Navigate to page 'move shipment#*/*/*'
+Step 25: Click on input ok -> Navigate to page 'dock management interface#*/*'
+Step 26: Click on link close
+Step 27: Click on link dockedBay -> Navigate to page 'move shipment#*/*/*'
+Step 28: Click on input loadIt2
+Step 29: Click on input enter3
+Step 30: Click on input position3
+Step 31: Click on input submitAction (submit) -> Navigate to page 'move confirmation#*/*/MoveConfirmation'
+Step 32: Click on input ok3 -> Navigate to page 'dock management interface#*/*'
+Step 33: Click on link close
+Step 34: Click on link close3
+Step 35: Click on input refresh
+Step 36: Click on link doorOptions (doorNumber3)
+Step 37: Click on input sendToYard (sendToYard2)
+Step 38: Click on button confirmationActions (confirm3)
+Step 39: Click on button okActions (ok4)
+Step 40: Take full page screenshot as checkpoint
+",Trivial,NEW
