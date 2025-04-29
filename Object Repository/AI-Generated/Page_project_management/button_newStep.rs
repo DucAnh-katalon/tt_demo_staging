@@ -34,7 +34,7 @@
         <name>data-testid</name>
         <type>Main</type>
         <value>manual-editor-add-new-row</value>
-        <webElementGuid>33f9be2d-29a8-43d5-a9f4-1354b50a16cf</webElementGuid>
+        <webElementGuid>f378af06-9123-499e-bc35-94ee130ed1d7</webElementGuid>
     </webElementProperties>
     <webElementProperties>
         <isSelected>true</isSelected>
@@ -42,7 +42,7 @@
         <name>text</name>
         <type>Main</type>
         <value>New Step</value>
-        <webElementGuid>33f9be2d-29a8-43d5-a9f4-1354b50a16cf</webElementGuid>
+        <webElementGuid>f378af06-9123-499e-bc35-94ee130ed1d7</webElementGuid>
     </webElementProperties>
     <webElementProperties>
         <isSelected>true</isSelected>
@@ -50,6 +50,6 @@
         <name>type</name>
         <type>Main</type>
         <value>button</value>
-        <webElementGuid>33f9be2d-29a8-43d5-a9f4-1354b50a16cf</webElementGuid>
+        <webElementGuid>f378af06-9123-499e-bc35-94ee130ed1d7</webElementGuid>
     </webElementProperties>
 </WebElementEntity>

@@ -1,32 +1,16 @@
 Flow ID,Name,Description,Test Steps,Flow Priority,Status
-1,Manage Test Cases and Project Overview Actions,"Navigate to the project overview, refresh the page, and manage test cases by adding descriptions and steps. Verify navigation to the home page.","Step 1: Navigate to project/*/home/overview with params (filter)
-Step 2: Click on button refreshPage
-Step 3: Hover over link assets
-Step 4: Click on link testObjects -> Navigate to page 'project resource#project/*/*/*'
-Step 5: Hover over link tests
-Step 6: Click on link testCases -> Navigate to page 'project management#project/*/*/*'
-Step 7: Click on link navigateToTestCase -> Navigate to page 'project management#project/*/tests/test-cases/*'
-Step 8: Click on textarea typeDescription
-Step 9: Enter input value in textarea typeDescription
+1,Manage Test Cases and Navigate Between Project Pages,Navigate to the project overview and manage test cases. Add a description and create new steps while ensuring smooth navigation between project management and home pages.,"Step 1: Navigate to project/*/home/overview with params (filter)
+Step 2: Hover over link tests
+Step 3: Click on link testCases -> Navigate to page 'project management#project/*/*/*'
+Step 4: Click on link navigateToTestCase -> Navigate to page 'project management#project/*/tests/test-cases/*'
+Step 5: Click on textarea description
+Step 6: Enter input value in textarea description
+Step 7: Click on button projectManagementOptions (scripts)
+Step 8: Click on button projectManagementOptions (steps)
+Step 9: Click on button newStep
 Step 10: Click on button newStep
-Step 11: Enter input value in textarea editCell
-Step 12: Click on div dynamicObject (object)
-Step 13: Enter input value in textarea editCell2
-Step 14: Click on div dynamicObject (object2)
-Step 15: Enter input value in textarea editCell3
-Step 16: Click on div description
-Step 17: Click on button projectManagementActions (steps)
-Step 18: Click on div steps
-Step 19: Click on button projectManagementActions (scripts)
-Step 20: Click on button projectManagementActions (steps2)
-Step 21: Click on button projectManagementActions (runHistory)
-Step 22: Click on button projectManagementActions (linkages)
-Step 23: Click on button projectManagementActions (changeHistory)
-Step 24: Click on textarea typeDescription
-Step 25: Click on button quality
-Step 26: Click on div preCondition
-Step 27: Click on div assets -> Navigate to page 'project management#project/*/*'
-Step 28: Click on div executions
-Step 29: Click on div noTestRun -> Navigate to page ''
-Step 30: Take full page screenshot as checkpoint
+Step 11: Click on link tests -> Navigate to page 'project management#project/*/*/*'
+Step 12: Click on link tests2
+Step 13: Click on link katalonLogo -> Navigate to page ''
+Step 14: Take full page screenshot as checkpoint
 ",High,NEW

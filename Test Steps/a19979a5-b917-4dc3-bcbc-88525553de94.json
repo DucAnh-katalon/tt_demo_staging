@@ -1,0 +1,18 @@
+{
+    "steps": [
+        "step 1: Navigate to project/*/home/overview with params (filter)",
+        "step 2: Hover over link tests",
+        "step 3: Click on link testCases -> Navigate to page 'project management#project/*/*/*'",
+        "step 4: Click on link navigateToTestCase -> Navigate to page 'project management#project/*/tests/test-cases/*'",
+        "step 5: Click on textarea description",
+        "step 6: Enter input value in textarea description",
+        "step 7: Click on button projectManagementOptions (scripts)",
+        "step 8: Click on button projectManagementOptions (steps)",
+        "step 9: Click on button newStep",
+        "step 10: Click on button newStep",
+        "step 11: Click on link tests -> Navigate to page 'project management#project/*/*/*'",
+        "step 12: Click on link tests2",
+        "step 13: Click on link katalonLogo -> Navigate to page ''",
+        "step 14: Take full page screenshot as checkpoint"
+    ]
+}
