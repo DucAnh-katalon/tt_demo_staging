@@ -58,23 +58,23 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Page_project_tests_test_cases/b
 
 WebUI.takeScreenshot(reportLocation + '/TC9/Step 6-Click on button cancel.png')
 
-"Step 7: Click on button testOptions (scripts)"
+"Step 7: Click on button testComponents (scripts)"
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/project/.*/tests/test-cases/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
-// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_project_tests_test_cases/button_testOptions"
-WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_project_tests_test_cases/button_testOptions', ['button_testOptions_internalText': button_testOptions_internalText]))
+// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_project_tests_test_cases/button_testComponents"
+WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_project_tests_test_cases/button_testComponents', ['button_testComponents_internalText': button_testComponents_internalText]))
 
-WebUI.takeScreenshot(reportLocation + '/TC9/Step 7-Click on button testOptions scripts.png')
+WebUI.takeScreenshot(reportLocation + '/TC9/Step 7-Click on button testComponents scripts.png')
 
-"Step 8: Click on button testOptions (steps)"
+"Step 8: Click on button testComponents (steps)"
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/project/.*/tests/test-cases/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
-// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_project_tests_test_cases/button_testOptions"
-WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_project_tests_test_cases/button_testOptions', ['button_testOptions_internalText': button_testOptions_internalText_1]))
+// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_project_tests_test_cases/button_testComponents"
+WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_project_tests_test_cases/button_testComponents', ['button_testComponents_internalText': button_testComponents_internalText_1]))
 
-WebUI.takeScreenshot(reportLocation + '/TC9/Step 8-Click on button testOptions steps.png')
+WebUI.takeScreenshot(reportLocation + '/TC9/Step 8-Click on button testComponents steps.png')
 
 "Step 9: Click on div preConditionButton"
 
@@ -94,7 +94,7 @@ WebUI.takeScreenshot(reportLocation + '/TC9/Step 10-Click on div object - Naviga
 
 "Step 11: Take full page screenshot as checkpoint"
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC9-Regenerate Steps and Navigate Test Cases in Project Overview_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC9-Manage Test Cases in Project Overview_visual_checkpoint')
 
 'Terminate test session: Close browser'
 

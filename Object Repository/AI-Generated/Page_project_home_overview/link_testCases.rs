@@ -34,7 +34,7 @@
         <name>href</name>
         <type>Main</type>
         <value>/project/535699/tests/test-cases</value>
-        <webElementGuid>8f0f0b42-a70d-4e6d-8629-c83d7ff1b88f</webElementGuid>
+        <webElementGuid>e8b8c5a1-e007-41ec-81cc-32a3f376d72b</webElementGuid>
     </webElementProperties>
     <webElementProperties>
         <isSelected>true</isSelected>
@@ -42,6 +42,6 @@
         <name>text</name>
         <type>Main</type>
         <value>Test Cases</value>
-        <webElementGuid>8f0f0b42-a70d-4e6d-8629-c83d7ff1b88f</webElementGuid>
+        <webElementGuid>e8b8c5a1-e007-41ec-81cc-32a3f376d72b</webElementGuid>
     </webElementProperties>
 </WebElementEntity>
