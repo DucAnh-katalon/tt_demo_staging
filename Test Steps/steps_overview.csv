@@ -1,43 +1,54 @@
 Flow ID,Name,Description,Test Steps,Flow Priority,Status
-7,Login with Email on Katalon Protocol Page,"Navigate to the Katalon Protocol page, click to continue with email, and complete the login process while verifying the authentication page.","Step 1: Navigate to /realms/katalon/protocol/openid-connect/auth with params (client id, code challenge, code challenge method, redirect uri, response type, scope, state)
+4,Navigate Admin System and Generate Test Steps,"Access the admin system, navigate to the test cases, generate and save test steps, then verify the home page.","Step 1: Navigate to /admin/system/general
+Step 2: Click on link katalonLogo -> Navigate to page '/project/*/home/overview'
+Step 3: Click on button admin
+Step 4: Click on div home
+Step 5: Hover over link tests
+Step 6: Click on link testCases -> Navigate to page '/project/*/tests/test-cases'
+Step 7: Click on link navigateToTest (navigateToTest) -> Navigate to page '/project/*/tests/test-cases/*'
+Step 8: Click on button generateSteps
+Step 9: Click on button saveOverwrite (save)
+Step 10: Click on link home -> Navigate to page ''
+Step 11: Take full page screenshot as checkpoint
+",High,NEW
+1,Login with OpenID Connect Authentication,"Navigate to the OpenID Connect authentication page, continue with email, and verify the login actions page.","Step 1: Navigate to /realms/katalon/protocol/openid-connect/auth with params (client id, code challenge, code challenge method, redirect uri, response type, scope, state)
 Step 2: Click on link continueWithEmail
 Step 3: Login -> Navigate to page '/realms/katalon/login-actions/authenticate'
 Step 4: Login
 Step 5: Take full page screenshot as checkpoint
 ",High,NEW
-2,Explore Mutual Funds in Investor Education Section,"Navigate to the investments section, explore mutual funds, read more about them, and verify the mutual funds page.","Step 1: Navigate to /en
-Step 2: Hover over button investments
-Step 3: Click on link mutualFunds -> Navigate to page '/en/investments/mutual-funds'
-Step 4: Click on button readMore -> Navigate to page '/en/investor-education/mutual-fund'
-Step 5: Hover over button investments
-Step 6: Click on link mutualFunds -> Navigate to page '/en/investments/mutual-funds'
-Step 7: Take full page screenshot as checkpoint
-",High,NEW
-3,Access Home Page from Investor Education Section,Navigate to the investor education mutual fund page and click to access the home page while verifying the transition.,"Step 1: Navigate to /en/investor-education/mutual-fund
-Step 2: Click on button investments2 -> Navigate to page ''
+7,Access Media Container from Home Page,"Navigate to the home page and access the media container, verifying the home page.","Step 1: Navigate to /
+Step 2: Click on link mediaContainer -> Navigate to page ''
 Step 3: Take full page screenshot as checkpoint
 ",High,NEW
-1,Continue from Katalon Protocol to Home Page,"Navigate to the Katalon Protocol page and click to continue, verifying that the home page loads correctly.","Step 1: Navigate to /realms/katalon/protocol/openid-connect/auth with params (client id, code challenge, code challenge method, redirect uri, response type, scope, state)
-Step 2: Click on input continue -> Navigate to page ''
-Step 3: Take full page screenshot as checkpoint
-",High,NEW
-5,Login with Google on Katalon Protocol Page,"Navigate to the Katalon Protocol page, click to continue with Google, and verify that the home page loads successfully.","Step 1: Navigate to /realms/katalon/protocol/openid-connect/auth with params (client id, code challenge, code challenge method, redirect uri, response type, scope, state)
-Step 2: Click on link continueWithGoogle -> Navigate to page ''
-Step 3: Take full page screenshot as checkpoint
-",High,NEW
-9,Manage Test Cases in Project Overview,"Navigate to project home, explore test cases, regenerate steps, and verify the home page after managing test components.","Step 1: Navigate to /project/*/home/overview with params (filter)
-Step 2: Hover over link tests
+6,Manage Test Cases and Create New Steps,"Access the project overview, navigate to test cases, create new script steps, and verify the test cases page.","Step 1: Navigate to /project/*/home/overview with params (filter)
+Step 2: Hover over div object
 Step 3: Click on link testCases -> Navigate to page '/project/*/tests/test-cases'
-Step 4: Click on link navigateToTest -> Navigate to page '/project/*/tests/test-cases/*'
+Step 4: Click on link navigateToTest (navigateToTc0801) -> Navigate to page '/project/*/tests/test-cases/*'
+Step 5: Click on div object
+Step 6: Click on button scriptsSteps (scripts)
+Step 7: Click on button scriptsSteps (steps)
+Step 8: Click on button newStep
+Step 9: Click on div dynamicObject (object2)
+Step 10: Click on div dynamicObject (object3)
+Step 11: Click on div dynamicObject (object4)
+Step 12: Click on div draftManual
+Step 13: Click on link katalonCloud -> Navigate to page '/project/*/tests/test-cases'
+Step 14: Take full page screenshot as checkpoint
+",Medium,NEW
+3,Regenerate Steps and Navigate in Test Cases,"Access the project overview, navigate to test cases, regenerate steps, and verify the home page.","Step 1: Navigate to /project/*/home/overview with params (filter)
+Step 2: Hover over link tests2
+Step 3: Click on link testCases2 -> Navigate to page '/project/*/tests/test-cases'
+Step 4: Click on link navigateToTest (navigateToTest2) -> Navigate to page '/project/*/tests/test-cases/*'
 Step 5: Click on button regenerateSteps
 Step 6: Click on button cancel
-Step 7: Click on button testComponents (scripts)
-Step 8: Click on button testComponents (steps)
+Step 7: Click on button scriptsSteps (scripts)
+Step 8: Click on button scriptsSteps (steps)
 Step 9: Click on div preConditionButton
-Step 10: Click on div object -> Navigate to page ''
+Step 10: Click on div object5 -> Navigate to page ''
 Step 11: Take full page screenshot as checkpoint
-",High,NEW
-8,Multiple Logins on Katalon Protocol Page,"Navigate to the Katalon Protocol page, perform multiple login attempts with email, and verify the home page after successful logins.","Step 1: Navigate to /realms/katalon/protocol/openid-connect/auth with params (client id, code challenge, code challenge method, redirect uri, response type, scope, state)
+",Low,NEW
+2,Complex Login Process with Multiple Steps,"Navigate through multiple login steps using email, click through various options, and verify the home page.","Step 1: Navigate to /realms/katalon/protocol/openid-connect/auth with params (client id, code challenge, code challenge method, redirect uri, response type, scope, state)
 Step 2: Click on link back -> Navigate to page '/realms/katalon/login-actions/authenticate'
 Step 3: Click on link continueWithEmail
 Step 4: Login
@@ -56,256 +67,25 @@ Step 16: Click on input continue
 Step 17: Click on input continue
 Step 18: Click on label katalonAi2 -> Navigate to page ''
 Step 19: Take full page screenshot as checkpoint
-",Medium,NEW
-6,Interact with History and Graph Visualization,"Navigate to the history page, interact with various elements and graphs, input data, and verify the home page.","Step 1: Navigate to /env/qa/aut/*
-Step 2: Click on button historyDetails -> Navigate to page '/env/qa/aut/*/history'
-Step 3: Click on link historyDetail -> Navigate to page '/env/qa/aut/*/history/*'
-Step 4: Click on div collapsedParams
-Step 5: Click on span object
-Step 6: Click on link journeyMap -> Navigate to page '/env/qa/aut/*/history/*/graph/*'
-Step 7: Click on button toggleChangeModeGraph
-Step 8: Click on div object
-Step 9: Click on div object
-Step 10: Click on input object2
-Step 11: Click multiple divs and input data into a specific field again
-	- Step 1: Click on div object
-	- Step 2: Click on div object
-	- Step 3: Click on div object
-	- Step 4: Click on div object
-	- Step 5: Click on div object
-	- Step 6: Click on div object
-	- Step 7: Click on div object
-	- Step 8: Click on div object
-	- Step 9: Click on input object2
-	- Step 10: Enter input value in input object3
-Step 12: Click view button and interact with multiple div objects
-	- Step 1: Click on button view
-	- Step 2: Click on div object
-	- Step 3: Click on div object
-	- Step 4: Click on div object
-	- Step 5: Click on div object
-	- Step 6: Click on div object
-	- Step 7: Click on div object
-	- Step 8: Click on div object
-	- Step 9: Click on div object
-	- Step 10: Click on div object
-Step 13: Click on input object4
-Step 14: Enter input value in input object
-Step 15: Click view button and interact with multiple div objects
-	- Step 1: Click on button view
-	- Step 2: Click on div object
-	- Step 3: Click on div object
-	- Step 4: Click on div object
-	- Step 5: Click on div object
-	- Step 6: Click on div object
-	- Step 7: Click on div object
-	- Step 8: Click on div object
-	- Step 9: Click on div object
-Step 16: Click on input object2
-Step 17: Click on input object4
-Step 18: Enter input value in input object
-Step 19: Click view button and interact with divs and input data
-	- Step 1: Click on button view
-	- Step 2: Click on div object
-	- Step 3: Click on div object
-	- Step 4: Click on div object
-	- Step 5: Click on div object
-	- Step 6: Click on div object
-	- Step 7: Click on input object2
-Step 20: Hover over span object
-Step 21: Click on button toggleChangeMode
-Step 22: Click on a div object extensively in a sequence
-	- Step 1: Click on div object
-	- Step 2: Click on div object
-	- Step 3: Click on div object
-	- Step 4: Click on div object
-	- Step 5: Click on div object
-	- Step 6: Click on div object
-	- Step 7: Click on div object
-	- Step 8: Click on div object
-	- Step 9: Click on div object
-	- Step 10: Click on div object
-	- Step 11: Click on div object
-	- Step 12: Click on div object
-	- Step 13: Click on div object
-	- Step 14: Click on div object
-	- Step 15: Click on div object
-	- Step 16: Click on div object
-	- Step 17: Click on div object
-	- Step 18: Click on div object
-	- Step 19: Click on div object
-Step 23: Click multiple divs and input data into a specific field
-	- Step 1: Click on div object
-	- Step 2: Click on div object
-	- Step 3: Click on div object
-	- Step 4: Click on div object
-	- Step 5: Click on div object
-	- Step 6: Click on div object
-	- Step 7: Click on input object2
-	- Step 8: Enter input value in input object3
-Step 24: Click view button and interact with multiple div objects
-	- Step 1: Click on button view
-	- Step 2: Click on div object
-	- Step 3: Click on div object
-	- Step 4: Click on div object
-	- Step 5: Click on div object
-	- Step 6: Click on div object
-	- Step 7: Click on div object
-	- Step 8: Click on div object
-	- Step 9: Click on div object
-Step 25: Click on input object4
-Step 26: Click on div graphVisualization
-Step 27: Hover over link object
-Step 28: Click on button toggleChangeMode
-Step 29: Click on a div object multiple times in succession again
-	- Step 1: Click on div object
-	- Step 2: Click on div object
-	- Step 3: Click on div object
-	- Step 4: Click on div object
-	- Step 5: Click on div object
-	- Step 6: Click on div object
-	- Step 7: Click on div object
-	- Step 8: Click on div object
-	- Step 9: Click on div object
-	- Step 10: Click on div object
-	- Step 11: Click on div object
-	- Step 12: Click on div object
-	- Step 13: Click on div object
-	- Step 14: Click on div object
-	- Step 15: Click on div object
-	- Step 16: Click on div object
-Step 30: Click on p pages
-Step 31: Click on input object2
-Step 32: Click on input object3
-Step 33: Click on input object5
-Step 34: Click on input object2
-Step 35: Click on a div object extensively in a sequence
-	- Step 1: Click on div object
-	- Step 2: Click on div object
-	- Step 3: Click on div object
-	- Step 4: Click on div object
-	- Step 5: Click on div object
-	- Step 6: Click on div object
-	- Step 7: Click on div object
-	- Step 8: Click on div object
-	- Step 9: Click on div object
-	- Step 10: Click on div object
-	- Step 11: Click on div object
-	- Step 12: Click on div object
-	- Step 13: Click on div object
-	- Step 14: Click on div object
-	- Step 15: Click on div object
-	- Step 16: Click on div object
-	- Step 17: Click on div object
-	- Step 18: Click on div object
-	- Step 19: Click on div object
-Step 36: Click on div object
-Step 37: Click on div object
-Step 38: Click on input toggleTrafficView
-Step 39: Click on a div object multiple times in succession
-	- Step 1: Click on div object
-	- Step 2: Click on div object
-	- Step 3: Click on div object
-	- Step 4: Click on div object
-	- Step 5: Click on div object
-	- Step 6: Click on div object
-	- Step 7: Click on div object
-	- Step 8: Click on div object
-	- Step 9: Click on div object
-Step 40: Take full page screenshot as checkpoint
-",Low,NEW
-4,Interact with History Graph and Toggle Change Mode,"Navigate to the history graph page, interact with various elements, input data, and toggle change modes while verifying the home page.","Step 1: Navigate to /env/qa/aut/*/history/*/graph/*
-Step 2: Click on span increaseValue
-Step 3: Click on span increaseValue2
-Step 4: Click on span increaseValue2
-Step 5: Click on input object
-Step 6: Click on input object
-Step 7: Click on input object
-Step 8: Enter input value in input object
-Step 9: Click on input object2
-Step 10: Enter input value in input object3
-Step 11: Press key Enter on input object3
-Step 12: Press key Enter on input object3
-Step 13: Press key Enter on input object3
-Step 14: Click on button view
-Step 15: Click on button toggleChangeModeGraph
-Step 16: Click on a div object extensively in a sequence
-	- Step 1: Click on div object
-	- Step 2: Click on div object
-	- Step 3: Click on div object
-	- Step 4: Click on div object
-	- Step 5: Click on div object
-	- Step 6: Click on div object
-	- Step 7: Click on div object
-	- Step 8: Click on div object
-	- Step 9: Click on div object
-	- Step 10: Click on div object
-	- Step 11: Click on div object
-	- Step 12: Click on div object
-	- Step 13: Click on div object
-	- Step 14: Click on div object
-	- Step 15: Click on div object
-	- Step 16: Click on div object
-	- Step 17: Click on div object
-	- Step 18: Click on div object
-	- Step 19: Click on div object
-Step 17: Click multiple divs and input data into a specific field
-	- Step 1: Click on div object
-	- Step 2: Click on div object
-	- Step 3: Click on div object
-	- Step 4: Click on input object2
-	- Step 5: Enter input value in input object3
-Step 18: Press key Enter on input object3
-Step 19: Click view button and interact with multiple div objects
-	- Step 1: Click on button view
-	- Step 2: Click on div object
-	- Step 3: Click on div object
-	- Step 4: Click on div object
-	- Step 5: Click on div object
-	- Step 6: Click on div object
-	- Step 7: Click on div object
-	- Step 8: Click on div object
-	- Step 9: Click on div object
-	- Step 10: Click on div object
-Step 20: Click on input object2
-Step 21: Enter input value in input object3
-Step 22: Press key Enter on input object3
-Step 23: Press key Enter on input object3
-Step 24: Click on div content
-Step 25: Click on button view
-Step 26: Click on div object
-Step 27: Click on div object
-Step 28: Click on div object
-Step 29: Click on div content
-Step 30: Hover over link object
-Step 31: Click on button toggleChangeMode
-Step 32: Click on input object2
-Step 33: Enter input value in input object3
-Step 34: Press key Enter on input object3
-Step 35: Click on button view
-Step 36: Click multiple divs and input data into a specific field again
-	- Step 1: Click on div object
-	- Step 2: Click on div object
-	- Step 3: Click on div object
-	- Step 4: Click on div object
-	- Step 5: Click on div object
-	- Step 6: Click on input object2
-	- Step 7: Enter input value in input object3
-Step 37: Click on link history -> Navigate to page '/env/qa/aut/*/history'
-Step 38: Click on link historyDetail -> Navigate to page '/env/qa/aut/*/history/*'
-Step 39: Click on div collapsedParams
-Step 40: Click on span object -> Navigate to page '/env/qa/aut/*/history'
-Step 41: Click on link historyDetail -> Navigate to page '/env/qa/aut/*/history/*'
-Step 42: Click on div collapsedParams
-Step 43: Click on span object
-Step 44: Click on span object
-Step 45: Click on link journeyMap
-Step 46: Click on link journeyMap
-Step 47: Hover over a link and toggle change mode button and click divs
-	- Step 1: Hover over link object
-	- Step 2: Click on button toggleChangeMode
-	- Step 3: Click on div object
-	- Step 4: Click on div object
-	- Step 5: Click on div object
-Step 48: Take full page screenshot as checkpoint
+",Trivial,NEW
+5,Add Test Case and Manage Steps,"Navigate to project resources, add a test case, create steps, and verify the home page.","Step 1: Navigate to /project/*/home/overview with params (filter)
+Step 2: Hover over link assets
+Step 3: Click on link testObjects
+Step 4: Click on link environments -> Navigate to page '/project/*/resources/environments'
+Step 5: Hover over link tests
+Step 6: Click on link testCases -> Navigate to page '/project/*/tests/test-cases'
+Step 7: Enter input value in input addTestCase
+Step 8: Click on button add
+Step 9: Click on link navigateToTest (navigateToTesst1) -> Navigate to page '/project/*/tests/test-cases/*'
+Step 10: Click on textarea typeDescription
+Step 11: Enter input value in textarea typeDescription
+Step 12: Click on button scriptsSteps (scripts)
+Step 13: Click on button scriptsSteps (steps)
+Step 14: Click on button newStep
+Step 15: Enter input value in textarea manualEditor
+Step 16: Click on div object6
+Step 17: Click on button regenerateSteps
+Step 18: Click on button saveOverwrite (save)
+Step 19: Click on button saveOverwrite (overwrite) -> Navigate to page ''
+Step 20: Take full page screenshot as checkpoint
 ",Trivial,NEW

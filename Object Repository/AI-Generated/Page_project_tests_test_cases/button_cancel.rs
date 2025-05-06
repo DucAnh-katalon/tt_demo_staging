@@ -34,7 +34,7 @@
         <name>text</name>
         <type>Main</type>
         <value>Cancel</value>
-        <webElementGuid>e8b8c5a1-e007-41ec-81cc-32a3f376d72b</webElementGuid>
+        <webElementGuid>ec91050f-a85c-41ca-87d7-c67063aea66c</webElementGuid>
     </webElementProperties>
     <webElementProperties>
         <isSelected>true</isSelected>
@@ -42,6 +42,6 @@
         <name>type</name>
         <type>Main</type>
         <value>button</value>
-        <webElementGuid>e8b8c5a1-e007-41ec-81cc-32a3f376d72b</webElementGuid>
+        <webElementGuid>ec91050f-a85c-41ca-87d7-c67063aea66c</webElementGuid>
     </webElementProperties>
 </WebElementEntity>

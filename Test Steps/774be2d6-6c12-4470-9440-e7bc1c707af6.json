@@ -1,0 +1,24 @@
+{
+    "steps": [
+        "step 1: Navigate to /project/*/home/overview with params (filter)",
+        "step 2: Hover over link assets",
+        "step 3: Click on link testObjects",
+        "step 4: Click on link environments -> Navigate to page '/project/*/resources/environments'",
+        "step 5: Hover over link tests",
+        "step 6: Click on link testCases -> Navigate to page '/project/*/tests/test-cases'",
+        "step 7: Enter input value in input addTestCase",
+        "step 8: Click on button add",
+        "step 9: Click on link navigateToTest (navigateToTesst1) -> Navigate to page '/project/*/tests/test-cases/*'",
+        "step 10: Click on textarea typeDescription",
+        "step 11: Enter input value in textarea typeDescription",
+        "step 12: Click on button scriptsSteps (scripts)",
+        "step 13: Click on button scriptsSteps (steps)",
+        "step 14: Click on button newStep",
+        "step 15: Enter input value in textarea manualEditor",
+        "step 16: Click on div object6",
+        "step 17: Click on button regenerateSteps",
+        "step 18: Click on button saveOverwrite (save)",
+        "step 19: Click on button saveOverwrite (overwrite) -> Navigate to page ''",
+        "step 20: Take full page screenshot as checkpoint"
+    ]
+}
