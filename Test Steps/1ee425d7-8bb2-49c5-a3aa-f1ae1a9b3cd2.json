@@ -1,0 +1,25 @@
+{
+    "steps": [
+        "step 1: Navigate to /project/*/home/overview with params (filter)",
+        "step 2: Hover over link tests",
+        "step 3: Click on link testSuites -> Navigate to page '/project/*/tests/test-suites'",
+        "step 4: Hover over div object",
+        "step 5: Click on link testCases -> Navigate to page '/project/*/tests/test-cases'",
+        "step 6: Hover over link tests",
+        "step 7: Click on link testSuites -> Navigate to page '/project/*/tests/test-suites'",
+        "step 8: Click on link navigateToRegressionGa -> Navigate to page '/project/*/tests/test-suites/*'",
+        "step 9: Click on button addTestCase",
+        "step 10: Click on button object",
+        "step 11: Click on div object2",
+        "step 12: Click on div object3",
+        "step 13: Click on button testSuiteActions (addToTestSuite)",
+        "step 14: Click on button testSuiteManagement (duplicate)",
+        "step 15: Click on button testSuiteActions (cancel)",
+        "step 16: Click on button testSuiteManagement (delete)",
+        "step 17: Click on button testSuiteActions (cancel)",
+        "step 18: Click on link katalonCloud -> Navigate to page '/project/*/tests/test-suites'",
+        "step 19: Hover over link tests",
+        "step 20: Click on link journeyMaps -> Navigate to page ''",
+        "step 21: Take full page screenshot as checkpoint"
+    ]
+}
