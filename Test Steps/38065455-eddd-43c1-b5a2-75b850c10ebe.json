@@ -1,0 +1,22 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Click on link productsSliderPrev",
+        "step 3: Click on div productsSlider",
+        "step 4: Click on header customersLoveUs",
+        "step 5: Click on div reviewComment",
+        "step 6: Click on link productsSliderPrev",
+        "step 7: Click on button addToCart",
+        "step 8: Click on button addToCart2",
+        "step 9: Click on button productAction",
+        "step 10: Click on span goToCart -> Navigate to page '/cart'",
+        "step 11: Click on div cartItemQtyInput",
+        "step 12: Click on div cartItemQtyInput",
+        "step 13: Click on div cartItemQtyInput",
+        "step 14: Click on div cartItemQtyInput",
+        "step 15: Click on div cartItemQtyInput",
+        "step 16: Click on div cartItemQtyInput",
+        "step 17: Click on button proceedToCheckout -> Navigate to page ''",
+        "step 18: Take full page screenshot as checkpoint"
+    ]
+}

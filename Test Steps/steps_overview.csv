@@ -1,195 +1,31 @@
 Flow ID,Name,Description,Test Steps,Flow Priority,Status
-3,Navigate Project Home and Manage Test Cases and Assets,"Navigate through project home to manage test cases, clear filters, and verify access token issues.","Step 1: Navigate to /project/*/home/overview with params (filter)
-Step 2: Click on div plans -> Navigate to page '/project/*/plans'
-Step 3: Click on button open
-Step 4: Click on item team2
-Step 5: Click on button clearOpen (clear)
-Step 6: Hover over div object
-Step 7: Click on link testCases -> Navigate to page '/project/*/tests/test-cases'
-Step 8: Hover over link navigateTo4
-Step 9: Click on item postGa4
-Step 10: Click on link navigationTests (navigateToVisualTesting) -> Navigate to page '/project/*/tests/test-cases/*'
-Step 11: Click on link dynamicObject (katalonCloud) -> Navigate to page '/project/*/tests/test-cases'
-Step 12: Click on item postGa42
-Step 13: Click on link navigationTests (navigateToUserConfusion) -> Navigate to page '/project/*/tests/test-cases/*'
-Step 14: Click on link dynamicObject (postGa4) -> Navigate to page '/project/*/tests/test-cases'
-Step 15: Click on item testWebhook
-Step 16: Click on div object
-Step 17: Hover over link assets
-Step 18: Hover over link testData
-Step 19: Click on item commonTestCases
-Step 20: Click on item commonTestCases2
-Step 21: Click on item commonTestCases3
-Step 22: Click on div treeViewIcon
-Step 23: Click on div filterByAuthor
-Step 24: Click on div backdrop
-Step 25: Click on input recentlyUpdated
-Step 26: Click on button clearFilters
-Step 27: Click on div accessTokenError (accessTokenError)
-Step 28: Click on div accessTokenError (accessTokenError2)
-Step 29: Hover over link navigateToTc1
-Step 30: Click on item testBranch1
-Step 31: Hover over span commonTestCases
-Step 32: Hover over div nameHeader
-Step 33: Click on span createButton
-Step 34: Click on item folder
-Step 35: Click on button cancel
-Step 36: Click on button checkToken
-Step 37: Click on span createFolder
-Step 38: Click on div assets -> Navigate to page ''
-Step 39: Take full page screenshot as checkpoint
+2,Navigate to About Page and Adjust Cart Items,"Go to the home page, access the about section, browse accessories, and adjust item quantities in the cart before returning to the home page.","Step 1: Navigate to /
+Step 2: Click on link about -> Navigate to page '/about'
+Step 3: Click on header about
+Step 4: Click on link accessories -> Navigate to page '/category/accessories'
+Step 5: Click on link goToCart -> Navigate to page '/cart'
+Step 6: Click on div cartItemQtyInput2
+Step 7: Click on div cartItemQtyInput2
+Step 8: Click on div cartItemQtyInput2
+Step 9: Click on div cartItemQtyInput -> Navigate to page ''
+Step 10: Take full page screenshot as checkpoint
 ",High,NEW
-4,Manage Test Suites and Journey Maps,"Navigate to test suites, add test cases, and manage test suite actions while verifying page home.","Step 1: Navigate to /project/*/home/overview with params (filter)
-Step 2: Hover over link tests
-Step 3: Click on link testSuites -> Navigate to page '/project/*/tests/test-suites'
-Step 4: Hover over div object
-Step 5: Click on link testCases -> Navigate to page '/project/*/tests/test-cases'
-Step 6: Hover over link tests
-Step 7: Click on link testSuites -> Navigate to page '/project/*/tests/test-suites'
-Step 8: Click on link navigateToRegressionGa -> Navigate to page '/project/*/tests/test-suites/*'
-Step 9: Click on button addTestCase
-Step 10: Click on button object
-Step 11: Click on div object2
-Step 12: Click on div object3
-Step 13: Click on button testSuiteActions (addToTestSuite)
-Step 14: Click on button testSuiteManagement (duplicate)
-Step 15: Click on button testSuiteActions (cancel)
-Step 16: Click on button testSuiteManagement (delete)
-Step 17: Click on button testSuiteActions (cancel)
-Step 18: Click on link katalonCloud -> Navigate to page '/project/*/tests/test-suites'
-Step 19: Hover over link tests
-Step 20: Click on link journeyMaps -> Navigate to page ''
-Step 21: Take full page screenshot as checkpoint
-",High,NEW
-2,Manage Release Quality and Project Overview,"Navigate to release quality section, manage project overview, and verify project home after various actions.","Step 1: Navigate to /project/*/home/overview with params (filter)
-Step 2: Click on link releaseQuality -> Navigate to page '/project/*/home/release'
-Step 3: Click on div projectOverviewReleaseQuality
-Step 4: Click on div projectOverviewReleaseQuality2
-Step 5: Click on div projectOverviewReleaseQuality3
-Step 6: Click on link projectOverview -> Navigate to page '/project/*/home/overview'
-Step 7: Click on link releaseQuality -> Navigate to page '/project/*/home/release'
-Step 8: Click on span admin
-Step 9: Click on input searchProject
-Step 10: Enter input value in input searchProject
-Step 11: Hover over button admin
-Step 12: Click on link admin -> Navigate to page '/project/*/home/overview'
-Step 13: Click on div plans -> Navigate to page '/project/*/plans'
-Step 14: Click on span sync
-Step 15: Hover over button clear2
-Step 16: Click on button today
-Step 17: Click on button clearOpen (open2)
-Step 18: Enter input value in input object
-Step 19: Click on button clearOpen (clear)
-Step 20: Click on link katalonLogo -> Navigate to page ''
-Step 21: Take full page screenshot as checkpoint
-",Medium,NEW
-1,Access and Edit User Profile and Job Titles,"Navigate to user profile, edit job titles, and access account history while verifying page home.","Step 1: Navigate to /project/*/home/overview with params (filter)
-Step 2: Hover over link reports
-Step 3: Click on link allReports -> Navigate to page '/project/*/ra/all-reports'
-Step 4: Click on button katalonReports (katalonReportsAnalytics0)
-Step 5: Click on button katalonReports (katalonReportsAnalytics1)
-Step 6: Click on button toolbar2
-Step 7: Click on div backdrop
-Step 8: Click on div avatar
-Step 9: Click on div backdrop
-Step 10: Click on div avatar
-Step 11: Click on link userProfile -> Navigate to page '/user-profile/project'
-Step 12: Click on button editInformation
-Step 13: Click on div jobTitle (jobTitle)
-Step 14: Click on item jobTitles (jobTitleDeveloper)
-Step 15: Hover over p jobTitleDeveloper
-Step 16: Click on div jobTitle (jobTitleDeveloper)
-Step 17: Click on item jobTitles (jobTitleManualTester)
-Step 18: Hover over item jobTitleAutomationSpecialist
-Step 19: Click on div jobTitle (jobTitleManualTester)
-Step 20: Click on item jobTitles (jobTitleQualityEngineer)
-Step 21: Hover over item jobTitleDeveloper2
-Step 22: Click on button cancel
-Step 23: Click on button account -> Navigate to page '/user-profile/account'
-Step 24: Click on button changeHistory -> Navigate to page '/user-profile/change-history'
-Step 25: Click on button activityHistory -> Navigate to page '/user-profile/activity-history'
-Step 26: Click on span back -> Navigate to page ''
-Step 27: Take full page screenshot as checkpoint
-",Low,NEW
-6,Manage Project Resources and Execute Test Runs,"Navigate through project resources, create test runs, and manage test results while verifying page home.","Step 1: Navigate to /project/*/home/overview with params (filter)
-Step 2: Click on div navigationMenu
-Step 3: Click on link assets -> Navigate to page '/project/*/resources'
-Step 4: Hover over div projectResources
-Step 5: Click on link testObjects -> Navigate to page '/project/*/resources/test-objects'
-Step 6: Hover over link assets
-Step 7: Click on link environments -> Navigate to page '/project/*/resources/environments'
-Step 8: Hover over link assets
-Step 9: Click on link testData -> Navigate to page '/project/*/resources/test-data'
-Step 10: Click on div executions -> Navigate to page '/project/*/executions'
-Step 11: Click on button action
-Step 12: Click on button today
-Step 13: Click on span create
-Step 14: Click on item createManualTestRun -> Navigate to page '/project/*/executions/types/manual/schedules/create'
-Step 15: Click on div createTestRunHeaderSprintSelector
-Step 16: Click on button close
-Step 17: Click on button sprintSelectorActions (openSprintSelector)
-Step 18: Click on item dynamicObject (postGa4)
-Step 19: Click on button openReleaseSelector
-Step 20: Click on item dynamicObject (release2)
-Step 21: Click on button sprintSelectorActions (openExecutorSelector)
-Step 22: Click on input testRunName
-Step 23: Click on div createTestRunHeaderSprintSelector2
-Step 24: Click on div createTestRunHeaderSprintSelector3
-Step 25: Click on button sprintSelectorActions (clearSprintSelector)
-Step 26: Click on div executionDetails
-Step 27: Hover over div object
-Step 28: Click on link testRuns -> Navigate to page '/project/*/ra/test-runs'
-Step 29: Click on div object
-Step 30: Click on div object2
-Step 31: Click on link lpDateTime -> Navigate to page '/project/*/ra/test-runs/*'
-Step 32: Click on button testResults -> Navigate to page '/project/*/ra/test-runs/*/test-runs'
-Step 33: Click on button object
-Step 34: Click on div object
-Step 35: Click on div object2
-Step 36: Click on button defects -> Navigate to page '/project/*/ra/test-runs/*/defect'
-Step 37: Click on button summary -> Navigate to page '/project/*/ra/test-runs/*'
-Step 38: Hover over div object3
-Step 39: Click on link allReports -> Navigate to page '/project/*/ra/all-reports'
-Step 40: Click on div object -> Navigate to page '/project/*/ra/all-reports/metric/*'
-Step 41: Click on link testCloud -> Navigate to page '/project/*/tc/live/app'
-Step 42: Click on div testCloud
-Step 43: Click on button mobileBrowser -> Navigate to page '/project/*/tc/live/browser'
-Step 44: Click on button desktopBrowser -> Navigate to page '/project/*/tc/live/desktop-browser'
-Step 45: Click on button applications -> Navigate to page '/project/*/tc/application'
-Step 46: Click on button uploadApplication
-Step 47: Click on span object -> Navigate to page ''
-Step 48: Take full page screenshot as checkpoint
-",Low,NEW
-5,Create and Manage User Settings and API Key,"Navigate to user settings, create API keys, and manage credentials while verifying page home.","Step 1: Navigate to /project/*/home/overview with params (filter)
-Step 2: Hover over link tests2
-Step 3: Click on link journeyMaps -> Navigate to page '/project/*/tests/journey-maps'
-Step 4: Click on button object
-Step 5: Click on div object
-Step 6: Click on div avatarButton
-Step 7: Click on div object
-Step 8: Click on link userSettings -> Navigate to page '/user-settings/personal-integration'
-Step 9: Click on span object -> Navigate to page '/user-settings/personal-integration/create'
-Step 10: Click on input credential
-Step 11: Click on input credential
-Step 12: Enter input value in input credential
-Step 13: Click on input credentialEmail
-Step 14: Enter input value in input credentialEmail
-Step 15: Click on input credential
-Step 16: Click on input credentialEmail
-Step 17: Click on div object
-Step 18: Enter input value in input credential
-Step 19: Click on input credentialEmail
-Step 20: Enter input value in input credentialEmail
-Step 21: Click on button cancel -> Navigate to page '/user-settings/personal-integration'
-Step 22: Click on button katalonApiKey -> Navigate to page '/user-settings/api-key'
-Step 23: Click on span object
-Step 24: Click on span object2
-Step 25: Click on button createApiKey
-Step 26: Click on div selectExpiration
-Step 27: Click on div selectExpiration
-Step 28: Click on div inputBase
-Step 29: Click on div updateApiKeyDialog
-Step 30: Click on textarea enterDescription
-Step 31: Click on button cancel -> Navigate to page ''
-Step 32: Take full page screenshot as checkpoint
+1,Add Multiple Products to Cart and Proceed to Checkout,"Navigate to the home page, browse products, add multiple items to the cart, adjust quantities, and proceed to checkout.","Step 1: Navigate to /
+Step 2: Click on link productsSliderPrev
+Step 3: Click on div productsSlider
+Step 4: Click on header customersLoveUs
+Step 5: Click on div reviewComment
+Step 6: Click on link productsSliderPrev
+Step 7: Click on button addToCart
+Step 8: Click on button addToCart2
+Step 9: Click on button productAction
+Step 10: Click on span goToCart -> Navigate to page '/cart'
+Step 11: Click on div cartItemQtyInput
+Step 12: Click on div cartItemQtyInput
+Step 13: Click on div cartItemQtyInput
+Step 14: Click on div cartItemQtyInput
+Step 15: Click on div cartItemQtyInput
+Step 16: Click on div cartItemQtyInput
+Step 17: Click on button proceedToCheckout -> Navigate to page ''
+Step 18: Take full page screenshot as checkpoint
 ",Trivial,NEW

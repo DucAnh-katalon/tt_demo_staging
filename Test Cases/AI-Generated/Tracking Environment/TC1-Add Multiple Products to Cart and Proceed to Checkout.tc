@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>38065455-eddd-43c1-b5a2-75b850c10ebe</id>
+        </flow>
+    </customField>
+    <description>Navigate to the home page, browse products, add multiple items to the cart, adjust quantities, and proceed to checkout.</description>
+    <name>TC1-Add Multiple Products to Cart and Proceed to Checkout</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>ec6ac2de-8f52-4616-8116-79c72e3c514b</testCaseGuid>
+</TestCaseEntity>
