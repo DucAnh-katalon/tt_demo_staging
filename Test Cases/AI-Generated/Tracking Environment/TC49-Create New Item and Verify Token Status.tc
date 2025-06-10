@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>02d1e3c1-cc53-491f-88a2-b5619ca5f3a0</id>
+        </flow>
+    </customField>
+    <description>Navigate to test cases, create a new item, check the token status, and verify successful navigation to the home page.</description>
+    <name>TC49-Create New Item and Verify Token Status</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>bce409ba-0b1a-4841-8605-10840a3643f5</testCaseGuid>
+    <testDataLinks>
+        <combinationType>ONE</combinationType>
+        <id>33a03750-27d4-4f0b-85cc-c2e2e2e387a5</id>
+        <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+        </iterationEntity>
+        <testDataId>Data Files/AI-Generated/Tracking Environment/TC49-Create New Item and Verify Token Status-test-data</testDataId>
+    </testDataLinks>
+    <variable>
+        <defaultValue>'Data Files/AI-Generated/Tracking Environment/Common/createItemAndCheckToken-test-data'</defaultValue>
+        <description>Common function data file id</description>
+        <id>5c22768a-9cf2-46f2-8a23-e307a91ff7ff</id>
+        <masked>false</masked>
+        <name>data_path_0</name>
+    </variable>
+    <variable>
+        <defaultValue>'2'</defaultValue>
+        <description>Common function data row index</description>
+        <id>e28295af-ce15-4f14-9dd2-38bbff23f11f</id>
+        <masked>false</masked>
+        <name>index_0</name>
+    </variable>
+    <variable>
+        <defaultValue>'466499'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>95ddd848-d703-48f9-a69b-706f90f11509</id>
+        <masked>false</masked>
+        <name>project_id</name>
+    </variable>
+    <variable>
+        <defaultValue>'1848565'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>ddd5446c-228e-48b8-86f7-5b9ae3abf2ac</id>
+        <masked>false</masked>
+        <name>test_cases_folder</name>
+    </variable>
+    <variable>
+        <defaultValue>'593400'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>b8e7277c-1518-4fe5-9435-6f1ce9a96125</id>
+        <masked>false</masked>
+        <name>test_cases_testProject</name>
+    </variable>
+    <variableLinks>
+        <testDataLinkId>33a03750-27d4-4f0b-85cc-c2e2e2e387a5</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>data_path_0</value>
+        <variableId>5c22768a-9cf2-46f2-8a23-e307a91ff7ff</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>33a03750-27d4-4f0b-85cc-c2e2e2e387a5</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>index_0</value>
+        <variableId>e28295af-ce15-4f14-9dd2-38bbff23f11f</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>33a03750-27d4-4f0b-85cc-c2e2e2e387a5</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>project_id</value>
+        <variableId>95ddd848-d703-48f9-a69b-706f90f11509</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>33a03750-27d4-4f0b-85cc-c2e2e2e387a5</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>test_cases_folder</value>
+        <variableId>ddd5446c-228e-48b8-86f7-5b9ae3abf2ac</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>33a03750-27d4-4f0b-85cc-c2e2e2e387a5</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>test_cases_testProject</value>
+        <variableId>b8e7277c-1518-4fe5-9435-6f1ce9a96125</variableId>
+    </variableLinks>
+</TestCaseEntity>

@@ -1,0 +1,18 @@
+{
+    "steps": [
+        "step 1: Navigate to / with params (orgId)",
+        "step 2: Click on link logExplorer -> Navigate to page '/d/*/log-explorer'",
+        "step 3: Click on button container",
+        "step 4: Enter input value in input container",
+        "step 5: Press key Enter on input container",
+        "step 6: Click on button container2",
+        "step 7: Click on input container",
+        "step 8: Enter input value in input container",
+        "step 9: Press key Enter on input container",
+        "step 10: Click on button errorLogAction (errorAction)",
+        "step 11: Click on button infoAction",
+        "step 12: Click on button infoAction",
+        "step 13: Click on button infoAction -> Navigate to page ''",
+        "step 14: Take full page screenshot as checkpoint"
+    ]
+}

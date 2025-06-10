@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>90ec7a4a-b275-4a0d-ba1e-bdcb3e967c82</id>
+        </flow>
+    </customField>
+    <description>Login using GitHub, access the DLog Explorer, select a cluster, and perform actions on namespaces and containers, then verify the home page.</description>
+    <name>TC105-Sign in and navigate to DLog Explorer with cluster actions</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>0e58da1d-894d-4254-a6bb-da67ed14fa47</testCaseGuid>
+    <testDataLinks>
+        <combinationType>ONE</combinationType>
+        <id>c5d93d03-8fc9-429a-9a8d-6c6c92fd079e</id>
+        <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+        </iterationEntity>
+        <testDataId>Data Files/AI-Generated/Tracking Environment/TC105-Sign in and navigate to DLog Explorer with cluster actions-test-data</testDataId>
+    </testDataLinks>
+    <variable>
+        <defaultValue>'ta-ka-{{credit_debit_number}}'</defaultValue>
+        <description>Input data variable</description>
+        <id>4711a29f-ac16-4c4d-8aa3-533ec2ef53a9</id>
+        <masked>false</masked>
+        <name>input_container</name>
+    </variable>
+    <variable>
+        <defaultValue>'ta-ka-{{credit_debit_number}}'</defaultValue>
+        <description>Input data variable</description>
+        <id>8058e6bf-1c53-4bb1-a58e-7463e6fb7ed7</id>
+        <masked>false</masked>
+        <name>input_namespace</name>
+    </variable>
+    <variableLinks>
+        <testDataLinkId>c5d93d03-8fc9-429a-9a8d-6c6c92fd079e</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>input_container</value>
+        <variableId>4711a29f-ac16-4c4d-8aa3-533ec2ef53a9</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>c5d93d03-8fc9-429a-9a8d-6c6c92fd079e</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>input_namespace</value>
+        <variableId>8058e6bf-1c53-4bb1-a58e-7463e6fb7ed7</variableId>
+    </variableLinks>
+</TestCaseEntity>

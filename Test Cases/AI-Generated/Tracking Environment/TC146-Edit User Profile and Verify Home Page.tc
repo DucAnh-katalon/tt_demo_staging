@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>e0107c2d-0a13-4ed5-bb46-7af50f10190a</id>
+        </flow>
+    </customField>
+    <description>Navigate to project reports, edit user profile information, and verify the home page after multiple interactions with job titles and history.</description>
+    <name>TC146-Edit User Profile and Verify Home Page</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>87a9ff48-bcce-4803-a792-32c4a2a57622</testCaseGuid>
+    <testDataLinks>
+        <combinationType>ONE</combinationType>
+        <id>f8c6355c-c206-4c6c-9728-292b6aa39b23</id>
+        <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+        </iterationEntity>
+        <testDataId>Data Files/AI-Generated/Tracking Environment/TC146-Edit User Profile and Verify Home Page-test-data</testDataId>
+    </testDataLinks>
+    <variable>
+        <defaultValue>'svg-inline--fa\\\\ fa-grid\\\\ MuiIcon-root\\\\ css-1s7lwsc'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>0642aeee-74a4-43bd-a1f0-53f6edc43b42</id>
+        <masked>false</masked>
+        <name>button_reportsActions_class</name>
+    </variable>
+    <variable>
+        <defaultValue>'svg-inline--fa\\\\ fa-list\\\\ MuiIcon-root\\\\ css-1s7lwsc'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>323def2b-6b82-4f99-9053-0ad517aebbfa</id>
+        <masked>false</masked>
+        <name>button_reportsActions_class_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'0'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>0a753d7e-8bb9-451e-995a-7efe96a22b9e</id>
+        <masked>false</masked>
+        <name>button_reportsActions_nth</name>
+    </variable>
+    <variable>
+        <defaultValue>'1'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>e181eb6e-1f4a-4666-a7a2-cdbe39ec7a61</id>
+        <masked>false</masked>
+        <name>button_reportsActions_nth_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'Developer/Quality Engineer'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>c1309db9-9eb0-4ada-bb2b-c7b554872020</id>
+        <masked>false</masked>
+        <name>div_jobTitles_internalLabel</name>
+    </variable>
+    <variable>
+        <defaultValue>'Developer'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>91c26957-3c5a-4d22-8a87-e3ee8005140c</id>
+        <masked>false</masked>
+        <name>div_jobTitles_internalLabel_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'Manual Tester'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>6cf2b08f-9d1e-44ed-a455-35180096bc3a</id>
+        <masked>false</masked>
+        <name>div_jobTitles_internalLabel_2</name>
+    </variable>
+    <variable>
+        <defaultValue>'jobTitle\\\\.Developer'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>c2d15a90-3ddd-4bf3-8cdb-1004f3e6a7b3</id>
+        <masked>false</masked>
+        <name>item_roles_id</name>
+    </variable>
+    <variable>
+        <defaultValue>'jobTitle\\\\.Manual\\\\ Tester'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>dddfbfea-2995-4ea7-8be1-a73a89e6e43c</id>
+        <masked>false</masked>
+        <name>item_roles_id_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'jobTitle\\\\.Quality\\\\ Engineer'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>3cab7a4d-fd6c-46be-9565-4cd2c679385e</id>
+        <masked>false</masked>
+        <name>item_roles_id_2</name>
+    </variable>
+    <variable>
+        <defaultValue>'{"global":{"timeRange":{"value":"DATEADD(DATETIME(\\"now\\"), -{{date_time}}) : now","groupBy":["P1W"]}}}'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>9f4f5e80-899d-44e5-bcd6-1f3a8c3d6299</id>
+        <masked>false</masked>
+        <name>overview_filter</name>
+    </variable>
+    <variable>
+        <defaultValue>'466499'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>4c167db2-9501-4058-a368-36ad0a501101</id>
+        <masked>false</masked>
+        <name>project_id</name>
+    </variable>
+    <variableLinks>
+        <testDataLinkId>f8c6355c-c206-4c6c-9728-292b6aa39b23</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>button_reportsActions_class</value>
+        <variableId>0642aeee-74a4-43bd-a1f0-53f6edc43b42</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>f8c6355c-c206-4c6c-9728-292b6aa39b23</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>button_reportsActions_class_1</value>
+        <variableId>323def2b-6b82-4f99-9053-0ad517aebbfa</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>f8c6355c-c206-4c6c-9728-292b6aa39b23</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>button_reportsActions_nth</value>
+        <variableId>0a753d7e-8bb9-451e-995a-7efe96a22b9e</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>f8c6355c-c206-4c6c-9728-292b6aa39b23</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>button_reportsActions_nth_1</value>
+        <variableId>e181eb6e-1f4a-4666-a7a2-cdbe39ec7a61</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>f8c6355c-c206-4c6c-9728-292b6aa39b23</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>div_jobTitles_internalLabel</value>
+        <variableId>c1309db9-9eb0-4ada-bb2b-c7b554872020</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>f8c6355c-c206-4c6c-9728-292b6aa39b23</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>div_jobTitles_internalLabel_1</value>
+        <variableId>91c26957-3c5a-4d22-8a87-e3ee8005140c</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>f8c6355c-c206-4c6c-9728-292b6aa39b23</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>div_jobTitles_internalLabel_2</value>
+        <variableId>6cf2b08f-9d1e-44ed-a455-35180096bc3a</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>f8c6355c-c206-4c6c-9728-292b6aa39b23</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>item_roles_id</value>
+        <variableId>c2d15a90-3ddd-4bf3-8cdb-1004f3e6a7b3</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>f8c6355c-c206-4c6c-9728-292b6aa39b23</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>item_roles_id_1</value>
+        <variableId>dddfbfea-2995-4ea7-8be1-a73a89e6e43c</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>f8c6355c-c206-4c6c-9728-292b6aa39b23</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>item_roles_id_2</value>
+        <variableId>3cab7a4d-fd6c-46be-9565-4cd2c679385e</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>f8c6355c-c206-4c6c-9728-292b6aa39b23</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>overview_filter</value>
+        <variableId>9f4f5e80-899d-44e5-bcd6-1f3a8c3d6299</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>f8c6355c-c206-4c6c-9728-292b6aa39b23</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>project_id</value>
+        <variableId>4c167db2-9501-4058-a368-36ad0a501101</variableId>
+    </variableLinks>
+</TestCaseEntity>

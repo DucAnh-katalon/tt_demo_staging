@@ -1,0 +1,12 @@
+{
+    "steps": [
+        "step 1: Navigate to /dashboard",
+        "step 2: Click on button selectStudyOrOrganization",
+        "step 3: Click on button studyActions (regressionStudy) -> Navigate to page '/studies/*/dashboard'",
+        "step 4: Click on link qualityControl3 -> Navigate to page '/studies/*/qc-worklist'",
+        "step 5: Click on button continue",
+        "step 6: Click on button superUserActions (superUser2)",
+        "step 7: Click on link logout2 -> Navigate to page '/gateway'",
+        "step 8: Take full page screenshot as checkpoint"
+    ]
+}

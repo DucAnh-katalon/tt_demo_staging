@@ -2,9 +2,9 @@
     "steps": [
         "step 1: Navigate to /project/*/home/overview with params (filter)",
         "step 2: Click on link releaseQuality -> Navigate to page '/project/*/home/release'",
-        "step 3: Click on div projectOverviewReleaseQuality",
-        "step 4: Click on div projectOverviewReleaseQuality2",
-        "step 5: Click on div projectOverviewReleaseQuality3",
+        "step 3: Click on div projectOverview",
+        "step 4: Click on div projectOverview2",
+        "step 5: Click on div projectOverview3",
         "step 6: Click on link projectOverview -> Navigate to page '/project/*/home/overview'",
         "step 7: Click on link releaseQuality -> Navigate to page '/project/*/home/release'",
         "step 8: Click on span admin",
@@ -14,11 +14,11 @@
         "step 12: Click on link admin -> Navigate to page '/project/*/home/overview'",
         "step 13: Click on div plans -> Navigate to page '/project/*/plans'",
         "step 14: Click on span sync",
-        "step 15: Hover over button clear2",
+        "step 15: Hover over button clear",
         "step 16: Click on button today",
-        "step 17: Click on button clearOpen (open2)",
-        "step 18: Enter input value in input object",
-        "step 19: Click on button clearOpen (clear)",
+        "step 17: Click on button openClear (open)",
+        "step 18: Enter input value in input text",
+        "step 19: Click on button openClear (clear2)",
         "step 20: Click on link katalonLogo -> Navigate to page ''",
         "step 21: Take full page screenshot as checkpoint"
     ]

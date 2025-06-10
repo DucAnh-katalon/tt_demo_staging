@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>0929adc4-2d8a-4aff-b6e5-cf9309924484</id>
+        </flow>
+    </customField>
+    <description>Navigate through various sections in the procurement area, access purchase requisitions, and verify navigation back to the home page.</description>
+    <name>TC125-Access Procurement Section and Verify Home Page</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>41113d1c-fd64-4cfc-afaa-3d39a8f999ca</testCaseGuid>
+    <testDataLinks>
+        <combinationType>ONE</combinationType>
+        <id>264fedfd-722b-4406-8c65-160cabe1780c</id>
+        <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+        </iterationEntity>
+        <testDataId>Data Files/AI-Generated/Tracking Environment/TC125-Access Procurement Section and Verify Home Page-test-data</testDataId>
+    </testDataLinks>
+    <variable>
+        <defaultValue>'zjto4wgp0_1'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>7c22a9f4-1501-414b-9005-b678cf538ac6</id>
+        <masked>false</masked>
+        <name>AtkHomePageWelcome__adf_ctrl_state</name>
+    </variable>
+    <variable>
+        <defaultValue>'true'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>5dc05229-abe0-4ce7-ac3a-7eec6b1c7d31</id>
+        <masked>false</masked>
+        <name>AtkHomePageWelcome__adf_no_new_window_redirect</name>
+    </variable>
+    <variable>
+        <defaultValue>'16'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>2d5bbf73-9ebd-4147-9df4-6aabb9547656</id>
+        <masked>false</masked>
+        <name>AtkHomePageWelcome__afrFS</name>
+    </variable>
+    <variable>
+        <defaultValue>'1572831829878070'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>c2b793c9-33ca-48e3-a95f-bd8a00db1e90</id>
+        <masked>false</masked>
+        <name>AtkHomePageWelcome__afrLoop</name>
+    </variable>
+    <variable>
+        <defaultValue>'10'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>8b4c7cb4-05ef-48e5-b1cd-32656d7193ce</id>
+        <masked>false</masked>
+        <name>AtkHomePageWelcome__afrMFC</name>
+    </variable>
+    <variable>
+        <defaultValue>'0'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>da7930bc-ee81-4d52-b4f4-cbc436b6e656</id>
+        <masked>false</masked>
+        <name>AtkHomePageWelcome__afrMFCI</name>
+    </variable>
+    <variable>
+        <defaultValue>'1050'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>0f36c3d2-5181-4acf-ac30-7bd1a2aa1e62</id>
+        <masked>false</masked>
+        <name>AtkHomePageWelcome__afrMFDH</name>
+    </variable>
+    <variable>
+        <defaultValue>'1680'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>61be0714-0ea1-4994-85b0-22c57a82b1f2</id>
+        <masked>false</masked>
+        <name>AtkHomePageWelcome__afrMFDW</name>
+    </variable>
+    <variable>
+        <defaultValue>'0'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>d355f5dc-55e3-417c-8726-edbddd31a9dd</id>
+        <masked>false</masked>
+        <name>AtkHomePageWelcome__afrMFG</name>
+    </variable>
+    <variable>
+        <defaultValue>'484'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>ab313fcb-49c7-49e4-95e3-d1d4bdd5585f</id>
+        <masked>false</masked>
+        <name>AtkHomePageWelcome__afrMFH</name>
+    </variable>
+    <variable>
+        <defaultValue>'0'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>377bdcb1-e8df-41c5-b585-053a8bbd40d7</id>
+        <masked>false</masked>
+        <name>AtkHomePageWelcome__afrMFM</name>
+    </variable>
+    <variable>
+        <defaultValue>'0'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>82869f08-e54f-4b7f-a3fb-503e15757e3c</id>
+        <masked>false</masked>
+        <name>AtkHomePageWelcome__afrMFO</name>
+    </variable>
+    <variable>
+        <defaultValue>'192'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>1bbacc58-379a-4401-a6db-ef6c3654efcc</id>
+        <masked>false</masked>
+        <name>AtkHomePageWelcome__afrMFR</name>
+    </variable>
+    <variable>
+        <defaultValue>'0'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>d0fba09d-4cfe-4a91-83e7-a32372c27610</id>
+        <masked>false</masked>
+        <name>AtkHomePageWelcome__afrMFS</name>
+    </variable>
+    <variable>
+        <defaultValue>'1680'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>8589b9e2-1ceb-4ef1-ad79-a3a99857c79c</id>
+        <masked>false</masked>
+        <name>AtkHomePageWelcome__afrMFW</name>
+    </variable>
+    <variable>
+        <defaultValue>'screen'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>088156e8-7ce8-4064-95b1-8d7569d806bc</id>
+        <masked>false</masked>
+        <name>AtkHomePageWelcome__afrMT</name>
+    </variable>
+    <variable>
+        <defaultValue>'null'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>b64149f2-7fdb-4de7-88b6-7d1f122063fe</id>
+        <masked>false</masked>
+        <name>AtkHomePageWelcome__afrWindowId</name>
+    </variable>
+    <variable>
+        <defaultValue>'2'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>d877da85-6075-458a-ac64-1f54a69f58ec</id>
+        <masked>false</masked>
+        <name>AtkHomePageWelcome__afrWindowMode</name>
+    </variable>
+    <variableLinks>
+        <testDataLinkId>264fedfd-722b-4406-8c65-160cabe1780c</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>AtkHomePageWelcome__adf_ctrl_state</value>
+        <variableId>7c22a9f4-1501-414b-9005-b678cf538ac6</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>264fedfd-722b-4406-8c65-160cabe1780c</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>AtkHomePageWelcome__adf_no_new_window_redirect</value>
+        <variableId>5dc05229-abe0-4ce7-ac3a-7eec6b1c7d31</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>264fedfd-722b-4406-8c65-160cabe1780c</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>AtkHomePageWelcome__afrFS</value>
+        <variableId>2d5bbf73-9ebd-4147-9df4-6aabb9547656</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>264fedfd-722b-4406-8c65-160cabe1780c</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>AtkHomePageWelcome__afrLoop</value>
+        <variableId>c2b793c9-33ca-48e3-a95f-bd8a00db1e90</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>264fedfd-722b-4406-8c65-160cabe1780c</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>AtkHomePageWelcome__afrMFC</value>
+        <variableId>8b4c7cb4-05ef-48e5-b1cd-32656d7193ce</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>264fedfd-722b-4406-8c65-160cabe1780c</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>AtkHomePageWelcome__afrMFCI</value>
+        <variableId>da7930bc-ee81-4d52-b4f4-cbc436b6e656</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>264fedfd-722b-4406-8c65-160cabe1780c</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>AtkHomePageWelcome__afrMFDH</value>
+        <variableId>0f36c3d2-5181-4acf-ac30-7bd1a2aa1e62</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>264fedfd-722b-4406-8c65-160cabe1780c</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>AtkHomePageWelcome__afrMFDW</value>
+        <variableId>61be0714-0ea1-4994-85b0-22c57a82b1f2</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>264fedfd-722b-4406-8c65-160cabe1780c</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>AtkHomePageWelcome__afrMFG</value>
+        <variableId>d355f5dc-55e3-417c-8726-edbddd31a9dd</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>264fedfd-722b-4406-8c65-160cabe1780c</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>AtkHomePageWelcome__afrMFH</value>
+        <variableId>ab313fcb-49c7-49e4-95e3-d1d4bdd5585f</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>264fedfd-722b-4406-8c65-160cabe1780c</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>AtkHomePageWelcome__afrMFM</value>
+        <variableId>377bdcb1-e8df-41c5-b585-053a8bbd40d7</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>264fedfd-722b-4406-8c65-160cabe1780c</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>AtkHomePageWelcome__afrMFO</value>
+        <variableId>82869f08-e54f-4b7f-a3fb-503e15757e3c</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>264fedfd-722b-4406-8c65-160cabe1780c</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>AtkHomePageWelcome__afrMFR</value>
+        <variableId>1bbacc58-379a-4401-a6db-ef6c3654efcc</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>264fedfd-722b-4406-8c65-160cabe1780c</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>AtkHomePageWelcome__afrMFS</value>
+        <variableId>d0fba09d-4cfe-4a91-83e7-a32372c27610</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>264fedfd-722b-4406-8c65-160cabe1780c</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>AtkHomePageWelcome__afrMFW</value>
+        <variableId>8589b9e2-1ceb-4ef1-ad79-a3a99857c79c</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>264fedfd-722b-4406-8c65-160cabe1780c</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>AtkHomePageWelcome__afrMT</value>
+        <variableId>088156e8-7ce8-4064-95b1-8d7569d806bc</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>264fedfd-722b-4406-8c65-160cabe1780c</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>AtkHomePageWelcome__afrWindowId</value>
+        <variableId>b64149f2-7fdb-4de7-88b6-7d1f122063fe</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>264fedfd-722b-4406-8c65-160cabe1780c</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>AtkHomePageWelcome__afrWindowMode</value>
+        <variableId>d877da85-6075-458a-ac64-1f54a69f58ec</variableId>
+    </variableLinks>
+</TestCaseEntity>

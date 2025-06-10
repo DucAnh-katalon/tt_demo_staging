@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>9d3a723e-e088-4e59-b8c4-d57858d7e0c5</id>
+        </flow>
+    </customField>
+    <description>Navigate to the log explorer, input container details, and perform actions on logs. Verify successful navigation back to the home page.</description>
+    <name>TC140-Explore Logs and Verify Home Page</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>34868639-e77d-4075-86f8-e346337585b5</testCaseGuid>
+    <testDataLinks>
+        <combinationType>ONE</combinationType>
+        <id>de0f0fcd-7f54-4f1a-ba49-1fe6e9009a0e</id>
+        <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+        </iterationEntity>
+        <testDataId>Data Files/AI-Generated/Tracking Environment/TC140-Explore Logs and Verify Home Page-test-data</testDataId>
+    </testDataLinks>
+    <variable>
+        <defaultValue>'56'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>9e615339-f5be-4e7b-b80d-a6ac828a37d1</id>
+        <masked>false</masked>
+        <name>button_errorLogAction_trNthChild</name>
+    </variable>
+    <variable>
+        <defaultValue>'56'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>25a78e47-6c94-4af4-ae32-cb5d84ddb9b8</id>
+        <masked>false</masked>
+        <name>button_errorLogAction_trNthOfType</name>
+    </variable>
+    <variable>
+        <defaultValue>'tg-ka-22490-2-1746586077 '</defaultValue>
+        <description>Input data variable</description>
+        <id>1994bdf2-f1e2-4524-8e7e-471936f0f8f4</id>
+        <masked>false</masked>
+        <name>input_container</name>
+    </variable>
+    <variable>
+        <defaultValue>'tg-ka-22490-2-1746590108'</defaultValue>
+        <description>Input data variable</description>
+        <id>58a178e6-ac7c-48cb-8ea3-95a4a55abbd6</id>
+        <masked>false</masked>
+        <name>input_container_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'1'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>a13a7425-6ccb-4a18-afb6-8b20c0ca7ede</id>
+        <masked>false</masked>
+        <name>var_orgId</name>
+    </variable>
+    <variableLinks>
+        <testDataLinkId>de0f0fcd-7f54-4f1a-ba49-1fe6e9009a0e</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>button_errorLogAction_trNthChild</value>
+        <variableId>9e615339-f5be-4e7b-b80d-a6ac828a37d1</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>de0f0fcd-7f54-4f1a-ba49-1fe6e9009a0e</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>button_errorLogAction_trNthOfType</value>
+        <variableId>25a78e47-6c94-4af4-ae32-cb5d84ddb9b8</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>de0f0fcd-7f54-4f1a-ba49-1fe6e9009a0e</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>input_container</value>
+        <variableId>1994bdf2-f1e2-4524-8e7e-471936f0f8f4</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>de0f0fcd-7f54-4f1a-ba49-1fe6e9009a0e</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>input_container_1</value>
+        <variableId>58a178e6-ac7c-48cb-8ea3-95a4a55abbd6</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>de0f0fcd-7f54-4f1a-ba49-1fe6e9009a0e</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>var_orgId</value>
+        <variableId>a13a7425-6ccb-4a18-afb6-8b20c0ca7ede</variableId>
+    </variableLinks>
+</TestCaseEntity>

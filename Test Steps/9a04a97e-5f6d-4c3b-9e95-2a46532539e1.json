@@ -1,0 +1,26 @@
+{
+    "steps": [
+        "step 1: Navigate to /dashboard",
+        "step 2: Click on link qualityControlLinks (uploader) -> Navigate to page '/data-uploader'",
+        "step 3: Click on html object",
+        "step 4: Click on html object",
+        "step 5: Click on div object",
+        "step 6: Click on button clarioApps",
+        "step 7: Click on link administrationTool -> Navigate to page '/gssoadmin'",
+        "step 8: Click on link userManagement (roleManagement)",
+        "step 9: Click on button superUser",
+        "step 10: Select study or organization and manage site details",
+        "step 11: Navigate to site management and upload sections",
+        "step 12: Click on link mrUpload",
+        "step 13: Click on html object",
+        "step 14: Click on div uploadSections (uploadScannerProtocol)",
+        "step 15: Click on link imgUp6",
+        "step 16: Click on link mySite",
+        "step 17: Click on button siteManagement",
+        "step 18: Click on span siteNumber",
+        "step 19: Click on link mrTatUpload",
+        "step 20: Click on html object2",
+        "step 21: Click on div uploadSections (uploadPhantomData)",
+        "step 22: Take full page screenshot as checkpoint"
+    ]
+}

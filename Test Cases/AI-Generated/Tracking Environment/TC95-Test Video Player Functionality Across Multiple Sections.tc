@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>53a239c4-e2e5-40c7-b4e2-733d780106b5</id>
+        </flow>
+    </customField>
+    <description>Navigate through various video player sections, testing play, pause, unmute, and full-screen functionalities. Verify navigation back to the home page.</description>
+    <name>TC95-Test Video Player Functionality Across Multiple Sections</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>7ad74f81-8fce-4584-8d9a-1128a1c05fe9</testCaseGuid>
+    <testDataLinks>
+        <combinationType>ONE</combinationType>
+        <id>e13ecd2c-3074-487d-a436-ad3e634e47aa</id>
+        <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+        </iterationEntity>
+        <testDataId>Data Files/AI-Generated/Tracking Environment/TC95-Test Video Player Functionality Across Multiple Sections-test-data</testDataId>
+    </testDataLinks>
+    <variable>
+        <defaultValue>'s1IcHe'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>b2ba1c8f-baeb-4fc6-b2ea-995b333c8fd3</id>
+        <masked>false</masked>
+        <name>button_navigationControls_class</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>a28184fc-22cf-48bf-9d8c-f58d8b150c9b</id>
+        <masked>false</masked>
+        <name>button_navigationControls_class_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'Rewind 10 seconds (j)'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>f8440d36-76cb-4a95-851c-da2d46341e58</id>
+        <masked>false</masked>
+        <name>button_navigationControls_internalLabel</name>
+    </variable>
+    <variable>
+        <defaultValue>'Fast forward 10 seconds (l)'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>59d4d570-d4b7-4071-87dc-446d2ebd8497</id>
+        <masked>false</masked>
+        <name>button_navigationControls_internalLabel_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'1'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>4835c46e-64fe-49df-a049-535bbcacfc6b</id>
+        <masked>false</masked>
+        <name>button_navigationControls_spanNthOfType</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>b1f293e6-9056-4f67-8c26-8d7ed3b9cc8f</id>
+        <masked>false</masked>
+        <name>button_navigationControls_spanNthOfType_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'1ldhztyx___jFGkgri401xHLCBUVCAQla'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>ca185784-eaa5-4a62-b8e8-5c4359c19035</id>
+        <masked>false</masked>
+        <name>d_id</name>
+    </variable>
+    <variableLinks>
+        <testDataLinkId>e13ecd2c-3074-487d-a436-ad3e634e47aa</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>button_navigationControls_class</value>
+        <variableId>b2ba1c8f-baeb-4fc6-b2ea-995b333c8fd3</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>e13ecd2c-3074-487d-a436-ad3e634e47aa</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>button_navigationControls_class_1</value>
+        <variableId>a28184fc-22cf-48bf-9d8c-f58d8b150c9b</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>e13ecd2c-3074-487d-a436-ad3e634e47aa</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>button_navigationControls_internalLabel</value>
+        <variableId>f8440d36-76cb-4a95-851c-da2d46341e58</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>e13ecd2c-3074-487d-a436-ad3e634e47aa</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>button_navigationControls_internalLabel_1</value>
+        <variableId>59d4d570-d4b7-4071-87dc-446d2ebd8497</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>e13ecd2c-3074-487d-a436-ad3e634e47aa</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>button_navigationControls_spanNthOfType</value>
+        <variableId>4835c46e-64fe-49df-a049-535bbcacfc6b</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>e13ecd2c-3074-487d-a436-ad3e634e47aa</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>button_navigationControls_spanNthOfType_1</value>
+        <variableId>b1f293e6-9056-4f67-8c26-8d7ed3b9cc8f</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>e13ecd2c-3074-487d-a436-ad3e634e47aa</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>d_id</value>
+        <variableId>ca185784-eaa5-4a62-b8e8-5c4359c19035</variableId>
+    </variableLinks>
+</TestCaseEntity>

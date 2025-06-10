@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>07c4a841-0032-4013-9940-83501871eff6</id>
+        </flow>
+    </customField>
+    <description>Navigate to the Katalon Studio pull request page, review changes, add comments, and approve the changes before submitting the review.</description>
+    <name>TC135-Review and Approve Changes in Katalon Studio Pull Request</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>872fe737-62d2-4cde-859e-f819586e3b55</testCaseGuid>
+    <testDataLinks>
+        <combinationType>ONE</combinationType>
+        <id>9536baa8-47b8-4016-946e-2b4b1b1be2e3</id>
+        <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+        </iterationEntity>
+        <testDataId>Data Files/AI-Generated/Tracking Environment/TC135-Review and Approve Changes in Katalon Studio Pull Request-test-data</testDataId>
+    </testDataLinks>
+    <variable>
+        <defaultValue>'3796'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>7a669b30-c2df-4088-b76f-b6992aaa19da</id>
+        <masked>false</masked>
+        <name>pull_id</name>
+    </variable>
+    <variableLinks>
+        <testDataLinkId>9536baa8-47b8-4016-946e-2b4b1b1be2e3</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>pull_id</value>
+        <variableId>7a669b30-c2df-4088-b76f-b6992aaa19da</variableId>
+    </variableLinks>
+</TestCaseEntity>

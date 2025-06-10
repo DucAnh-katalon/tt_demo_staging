@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>74ccc9ad-9246-4edc-bc1f-2d298fab73d2</id>
+        </flow>
+    </customField>
+    <description>Navigate to the recording component page, input the passcode, and interact with video playback controls. Verify access to the home page.</description>
+    <name>TC113-Watch and Control Video Recording Playback</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>1cc6847d-bd54-4100-b383-e23b10c73ce7</testCaseGuid>
+    <testDataLinks>
+        <combinationType>ONE</combinationType>
+        <id>2b286d61-a326-4b26-8f7a-0c8da6b1e064</id>
+        <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+        </iterationEntity>
+        <testDataId>Data Files/AI-Generated/Tracking Environment/TC113-Watch and Control Video Recording Playback-test-data</testDataId>
+    </testDataLinks>
+    <variable>
+        <defaultValue>'meeting'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>cd8cc1da-c719-49ec-ae7a-043d457c2a48</id>
+        <masked>false</masked>
+        <name>component_page_accessLevel</name>
+    </variable>
+    <variable>
+        <defaultValue>'viewdetailpage'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>826d16d8-ef0a-4485-905b-e67c89b1d5cf</id>
+        <masked>false</masked>
+        <name>component_page_action</name>
+    </variable>
+    <variable>
+        <defaultValue>'us02'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>5032592b-2922-4066-ac76-7a31400d06e4</id>
+        <masked>false</masked>
+        <name>component_page_clusterId</name>
+    </variable>
+    <variable>
+        <defaultValue>'need-password'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>5961318b-ce9f-486c-8913-335d1ce9c601</id>
+        <masked>false</masked>
+        <name>component_page_componentName</name>
+    </variable>
+    <variable>
+        <defaultValue>'{{url}}'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>807c89d9-7ae0-49a0-b47b-7a50e79c21bc</id>
+        <masked>false</masked>
+        <name>component_page_meetingId</name>
+    </variable>
+    <variable>
+        <defaultValue>'{{url}}'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>7e197ced-64c6-4a0f-a651-ff620c4bbb32</id>
+        <masked>false</masked>
+        <name>component_page_originRequestUrl</name>
+    </variable>
+    <variable>
+        <defaultValue>'pwdCheck'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>04c7f81d-30c8-4fa2-b592-c1a14ecfaecd</id>
+        <masked>false</masked>
+        <name>component_page_requestFrom</name>
+    </variable>
+    <variable>
+        <defaultValue>'meeting'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>da54a01f-5457-49b1-8c70-193e3d0e99e0</id>
+        <masked>false</masked>
+        <name>component_page_sharelevel</name>
+    </variable>
+    <variable>
+        <defaultValue>'meeting'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>167f797a-856e-48fc-985f-d0218dcf5ad9</id>
+        <masked>false</masked>
+        <name>component_page_useWhichPasswd</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>a9912022-ef8f-4600-9cd6-49f3ae90f497</id>
+        <masked>false</masked>
+        <name>input_passcode2</name>
+    </variable>
+    <variableLinks>
+        <testDataLinkId>2b286d61-a326-4b26-8f7a-0c8da6b1e064</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>component_page_accessLevel</value>
+        <variableId>cd8cc1da-c719-49ec-ae7a-043d457c2a48</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>2b286d61-a326-4b26-8f7a-0c8da6b1e064</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>component_page_action</value>
+        <variableId>826d16d8-ef0a-4485-905b-e67c89b1d5cf</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>2b286d61-a326-4b26-8f7a-0c8da6b1e064</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>component_page_clusterId</value>
+        <variableId>5032592b-2922-4066-ac76-7a31400d06e4</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>2b286d61-a326-4b26-8f7a-0c8da6b1e064</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>component_page_componentName</value>
+        <variableId>5961318b-ce9f-486c-8913-335d1ce9c601</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>2b286d61-a326-4b26-8f7a-0c8da6b1e064</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>component_page_meetingId</value>
+        <variableId>807c89d9-7ae0-49a0-b47b-7a50e79c21bc</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>2b286d61-a326-4b26-8f7a-0c8da6b1e064</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>component_page_originRequestUrl</value>
+        <variableId>7e197ced-64c6-4a0f-a651-ff620c4bbb32</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>2b286d61-a326-4b26-8f7a-0c8da6b1e064</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>component_page_requestFrom</value>
+        <variableId>04c7f81d-30c8-4fa2-b592-c1a14ecfaecd</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>2b286d61-a326-4b26-8f7a-0c8da6b1e064</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>component_page_sharelevel</value>
+        <variableId>da54a01f-5457-49b1-8c70-193e3d0e99e0</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>2b286d61-a326-4b26-8f7a-0c8da6b1e064</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>component_page_useWhichPasswd</value>
+        <variableId>167f797a-856e-48fc-985f-d0218dcf5ad9</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>2b286d61-a326-4b26-8f7a-0c8da6b1e064</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>input_passcode2</value>
+        <variableId>a9912022-ef8f-4600-9cd6-49f3ae90f497</variableId>
+    </variableLinks>
+</TestCaseEntity>

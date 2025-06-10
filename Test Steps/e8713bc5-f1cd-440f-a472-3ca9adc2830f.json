@@ -1,0 +1,21 @@
+{
+    "steps": [
+        "step 1: Navigate to /env/staging/aut/*/history/*",
+        "step 2: Click on div collapsedFlows",
+        "step 3: Click on button viewFlow (viewFlow2)",
+        "step 4: Click on button downloadActions (downloadTrackingPath)",
+        "step 5: Click on button viewFlow (viewFlow2)",
+        "step 6: Click on span dynamicObject (object3)",
+        "step 7: Click on div collapsedParams",
+        "step 8: Click on pre testExecutionDetails",
+        "step 9: Click on pre testExecutionDetails",
+        "step 10: Interact with several dynamic objects by clicking on them",
+        "step 11: Click on span dynamicObject (namingTestCaseWithGptEnabled)",
+        "step 12: Click on span dynamicObject (object4)",
+        "step 13: Click on pre jsonResponse",
+        "step 14: Click on pre jsonResponse",
+        "step 15: Click on span dynamicObject (object5)",
+        "step 16: Click on span dynamicObject (object5) -> Navigate to page ''",
+        "step 17: Take full page screenshot as checkpoint"
+    ]
+}

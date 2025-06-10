@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>ab9a0060-e61b-4a7c-b372-b285a5a6bf4f</id>
+        </flow>
+    </customField>
+    <description>Navigate to the studies dashboard to perform quality control actions and manage study settings effectively.</description>
+    <name>TC54-Perform Quality Control Actions on Studies</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>74d9284c-f251-4edf-91d4-b4c665e6a11a</testCaseGuid>
+    <testDataLinks>
+        <combinationType>ONE</combinationType>
+        <id>b574af82-46c9-489e-82ea-6b987834d57e</id>
+        <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+        </iterationEntity>
+        <testDataId>Data Files/AI-Generated/Tracking Environment/TC54-Perform Quality Control Actions on Studies-test-data</testDataId>
+    </testDataLinks>
+    <variable>
+        <defaultValue>'RegressionStudy'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>46ccb4e1-cada-4986-b74a-b8bc4cade7cd</id>
+        <masked>false</masked>
+        <name>button_studyActions_internalText</name>
+    </variable>
+    <variable>
+        <defaultValue>'1'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>006e78f0-7f0b-4b7d-b9f0-7f3290826c27</id>
+        <masked>false</masked>
+        <name>button_studyActions_liNthOfType</name>
+    </variable>
+    <variable>
+        <defaultValue>'Super User'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>2cd6ffe7-5063-460b-8c5e-5dacef62ee93</id>
+        <masked>false</masked>
+        <name>button_superUserActions_internalHasText</name>
+    </variable>
+    <variableLinks>
+        <testDataLinkId>b574af82-46c9-489e-82ea-6b987834d57e</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>button_studyActions_internalText</value>
+        <variableId>46ccb4e1-cada-4986-b74a-b8bc4cade7cd</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>b574af82-46c9-489e-82ea-6b987834d57e</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>button_studyActions_liNthOfType</value>
+        <variableId>006e78f0-7f0b-4b7d-b9f0-7f3290826c27</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>b574af82-46c9-489e-82ea-6b987834d57e</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>button_superUserActions_internalHasText</value>
+        <variableId>2cd6ffe7-5063-460b-8c5e-5dacef62ee93</variableId>
+    </variableLinks>
+</TestCaseEntity>

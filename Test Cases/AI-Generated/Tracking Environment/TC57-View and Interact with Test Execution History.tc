@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>e8713bc5-f1cd-440f-a472-3ca9adc2830f</id>
+        </flow>
+    </customField>
+    <description>Access the staging environment history, view flows, and interact with dynamic objects before verifying the home page.</description>
+    <name>TC57-View and Interact with Test Execution History</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>41884e90-57c7-4351-b3d5-05621829c20b</testCaseGuid>
+    <testDataLinks>
+        <combinationType>ONE</combinationType>
+        <id>b73f64d5-20ae-4303-9b6f-e7def8105e5c</id>
+        <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+        </iterationEntity>
+        <testDataId>Data Files/AI-Generated/Tracking Environment/TC57-View and Interact with Test Execution History-test-data</testDataId>
+    </testDataLinks>
+    <variable>
+        <defaultValue>'KA-346522-37'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>9690c8f8-2ff8-48c9-a673-95f0f35338b9</id>
+        <masked>false</masked>
+        <name>aut_id</name>
+    </variable>
+    <variable>
+        <defaultValue>'4'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>41d4c27b-4119-46d4-b57c-1945e0f5b4d8</id>
+        <masked>false</masked>
+        <name>button_downloadActions_divNthOfType</name>
+    </variable>
+    <variable>
+        <defaultValue>'tracking_path\\\\.json'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>ff0ca65e-c68c-4f81-abac-da81f7ad07fa</id>
+        <masked>false</masked>
+        <name>button_downloadActions_internalHasText</name>
+    </variable>
+    <variable>
+        <defaultValue>'7'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>b480fc4b-9f56-4d3f-aaa5-ddecb880ac63</id>
+        <masked>false</masked>
+        <name>button_viewFlow_trNthChild</name>
+    </variable>
+    <variable>
+        <defaultValue>'7'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>3d5beefb-f46c-4861-ad4d-f7501dbdee04</id>
+        <masked>false</masked>
+        <name>button_viewFlow_trNthChild_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'Data Files/AI-Generated/Tracking Environment/Common/clickMultipleDynamicObjects-test-data'</defaultValue>
+        <description>Common function data file id</description>
+        <id>32a3e45f-ea5e-4ee7-89c9-5f01609176b4</id>
+        <masked>false</masked>
+        <name>data_path_0</name>
+    </variable>
+    <variable>
+        <defaultValue>'5f2b572e-f25d-4b13-b7fc-46ace0b13608'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>d5c721bb-3bf0-4d38-bcdd-55a9f22036c4</id>
+        <masked>false</masked>
+        <name>history_id</name>
+    </variable>
+    <variable>
+        <defaultValue>'2'</defaultValue>
+        <description>Common function data row index</description>
+        <id>b4f358bc-ee48-46eb-8fc0-601e8d47e7d9</id>
+        <masked>false</masked>
+        <name>index_0</name>
+    </variable>
+    <variable>
+        <defaultValue>'454'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>01a308e4-a7dd-449c-b381-95c900b37ba0</id>
+        <masked>false</masked>
+        <name>span_dynamicObject_spanNthChild</name>
+    </variable>
+    <variable>
+        <defaultValue>'459'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>e19f9131-9344-4561-991b-7f7a885bc78d</id>
+        <masked>false</masked>
+        <name>span_dynamicObject_spanNthChild_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'55'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>992882fb-20ed-4d5b-b458-4ce7a86629f6</id>
+        <masked>false</masked>
+        <name>span_dynamicObject_spanNthChild_2</name>
+    </variable>
+    <variable>
+        <defaultValue>'55'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>aabaea81-57ef-4ccf-9f62-4b4a2223cd73</id>
+        <masked>false</masked>
+        <name>span_dynamicObject_spanNthChild_3</name>
+    </variable>
+    <variable>
+        <defaultValue>'454'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>0e21f335-8466-4afd-90ec-fbe893afab22</id>
+        <masked>false</masked>
+        <name>span_dynamicObject_spanNthOfType</name>
+    </variable>
+    <variable>
+        <defaultValue>'459'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>5f5c1e6c-8793-4e3d-890f-c407a26ac71d</id>
+        <masked>false</masked>
+        <name>span_dynamicObject_spanNthOfType_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'55'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>de19bc22-a1b3-4a3b-9a2b-17afdefe83eb</id>
+        <masked>false</masked>
+        <name>span_dynamicObject_spanNthOfType_2</name>
+    </variable>
+    <variable>
+        <defaultValue>'55'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>66fd9d28-6ad3-4d43-ba8a-63c7fbbabaa7</id>
+        <masked>false</masked>
+        <name>span_dynamicObject_spanNthOfType_3</name>
+    </variable>
+    <variable>
+        <defaultValue>'8'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>34480707-cfd0-4d5a-b1fe-5249e84ddea9</id>
+        <masked>false</masked>
+        <name>span_dynamicObject_trNthChild</name>
+    </variable>
+    <variableLinks>
+        <testDataLinkId>b73f64d5-20ae-4303-9b6f-e7def8105e5c</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>aut_id</value>
+        <variableId>9690c8f8-2ff8-48c9-a673-95f0f35338b9</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>b73f64d5-20ae-4303-9b6f-e7def8105e5c</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>button_downloadActions_divNthOfType</value>
+        <variableId>41d4c27b-4119-46d4-b57c-1945e0f5b4d8</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>b73f64d5-20ae-4303-9b6f-e7def8105e5c</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>button_downloadActions_internalHasText</value>
+        <variableId>ff0ca65e-c68c-4f81-abac-da81f7ad07fa</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>b73f64d5-20ae-4303-9b6f-e7def8105e5c</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>button_viewFlow_trNthChild</value>
+        <variableId>b480fc4b-9f56-4d3f-aaa5-ddecb880ac63</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>b73f64d5-20ae-4303-9b6f-e7def8105e5c</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>button_viewFlow_trNthChild_1</value>
+        <variableId>3d5beefb-f46c-4861-ad4d-f7501dbdee04</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>b73f64d5-20ae-4303-9b6f-e7def8105e5c</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>data_path_0</value>
+        <variableId>32a3e45f-ea5e-4ee7-89c9-5f01609176b4</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>b73f64d5-20ae-4303-9b6f-e7def8105e5c</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>history_id</value>
+        <variableId>d5c721bb-3bf0-4d38-bcdd-55a9f22036c4</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>b73f64d5-20ae-4303-9b6f-e7def8105e5c</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>index_0</value>
+        <variableId>b4f358bc-ee48-46eb-8fc0-601e8d47e7d9</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>b73f64d5-20ae-4303-9b6f-e7def8105e5c</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>span_dynamicObject_spanNthChild</value>
+        <variableId>01a308e4-a7dd-449c-b381-95c900b37ba0</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>b73f64d5-20ae-4303-9b6f-e7def8105e5c</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>span_dynamicObject_spanNthChild_1</value>
+        <variableId>e19f9131-9344-4561-991b-7f7a885bc78d</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>b73f64d5-20ae-4303-9b6f-e7def8105e5c</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>span_dynamicObject_spanNthChild_2</value>
+        <variableId>992882fb-20ed-4d5b-b458-4ce7a86629f6</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>b73f64d5-20ae-4303-9b6f-e7def8105e5c</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>span_dynamicObject_spanNthChild_3</value>
+        <variableId>aabaea81-57ef-4ccf-9f62-4b4a2223cd73</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>b73f64d5-20ae-4303-9b6f-e7def8105e5c</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>span_dynamicObject_spanNthOfType</value>
+        <variableId>0e21f335-8466-4afd-90ec-fbe893afab22</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>b73f64d5-20ae-4303-9b6f-e7def8105e5c</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>span_dynamicObject_spanNthOfType_1</value>
+        <variableId>5f5c1e6c-8793-4e3d-890f-c407a26ac71d</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>b73f64d5-20ae-4303-9b6f-e7def8105e5c</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>span_dynamicObject_spanNthOfType_2</value>
+        <variableId>de19bc22-a1b3-4a3b-9a2b-17afdefe83eb</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>b73f64d5-20ae-4303-9b6f-e7def8105e5c</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>span_dynamicObject_spanNthOfType_3</value>
+        <variableId>66fd9d28-6ad3-4d43-ba8a-63c7fbbabaa7</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>b73f64d5-20ae-4303-9b6f-e7def8105e5c</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>span_dynamicObject_trNthChild</value>
+        <variableId>34480707-cfd0-4d5a-b1fe-5249e84ddea9</variableId>
+    </variableLinks>
+</TestCaseEntity>

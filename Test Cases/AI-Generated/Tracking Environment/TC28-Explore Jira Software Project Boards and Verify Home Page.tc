@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>d8c298ff-c2ae-489c-99e3-44043e3e1f80</id>
+        </flow>
+    </customField>
+    <description>Navigate through project boards, view releases, and check error messages. Ensure the home page is displayed after interactions.</description>
+    <name>TC28-Explore Jira Software Project Boards and Verify Home Page</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>24fd0636-66f6-4988-81b5-3af3ddb30c65</testCaseGuid>
+    <testDataLinks>
+        <combinationType>ONE</combinationType>
+        <id>5f5c0031-2b4c-4c0c-9464-097038f422a9</id>
+        <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+        </iterationEntity>
+        <testDataId>Data Files/AI-Generated/Tracking Environment/TC28-Explore Jira Software Project Boards and Verify Home Page-test-data</testDataId>
+    </testDataLinks>
+    <variable>
+        <defaultValue>'6094be6ff0db130069f2a671'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>6d9fdaab-b196-4a5f-a366-965598552ae7</id>
+        <masked>false</masked>
+        <name>boards_assignee</name>
+    </variable>
+    <variable>
+        <defaultValue>'359'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>116aa9c3-e0cc-4177-b97c-c8c6fbd7822f</id>
+        <masked>false</masked>
+        <name>boards_id</name>
+    </variable>
+    <variable>
+        <defaultValue>'5079'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>e6d26267-a99a-4fd7-98e7-48ed05f7fc3b</id>
+        <masked>false</masked>
+        <name>span_errorMessages_cardKip</name>
+    </variable>
+    <variable>
+        <defaultValue>'4'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>e4852e0a-c95f-45fe-9ba1-f01c75827703</id>
+        <masked>false</masked>
+        <name>span_errorMessages_divNthOfType</name>
+    </variable>
+    <variable>
+        <defaultValue>'1'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>34fda564-19d0-4296-ab6f-ea18adf0e05f</id>
+        <masked>false</masked>
+        <name>span_errorMessages_divNthOfType_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'4'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>3ccbf763-470c-4da5-abde-de142ddbeb87</id>
+        <masked>false</masked>
+        <name>span_errorMessages_divNthOfType_2</name>
+    </variable>
+    <variable>
+        <defaultValue>'2'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>8932330a-32bb-4b1f-88d1-bec85ba89a9b</id>
+        <masked>false</masked>
+        <name>span_errorMessages_divNthOfType_3</name>
+    </variable>
+    <variable>
+        <defaultValue>'1'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>217a30e7-efbf-4fb5-9243-4923d3f24db1</id>
+        <masked>false</masked>
+        <name>span_errorMessages_liNthOfType</name>
+    </variable>
+    <variableLinks>
+        <testDataLinkId>5f5c0031-2b4c-4c0c-9464-097038f422a9</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>boards_assignee</value>
+        <variableId>6d9fdaab-b196-4a5f-a366-965598552ae7</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>5f5c0031-2b4c-4c0c-9464-097038f422a9</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>boards_id</value>
+        <variableId>116aa9c3-e0cc-4177-b97c-c8c6fbd7822f</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>5f5c0031-2b4c-4c0c-9464-097038f422a9</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>span_errorMessages_cardKip</value>
+        <variableId>e6d26267-a99a-4fd7-98e7-48ed05f7fc3b</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>5f5c0031-2b4c-4c0c-9464-097038f422a9</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>span_errorMessages_divNthOfType</value>
+        <variableId>e4852e0a-c95f-45fe-9ba1-f01c75827703</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>5f5c0031-2b4c-4c0c-9464-097038f422a9</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>span_errorMessages_divNthOfType_1</value>
+        <variableId>34fda564-19d0-4296-ab6f-ea18adf0e05f</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>5f5c0031-2b4c-4c0c-9464-097038f422a9</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>span_errorMessages_divNthOfType_2</value>
+        <variableId>3ccbf763-470c-4da5-abde-de142ddbeb87</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>5f5c0031-2b4c-4c0c-9464-097038f422a9</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>span_errorMessages_divNthOfType_3</value>
+        <variableId>8932330a-32bb-4b1f-88d1-bec85ba89a9b</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>5f5c0031-2b4c-4c0c-9464-097038f422a9</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>span_errorMessages_liNthOfType</value>
+        <variableId>217a30e7-efbf-4fb5-9243-4923d3f24db1</variableId>
+    </variableLinks>
+</TestCaseEntity>

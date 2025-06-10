@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>be1e0c70-ad96-4608-8dde-6d66f80ccc43</id>
+        </flow>
+    </customField>
+    <description>Navigate to the dashboard, access administration settings, view studies, and verify the home page after navigating back.</description>
+    <name>TC5-Access Administration and Verify Home Page</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>6060f1c9-2b76-4076-82fe-bf5cc09f0908</testCaseGuid>
+</TestCaseEntity>

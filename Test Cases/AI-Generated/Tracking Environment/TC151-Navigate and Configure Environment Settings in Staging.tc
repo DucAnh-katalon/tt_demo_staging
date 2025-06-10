@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>97733909-dac5-428f-9b79-ae53e19c408f</id>
+        </flow>
+    </customField>
+    <description>Access the staging environment history, configure various settings, and verify the home page after submitting changes.</description>
+    <name>TC151-Navigate and Configure Environment Settings in Staging</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>0906f5a8-0441-4c4d-94ad-e7ff8cd07d55</testCaseGuid>
+    <testDataLinks>
+        <combinationType>ONE</combinationType>
+        <id>a930d0c8-fd82-443c-b933-84ea91ed5ca8</id>
+        <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+        </iterationEntity>
+        <testDataId>Data Files/AI-Generated/Tracking Environment/TC151-Navigate and Configure Environment Settings in Staging-test-data</testDataId>
+    </testDataLinks>
+    <variable>
+        <defaultValue>'KA-463428-1'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>a17e0b19-b2a8-44b1-aab0-42d272753994</id>
+        <masked>false</masked>
+        <name>aut_id</name>
+    </variable>
+    <variable>
+        <defaultValue>'SMART_LOCATOR'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>c63f8db8-4415-447f-a59e-27c61adfe4fa</id>
+        <masked>false</masked>
+        <name>div_dynamicObject_divTitle</name>
+    </variable>
+    <variable>
+        <defaultValue>'SMART_LOCATOR'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>82c7329f-df21-4a56-8e02-80f1ec031e2d</id>
+        <masked>false</masked>
+        <name>div_dynamicObject_divTitle_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'{{url}}'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>6ce83cd5-90bd-4fcc-a99e-869b94ddd01e</id>
+        <masked>false</masked>
+        <name>link_clientCodes_href_variable</name>
+    </variable>
+    <variable>
+        <defaultValue>'1'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>286d9415-08e1-4b14-a084-d8fd20008c08</id>
+        <masked>false</masked>
+        <name>link_clientCodes_nth</name>
+    </variable>
+    <variableLinks>
+        <testDataLinkId>a930d0c8-fd82-443c-b933-84ea91ed5ca8</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>aut_id</value>
+        <variableId>a17e0b19-b2a8-44b1-aab0-42d272753994</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>a930d0c8-fd82-443c-b933-84ea91ed5ca8</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>div_dynamicObject_divTitle</value>
+        <variableId>c63f8db8-4415-447f-a59e-27c61adfe4fa</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>a930d0c8-fd82-443c-b933-84ea91ed5ca8</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>div_dynamicObject_divTitle_1</value>
+        <variableId>82c7329f-df21-4a56-8e02-80f1ec031e2d</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>a930d0c8-fd82-443c-b933-84ea91ed5ca8</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_clientCodes_href_variable</value>
+        <variableId>6ce83cd5-90bd-4fcc-a99e-869b94ddd01e</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>a930d0c8-fd82-443c-b933-84ea91ed5ca8</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_clientCodes_nth</value>
+        <variableId>286d9415-08e1-4b14-a084-d8fd20008c08</variableId>
+    </variableLinks>
+</TestCaseEntity>

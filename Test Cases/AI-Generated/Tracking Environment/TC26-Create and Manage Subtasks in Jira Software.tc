@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>0e890a79-ff2c-49b1-ba7d-da151237eae2</id>
+        </flow>
+    </customField>
+    <description>Navigate to the Jira software board, create a subtask, change its status, and verify the successful creation and management of tasks.</description>
+    <name>TC26-Create and Manage Subtasks in Jira Software</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>93b0a326-0879-45bc-8d80-3ab1f8ef0e52</testCaseGuid>
+    <testDataLinks>
+        <combinationType>ONE</combinationType>
+        <id>f125e0e4-530f-41a6-a2b7-1f13a184b1fb</id>
+        <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+        </iterationEntity>
+        <testDataId>Data Files/AI-Generated/Tracking Environment/TC26-Create and Manage Subtasks in Jira Software-test-data</testDataId>
+    </testDataLinks>
+    <variable>
+        <defaultValue>'225846'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>5142ea0e-e9b9-4207-9cac-637594e1355a</id>
+        <masked>false</masked>
+        <name>browse_focusedCommentId</name>
+    </variable>
+    <variable>
+        <defaultValue>'KIP-4593'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>b8271977-ae32-4961-9930-377331489460</id>
+        <masked>false</masked>
+        <name>browse_id</name>
+    </variable>
+    <variable>
+        <defaultValue>'com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>abd06a3a-d565-4a53-831a-65fec531e932</id>
+        <masked>false</masked>
+        <name>browse_page</name>
+    </variable>
+    <variable>
+        <defaultValue>'_1e0c1txw\\\\ _4cvr1h6o\\\\ _80omtlke\\\\ _kqsw1if8\\\\ _1pbycs5v\\\\ _ca0qv77o\\\\ _4t3i10mc\\\\ _19pk1i6y\\\\ _otyrv77o\\\\ _154i1ylp\\\\ _nt751r31\\\\ _49pcglyw\\\\ _1hvw1o36\\\\ _7ehi64oc\\\\ _2rko1l7b\\\\ _bfhkvuon\\"] [class=\\"_11q7glyw\\\\ _19itglyw\\\\ _11c81kw7\\\\ _ca0qidpf\\\\ _u5f3u2gc\\\\ _n3tdidpf\\\\ _19bvidpf\\\\ _80omtlke\\\\ _1ul9idpf'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>a4c5fc1b-5490-410d-914f-d1c611198f72</id>
+        <masked>false</masked>
+        <name>button_kipActions_class</name>
+    </variable>
+    <variable>
+        <defaultValue>'2'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>16aab8d0-69fc-424a-8306-84c1bc912f41</id>
+        <masked>false</masked>
+        <name>button_kipActions_divNthOfType</name>
+    </variable>
+    <variable>
+        <defaultValue>'0'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>dbcec223-fe96-4217-a59a-b10820e3163d</id>
+        <masked>false</masked>
+        <name>button_kipActions_nth</name>
+    </variable>
+    <variable>
+        <defaultValue>'a'</defaultValue>
+        <description>Input data variable</description>
+        <id>d5db41fa-9e32-452f-bf14-e7401f385404</id>
+        <masked>false</masked>
+        <name>input_whatNeedsToBeDone</name>
+    </variable>
+    <variable>
+        <defaultValue>'process session data from data loader'</defaultValue>
+        <description>Input data variable</description>
+        <id>387929d0-19f1-49f2-8ce0-33fde4f6c3f7</id>
+        <masked>false</masked>
+        <name>input_whatNeedsToBeDone_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'5097'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>bbc8b166-df4f-417a-80a2-14db9fbfdad8</id>
+        <masked>false</masked>
+        <name>span_errorMessages_cardKip</name>
+    </variable>
+    <variable>
+        <defaultValue>'1'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>b5484420-c006-4f83-9bb2-1c0abe4834b6</id>
+        <masked>false</masked>
+        <name>span_errorMessages_divNthOfType</name>
+    </variable>
+    <variable>
+        <defaultValue>'2'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>f808c48d-c768-4f7c-9834-902087df13e0</id>
+        <masked>false</masked>
+        <name>span_errorMessages_divNthOfType_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'4'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>34e20871-9c57-4ee1-820d-8dd5b3c7f92a</id>
+        <masked>false</masked>
+        <name>span_errorMessages_divNthOfType_2</name>
+    </variable>
+    <variable>
+        <defaultValue>'1'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>3936764e-cb3b-4325-91f0-ec455da4f6b0</id>
+        <masked>false</masked>
+        <name>span_errorMessages_divNthOfType_3</name>
+    </variable>
+    <variable>
+        <defaultValue>'1'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>12fdcf7f-7329-47c7-8992-c83af494e889</id>
+        <masked>false</masked>
+        <name>span_errorMessages_liNthOfType</name>
+    </variable>
+    <variableLinks>
+        <testDataLinkId>f125e0e4-530f-41a6-a2b7-1f13a184b1fb</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>browse_focusedCommentId</value>
+        <variableId>5142ea0e-e9b9-4207-9cac-637594e1355a</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>f125e0e4-530f-41a6-a2b7-1f13a184b1fb</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>browse_id</value>
+        <variableId>b8271977-ae32-4961-9930-377331489460</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>f125e0e4-530f-41a6-a2b7-1f13a184b1fb</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>browse_page</value>
+        <variableId>abd06a3a-d565-4a53-831a-65fec531e932</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>f125e0e4-530f-41a6-a2b7-1f13a184b1fb</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>button_kipActions_class</value>
+        <variableId>a4c5fc1b-5490-410d-914f-d1c611198f72</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>f125e0e4-530f-41a6-a2b7-1f13a184b1fb</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>button_kipActions_divNthOfType</value>
+        <variableId>16aab8d0-69fc-424a-8306-84c1bc912f41</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>f125e0e4-530f-41a6-a2b7-1f13a184b1fb</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>button_kipActions_nth</value>
+        <variableId>dbcec223-fe96-4217-a59a-b10820e3163d</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>f125e0e4-530f-41a6-a2b7-1f13a184b1fb</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>input_whatNeedsToBeDone</value>
+        <variableId>d5db41fa-9e32-452f-bf14-e7401f385404</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>f125e0e4-530f-41a6-a2b7-1f13a184b1fb</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>input_whatNeedsToBeDone_1</value>
+        <variableId>387929d0-19f1-49f2-8ce0-33fde4f6c3f7</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>f125e0e4-530f-41a6-a2b7-1f13a184b1fb</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>span_errorMessages_cardKip</value>
+        <variableId>bbc8b166-df4f-417a-80a2-14db9fbfdad8</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>f125e0e4-530f-41a6-a2b7-1f13a184b1fb</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>span_errorMessages_divNthOfType</value>
+        <variableId>b5484420-c006-4f83-9bb2-1c0abe4834b6</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>f125e0e4-530f-41a6-a2b7-1f13a184b1fb</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>span_errorMessages_divNthOfType_1</value>
+        <variableId>f808c48d-c768-4f7c-9834-902087df13e0</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>f125e0e4-530f-41a6-a2b7-1f13a184b1fb</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>span_errorMessages_divNthOfType_2</value>
+        <variableId>34e20871-9c57-4ee1-820d-8dd5b3c7f92a</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>f125e0e4-530f-41a6-a2b7-1f13a184b1fb</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>span_errorMessages_divNthOfType_3</value>
+        <variableId>3936764e-cb3b-4325-91f0-ec455da4f6b0</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>f125e0e4-530f-41a6-a2b7-1f13a184b1fb</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>span_errorMessages_liNthOfType</value>
+        <variableId>12fdcf7f-7329-47c7-8992-c83af494e889</variableId>
+    </variableLinks>
+</TestCaseEntity>

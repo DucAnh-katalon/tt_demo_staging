@@ -1,0 +1,20 @@
+{
+    "steps": [
+        "step 1: Navigate to /browse/* with params (focusedCommentId, page)",
+        "step 2: Click on link activeSprints -> Navigate to page '/jira/software/c/projects/KIP/boards/*'",
+        "step 3: Click on span errorMessages (errorMessage)",
+        "step 4: Click on list softwareBoard",
+        "step 5: Click on button kipActions (kip4915)",
+        "step 6: Click on button createSubtask",
+        "step 7: Click on button changeStatus",
+        "step 8: Click on div willNotImplement",
+        "step 9: Click on input whatNeedsToBeDone",
+        "step 10: Enter input value in input whatNeedsToBeDone",
+        "step 11: Click on div createCancel",
+        "step 12: Click on input whatNeedsToBeDone",
+        "step 13: Enter input value in input whatNeedsToBeDone",
+        "step 14: Click on button create",
+        "step 15: Click on button close",
+        "step 16: Take full page screenshot as checkpoint"
+    ]
+}

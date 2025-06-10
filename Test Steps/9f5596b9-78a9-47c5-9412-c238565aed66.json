@@ -1,0 +1,27 @@
+{
+    "steps": [
+        "step 1: Navigate to /env/staging/aut/*/history/*",
+        "step 2: Click on div collapsedParams2",
+        "step 3: Interact with several dynamic objects by clicking on them",
+        "step 4: Access and view details of test execution multiple times.",
+        "step 5: Click on pre testExecutionDetails",
+        "step 6: Click on pre testExecutionDetails",
+        "step 7: Interact with dynamic objects in the application",
+        "step 8: Click on pre testExecutionDetails",
+        "step 9: Click on pre testExecutionDetails",
+        "step 10: Click on pre testExecutionDetails",
+        "step 11: Click on pre testExecutionDetails",
+        "step 12: Click on span dynamicObject (object8)",
+        "step 13: Click on span dynamicObject (object8)",
+        "step 14: Click on pre testExecutionDetails",
+        "step 15: Click on div collapsedFlows2",
+        "step 16: Click on span dynamicObject (false)",
+        "step 17: Click on span dynamicObject (false)",
+        "step 18: Click on pre testExecutionDetails",
+        "step 19: Click on pre testExecutionDetails",
+        "step 20: Click on link history2",
+        "step 21: Click on div collapsedFlows",
+        "step 22: Click on link history2 -> Navigate to page '/env/staging/aut/*/history'",
+        "step 23: Take full page screenshot as checkpoint"
+    ]
+}

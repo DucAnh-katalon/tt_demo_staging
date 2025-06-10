@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>6156f3ed-7cd1-4f88-b38d-dc54f31b9c86</id>
+        </flow>
+    </customField>
+    <description>Navigate to the Katalon Studio page, create a pull request, and manage various pull request actions while verifying navigation to the home page.</description>
+    <name>TC74-Create and Manage Pull Requests in Katalon Studio</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>493792c2-001c-4bf1-a316-9a9a3a9d8719</testCaseGuid>
+    <testDataLinks>
+        <combinationType>ONE</combinationType>
+        <id>801bafef-cbfe-4294-9714-672434c2c2d2</id>
+        <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+        </iterationEntity>
+        <testDataId>Data Files/AI-Generated/Tracking Environment/TC74-Create and Manage Pull Requests in Katalon Studio-test-data</testDataId>
+    </testDataLinks>
+    <variable>
+        <defaultValue>'re'</defaultValue>
+        <description>Input data variable</description>
+        <id>e5eb4b63-810b-4604-a672-591c02f09669</id>
+        <masked>false</masked>
+        <name>input_findBranch</name>
+    </variable>
+    <variable>
+        <defaultValue>'[KIP-5333] Revert remove html extention'</defaultValue>
+        <description>Input data variable</description>
+        <id>40e4d5aa-ce74-4db4-8ab2-4fc5bf2933b2</id>
+        <masked>false</masked>
+        <name>input_pullRequestTitle</name>
+    </variable>
+    <variable>
+        <defaultValue>'[KIP-5333] Revert remove html extension'</defaultValue>
+        <description>Input data variable</description>
+        <id>ce148fa6-a79f-40c6-ae76-3686fd54e493</id>
+        <masked>false</masked>
+        <name>input_pullRequestTitle_1</name>
+    </variable>
+    <variableLinks>
+        <testDataLinkId>801bafef-cbfe-4294-9714-672434c2c2d2</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>input_findBranch</value>
+        <variableId>e5eb4b63-810b-4604-a672-591c02f09669</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>801bafef-cbfe-4294-9714-672434c2c2d2</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>input_pullRequestTitle</value>
+        <variableId>40e4d5aa-ce74-4db4-8ab2-4fc5bf2933b2</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>801bafef-cbfe-4294-9714-672434c2c2d2</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>input_pullRequestTitle_1</value>
+        <variableId>ce148fa6-a79f-40c6-ae76-3686fd54e493</variableId>
+    </variableLinks>
+</TestCaseEntity>

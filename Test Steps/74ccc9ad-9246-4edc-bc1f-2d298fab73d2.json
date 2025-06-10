@@ -1,0 +1,28 @@
+{
+    "steps": [
+        "step 1: Navigate to /rec/component-page with params (accessLevel, action, clusterId, componentName, meetingId, originRequestUrl, requestFrom, sharelevel, useWhichPasswd)",
+        "step 2: Enter input value in input passcode2",
+        "step 3: Click on button watchRecording -> Navigate to page '/rec/play/*'",
+        "step 4: Click on div progressBar",
+        "step 5: Click on div progressBar",
+        "step 6: Click on video object",
+        "step 7: Click on div object",
+        "step 8: Click on div object",
+        "step 9: Click on div volumeSlider",
+        "step 10: Click on div volumeSlider",
+        "step 11: Click on div volumeSlider",
+        "step 12: Click on button pause",
+        "step 13: Click on div playbackControl",
+        "step 14: Click on video object",
+        "step 15: Click on div controlBar",
+        "step 16: Click on div controlBar",
+        "step 17: Click on div controlBar2",
+        "step 18: Click on div controlBar2",
+        "step 19: Click on video object",
+        "step 20: Click on div loadedStatus",
+        "step 21: Click on header pageTitle",
+        "step 22: Click on div controlBar3",
+        "step 23: Click on div progressControl -> Navigate to page ''",
+        "step 24: Take full page screenshot as checkpoint"
+    ]
+}

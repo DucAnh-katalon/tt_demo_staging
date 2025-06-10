@@ -1,0 +1,23 @@
+{
+    "steps": [
+        "step 1: Navigate to /katalon-studio/katalon-atg",
+        "step 2: Click on div recentPushes",
+        "step 3: Click on link compareAndPullRequest -> Navigate to page '/katalon-studio/katalon-atg/compare/*'",
+        "step 4: Enter input value in input pullRequestTitle",
+        "step 5: Click on summary baseRef",
+        "step 6: Enter input value in input findBranch",
+        "step 7: Click on link release",
+        "step 8: Click on input pullRequestTitle",
+        "step 9: Click on input pullRequestTitle",
+        "step 10: Enter input value in input pullRequestTitle",
+        "step 11: Click on button createPullRequest -> Navigate to page '/katalon-studio/katalon-atg/pull/*'",
+        "step 12: Click on link qualityAutonomousTestGeneration -> Navigate to page '/katalon-studio/katalon-atg/actions/runs/*/job/*'",
+        "step 13: Click on span importError",
+        "step 14: Click on span importError",
+        "step 15: Click on link pullRequests -> Navigate to page '/katalon-studio/katalon-atg/pulls'",
+        "step 16: Click on link revertHtmlExtension -> Navigate to page '/katalon-studio/katalon-atg/pull/*'",
+        "step 17: Click on link filesChanged3 -> Navigate to page '/katalon-studio/katalon-atg/pull/*/files'",
+        "step 18: Click on span originalFileLine -> Navigate to page ''",
+        "step 19: Take full page screenshot as checkpoint"
+    ]
+}

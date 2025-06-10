@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>3ce00db3-d49c-47a8-b47b-8712434d1d3a</id>
+        </flow>
+    </customField>
+    <description>Navigate to the home page, access the staging environment, and attempt to log in multiple times. Verify the request failure and log out.</description>
+    <name>TC107-Navigate and Verify Staging Environment Access</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>3bea071d-73b2-4a4c-9d0c-b6ceab56f9be</testCaseGuid>
+</TestCaseEntity>

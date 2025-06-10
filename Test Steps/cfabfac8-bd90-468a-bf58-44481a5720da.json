@@ -1,0 +1,27 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Click on link videoPreview -> Navigate to page '/watch'",
+        "step 3: Hover over div description",
+        "step 4: Hover over div watch",
+        "step 5: Hover over div slider",
+        "step 6: Hover over div watch2",
+        "step 7: Hover over div watch3",
+        "step 8: Hover over div watch4",
+        "step 9: Hover over div watch5",
+        "step 10: Click on link youtubeHome -> Navigate to page '/'",
+        "step 11: Click on link tuyenTapPhatTatCa -> Navigate to page '/watch'",
+        "step 12: Click on button skipActions (skip)",
+        "step 13: Hover over div description2",
+        "step 14: Click on link youtubeHome -> Navigate to page '/'",
+        "step 15: Hover over link videoTitle",
+        "step 16: Hover over link tiepTheo",
+        "step 17: Click on button closeMiniplayer",
+        "step 18: Click on link thumbnailLinks (thumbnail) -> Navigate to page '/watch'",
+        "step 19: Hover over div object",
+        "step 20: Click on div object2",
+        "step 21: Click on button confirm",
+        "step 22: Press key Enter on div videoPlayer -> Navigate to page ''",
+        "step 23: Take full page screenshot as checkpoint"
+    ]
+}

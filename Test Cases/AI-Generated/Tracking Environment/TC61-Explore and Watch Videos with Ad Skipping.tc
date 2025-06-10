@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>c3543fc4-3770-4dfa-b5c7-36989ba199b2</id>
+        </flow>
+    </customField>
+    <description>Navigate to the home page, explore video collections, watch videos, and skip ads while interacting with the video player.</description>
+    <name>TC61-Explore and Watch Videos with Ad Skipping</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>3c1dfe65-bdaa-4356-ad47-ca1990dec92e</testCaseGuid>
+    <testDataLinks>
+        <combinationType>ONE</combinationType>
+        <id>97968cff-29a4-4867-9e49-f25f361e8de7</id>
+        <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+        </iterationEntity>
+        <testDataId>Data Files/AI-Generated/Tracking Environment/TC61-Explore and Watch Videos with Ad Skipping-test-data</testDataId>
+    </testDataLinks>
+    <variable>
+        <defaultValue>'ytp-skip-ad-button'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>b5b5ae33-eb1d-4c4f-b647-e195d4d7fde1</id>
+        <masked>false</masked>
+        <name>button_skipActions_class</name>
+    </variable>
+    <variable>
+        <defaultValue>'skip-button\\\\:x'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>0f3ce15d-1166-45e6-9f8d-2bcefe760664</id>
+        <masked>false</masked>
+        <name>button_skipActions_id</name>
+    </variable>
+    <variable>
+        <defaultValue>'10'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>2cfcd4c4-56d8-48d5-af06-8fc2709e62f6</id>
+        <masked>false</masked>
+        <name>link_thumbnailLinks_ytdRichItemRendererNthChild</name>
+    </variable>
+    <variable>
+        <defaultValue>'10'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>6e28f9a9-723c-402e-9d2d-60d125fba0b6</id>
+        <masked>false</masked>
+        <name>link_thumbnailLinks_ytdRichItemRendererNthOfType</name>
+    </variable>
+    <variable>
+        <defaultValue>'3:41'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>80c42c4e-953d-4982-9468-eef5f49f7668</id>
+        <masked>false</masked>
+        <name>link_watchVideo_internalHasText</name>
+    </variable>
+    <variable>
+        <defaultValue>'4'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>3fc30636-a27b-4528-8aec-ef9ba1087e58</id>
+        <masked>false</masked>
+        <name>link_watchVideo_ytLockupViewModelNthOfType</name>
+    </variable>
+    <variableLinks>
+        <testDataLinkId>97968cff-29a4-4867-9e49-f25f361e8de7</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>button_skipActions_class</value>
+        <variableId>b5b5ae33-eb1d-4c4f-b647-e195d4d7fde1</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>97968cff-29a4-4867-9e49-f25f361e8de7</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>button_skipActions_id</value>
+        <variableId>0f3ce15d-1166-45e6-9f8d-2bcefe760664</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>97968cff-29a4-4867-9e49-f25f361e8de7</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_thumbnailLinks_ytdRichItemRendererNthChild</value>
+        <variableId>2cfcd4c4-56d8-48d5-af06-8fc2709e62f6</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>97968cff-29a4-4867-9e49-f25f361e8de7</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_thumbnailLinks_ytdRichItemRendererNthOfType</value>
+        <variableId>6e28f9a9-723c-402e-9d2d-60d125fba0b6</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>97968cff-29a4-4867-9e49-f25f361e8de7</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_watchVideo_internalHasText</value>
+        <variableId>80c42c4e-953d-4982-9468-eef5f49f7668</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>97968cff-29a4-4867-9e49-f25f361e8de7</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_watchVideo_ytLockupViewModelNthOfType</value>
+        <variableId>3fc30636-a27b-4528-8aec-ef9ba1087e58</variableId>
+    </variableLinks>
+</TestCaseEntity>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>9a04a97e-5f6d-4c3b-9e95-2a46532539e1</id>
+        </flow>
+    </customField>
+    <description>Navigate to the dashboard and access quality control links. Manage site details and upload data through various sections.</description>
+    <name>TC11-Manage Site Details and Upload Data in Quality Control</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>9ce85dbe-0ba6-4d5e-972c-b758b5b9dc4d</testCaseGuid>
+    <testDataLinks>
+        <combinationType>ONE</combinationType>
+        <id>b0191150-d575-422b-b1b5-d0f152994d8b</id>
+        <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+        </iterationEntity>
+        <testDataId>Data Files/AI-Generated/Tracking Environment/TC11-Manage Site Details and Upload Data in Quality Control-test-data</testDataId>
+    </testDataLinks>
+    <variable>
+        <defaultValue>'Data Files/AI-Generated/Tracking Environment/Common/selectStudyOrOrganizationAndManageSite-test-data'</defaultValue>
+        <description>Common function data file id</description>
+        <id>b5fec632-9c7d-4071-ab15-6b761cffe4a2</id>
+        <masked>false</masked>
+        <name>data_path_0</name>
+    </variable>
+    <variable>
+        <defaultValue>'Data Files/AI-Generated/Tracking Environment/Common/navigateToSiteManagementAndUploadSections-test-data'</defaultValue>
+        <description>Common function data file id</description>
+        <id>3f07ed27-902b-4b50-bc35-5d3374db78ff</id>
+        <masked>false</masked>
+        <name>data_path_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'5'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>9cd233cd-ae8e-4ae8-9860-ccadaabdd107</id>
+        <masked>false</masked>
+        <name>div_uploadSections_trNthChild</name>
+    </variable>
+    <variable>
+        <defaultValue>'4'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>91d69522-155f-4fab-a71a-39480f19acb6</id>
+        <masked>false</masked>
+        <name>div_uploadSections_trNthChild_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'5'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>590d40c5-b595-4bc1-bfb1-4a5d84da9797</id>
+        <masked>false</masked>
+        <name>div_uploadSections_trNthOfType</name>
+    </variable>
+    <variable>
+        <defaultValue>'4'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>45f79853-9daa-4d83-bd0d-bbd503bdfe4e</id>
+        <masked>false</masked>
+        <name>div_uploadSections_trNthOfType_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'1'</defaultValue>
+        <description>Common function data row index</description>
+        <id>5963c623-fddb-4f9f-b7f4-c6268e69155a</id>
+        <masked>false</masked>
+        <name>index_0</name>
+    </variable>
+    <variable>
+        <defaultValue>'1'</defaultValue>
+        <description>Common function data row index</description>
+        <id>3f4c9d41-a330-497c-bdf4-f49e8c575cc1</id>
+        <masked>false</masked>
+        <name>index_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'Uploader'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>84468513-3362-47d8-a7d1-c7e56b6dc547</id>
+        <masked>false</masked>
+        <name>link_qualityControlLinks_aTitle</name>
+    </variable>
+    <variable>
+        <defaultValue>'1'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>504d2298-4bc4-4c0a-9f79-1dbca1760d6c</id>
+        <masked>false</masked>
+        <name>link_qualityControlLinks_liNthOfType</name>
+    </variable>
+    <variable>
+        <defaultValue>'Role Management'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>daac130e-c593-485d-932e-871937c9571b</id>
+        <masked>false</masked>
+        <name>link_userManagement_internalText</name>
+    </variable>
+    <variableLinks>
+        <testDataLinkId>b0191150-d575-422b-b1b5-d0f152994d8b</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>data_path_0</value>
+        <variableId>b5fec632-9c7d-4071-ab15-6b761cffe4a2</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>b0191150-d575-422b-b1b5-d0f152994d8b</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>data_path_1</value>
+        <variableId>3f07ed27-902b-4b50-bc35-5d3374db78ff</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>b0191150-d575-422b-b1b5-d0f152994d8b</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>div_uploadSections_trNthChild</value>
+        <variableId>9cd233cd-ae8e-4ae8-9860-ccadaabdd107</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>b0191150-d575-422b-b1b5-d0f152994d8b</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>div_uploadSections_trNthChild_1</value>
+        <variableId>91d69522-155f-4fab-a71a-39480f19acb6</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>b0191150-d575-422b-b1b5-d0f152994d8b</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>div_uploadSections_trNthOfType</value>
+        <variableId>590d40c5-b595-4bc1-bfb1-4a5d84da9797</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>b0191150-d575-422b-b1b5-d0f152994d8b</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>div_uploadSections_trNthOfType_1</value>
+        <variableId>45f79853-9daa-4d83-bd0d-bbd503bdfe4e</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>b0191150-d575-422b-b1b5-d0f152994d8b</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>index_0</value>
+        <variableId>5963c623-fddb-4f9f-b7f4-c6268e69155a</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>b0191150-d575-422b-b1b5-d0f152994d8b</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>index_1</value>
+        <variableId>3f4c9d41-a330-497c-bdf4-f49e8c575cc1</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>b0191150-d575-422b-b1b5-d0f152994d8b</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_qualityControlLinks_aTitle</value>
+        <variableId>84468513-3362-47d8-a7d1-c7e56b6dc547</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>b0191150-d575-422b-b1b5-d0f152994d8b</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_qualityControlLinks_liNthOfType</value>
+        <variableId>504d2298-4bc4-4c0a-9f79-1dbca1760d6c</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>b0191150-d575-422b-b1b5-d0f152994d8b</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_userManagement_internalText</value>
+        <variableId>daac130e-c593-485d-932e-871937c9571b</variableId>
+    </variableLinks>
+</TestCaseEntity>

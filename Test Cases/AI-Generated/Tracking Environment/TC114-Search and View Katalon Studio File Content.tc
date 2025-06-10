@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>10a86319-5ef9-43ad-a43b-09d4e917209b</id>
+        </flow>
+    </customField>
+    <description>Navigate to Katalon Studio, search for a repository, and view file content multiple times. Verify access to the home page.</description>
+    <name>TC114-Search and View Katalon Studio File Content</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>66d1d2d7-d26a-43a0-832d-3f101c327ebb</testCaseGuid>
+    <testDataLinks>
+        <combinationType>ONE</combinationType>
+        <id>9f1373c0-1175-4976-a503-9c4777c021fa</id>
+        <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+        </iterationEntity>
+        <testDataId>Data Files/AI-Generated/Tracking Environment/TC114-Search and View Katalon Studio File Content-test-data</testDataId>
+    </testDataLinks>
+    <variable>
+        <defaultValue>'flow'</defaultValue>
+        <description>Input data variable</description>
+        <id>b4fa4802-397a-4be5-9fd4-6fb534ee68d1</id>
+        <masked>false</masked>
+        <name>input_searchRepository</name>
+    </variable>
+    <variableLinks>
+        <testDataLinkId>9f1373c0-1175-4976-a503-9c4777c021fa</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>input_searchRepository</value>
+        <variableId>b4fa4802-397a-4be5-9fd4-6fb534ee68d1</variableId>
+    </variableLinks>
+</TestCaseEntity>

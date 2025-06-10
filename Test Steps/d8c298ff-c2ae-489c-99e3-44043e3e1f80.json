@@ -1,0 +1,17 @@
+{
+    "steps": [
+        "step 1: Navigate to /jira/software/c/projects/KIP/boards/* with params (assignee)",
+        "step 2: Click on link releases -> Navigate to page '/projects/KIP'",
+        "step 3: Click on td description",
+        "step 4: Click on td description",
+        "step 5: Click on td description",
+        "step 6: Click on button trueTestKanbanBoard",
+        "step 7: Hover over link timeline",
+        "step 8: Click on link trueTestScrumBoard -> Navigate to page '/jira/software/c/projects/KIP/boards/*'",
+        "step 9: Click on button showMore",
+        "step 10: Click on button showMore",
+        "step 11: Click on span errorMessages (enhanceUploadMechanism)",
+        "step 12: Click on div issueModal -> Navigate to page ''",
+        "step 13: Take full page screenshot as checkpoint"
+    ]
+}

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>cfabfac8-bd90-468a-bf58-44481a5720da</id>
+        </flow>
+    </customField>
+    <description>Navigate to the video preview page, interact with various elements, and verify navigation back to the home page after exploring video options.</description>
+    <name>TC25-Explore Video Preview Features and Navigation</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>5ddc85a1-28aa-4266-9fdf-f57cf74fc119</testCaseGuid>
+    <testDataLinks>
+        <combinationType>ONE</combinationType>
+        <id>ff0f9e44-3caf-488b-867f-36fa74d2559f</id>
+        <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+        </iterationEntity>
+        <testDataId>Data Files/AI-Generated/Tracking Environment/TC25-Explore Video Preview Features and Navigation-test-data</testDataId>
+    </testDataLinks>
+    <variable>
+        <defaultValue>'ytp-skip-ad-button'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>8d3aeb2d-a5dd-4c7a-87ed-99cfa2e56b6e</id>
+        <masked>false</masked>
+        <name>button_skipActions_class</name>
+    </variable>
+    <variable>
+        <defaultValue>'skip-button\\\\:15'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>17848387-f49c-4007-b36f-77ec6af84aa7</id>
+        <masked>false</masked>
+        <name>button_skipActions_id</name>
+    </variable>
+    <variable>
+        <defaultValue>'12'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>058a68c5-7516-45cb-b788-7b660b05c8d4</id>
+        <masked>false</masked>
+        <name>link_thumbnailLinks_ytdRichItemRendererNthChild</name>
+    </variable>
+    <variable>
+        <defaultValue>'12'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>0e1b3afa-d9bb-45f4-8632-d25a6590af12</id>
+        <masked>false</masked>
+        <name>link_thumbnailLinks_ytdRichItemRendererNthOfType</name>
+    </variable>
+    <variableLinks>
+        <testDataLinkId>ff0f9e44-3caf-488b-867f-36fa74d2559f</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>button_skipActions_class</value>
+        <variableId>8d3aeb2d-a5dd-4c7a-87ed-99cfa2e56b6e</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>ff0f9e44-3caf-488b-867f-36fa74d2559f</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>button_skipActions_id</value>
+        <variableId>17848387-f49c-4007-b36f-77ec6af84aa7</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>ff0f9e44-3caf-488b-867f-36fa74d2559f</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_thumbnailLinks_ytdRichItemRendererNthChild</value>
+        <variableId>058a68c5-7516-45cb-b788-7b660b05c8d4</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>ff0f9e44-3caf-488b-867f-36fa74d2559f</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_thumbnailLinks_ytdRichItemRendererNthOfType</value>
+        <variableId>0e1b3afa-d9bb-45f4-8632-d25a6590af12</variableId>
+    </variableLinks>
+</TestCaseEntity>

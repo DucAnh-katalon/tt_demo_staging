@@ -1,0 +1,8 @@
+{
+    "steps": [
+        "step 1: Navigate to /project/*/tests/test-cases with params (folder, testProject)",
+        "step 2: Hover over span object",
+        "step 3: Create a new item and check token status",
+        "step 4: Take full page screenshot as checkpoint"
+    ]
+}

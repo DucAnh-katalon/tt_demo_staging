@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>df7ddb64-99b9-4546-b8b3-4e353fff060b</id>
+        </flow>
+    </customField>
+    <description>Browse to add and edit descriptions, manage links, and save changes, ensuring navigation back to the home page.</description>
+    <name>TC102-Verify Description Management and Navigation to Home Page</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>a40dfbd5-be6f-452e-adc8-4e5869bfe211</testCaseGuid>
+    <testDataLinks>
+        <combinationType>ONE</combinationType>
+        <id>32337aae-4e87-4d4e-91e1-dbdb4122a354</id>
+        <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+        </iterationEntity>
+        <testDataId>Data Files/AI-Generated/Tracking Environment/TC102-Verify Description Management and Navigation to Home Page-test-data</testDataId>
+    </testDataLinks>
+    <variable>
+        <defaultValue>'KIP-5102'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>b5be961b-8cd4-4cd4-9389-eb2cc8a7fdd0</id>
+        <masked>false</masked>
+        <name>browse_id</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>8ed043b9-0da7-41ec-92a8-d08ebf94dd72</id>
+        <masked>false</masked>
+        <name>div_descriptionArea2</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>b0f919f5-2626-482a-94b9-a73496ad221d</id>
+        <masked>false</masked>
+        <name>div_descriptionArea3</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>ee4acd0b-7fda-414b-a73c-598c2c90d31b</id>
+        <masked>false</masked>
+        <name>div_descriptionArea4</name>
+    </variable>
+    <variableLinks>
+        <testDataLinkId>32337aae-4e87-4d4e-91e1-dbdb4122a354</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>browse_id</value>
+        <variableId>b5be961b-8cd4-4cd4-9389-eb2cc8a7fdd0</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>32337aae-4e87-4d4e-91e1-dbdb4122a354</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>div_descriptionArea2</value>
+        <variableId>8ed043b9-0da7-41ec-92a8-d08ebf94dd72</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>32337aae-4e87-4d4e-91e1-dbdb4122a354</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>div_descriptionArea3</value>
+        <variableId>b0f919f5-2626-482a-94b9-a73496ad221d</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>32337aae-4e87-4d4e-91e1-dbdb4122a354</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>div_descriptionArea4</value>
+        <variableId>ee4acd0b-7fda-414b-a73c-598c2c90d31b</variableId>
+    </variableLinks>
+</TestCaseEntity>

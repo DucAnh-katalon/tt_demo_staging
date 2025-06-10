@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>751f1659-87d9-4950-a109-0cdde98dcb1b</id>
+        </flow>
+    </customField>
+    <description>Access project overview, interact with various elements, perform admin functions, and verify navigation back to the home page.</description>
+    <name>TC48-Navigate Project Overview and Admin Functions</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>feaadc70-f3c2-4e0f-acd0-cde63a5e6a66</testCaseGuid>
+    <testDataLinks>
+        <combinationType>ONE</combinationType>
+        <id>f9902475-e58c-4420-948c-6f34b56da887</id>
+        <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+        </iterationEntity>
+        <testDataId>Data Files/AI-Generated/Tracking Environment/TC48-Navigate Project Overview and Admin Functions-test-data</testDataId>
+    </testDataLinks>
+    <variable>
+        <defaultValue>'MuiButtonBase-root\\\\ MuiIconButton-root\\\\ MuiIconButton-sizeMedium\\\\ MuiAutocomplete-popupIndicator\\\\ css-18sc3m3'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>f994f92e-a9c1-4b03-abbd-a9fc2aa994cd</id>
+        <masked>false</masked>
+        <name>button_openClear_class</name>
+    </variable>
+    <variable>
+        <defaultValue>'svg-inline--fa\\\\ fa-angle-down\\\\ MuiIcon-root\\\\ css-1s7lwsc'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>b74764bd-1359-4247-a33b-caf55e6acbb8</id>
+        <masked>false</masked>
+        <name>button_openClear_class_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'svg-inline--fa\\\\ fa-xmark\\\\ MuiIcon-root\\\\ css-1s7lwsc'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>454473d6-f308-437a-be11-3973e0bdbf35</id>
+        <masked>false</masked>
+        <name>button_openClear_class_1_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'Open'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>c5b6dfc2-69ba-4b8b-9f5c-0c83f60698ae</id>
+        <masked>false</masked>
+        <name>button_openClear_internalLabel</name>
+    </variable>
+    <variable>
+        <defaultValue>'Clear'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>68a75ed2-60ff-4843-b961-4868a1024b14</id>
+        <masked>false</masked>
+        <name>button_openClear_internalLabel_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'adm'</defaultValue>
+        <description>Input data variable</description>
+        <id>0484e5ce-8589-4610-b663-623f88c60f40</id>
+        <masked>false</masked>
+        <name>input_searchProject</name>
+    </variable>
+    <variable>
+        <defaultValue>'a'</defaultValue>
+        <description>Input data variable</description>
+        <id>608a810b-b054-46ba-a589-aa87294250a8</id>
+        <masked>false</masked>
+        <name>input_text</name>
+    </variable>
+    <variable>
+        <defaultValue>'{"global":{"timeRange":{"value":"DATEADD(DATETIME(\\"now\\"), -28, day) : now","groupBy":["P1W"]}}}'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>badd1d43-7dd6-41bf-afdc-29747610f37f</id>
+        <masked>false</masked>
+        <name>overview_filter</name>
+    </variable>
+    <variable>
+        <defaultValue>'466499'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>87fb5e08-3060-413c-8f9c-b4f3271b58e5</id>
+        <masked>false</masked>
+        <name>project_id</name>
+    </variable>
+    <variableLinks>
+        <testDataLinkId>f9902475-e58c-4420-948c-6f34b56da887</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>button_openClear_class</value>
+        <variableId>f994f92e-a9c1-4b03-abbd-a9fc2aa994cd</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>f9902475-e58c-4420-948c-6f34b56da887</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>button_openClear_class_1</value>
+        <variableId>b74764bd-1359-4247-a33b-caf55e6acbb8</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>f9902475-e58c-4420-948c-6f34b56da887</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>button_openClear_class_1_1</value>
+        <variableId>454473d6-f308-437a-be11-3973e0bdbf35</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>f9902475-e58c-4420-948c-6f34b56da887</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>button_openClear_internalLabel</value>
+        <variableId>c5b6dfc2-69ba-4b8b-9f5c-0c83f60698ae</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>f9902475-e58c-4420-948c-6f34b56da887</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>button_openClear_internalLabel_1</value>
+        <variableId>68a75ed2-60ff-4843-b961-4868a1024b14</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>f9902475-e58c-4420-948c-6f34b56da887</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>input_searchProject</value>
+        <variableId>0484e5ce-8589-4610-b663-623f88c60f40</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>f9902475-e58c-4420-948c-6f34b56da887</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>input_text</value>
+        <variableId>608a810b-b054-46ba-a589-aa87294250a8</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>f9902475-e58c-4420-948c-6f34b56da887</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>overview_filter</value>
+        <variableId>badd1d43-7dd6-41bf-afdc-29747610f37f</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>f9902475-e58c-4420-948c-6f34b56da887</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>project_id</value>
+        <variableId>87fb5e08-3060-413c-8f9c-b4f3271b58e5</variableId>
+    </variableLinks>
+</TestCaseEntity>

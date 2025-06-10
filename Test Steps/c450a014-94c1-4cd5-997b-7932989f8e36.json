@@ -3,13 +3,13 @@
         "step 1: Navigate to /project/*/home/overview with params (filter)",
         "step 2: Hover over link tests2",
         "step 3: Click on link testCases2 -> Navigate to page '/project/*/tests/test-cases'",
-        "step 4: Click on link navigateToTest (navigateToTest2) -> Navigate to page '/project/*/tests/test-cases/*'",
+        "step 4: Click on link testCaseNavigation (navigateToTest2) -> Navigate to page '/project/*/tests/test-cases/*'",
         "step 5: Click on button regenerateSteps",
         "step 6: Click on button cancel",
-        "step 7: Click on button scriptsSteps (scripts)",
-        "step 8: Click on button scriptsSteps (steps)",
-        "step 9: Click on div preConditionButton",
-        "step 10: Click on div object5 -> Navigate to page ''",
+        "step 7: Click on button testCaseActions (scripts)",
+        "step 8: Click on button testCaseActions (steps)",
+        "step 9: Click on div preCondition",
+        "step 10: Click on div object4 -> Navigate to page ''",
         "step 11: Take full page screenshot as checkpoint"
     ]
 }

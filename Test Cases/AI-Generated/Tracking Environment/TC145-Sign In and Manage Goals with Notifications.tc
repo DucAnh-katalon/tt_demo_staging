@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>f51d6451-6a4f-4d3a-a490-c2f9d1b70754</id>
+        </flow>
+    </customField>
+    <description>Sign in using company SSO, access past reviews, manage goals, and verify the home page after interacting with notifications and deadlines.</description>
+    <name>TC145-Sign In and Manage Goals with Notifications</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>17628c67-3fb5-4bfe-ba05-cfd7624a31bc</testCaseGuid>
+    <testDataLinks>
+        <combinationType>ONE</combinationType>
+        <id>3be7448d-c10c-44e2-999a-c7a31f54f3ad</id>
+        <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+        </iterationEntity>
+        <testDataId>Data Files/AI-Generated/Tracking Environment/TC145-Sign In and Manage Goals with Notifications-test-data</testDataId>
+    </testDataLinks>
+    <variable>
+        <defaultValue>'{{date_time}}'</defaultValue>
+        <description>Input data variable</description>
+        <id>ba520718-c3f0-4421-942a-35d33d72c161</id>
+        <masked>false</masked>
+        <name>input_deadline</name>
+    </variable>
+    <variable>
+        <defaultValue>'{{date_time}}'</defaultValue>
+        <description>Input data variable</description>
+        <id>185af679-c4f3-43be-8950-94d27b9d9282</id>
+        <masked>false</masked>
+        <name>input_deadline2</name>
+    </variable>
+    <variableLinks>
+        <testDataLinkId>3be7448d-c10c-44e2-999a-c7a31f54f3ad</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>input_deadline</value>
+        <variableId>ba520718-c3f0-4421-942a-35d33d72c161</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>3be7448d-c10c-44e2-999a-c7a31f54f3ad</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>input_deadline2</value>
+        <variableId>185af679-c4f3-43be-8950-94d27b9d9282</variableId>
+    </variableLinks>
+</TestCaseEntity>
