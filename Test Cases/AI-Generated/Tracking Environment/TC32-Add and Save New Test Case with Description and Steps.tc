@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>774be2d6-6c12-4470-9440-e7bc1c707af6</id>
+        </flow>
+    </customField>
+    <description>Navigate to project overview, add a new test case with description and steps, regenerate steps, and verify the home page.</description>
+    <name>TC32-Add and Save New Test Case with Description and Steps</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>9c0cd1ac-6120-4e54-82af-931216375413</testCaseGuid>
+    <testDataLinks>
+        <combinationType>ONE</combinationType>
+        <id>89457992-c4f6-4c89-90f3-88cc60ce35be</id>
+        <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+        </iterationEntity>
+        <testDataId>Data Files/AI-Generated/Tracking Environment/TC32-Add and Save New Test Case with Description and Steps-test-data</testDataId>
+    </testDataLinks>
+    <variable>
+        <defaultValue>'MuiButtonBase-root\\\\ MuiButton-root\\\\ MuiButton-contained\\\\ MuiButton-containedBlue500\\\\ MuiButton-sizeMedium\\\\ MuiButton-containedSizeMedium\\\\ MuiButton-colorBlue500\\\\ MuiButton-disableElevation\\\\ MuiButton-root\\\\ MuiButton-contained\\\\ MuiButton-containedBlue500\\\\ MuiButton-sizeMedium\\\\ MuiButton-containedSizeMedium\\\\ MuiButton-colorBlue500\\\\ MuiButton-disableElevation\\\\ KuiButton-positive\\\\ css-1bxzbze'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>abdb85da-cdb7-48a4-a2e9-dba315176178</id>
+        <masked>false</masked>
+        <name>button_saveOverwrite_class</name>
+    </variable>
+    <variable>
+        <defaultValue>'MuiPaper-root\\\\ MuiPaper-elevation\\\\ MuiPaper-rounded\\\\ MuiPaper-elevation24\\\\ MuiDialog-paper\\\\ MuiDialog-paperScrollPaper\\\\ MuiDialog-paperWidthSm\\\\ css-ungpb8\\"] [class=\\"MuiButtonBase-root\\\\ MuiButton-root\\\\ MuiButton-contained\\\\ MuiButton-containedBlue500\\\\ MuiButton-sizeMedium\\\\ MuiButton-containedSizeMedium\\\\ MuiButton-colorBlue500\\\\ MuiButton-disableElevation\\\\ MuiButton-root\\\\ MuiButton-contained\\\\ MuiButton-containedBlue500\\\\ MuiButton-sizeMedium\\\\ MuiButton-containedSizeMedium\\\\ MuiButton-colorBlue500\\\\ MuiButton-disableElevation\\\\ KuiButton-positive\\\\ css-1bxzbze'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>dcc3e66d-c0f6-4e34-87fb-5f2002e40119</id>
+        <masked>false</masked>
+        <name>button_saveOverwrite_class_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'generate-steps-dialog-save-button'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>739d5381-7bfe-4e27-98f1-38966381df93</id>
+        <masked>false</masked>
+        <name>button_saveOverwrite_dataTestid</name>
+    </variable>
+    <variable>
+        <defaultValue>'generate-steps-dialog-confirmation-overwrite-button'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>4529d5ac-7868-4101-8587-7977fd1c3609</id>
+        <masked>false</masked>
+        <name>button_saveOverwrite_dataTestid_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'Data Files/AI-Generated/Tracking Environment/Common/navigateToTestCaseAndAddDescription-test-data'</defaultValue>
+        <description>Common function data file id</description>
+        <id>2adcce15-ac41-4b42-986d-8ec54680be59</id>
+        <masked>false</masked>
+        <name>data_path_0</name>
+    </variable>
+    <variable>
+        <defaultValue>'1'</defaultValue>
+        <description>Common function data row index</description>
+        <id>8a549626-6126-41fc-9dc9-20778f96d8fc</id>
+        <masked>false</masked>
+        <name>index_0</name>
+    </variable>
+    <variable>
+        <defaultValue>'{{name}} 1'</defaultValue>
+        <description>Input data variable</description>
+        <id>9bed7d7b-c0e5-4ae0-b1a3-29dae5ae3b13</id>
+        <masked>false</masked>
+        <name>input_addTestCase</name>
+    </variable>
+    <variable>
+        <defaultValue>'{"global":{"timeRange":{"value":"DATEADD(DATETIME(\\"now\\"), -28, day) : now","groupBy":["P1W"]}}}'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>24a0f978-09f0-4a22-9361-e618ec032207</id>
+        <masked>false</masked>
+        <name>overview_filter</name>
+    </variable>
+    <variable>
+        <defaultValue>'466499'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>7760dc55-cf59-4d02-982f-50cafb0b5dc0</id>
+        <masked>false</masked>
+        <name>project_id</name>
+    </variable>
+    <variable>
+        <defaultValue>'a'</defaultValue>
+        <description>Input data variable</description>
+        <id>74566fc7-d47a-40b6-8ba6-f10e73b93867</id>
+        <masked>false</masked>
+        <name>textarea_manualEditor</name>
+    </variable>
+    <variableLinks>
+        <testDataLinkId>89457992-c4f6-4c89-90f3-88cc60ce35be</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>button_saveOverwrite_class</value>
+        <variableId>abdb85da-cdb7-48a4-a2e9-dba315176178</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>89457992-c4f6-4c89-90f3-88cc60ce35be</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>button_saveOverwrite_class_1</value>
+        <variableId>dcc3e66d-c0f6-4e34-87fb-5f2002e40119</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>89457992-c4f6-4c89-90f3-88cc60ce35be</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>button_saveOverwrite_dataTestid</value>
+        <variableId>739d5381-7bfe-4e27-98f1-38966381df93</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>89457992-c4f6-4c89-90f3-88cc60ce35be</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>button_saveOverwrite_dataTestid_1</value>
+        <variableId>4529d5ac-7868-4101-8587-7977fd1c3609</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>89457992-c4f6-4c89-90f3-88cc60ce35be</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>data_path_0</value>
+        <variableId>2adcce15-ac41-4b42-986d-8ec54680be59</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>89457992-c4f6-4c89-90f3-88cc60ce35be</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>index_0</value>
+        <variableId>8a549626-6126-41fc-9dc9-20778f96d8fc</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>89457992-c4f6-4c89-90f3-88cc60ce35be</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>input_addTestCase</value>
+        <variableId>9bed7d7b-c0e5-4ae0-b1a3-29dae5ae3b13</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>89457992-c4f6-4c89-90f3-88cc60ce35be</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>overview_filter</value>
+        <variableId>24a0f978-09f0-4a22-9361-e618ec032207</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>89457992-c4f6-4c89-90f3-88cc60ce35be</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>project_id</value>
+        <variableId>7760dc55-cf59-4d02-982f-50cafb0b5dc0</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>89457992-c4f6-4c89-90f3-88cc60ce35be</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>textarea_manualEditor</value>
+        <variableId>74566fc7-d47a-40b6-8ba6-f10e73b93867</variableId>
+    </variableLinks>
+</TestCaseEntity>

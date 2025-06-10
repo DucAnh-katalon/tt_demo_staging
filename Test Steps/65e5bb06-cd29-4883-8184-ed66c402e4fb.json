@@ -1,0 +1,23 @@
+{
+    "steps": [
+        "step 1: Navigate to /realms/katalon/protocol/openid-connect/auth with params (client id, code challenge, code challenge method, redirect uri, response type, scope, state)",
+        "step 2: Click on link back -> Navigate to page '/realms/katalon/login-actions/authenticate'",
+        "step 3: Click on link continueWithEmail",
+        "step 4: Login",
+        "step 5: Click on link continueWithEmail",
+        "step 6: Click on div loginWithEmail",
+        "step 7: Login",
+        "step 8: Click on link continueWithEmail",
+        "step 9: Login",
+        "step 10: Click on label katalonAi",
+        "step 11: Click on input continue",
+        "step 12: Click on input continue",
+        "step 13: Click on input continue",
+        "step 14: Click on label katalonAi",
+        "step 15: Click on input continue",
+        "step 16: Click on input continue",
+        "step 17: Click on input continue",
+        "step 18: Click on label katalonAi2 -> Navigate to page ''",
+        "step 19: Take full page screenshot as checkpoint"
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "steps": [
+        "step 1: Navigate to /jira/software/c/projects/KIP/boards/*/backlog",
+        "step 2: Click on label assigneeAvatar (assigneeAvatar)",
+        "step 3: Click on label assigneeAvatar (assigneeAvatar)",
+        "step 4: Click on label assigneeAvatar (assigneeAvatar)",
+        "step 5: Click on button changeStatus",
+        "step 6: Hover over button newChangeStatus",
+        "step 7: Click on div readyForTest",
+        "step 8: Click on button editAssignee (editAssignee)",
+        "step 9: Click on div options (option)",
+        "step 10: Click on label assigneeAvatar (assigneeAvatar)",
+        "step 11: Click on label assigneeAvatar (assigneeAvatar)",
+        "step 12: Click on label assigneeAvatar (assigneeAvatar)",
+        "step 13: Click on button epic",
+        "step 14: Click on div sessionizeDataFlowModel",
+        "step 15: Click on div softwareBacklogHeader",
+        "step 16: Click on button editAssignee (editAssignee2)",
+        "step 17: Enter input value in input searchAssignee",
+        "step 18: Hover over div searchResults",
+        "step 19: Click on div options (option2)",
+        "step 20: Click on link tableSessionize (createTableSessionize)",
+        "step 21: Click on span addDescription",
+        "step 22: Enter input value in div descriptionArea",
+        "step 23: Click on div resizeHandle",
+        "step 24: Hover over span ahaIntegration",
+        "step 25: Click on link currentIssue -> Navigate to page ''",
+        "step 26: Take full page screenshot as checkpoint"
+    ]
+}

@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>8f7655dc-504f-4185-8833-0ae431ce36a0</id>
+        </flow>
+    </customField>
+    <description>Access the project overview, navigate to test cases, create and edit test case details, and manage test steps. Verify the home page.</description>
+    <name>TC121-Edit Test Case Details and Manage Steps</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>1cf2bdd3-c033-4ac3-8424-6831d7e3aa05</testCaseGuid>
+    <testDataLinks>
+        <combinationType>ONE</combinationType>
+        <id>c994fed7-db92-4ec6-a760-a31ff63526f1</id>
+        <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+        </iterationEntity>
+        <testDataId>Data Files/AI-Generated/Tracking Environment/TC121-Edit Test Case Details and Manage Steps-test-data</testDataId>
+    </testDataLinks>
+    <variable>
+        <defaultValue>'MuiTabs-scroller\\\\ MuiTabs-fixed\\\\ css-1anid1y\\"] [class=\\"MuiButtonBase-root\\\\ MuiTab-root\\\\ MuiTab-textColorPrimary\\\\ css-zd88z5'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>50969fa4-4236-4bf8-b97f-25dc6c12dddd</id>
+        <masked>false</masked>
+        <name>button_testCaseActions_class</name>
+    </variable>
+    <variable>
+        <defaultValue>'MuiTabs-scroller\\\\ MuiTabs-fixed\\\\ css-1anid1y\\"] [class=\\"MuiButtonBase-root\\\\ MuiTab-root\\\\ MuiTab-textColorPrimary\\\\ css-zd88z5'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>2d15bb21-18f4-44a6-991f-24e8b731f1dc</id>
+        <masked>false</masked>
+        <name>button_testCaseActions_class_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'1'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>7486244b-f674-4800-9033-e0bfe6032bac</id>
+        <masked>false</masked>
+        <name>button_testCaseActions_divNthOfType</name>
+    </variable>
+    <variable>
+        <defaultValue>'1'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>5606f141-bcc3-4a31-b517-62acad079c43</id>
+        <masked>false</masked>
+        <name>button_testCaseActions_divNthOfType_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'Scripts'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>0d8935a0-6fba-4077-ab74-0ecf29c1da8f</id>
+        <masked>false</masked>
+        <name>button_testCaseActions_internalText</name>
+    </variable>
+    <variable>
+        <defaultValue>'Steps'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>4b4fbb66-a119-4a87-aa83-49cf0b7ecd28</id>
+        <masked>false</masked>
+        <name>button_testCaseActions_internalText_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'Data Files/AI-Generated/Tracking Environment/Common/createNewStepAndEditTestCaseDetails-test-data'</defaultValue>
+        <description>Common function data file id</description>
+        <id>d52c1d51-821c-4b2e-8f52-f9f6826d882a</id>
+        <masked>false</masked>
+        <name>data_path_0</name>
+    </variable>
+    <variable>
+        <defaultValue>'5'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>03f5759a-5ee3-4c6f-9efa-b4abf0123752</id>
+        <masked>false</masked>
+        <name>div_projectOverview_divNthChild</name>
+    </variable>
+    <variable>
+        <defaultValue>'5'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>02ed55a1-0b5d-42ab-8caa-aace40412b4d</id>
+        <masked>false</masked>
+        <name>div_projectOverview_divNthOfType</name>
+    </variable>
+    <variable>
+        <defaultValue>'1'</defaultValue>
+        <description>Common function data row index</description>
+        <id>a042857a-0cf6-4026-94f7-14eb90251d76</id>
+        <masked>false</masked>
+        <name>index_0</name>
+    </variable>
+    <variable>
+        <defaultValue>'MuiTypography-root\\\\ MuiTypography-inherit\\\\ MuiLink-root\\\\ MuiLink-underlineNone\\\\ css-10fzk6f'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>2f48e499-8e2a-4396-af61-8b423c6cf4a0</id>
+        <masked>false</masked>
+        <name>link_testCaseNavigation_class</name>
+    </variable>
+    <variable>
+        <defaultValue>'/project/1270995/tests/test-cases/10727342'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>751f023b-7faa-447b-8680-423cf8db316a</id>
+        <masked>false</masked>
+        <name>link_testCaseNavigation_href_variable</name>
+    </variable>
+    <variable>
+        <defaultValue>'Navigate to Test Test Case'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>5216f716-a4a3-4e74-ba97-3f9be997d65b</id>
+        <masked>false</masked>
+        <name>link_testCaseNavigation_internalLabel</name>
+    </variable>
+    <variable>
+        <defaultValue>'{"global":{"timeRange":{"value":"DATEADD(DATETIME(\\"now\\"), -28, day) : now","groupBy":["P1W"]}}}'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>f00e5e68-894f-4efa-baf5-7d58cd52d7f4</id>
+        <masked>false</masked>
+        <name>overview_filter</name>
+    </variable>
+    <variable>
+        <defaultValue>'1270995'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>edb061b1-f737-4349-a3bb-e1d54510166c</id>
+        <masked>false</masked>
+        <name>project_id</name>
+    </variable>
+    <variable>
+        <defaultValue>'anh dao test'</defaultValue>
+        <description>Input data variable</description>
+        <id>183068fb-9164-4cc8-b8ad-67f6f546fd4f</id>
+        <masked>false</masked>
+        <name>textarea_description</name>
+    </variable>
+    <variableLinks>
+        <testDataLinkId>c994fed7-db92-4ec6-a760-a31ff63526f1</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>button_testCaseActions_class</value>
+        <variableId>50969fa4-4236-4bf8-b97f-25dc6c12dddd</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>c994fed7-db92-4ec6-a760-a31ff63526f1</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>button_testCaseActions_class_1</value>
+        <variableId>2d15bb21-18f4-44a6-991f-24e8b731f1dc</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>c994fed7-db92-4ec6-a760-a31ff63526f1</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>button_testCaseActions_divNthOfType</value>
+        <variableId>7486244b-f674-4800-9033-e0bfe6032bac</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>c994fed7-db92-4ec6-a760-a31ff63526f1</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>button_testCaseActions_divNthOfType_1</value>
+        <variableId>5606f141-bcc3-4a31-b517-62acad079c43</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>c994fed7-db92-4ec6-a760-a31ff63526f1</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>button_testCaseActions_internalText</value>
+        <variableId>0d8935a0-6fba-4077-ab74-0ecf29c1da8f</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>c994fed7-db92-4ec6-a760-a31ff63526f1</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>button_testCaseActions_internalText_1</value>
+        <variableId>4b4fbb66-a119-4a87-aa83-49cf0b7ecd28</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>c994fed7-db92-4ec6-a760-a31ff63526f1</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>data_path_0</value>
+        <variableId>d52c1d51-821c-4b2e-8f52-f9f6826d882a</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>c994fed7-db92-4ec6-a760-a31ff63526f1</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>div_projectOverview_divNthChild</value>
+        <variableId>03f5759a-5ee3-4c6f-9efa-b4abf0123752</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>c994fed7-db92-4ec6-a760-a31ff63526f1</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>div_projectOverview_divNthOfType</value>
+        <variableId>02ed55a1-0b5d-42ab-8caa-aace40412b4d</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>c994fed7-db92-4ec6-a760-a31ff63526f1</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>index_0</value>
+        <variableId>a042857a-0cf6-4026-94f7-14eb90251d76</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>c994fed7-db92-4ec6-a760-a31ff63526f1</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_testCaseNavigation_class</value>
+        <variableId>2f48e499-8e2a-4396-af61-8b423c6cf4a0</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>c994fed7-db92-4ec6-a760-a31ff63526f1</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_testCaseNavigation_href_variable</value>
+        <variableId>751f023b-7faa-447b-8680-423cf8db316a</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>c994fed7-db92-4ec6-a760-a31ff63526f1</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_testCaseNavigation_internalLabel</value>
+        <variableId>5216f716-a4a3-4e74-ba97-3f9be997d65b</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>c994fed7-db92-4ec6-a760-a31ff63526f1</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>overview_filter</value>
+        <variableId>f00e5e68-894f-4efa-baf5-7d58cd52d7f4</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>c994fed7-db92-4ec6-a760-a31ff63526f1</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>project_id</value>
+        <variableId>edb061b1-f737-4349-a3bb-e1d54510166c</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>c994fed7-db92-4ec6-a760-a31ff63526f1</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>textarea_description</value>
+        <variableId>183068fb-9164-4cc8-b8ad-67f6f546fd4f</variableId>
+    </variableLinks>
+</TestCaseEntity>

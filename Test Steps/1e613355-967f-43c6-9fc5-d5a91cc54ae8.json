@@ -1,0 +1,15 @@
+{
+    "steps": [
+        "step 1: Navigate to /qc-worklist",
+        "step 2: Click on button selectStudyOrOrganization",
+        "step 3: Click on button dontDelEditAutoStd -> Navigate to page '/studies/*/dashboard'",
+        "step 4: Click on link studyLinks (qualityControl)",
+        "step 5: View subject details and apply filter",
+        "step 6: Click on faIcon object2",
+        "step 7: Click on link openWorkitems (open)",
+        "step 8: Click on button taskManagement (takeTask)",
+        "step 9: Click on button taskSummary",
+        "step 10: Click on button qualityControlForms -> Navigate to page ''",
+        "step 11: Take full page screenshot as checkpoint"
+    ]
+}

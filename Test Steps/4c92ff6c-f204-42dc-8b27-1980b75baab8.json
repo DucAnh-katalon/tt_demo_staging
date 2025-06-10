@@ -1,0 +1,29 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Click on link production -> Navigate to page '/env/production/aut/*'",
+        "step 3: Click on div trafficCatalogItems",
+        "step 4: Click on button historyDetails -> Navigate to page '/env/production/aut/*/history'",
+        "step 5: Click on link historyEntries (object) -> Navigate to page '/env/production/aut/*/history/*'",
+        "step 6: Click on div collapsedFlows",
+        "step 7: Click on button downloadFile (downloadTrackingPath)",
+        "step 8: Click on span dynamicObject (object)",
+        "step 9: Click on span dynamicObject (object2)",
+        "step 10: Click on span dynamicObject (object3)",
+        "step 11: Click on button viewFlow (viewFlow)",
+        "step 12: Click on span dynamicObject (actionButton)",
+        "step 13: Click on td eyeArrow (eyeArrowDown)",
+        "step 14: Click on button viewFlow (viewFlow2)",
+        "step 15: Click on td eyeArrow (eyeArrowDown)",
+        "step 16: Click on span dynamicObject (actionButton2)",
+        "step 17: Click on span dynamicObject (object4)",
+        "step 18: Click on span dynamicObject (object5)",
+        "step 19: Click on button viewFlow (viewFlow3)",
+        "step 20: Click on button viewFlow (viewFlow4)",
+        "step 21: Click on span dynamicObject (action)",
+        "step 22: Click on span dynamicObject (object6)",
+        "step 23: Click on button viewFlow (viewFlow5)",
+        "step 24: Click on button viewFlow (viewFlow5) -> Navigate to page ''",
+        "step 25: Take full page screenshot as checkpoint"
+    ]
+}

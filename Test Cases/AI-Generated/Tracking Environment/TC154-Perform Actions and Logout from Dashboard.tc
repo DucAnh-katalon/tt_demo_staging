@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>36de7afa-17f2-4240-a47c-ef6f3884ea39</id>
+        </flow>
+    </customField>
+    <description>Navigate to the dashboard, perform various actions, and logout while verifying the home page.</description>
+    <name>TC154-Perform Actions and Logout from Dashboard</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>72cafc47-dd22-43bb-b4d4-069d58ac5137</testCaseGuid>
+</TestCaseEntity>

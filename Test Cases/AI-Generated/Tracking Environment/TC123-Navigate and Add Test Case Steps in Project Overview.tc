@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>585f23c3-659d-4295-ac4c-b4163e7634db</id>
+        </flow>
+    </customField>
+    <description>Access the project home overview, navigate to test cases, add descriptions and steps, and verify navigation back to the home page.</description>
+    <name>TC123-Navigate and Add Test Case Steps in Project Overview</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>c1707875-1f61-4ec1-920e-d413b675886c</testCaseGuid>
+    <testDataLinks>
+        <combinationType>ONE</combinationType>
+        <id>3fd730c9-6b2b-4f13-b356-a4e28eb352d9</id>
+        <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+        </iterationEntity>
+        <testDataId>Data Files/AI-Generated/Tracking Environment/TC123-Navigate and Add Test Case Steps in Project Overview-test-data</testDataId>
+    </testDataLinks>
+    <variable>
+        <defaultValue>'Data Files/AI-Generated/Tracking Environment/Common/navigateToTestCaseAndAddDescription-test-data'</defaultValue>
+        <description>Common function data file id</description>
+        <id>e5440987-8e94-4cbd-9923-aaeca2215238</id>
+        <masked>false</masked>
+        <name>data_path_0</name>
+    </variable>
+    <variable>
+        <defaultValue>'2'</defaultValue>
+        <description>Common function data row index</description>
+        <id>64a17653-9503-4a84-b356-7ff29141cceb</id>
+        <masked>false</masked>
+        <name>index_0</name>
+    </variable>
+    <variable>
+        <defaultValue>'{"global":{"timeRange":{"value":"DATEADD(DATETIME(\\"now\\"), -28, day) : now","groupBy":["P1W"]}}}'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>d3059280-35ae-4d8d-9ccd-e44e0dacdfb9</id>
+        <masked>false</masked>
+        <name>overview_filter</name>
+    </variable>
+    <variable>
+        <defaultValue>'1270995'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>3fd1d84e-a22c-4a0e-9ab1-addc8514cbd1</id>
+        <masked>false</masked>
+        <name>project_id</name>
+    </variable>
+    <variableLinks>
+        <testDataLinkId>3fd730c9-6b2b-4f13-b356-a4e28eb352d9</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>data_path_0</value>
+        <variableId>e5440987-8e94-4cbd-9923-aaeca2215238</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>3fd730c9-6b2b-4f13-b356-a4e28eb352d9</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>index_0</value>
+        <variableId>64a17653-9503-4a84-b356-7ff29141cceb</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>3fd730c9-6b2b-4f13-b356-a4e28eb352d9</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>overview_filter</value>
+        <variableId>d3059280-35ae-4d8d-9ccd-e44e0dacdfb9</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>3fd730c9-6b2b-4f13-b356-a4e28eb352d9</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>project_id</value>
+        <variableId>3fd1d84e-a22c-4a0e-9ab1-addc8514cbd1</variableId>
+    </variableLinks>
+</TestCaseEntity>

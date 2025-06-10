@@ -8,17 +8,12 @@
         "step 6: Click on link testCases -> Navigate to page '/project/*/tests/test-cases'",
         "step 7: Enter input value in input addTestCase",
         "step 8: Click on button add",
-        "step 9: Click on link navigateToTest (navigateToTesst1) -> Navigate to page '/project/*/tests/test-cases/*'",
-        "step 10: Click on textarea typeDescription",
-        "step 11: Enter input value in textarea typeDescription",
-        "step 12: Click on button scriptsSteps (scripts)",
-        "step 13: Click on button scriptsSteps (steps)",
-        "step 14: Click on button newStep",
-        "step 15: Enter input value in textarea manualEditor",
-        "step 16: Click on div object6",
-        "step 17: Click on button regenerateSteps",
-        "step 18: Click on button saveOverwrite (save)",
-        "step 19: Click on button saveOverwrite (overwrite) -> Navigate to page ''",
-        "step 20: Take full page screenshot as checkpoint"
+        "step 9: Navigate to test case and add description and steps",
+        "step 10: Enter input value in textarea manualEditor",
+        "step 11: Click on div testCaseDescription",
+        "step 12: Click on button regenerateSteps",
+        "step 13: Click on button saveOverwrite (save)",
+        "step 14: Click on button saveOverwrite (overwrite) -> Navigate to page ''",
+        "step 15: Take full page screenshot as checkpoint"
     ]
 }

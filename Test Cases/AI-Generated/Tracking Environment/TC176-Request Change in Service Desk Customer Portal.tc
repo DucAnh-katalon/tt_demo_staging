@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>ba5ddbc8-6fd8-45bc-a4d6-4e857f3f8688</id>
+        </flow>
+    </customField>
+    <description>Navigate to the customer portal, create a change request, fill in details, and verify the request submission on the home page.</description>
+    <name>TC176-Request Change in Service Desk Customer Portal</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>30553037-a69f-49e3-926e-7da4e57c560e</testCaseGuid>
+    <testDataLinks>
+        <combinationType>ONE</combinationType>
+        <id>2aa37525-33b9-4b33-a104-3df4ef47e2f6</id>
+        <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+        </iterationEntity>
+        <testDataId>Data Files/AI-Generated/Tracking Environment/TC176-Request Change in Service Desk Customer Portal-test-data</testDataId>
+    </testDataLinks>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>0dc9540e-b6b2-4b68-aed8-606457305f8d</id>
+        <masked>false</masked>
+        <name>div_textArea</name>
+    </variable>
+    <variable>
+        <defaultValue>'97'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>b82c8eac-f91a-498f-b77e-294dca246c3c</id>
+        <masked>false</masked>
+        <name>group_id</name>
+    </variable>
+    <variable>
+        <defaultValue>'[CAB] '</defaultValue>
+        <description>Input data variable</description>
+        <id>7651703f-e517-4205-a2ac-138fb40b6e54</id>
+        <masked>false</masked>
+        <name>input_summary</name>
+    </variable>
+    <variable>
+        <defaultValue>'Use'</defaultValue>
+        <description>Input data variable</description>
+        <id>79391fb2-9e19-44c6-8755-b78e9de4e7c0</id>
+        <masked>false</masked>
+        <name>input_summary_1</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>f0d97cfe-fc1d-4a5e-bfe8-7f718ef06bdd</id>
+        <masked>false</masked>
+        <name>input_summary_2</name>
+    </variable>
+    <variable>
+        <defaultValue>'Using Athena for query data from S3'</defaultValue>
+        <description>Input data variable</description>
+        <id>640be359-267f-4696-8d37-a342b1bd5e2d</id>
+        <masked>false</masked>
+        <name>input_summary_3</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>91e9eff2-d01a-4918-97c0-6dde40d8dc24</id>
+        <masked>false</masked>
+        <name>input_summary_4</name>
+    </variable>
+    <variable>
+        <defaultValue>'22'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>649f951e-56bf-4347-9262-63f7ea72db92</id>
+        <masked>false</masked>
+        <name>portal_id</name>
+    </variable>
+    <variableLinks>
+        <testDataLinkId>2aa37525-33b9-4b33-a104-3df4ef47e2f6</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>div_textArea</value>
+        <variableId>0dc9540e-b6b2-4b68-aed8-606457305f8d</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>2aa37525-33b9-4b33-a104-3df4ef47e2f6</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>group_id</value>
+        <variableId>b82c8eac-f91a-498f-b77e-294dca246c3c</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>2aa37525-33b9-4b33-a104-3df4ef47e2f6</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>input_summary</value>
+        <variableId>7651703f-e517-4205-a2ac-138fb40b6e54</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>2aa37525-33b9-4b33-a104-3df4ef47e2f6</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>input_summary_1</value>
+        <variableId>79391fb2-9e19-44c6-8755-b78e9de4e7c0</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>2aa37525-33b9-4b33-a104-3df4ef47e2f6</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>input_summary_2</value>
+        <variableId>f0d97cfe-fc1d-4a5e-bfe8-7f718ef06bdd</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>2aa37525-33b9-4b33-a104-3df4ef47e2f6</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>input_summary_3</value>
+        <variableId>640be359-267f-4696-8d37-a342b1bd5e2d</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>2aa37525-33b9-4b33-a104-3df4ef47e2f6</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>input_summary_4</value>
+        <variableId>91e9eff2-d01a-4918-97c0-6dde40d8dc24</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>2aa37525-33b9-4b33-a104-3df4ef47e2f6</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>portal_id</value>
+        <variableId>649f951e-56bf-4347-9262-63f7ea72db92</variableId>
+    </variableLinks>
+</TestCaseEntity>

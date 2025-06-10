@@ -1,0 +1,28 @@
+{
+    "steps": [
+        "step 1: Navigate to /project/*/home/overview with params (filter)",
+        "step 2: Click on div projectOverview (executions)",
+        "step 3: Hover over div object",
+        "step 4: Click on link testCases3 -> Navigate to page '/project/*/tests/test-cases'",
+        "step 5: Click on link testCaseNavigation (navigateToTestCase3)",
+        "step 6: Create a new step and edit test case details",
+        "step 7: Click on div testCaseSteps",
+        "step 8: Click on div stepsScripts",
+        "step 9: Click on button testCaseActions (scripts)",
+        "step 10: Click on div descriptionSection",
+        "step 11: Click on button testCaseActions (steps)",
+        "step 12: Click on button moveTo",
+        "step 13: Click on span object2",
+        "step 14: Click on textarea description",
+        "step 15: Click on span aiServiceDisabled",
+        "step 16: Click on label description",
+        "step 17: Click on textarea description",
+        "step 18: Enter input value in textarea description",
+        "step 19: Click on div draftManual",
+        "step 20: Click on div preCondition",
+        "step 21: Click on div testStepsDescription",
+        "step 22: Click on textarea preCondition",
+        "step 23: Click on link home2 -> Navigate to page ''",
+        "step 24: Take full page screenshot as checkpoint"
+    ]
+}

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>1a4c23d2-b528-47ec-96a8-fe4c76d3517e</id>
+        </flow>
+    </customField>
+    <description>Logout from admin, access the studies dashboard, select a study, upload expected data, and verify the process.</description>
+    <name>TC160-Upload Expected Data for Study Management</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>882ae232-fdf4-48e2-9d4a-9acc353526ca</testCaseGuid>
+    <testDataLinks>
+        <combinationType>ONE</combinationType>
+        <id>31ead7c7-21a1-46ae-84c5-c42b3791665e</id>
+        <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+        </iterationEntity>
+        <testDataId>Data Files/AI-Generated/Tracking Environment/TC160-Upload Expected Data for Study Management-test-data</testDataId>
+    </testDataLinks>
+    <variable>
+        <defaultValue>'Data Files/AI-Generated/Tracking Environment/Common/adminLogoutAndAccessStudyDashboard-test-data'</defaultValue>
+        <description>Common function data file id</description>
+        <id>d8e5f4a1-9eb4-4876-b36d-8019135042ea</id>
+        <masked>false</masked>
+        <name>data_path_0</name>
+    </variable>
+    <variable>
+        <defaultValue>'1'</defaultValue>
+        <description>Common function data row index</description>
+        <id>7051f257-f7b1-4d80-9c6a-54272283737b</id>
+        <masked>false</masked>
+        <name>index_0</name>
+    </variable>
+    <variable>
+        <defaultValue>'["Status"]'</defaultValue>
+        <description>Input data variable</description>
+        <id>3984fd21-61aa-4364-873a-b4da32fc6f8b</id>
+        <masked>false</masked>
+        <name>select_studyName</name>
+    </variable>
+    <variableLinks>
+        <testDataLinkId>31ead7c7-21a1-46ae-84c5-c42b3791665e</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>data_path_0</value>
+        <variableId>d8e5f4a1-9eb4-4876-b36d-8019135042ea</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>31ead7c7-21a1-46ae-84c5-c42b3791665e</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>index_0</value>
+        <variableId>7051f257-f7b1-4d80-9c6a-54272283737b</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>31ead7c7-21a1-46ae-84c5-c42b3791665e</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>select_studyName</value>
+        <variableId>3984fd21-61aa-4364-873a-b4da32fc6f8b</variableId>
+    </variableLinks>
+</TestCaseEntity>

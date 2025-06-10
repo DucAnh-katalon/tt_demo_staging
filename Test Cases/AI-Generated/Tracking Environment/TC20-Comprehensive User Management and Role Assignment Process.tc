@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>f9b90b5b-818b-4ea8-a942-42375ff94f94</id>
+        </flow>
+    </customField>
+    <description>Navigate through the dashboard to manage users and roles, select studies, and verify the home page after completing various administrative tasks.</description>
+    <name>TC20-Comprehensive User Management and Role Assignment Process</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>0ed03d3c-78f4-4e41-9df9-2889d36eeabc</testCaseGuid>
+    <testDataLinks>
+        <combinationType>ONE</combinationType>
+        <id>e1ee92da-be29-4bfb-a644-e9a418f3c38f</id>
+        <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+        </iterationEntity>
+        <testDataId>Data Files/AI-Generated/Tracking Environment/TC20-Comprehensive User Management and Role Assignment Process-test-data</testDataId>
+    </testDataLinks>
+    <variable>
+        <defaultValue>'UserService_E2E_01'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>af31f830-5573-411a-b3d9-3bdc982755f3</id>
+        <masked>false</masked>
+        <name>button_studyActions_internalText</name>
+    </variable>
+    <variable>
+        <defaultValue>'UserService_E2E_01'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>0d428c43-c5f9-426f-8ef3-0f734744238f</id>
+        <masked>false</masked>
+        <name>button_studyActions_internalText_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'2'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>5422ffed-b4c5-4804-abf9-5cb9a3ea3d98</id>
+        <masked>false</masked>
+        <name>button_studyActions_liNthOfType</name>
+    </variable>
+    <variable>
+        <defaultValue>'1'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>0e806206-dc1f-4546-b302-fbe4221b4df8</id>
+        <masked>false</masked>
+        <name>button_studyActions_liNthOfType_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'site'</defaultValue>
+        <description>Input data variable</description>
+        <id>6bfd503d-6dbf-4247-8c62-56456dbfcb30</id>
+        <masked>false</masked>
+        <name>input_searchRoles</name>
+    </variable>
+    <variable>
+        <defaultValue>'zz'</defaultValue>
+        <description>Input data variable</description>
+        <id>8b6b5048-988d-4ecd-bc97-0b6e8a7dd9ae</id>
+        <masked>false</masked>
+        <name>input_searchRoles_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'Study Settings'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>20aba7f6-c7f0-4979-8064-e24a92207948</id>
+        <masked>false</masked>
+        <name>link_studyLinks_aTitle</name>
+    </variable>
+    <variable>
+        <defaultValue>'Study Settings'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>c61d9c3b-f649-4603-a80e-1e0bf2e0c459</id>
+        <masked>false</masked>
+        <name>link_studyLinks_aTitle_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'https://portal.int.ert.com/studies/STY-gl2s4ol7/query-settings'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>9605b15d-5386-4edd-b4a8-41b2eb3d6dae</id>
+        <masked>false</masked>
+        <name>link_studyLinks_href_variable</name>
+    </variable>
+    <variable>
+        <defaultValue>'https://portal.int.ert.com/studies/STY-gl2s4ol7/query-settings'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>1c993034-0108-4508-b38d-0086aa08d6a9</id>
+        <masked>false</masked>
+        <name>link_studyLinks_href_variable_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'3'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>5645b2b4-889d-4567-9195-1734a9c6e23e</id>
+        <masked>false</masked>
+        <name>link_studyLinks_liNthOfType</name>
+    </variable>
+    <variable>
+        <defaultValue>'3'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>4b56bc3a-f748-447c-b8aa-a4915e219f02</id>
+        <masked>false</masked>
+        <name>link_studyLinks_liNthOfType_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'User Management'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>c5ed6326-01d0-41d8-9b94-3e73d51eaa55</id>
+        <masked>false</masked>
+        <name>link_userManagement_internalText</name>
+    </variable>
+    <variableLinks>
+        <testDataLinkId>e1ee92da-be29-4bfb-a644-e9a418f3c38f</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>button_studyActions_internalText</value>
+        <variableId>af31f830-5573-411a-b3d9-3bdc982755f3</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>e1ee92da-be29-4bfb-a644-e9a418f3c38f</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>button_studyActions_internalText_1</value>
+        <variableId>0d428c43-c5f9-426f-8ef3-0f734744238f</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>e1ee92da-be29-4bfb-a644-e9a418f3c38f</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>button_studyActions_liNthOfType</value>
+        <variableId>5422ffed-b4c5-4804-abf9-5cb9a3ea3d98</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>e1ee92da-be29-4bfb-a644-e9a418f3c38f</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>button_studyActions_liNthOfType_1</value>
+        <variableId>0e806206-dc1f-4546-b302-fbe4221b4df8</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>e1ee92da-be29-4bfb-a644-e9a418f3c38f</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>input_searchRoles</value>
+        <variableId>6bfd503d-6dbf-4247-8c62-56456dbfcb30</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>e1ee92da-be29-4bfb-a644-e9a418f3c38f</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>input_searchRoles_1</value>
+        <variableId>8b6b5048-988d-4ecd-bc97-0b6e8a7dd9ae</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>e1ee92da-be29-4bfb-a644-e9a418f3c38f</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_studyLinks_aTitle</value>
+        <variableId>20aba7f6-c7f0-4979-8064-e24a92207948</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>e1ee92da-be29-4bfb-a644-e9a418f3c38f</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_studyLinks_aTitle_1</value>
+        <variableId>c61d9c3b-f649-4603-a80e-1e0bf2e0c459</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>e1ee92da-be29-4bfb-a644-e9a418f3c38f</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_studyLinks_href_variable</value>
+        <variableId>9605b15d-5386-4edd-b4a8-41b2eb3d6dae</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>e1ee92da-be29-4bfb-a644-e9a418f3c38f</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_studyLinks_href_variable_1</value>
+        <variableId>1c993034-0108-4508-b38d-0086aa08d6a9</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>e1ee92da-be29-4bfb-a644-e9a418f3c38f</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_studyLinks_liNthOfType</value>
+        <variableId>5645b2b4-889d-4567-9195-1734a9c6e23e</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>e1ee92da-be29-4bfb-a644-e9a418f3c38f</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_studyLinks_liNthOfType_1</value>
+        <variableId>4b56bc3a-f748-447c-b8aa-a4915e219f02</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>e1ee92da-be29-4bfb-a644-e9a418f3c38f</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_userManagement_internalText</value>
+        <variableId>c5ed6326-01d0-41d8-9b94-3e73d51eaa55</variableId>
+    </variableLinks>
+</TestCaseEntity>

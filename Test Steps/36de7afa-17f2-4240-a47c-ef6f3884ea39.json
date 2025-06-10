@@ -1,0 +1,20 @@
+{
+    "steps": [
+        "step 1: Navigate to /dashboard",
+        "step 2: Click on div actionbar",
+        "step 3: Click on div quicklinkList",
+        "step 4: Click on div actionbar",
+        "step 5: Click on button development2",
+        "step 6: Click on button libraries",
+        "step 7: Click on button administration2",
+        "step 8: Click on link templates3 -> Navigate to page '/query-template'",
+        "step 9: Click on link home2 -> Navigate to page '/dashboard'",
+        "step 10: Click on div uploaderActionBar",
+        "step 11: Click on button superUser",
+        "step 12: Click on link logout",
+        "step 13: Click on div welcomeBanner",
+        "step 14: Click on button superUser",
+        "step 15: Click on link logout -> Navigate to page ''",
+        "step 16: Take full page screenshot as checkpoint"
+    ]
+}

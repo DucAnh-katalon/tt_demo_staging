@@ -1,0 +1,33 @@
+{
+    "steps": [
+        "step 1: Navigate to /dashboard",
+        "step 2: Select study or organization and apply a filter to the list",
+        "step 3: Click on td studyProtocol2 -> Navigate to page '/studies/*/dashboard'",
+        "step 4: Click on link qualityControl3 -> Navigate to page '/studies/*/qc-worklist'",
+        "step 5: Click on link home -> Navigate to page '/dashboard'",
+        "step 6: Click on div globalDashboard2",
+        "step 7: Select study and view subject details",
+        "step 8: Select option with input value from select filter",
+        "step 9: Click on input subjectId2",
+        "step 10: Enter input value in input subjectId2",
+        "step 11: Click on button apply3",
+        "step 12: Click on td siteSubjectIds (subjectId22)",
+        "step 13: Click on td siteSubjectIds (subjectId22)",
+        "step 14: Click on link viewMore",
+        "step 15: Click on button taskManagement (takeTask)",
+        "step 16: Click on button taskManagement (openViewer)",
+        "step 17: Click on button qcComment",
+        "step 18: Click on textarea addQcComment",
+        "step 19: Enter input value in textarea addQcComment",
+        "step 20: Click on textarea addQcComment",
+        "step 21: Enter input value in textarea addQcComment",
+        "step 22: Click on button save2",
+        "step 23: Click on button taskSummary",
+        "step 24: Click on div qcCommentsBaseline",
+        "step 25: Click on button qualityControlForms",
+        "step 26: Click on button pass -> Navigate to page '/studies/*/qc-worklist'",
+        "step 27: Click on button superUserActions (scrSuperUser)",
+        "step 28: Click on link logout2 -> Navigate to page ''",
+        "step 29: Take full page screenshot as checkpoint"
+    ]
+}

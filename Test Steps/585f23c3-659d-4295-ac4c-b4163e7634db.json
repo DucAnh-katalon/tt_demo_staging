@@ -1,0 +1,13 @@
+{
+    "steps": [
+        "step 1: Navigate to /project/*/home/overview with params (filter)",
+        "step 2: Hover over link tests3",
+        "step 3: Click on link testCases3",
+        "step 4: Navigate to test case and add description and steps",
+        "step 5: Click on button newStep",
+        "step 6: Click on link tests -> Navigate to page '/project/*/tests/test-cases'",
+        "step 7: Click on link tests2",
+        "step 8: Click on link katalonLogo -> Navigate to page ''",
+        "step 9: Take full page screenshot as checkpoint"
+    ]
+}

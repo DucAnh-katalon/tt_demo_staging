@@ -1,0 +1,27 @@
+{
+    "steps": [
+        "step 1: Navigate to /spreadsheets/d/*/edit with params (gid)",
+        "step 2: Enter input value in input findInSheet",
+        "step 3: Press key Enter on input findInSheet",
+        "step 4: Press key Enter on input findInSheet",
+        "step 5: Press key Enter on input findInSheet",
+        "step 6: Press key Enter on input findInSheet",
+        "step 7: Press key Enter on input findInSheet",
+        "step 8: Press key Enter on input findInSheet",
+        "step 9: Press key Enter on input findInSheet",
+        "step 10: Press key Enter on input findInSheet",
+        "step 11: Press key Enter on input findInSheet",
+        "step 12: Hover over div summarizeTable",
+        "step 13: Click on div close",
+        "step 14: Press key Enter on input findInSheet",
+        "step 15: Enter input value in input findInSheet",
+        "step 16: Press key Enter on input findInSheet",
+        "step 17: Press key Enter on input findInSheet",
+        "step 18: Press key Enter on input findInSheet",
+        "step 19: Click on div gridScrollable",
+        "step 20: Click on div gridScrollable",
+        "step 21: Click on div close",
+        "step 22: Click on div scrollableContent -> Navigate to page ''",
+        "step 23: Take full page screenshot as checkpoint"
+    ]
+}

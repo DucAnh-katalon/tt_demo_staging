@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>42526e0d-c9e1-425e-8339-dfa15dae5943</id>
+        </flow>
+    </customField>
+    <description>Navigate to the query template page, apply filters, and logout. Verify the home page after managing templates.</description>
+    <name>TC80-Logout and Manage Query Templates in Administration</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>3a02980d-80a9-4c5b-9175-ce9df0441831</testCaseGuid>
+    <testDataLinks>
+        <combinationType>ONE</combinationType>
+        <id>12c309a2-1205-44c3-b65e-81d3486ea4d2</id>
+        <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+        </iterationEntity>
+        <testDataId>Data Files/AI-Generated/Tracking Environment/TC80-Logout and Manage Query Templates in Administration-test-data</testDataId>
+    </testDataLinks>
+    <variable>
+        <defaultValue>'Templates'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>abcc345a-9abd-4a7d-bbd8-e2148b3fbd7e</id>
+        <masked>false</masked>
+        <name>link_templateLinks_aTitle</name>
+    </variable>
+    <variable>
+        <defaultValue>'["DCR"]'</defaultValue>
+        <description>Input data variable</description>
+        <id>e709a31d-dd13-4d2c-acb7-d503db359888</id>
+        <masked>false</masked>
+        <name>select_dcrQualityNotificationQuery</name>
+    </variable>
+    <variable>
+        <defaultValue>'["true"]'</defaultValue>
+        <description>Input data variable</description>
+        <id>1791d7ae-cd3b-44bd-9225-12c5d5aaf09f</id>
+        <masked>false</masked>
+        <name>select_enabledDisabled</name>
+    </variable>
+    <variable>
+        <defaultValue>'["isEnabled"]'</defaultValue>
+        <description>Input data variable</description>
+        <id>bb8aaa62-48d5-444a-a6f3-ce346d1850f2</id>
+        <masked>false</masked>
+        <name>select_searchAll</name>
+    </variable>
+    <variable>
+        <defaultValue>'["category"]'</defaultValue>
+        <description>Input data variable</description>
+        <id>5f2fda79-28e2-4055-86f5-0beb044e6626</id>
+        <masked>false</masked>
+        <name>select_searchAll_1</name>
+    </variable>
+    <variableLinks>
+        <testDataLinkId>12c309a2-1205-44c3-b65e-81d3486ea4d2</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_templateLinks_aTitle</value>
+        <variableId>abcc345a-9abd-4a7d-bbd8-e2148b3fbd7e</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>12c309a2-1205-44c3-b65e-81d3486ea4d2</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>select_dcrQualityNotificationQuery</value>
+        <variableId>e709a31d-dd13-4d2c-acb7-d503db359888</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>12c309a2-1205-44c3-b65e-81d3486ea4d2</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>select_enabledDisabled</value>
+        <variableId>1791d7ae-cd3b-44bd-9225-12c5d5aaf09f</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>12c309a2-1205-44c3-b65e-81d3486ea4d2</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>select_searchAll</value>
+        <variableId>bb8aaa62-48d5-444a-a6f3-ce346d1850f2</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>12c309a2-1205-44c3-b65e-81d3486ea4d2</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>select_searchAll_1</value>
+        <variableId>5f2fda79-28e2-4055-86f5-0beb044e6626</variableId>
+    </variableLinks>
+</TestCaseEntity>

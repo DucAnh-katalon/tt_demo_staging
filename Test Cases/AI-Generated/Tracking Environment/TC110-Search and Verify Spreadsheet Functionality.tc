@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>f0fc0fe9-2fc6-4292-b293-a93165f798d4</id>
+        </flow>
+    </customField>
+    <description>Navigate to the spreadsheet editor, perform multiple search actions, and verify the functionality. Close the search and return to the home page.</description>
+    <name>TC110-Search and Verify Spreadsheet Functionality</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>f4d4c693-0590-41fc-b1f9-ca646a0517c4</testCaseGuid>
+    <testDataLinks>
+        <combinationType>ONE</combinationType>
+        <id>5b2eaa67-d026-4682-b85b-d289d8aba310</id>
+        <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+        </iterationEntity>
+        <testDataId>Data Files/AI-Generated/Tracking Environment/TC110-Search and Verify Spreadsheet Functionality-test-data</testDataId>
+    </testDataLinks>
+    <variable>
+        <defaultValue>'1IDr9jIYdw6WU2ZI_2N2NLTnXb5grwSmBvkrptQez1vU'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>21f793f2-7230-4b0a-807e-12dfbb02f5bf</id>
+        <masked>false</masked>
+        <name>d_id</name>
+    </variable>
+    <variable>
+        <defaultValue>'838387039'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>cf73aeb9-3414-45fc-b419-42bbc9ed90ea</id>
+        <masked>false</masked>
+        <name>edit_gid</name>
+    </variable>
+    <variable>
+        <defaultValue>'double click'</defaultValue>
+        <description>Input data variable</description>
+        <id>75eeba72-81ac-45e9-b88f-e584755a8519</id>
+        <masked>false</masked>
+        <name>input_findInSheet</name>
+    </variable>
+    <variable>
+        <defaultValue>'double'</defaultValue>
+        <description>Input data variable</description>
+        <id>a2d41662-6144-485f-b291-7aa3ff7246b9</id>
+        <masked>false</masked>
+        <name>input_findInSheet_1</name>
+    </variable>
+    <variableLinks>
+        <testDataLinkId>5b2eaa67-d026-4682-b85b-d289d8aba310</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>d_id</value>
+        <variableId>21f793f2-7230-4b0a-807e-12dfbb02f5bf</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>5b2eaa67-d026-4682-b85b-d289d8aba310</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>edit_gid</value>
+        <variableId>cf73aeb9-3414-45fc-b419-42bbc9ed90ea</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>5b2eaa67-d026-4682-b85b-d289d8aba310</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>input_findInSheet</value>
+        <variableId>75eeba72-81ac-45e9-b88f-e584755a8519</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>5b2eaa67-d026-4682-b85b-d289d8aba310</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>input_findInSheet_1</value>
+        <variableId>a2d41662-6144-485f-b291-7aa3ff7246b9</variableId>
+    </variableLinks>
+</TestCaseEntity>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>cf01e787-2d76-4f80-ad42-d7a7cebb6ae7</id>
+        </flow>
+    </customField>
+    <description>Access user settings, manage personal integration, and verify the home page after updating API key.</description>
+    <name>TC148-User Settings and API Key Management in Project</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>00c92996-6e11-4cb0-ab91-6303019d0030</testCaseGuid>
+    <testDataLinks>
+        <combinationType>ONE</combinationType>
+        <id>4502cb23-6c70-4040-b087-f306d97c63da</id>
+        <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+        </iterationEntity>
+        <testDataId>Data Files/AI-Generated/Tracking Environment/TC148-User Settings and API Key Management in Project-test-data</testDataId>
+    </testDataLinks>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>d3615395-d08e-446e-ace0-b80c5f42ff9e</id>
+        <masked>false</masked>
+        <name>input_email</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>b9630971-79d4-44de-8c98-c93d30037206</id>
+        <masked>false</masked>
+        <name>input_email_1</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>78bb551a-e119-48ba-8ed3-0fac5b22277d</id>
+        <masked>false</masked>
+        <name>input_passwordField</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>19830d67-5fae-4e63-9968-6a99184a1487</id>
+        <masked>false</masked>
+        <name>input_passwordField_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'{"global":{"timeRange":{"value":"DATEADD(DATETIME(\\"now\\"), -28, day) : now","groupBy":["P1W"]}}}'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>47dd3688-2925-46e9-9be8-4ea8d3cd36d5</id>
+        <masked>false</masked>
+        <name>overview_filter</name>
+    </variable>
+    <variable>
+        <defaultValue>'466499'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>801ab884-6098-4a95-a1d9-235c686e69aa</id>
+        <masked>false</masked>
+        <name>project_id</name>
+    </variable>
+    <variableLinks>
+        <testDataLinkId>4502cb23-6c70-4040-b087-f306d97c63da</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>input_email</value>
+        <variableId>d3615395-d08e-446e-ace0-b80c5f42ff9e</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>4502cb23-6c70-4040-b087-f306d97c63da</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>input_email_1</value>
+        <variableId>b9630971-79d4-44de-8c98-c93d30037206</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>4502cb23-6c70-4040-b087-f306d97c63da</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>input_passwordField</value>
+        <variableId>78bb551a-e119-48ba-8ed3-0fac5b22277d</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>4502cb23-6c70-4040-b087-f306d97c63da</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>input_passwordField_1</value>
+        <variableId>19830d67-5fae-4e63-9968-6a99184a1487</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>4502cb23-6c70-4040-b087-f306d97c63da</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>overview_filter</value>
+        <variableId>47dd3688-2925-46e9-9be8-4ea8d3cd36d5</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>4502cb23-6c70-4040-b087-f306d97c63da</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>project_id</value>
+        <variableId>801ab884-6098-4a95-a1d9-235c686e69aa</variableId>
+    </variableLinks>
+</TestCaseEntity>

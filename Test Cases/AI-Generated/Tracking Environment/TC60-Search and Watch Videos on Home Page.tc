@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>b13a0b4e-526d-47ed-9fa0-9424223de138</id>
+        </flow>
+    </customField>
+    <description>Navigate to the home page, search for videos, watch selected content, and interact with various elements on the page.</description>
+    <name>TC60-Search and Watch Videos on Home Page</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>b2b83553-14e9-45ef-a3e9-30207f0bf9ce</testCaseGuid>
+    <testDataLinks>
+        <combinationType>ONE</combinationType>
+        <id>31c0491c-531e-49ae-aec2-6ce64257aa28</id>
+        <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+        </iterationEntity>
+        <testDataId>Data Files/AI-Generated/Tracking Environment/TC60-Search and Watch Videos on Home Page-test-data</testDataId>
+    </testDataLinks>
+    <variable>
+        <defaultValue>'how many times'</defaultValue>
+        <description>Input data variable</description>
+        <id>4819a33a-97f7-4c0f-a373-e7fa2143b285</id>
+        <masked>false</masked>
+        <name>input_searchQuery</name>
+    </variable>
+    <variable>
+        <defaultValue>'how many jcolse'</defaultValue>
+        <description>Input data variable</description>
+        <id>02e67f7b-456b-4518-8d21-0e3113374018</id>
+        <masked>false</masked>
+        <name>input_searchQuery_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'many times'</defaultValue>
+        <description>Input data variable</description>
+        <id>0eb29ba7-b758-4b88-9c53-e5b47e31c263</id>
+        <masked>false</masked>
+        <name>input_searchQuery_2</name>
+    </variable>
+    <variable>
+        <defaultValue>'j cole how m'</defaultValue>
+        <description>Input data variable</description>
+        <id>43faa20b-cf97-4143-b507-c8326b3f6da4</id>
+        <masked>false</masked>
+        <name>input_searchQuery_3</name>
+    </variable>
+    <variableLinks>
+        <testDataLinkId>31c0491c-531e-49ae-aec2-6ce64257aa28</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>input_searchQuery</value>
+        <variableId>4819a33a-97f7-4c0f-a373-e7fa2143b285</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>31c0491c-531e-49ae-aec2-6ce64257aa28</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>input_searchQuery_1</value>
+        <variableId>02e67f7b-456b-4518-8d21-0e3113374018</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>31c0491c-531e-49ae-aec2-6ce64257aa28</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>input_searchQuery_2</value>
+        <variableId>0eb29ba7-b758-4b88-9c53-e5b47e31c263</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>31c0491c-531e-49ae-aec2-6ce64257aa28</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>input_searchQuery_3</value>
+        <variableId>43faa20b-cf97-4143-b507-c8326b3f6da4</variableId>
+    </variableLinks>
+</TestCaseEntity>

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>74928212-b63a-44b6-b78c-1cc4fda6718d</id>
+        </flow>
+    </customField>
+    <description>Navigate through various sections and objects, perform multiple clicks, and verify that the home page is displayed after interactions.</description>
+    <name>TC93-Navigate and Verify Home Page after Multiple Interactions</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>17bfa92a-6e29-47e2-8d93-ae91af3099da</testCaseGuid>
+    <testDataLinks>
+        <combinationType>ONE</combinationType>
+        <id>50feb01a-72a5-4a95-a3cd-e282da7d0fb0</id>
+        <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+        </iterationEntity>
+        <testDataId>Data Files/AI-Generated/Tracking Environment/TC93-Navigate and Verify Home Page after Multiple Interactions-test-data</testDataId>
+    </testDataLinks>
+    <variable>
+        <defaultValue>'1NMUK9wmQ75-BnygWX98fn7NsKonIoKRFsLsFZOeqrXI'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>28524ff6-409c-4a05-b15d-cae5718f89aa</id>
+        <masked>false</masked>
+        <name>d_id</name>
+    </variable>
+    <variable>
+        <defaultValue>'\\\\:1f'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>8a7b949f-5c93-4d04-ac73-033c4fccded6</id>
+        <masked>false</masked>
+        <name>div_comparisonResults_id</name>
+    </variable>
+    <variable>
+        <defaultValue>'\\\\:1v'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>4a23b027-7487-49eb-969f-c09abf5824a8</id>
+        <masked>false</masked>
+        <name>div_comparisonResults_id_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'\\\\:2b'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>345455d4-ca6e-4879-880a-7044789988d7</id>
+        <masked>false</masked>
+        <name>div_comparisonResults_id_2</name>
+    </variable>
+    <variable>
+        <defaultValue>'\\\\:2r'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>a20b8307-0a59-4671-952c-d0c4a7906097</id>
+        <masked>false</masked>
+        <name>div_comparisonResults_id_3</name>
+    </variable>
+    <variable>
+        <defaultValue>'\\\\:z'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>2b9fdaba-9732-416d-9f42-3f9caf754fc3</id>
+        <masked>false</masked>
+        <name>div_comparisonResults_id_4</name>
+    </variable>
+    <variable>
+        <defaultValue>'b9e65\\\\:1u5'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>ca4f6b1f-4480-43d5-b71e-4b61256d626a</id>
+        <masked>false</masked>
+        <name>div_comparisonResults_id_5</name>
+    </variable>
+    <variable>
+        <defaultValue>'b9e65\\\\:1tp'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>0390a57f-a2e5-4450-ac1d-0228c2e0a3b2</id>
+        <masked>false</masked>
+        <name>div_comparisonResults_id_6</name>
+    </variable>
+    <variable>
+        <defaultValue>'H8'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>ba301a07-77eb-4fdd-9cd4-c20300b2f507</id>
+        <masked>false</masked>
+        <name>div_textEditors_internalLabel</name>
+    </variable>
+    <variable>
+        <defaultValue>'H1'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>59ae5694-4f0c-4ed6-b8ed-0487e8ca3baa</id>
+        <masked>false</masked>
+        <name>div_textEditors_internalLabel_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'504354497'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>53cb86eb-debd-4a8b-bf61-671932596d21</id>
+        <masked>false</masked>
+        <name>edit_gid</name>
+    </variable>
+    <variable>
+        <defaultValue>'H1'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>0b41da41-e54c-4725-b3e9-55fd67373f1b</id>
+        <masked>false</masked>
+        <name>span_stepInstructions_internalLabel</name>
+    </variable>
+    <variable>
+        <defaultValue>'H1'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>730d2196-9cf7-4ebd-9b8f-e3669f30ca55</id>
+        <masked>false</masked>
+        <name>span_stepInstructions_internalLabel_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'H9'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>e1c1994d-66fb-4c2d-a92f-fe1a6c926980</id>
+        <masked>false</masked>
+        <name>span_stepInstructions_internalLabel_2</name>
+    </variable>
+    <variableLinks>
+        <testDataLinkId>50feb01a-72a5-4a95-a3cd-e282da7d0fb0</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>d_id</value>
+        <variableId>28524ff6-409c-4a05-b15d-cae5718f89aa</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>50feb01a-72a5-4a95-a3cd-e282da7d0fb0</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>div_comparisonResults_id</value>
+        <variableId>8a7b949f-5c93-4d04-ac73-033c4fccded6</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>50feb01a-72a5-4a95-a3cd-e282da7d0fb0</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>div_comparisonResults_id_1</value>
+        <variableId>4a23b027-7487-49eb-969f-c09abf5824a8</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>50feb01a-72a5-4a95-a3cd-e282da7d0fb0</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>div_comparisonResults_id_2</value>
+        <variableId>345455d4-ca6e-4879-880a-7044789988d7</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>50feb01a-72a5-4a95-a3cd-e282da7d0fb0</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>div_comparisonResults_id_3</value>
+        <variableId>a20b8307-0a59-4671-952c-d0c4a7906097</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>50feb01a-72a5-4a95-a3cd-e282da7d0fb0</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>div_comparisonResults_id_4</value>
+        <variableId>2b9fdaba-9732-416d-9f42-3f9caf754fc3</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>50feb01a-72a5-4a95-a3cd-e282da7d0fb0</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>div_comparisonResults_id_5</value>
+        <variableId>ca4f6b1f-4480-43d5-b71e-4b61256d626a</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>50feb01a-72a5-4a95-a3cd-e282da7d0fb0</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>div_comparisonResults_id_6</value>
+        <variableId>0390a57f-a2e5-4450-ac1d-0228c2e0a3b2</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>50feb01a-72a5-4a95-a3cd-e282da7d0fb0</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>div_textEditors_internalLabel</value>
+        <variableId>ba301a07-77eb-4fdd-9cd4-c20300b2f507</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>50feb01a-72a5-4a95-a3cd-e282da7d0fb0</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>div_textEditors_internalLabel_1</value>
+        <variableId>59ae5694-4f0c-4ed6-b8ed-0487e8ca3baa</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>50feb01a-72a5-4a95-a3cd-e282da7d0fb0</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>edit_gid</value>
+        <variableId>53cb86eb-debd-4a8b-bf61-671932596d21</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>50feb01a-72a5-4a95-a3cd-e282da7d0fb0</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>span_stepInstructions_internalLabel</value>
+        <variableId>0b41da41-e54c-4725-b3e9-55fd67373f1b</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>50feb01a-72a5-4a95-a3cd-e282da7d0fb0</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>span_stepInstructions_internalLabel_1</value>
+        <variableId>730d2196-9cf7-4ebd-9b8f-e3669f30ca55</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>50feb01a-72a5-4a95-a3cd-e282da7d0fb0</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>span_stepInstructions_internalLabel_2</value>
+        <variableId>e1c1994d-66fb-4c2d-a92f-fe1a6c926980</variableId>
+    </variableLinks>
+</TestCaseEntity>

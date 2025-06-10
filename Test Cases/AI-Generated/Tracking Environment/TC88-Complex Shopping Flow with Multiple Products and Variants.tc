@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>909e3676-46f1-48a6-bf92-0d09d0e96b45</id>
+        </flow>
+    </customField>
+    <description>Navigate through various product categories, add multiple items to the cart, select product variants, and verify the home page after multiple actions.</description>
+    <name>TC88-Complex Shopping Flow with Multiple Products and Variants</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>dbe4cef9-5622-44e4-a7fa-ce0bf270329a</testCaseGuid>
+    <testDataLinks>
+        <combinationType>ONE</combinationType>
+        <id>03864d1d-74b7-444e-9c25-6a1854b9733a</id>
+        <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+        </iterationEntity>
+        <testDataId>Data Files/AI-Generated/Tracking Environment/TC88-Complex Shopping Flow with Multiple Products and Variants-test-data</testDataId>
+    </testDataLinks>
+    <variable>
+        <defaultValue>'3'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>384dc26d-e351-4b45-b2c3-4d650bb0d4d7</id>
+        <masked>false</masked>
+        <name>button_addToCartActions_divNthChild</name>
+    </variable>
+    <variable>
+        <defaultValue>'4'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>59635073-b4db-4a17-a6f2-d2b29c791772</id>
+        <masked>false</masked>
+        <name>button_addToCartActions_divNthChild_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'2'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>4b434363-5d85-480d-a6d2-141b78320665</id>
+        <masked>false</masked>
+        <name>button_addToCartActions_divNthChild_2</name>
+    </variable>
+    <variable>
+        <defaultValue>'3'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>21bb9c18-a5a4-4220-8caa-6fde39054e81</id>
+        <masked>false</masked>
+        <name>button_addToCartActions_divNthChild_3</name>
+    </variable>
+    <variable>
+        <defaultValue>'3'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>3298d087-fb6e-4661-bc8f-4e9305532ae3</id>
+        <masked>false</masked>
+        <name>button_addToCartActions_divNthOfType</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>0df998aa-2aa1-4e52-9b68-29ed5df65c61</id>
+        <masked>false</masked>
+        <name>button_addToCartActions_divNthOfType_1</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>5e682144-c0b7-4e92-b82f-3db84ae20c81</id>
+        <masked>false</masked>
+        <name>button_addToCartActions_divNthOfType_2</name>
+    </variable>
+    <variable>
+        <defaultValue>'3'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>2ce57ec9-1067-4545-821d-af90435ab8bf</id>
+        <masked>false</masked>
+        <name>button_addToCartActions_divNthOfType_3</name>
+    </variable>
+    <variable>
+        <defaultValue>'\\\\31 52171-case-640'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>5186e788-5b80-4a79-b5f9-746c6d9946ce</id>
+        <masked>false</masked>
+        <name>label_storageOptions_for</name>
+    </variable>
+    <variable>
+        <defaultValue>'\\\\31 52171-case-637'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>761c4d49-5863-477f-b0da-feb77d5b2e9a</id>
+        <masked>false</masked>
+        <name>label_storageOptions_for_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'\\\\31 52170-case-633'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>ab7a9489-07f3-45b9-bf2c-56b05453d4c7</id>
+        <masked>false</masked>
+        <name>label_storageOptions_for_2</name>
+    </variable>
+    <variable>
+        <defaultValue>'Green'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>46b95d2a-3cbc-44c9-8d78-ef75fcc895b4</id>
+        <masked>false</masked>
+        <name>label_storageOptions_internalText</name>
+    </variable>
+    <variable>
+        <defaultValue>'Blue'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>ec45ed30-7b1f-463b-9d09-3d2436893d7a</id>
+        <masked>false</masked>
+        <name>label_storageOptions_internalText_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'128 GB'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>bb995dc0-d6bc-4641-9c97-09d95a25e023</id>
+        <masked>false</masked>
+        <name>label_storageOptions_internalText_2</name>
+    </variable>
+    <variableLinks>
+        <testDataLinkId>03864d1d-74b7-444e-9c25-6a1854b9733a</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>button_addToCartActions_divNthChild</value>
+        <variableId>384dc26d-e351-4b45-b2c3-4d650bb0d4d7</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>03864d1d-74b7-444e-9c25-6a1854b9733a</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>button_addToCartActions_divNthChild_1</value>
+        <variableId>59635073-b4db-4a17-a6f2-d2b29c791772</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>03864d1d-74b7-444e-9c25-6a1854b9733a</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>button_addToCartActions_divNthChild_2</value>
+        <variableId>4b434363-5d85-480d-a6d2-141b78320665</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>03864d1d-74b7-444e-9c25-6a1854b9733a</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>button_addToCartActions_divNthChild_3</value>
+        <variableId>21bb9c18-a5a4-4220-8caa-6fde39054e81</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>03864d1d-74b7-444e-9c25-6a1854b9733a</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>button_addToCartActions_divNthOfType</value>
+        <variableId>3298d087-fb6e-4661-bc8f-4e9305532ae3</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>03864d1d-74b7-444e-9c25-6a1854b9733a</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>button_addToCartActions_divNthOfType_1</value>
+        <variableId>0df998aa-2aa1-4e52-9b68-29ed5df65c61</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>03864d1d-74b7-444e-9c25-6a1854b9733a</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>button_addToCartActions_divNthOfType_2</value>
+        <variableId>5e682144-c0b7-4e92-b82f-3db84ae20c81</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>03864d1d-74b7-444e-9c25-6a1854b9733a</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>button_addToCartActions_divNthOfType_3</value>
+        <variableId>2ce57ec9-1067-4545-821d-af90435ab8bf</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>03864d1d-74b7-444e-9c25-6a1854b9733a</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>label_storageOptions_for</value>
+        <variableId>5186e788-5b80-4a79-b5f9-746c6d9946ce</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>03864d1d-74b7-444e-9c25-6a1854b9733a</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>label_storageOptions_for_1</value>
+        <variableId>761c4d49-5863-477f-b0da-feb77d5b2e9a</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>03864d1d-74b7-444e-9c25-6a1854b9733a</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>label_storageOptions_for_2</value>
+        <variableId>ab7a9489-07f3-45b9-bf2c-56b05453d4c7</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>03864d1d-74b7-444e-9c25-6a1854b9733a</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>label_storageOptions_internalText</value>
+        <variableId>46b95d2a-3cbc-44c9-8d78-ef75fcc895b4</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>03864d1d-74b7-444e-9c25-6a1854b9733a</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>label_storageOptions_internalText_1</value>
+        <variableId>ec45ed30-7b1f-463b-9d09-3d2436893d7a</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>03864d1d-74b7-444e-9c25-6a1854b9733a</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>label_storageOptions_internalText_2</value>
+        <variableId>bb995dc0-d6bc-4641-9c97-09d95a25e023</variableId>
+    </variableLinks>
+</TestCaseEntity>

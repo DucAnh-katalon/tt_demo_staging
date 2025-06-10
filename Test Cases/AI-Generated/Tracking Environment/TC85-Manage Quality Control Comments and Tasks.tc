@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>0b2382bd-b7d0-47b1-8cb0-65bdfa4fc7db</id>
+        </flow>
+    </customField>
+    <description>Navigate to the dashboard, apply filters, view subject details, add quality control comments, and manage tasks effectively.</description>
+    <name>TC85-Manage Quality Control Comments and Tasks</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>40b76198-88be-432b-8475-2430f6a04d93</testCaseGuid>
+    <testDataLinks>
+        <combinationType>ONE</combinationType>
+        <id>50341572-839e-4835-89fd-1fa86e650d69</id>
+        <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+        </iterationEntity>
+        <testDataId>Data Files/AI-Generated/Tracking Environment/TC85-Manage Quality Control Comments and Tasks-test-data</testDataId>
+    </testDataLinks>
+    <variable>
+        <defaultValue>'SCR Super User'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>1d4da86d-33bd-4bf3-9822-f491143e31a0</id>
+        <masked>false</masked>
+        <name>button_superUserActions_internalHasText</name>
+    </variable>
+    <variable>
+        <defaultValue>'my-3'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>64550439-2bfb-4033-a022-b55b0b1a7628</id>
+        <masked>false</masked>
+        <name>button_taskManagement_class</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>e2ad0222-2ec4-46e1-a4c3-0fa564a9152f</id>
+        <masked>false</masked>
+        <name>button_taskManagement_class_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'qc-workitem-take-task-button'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>12e1f4ed-a29c-4c7d-880f-08dd28ee2a03</id>
+        <masked>false</masked>
+        <name>button_taskManagement_dataTestid</name>
+    </variable>
+    <variable>
+        <defaultValue>'qc-workitem-open-viewer-button'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>973cd482-e3b9-4fea-b8ea-32b5be63cf30</id>
+        <masked>false</masked>
+        <name>button_taskManagement_dataTestid_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'Data Files/AI-Generated/Tracking Environment/Common/selectStudyOrOrganizationAndApplyFilter-test-data'</defaultValue>
+        <description>Common function data file id</description>
+        <id>922848ab-ca17-4b80-94ac-e8ee56dee560</id>
+        <masked>false</masked>
+        <name>data_path_0</name>
+    </variable>
+    <variable>
+        <defaultValue>'Data Files/AI-Generated/Tracking Environment/Common/selectStudyAndViewSubjectDetails-test-data'</defaultValue>
+        <description>Common function data file id</description>
+        <id>b18673cb-badc-4aa8-b00f-9c205dc2af13</id>
+        <masked>false</masked>
+        <name>data_path_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'9'</defaultValue>
+        <description>Common function data row index</description>
+        <id>94e0e2b3-706e-4839-8170-31585cbf6905</id>
+        <masked>false</masked>
+        <name>index_0</name>
+    </variable>
+    <variable>
+        <defaultValue>'2'</defaultValue>
+        <description>Common function data row index</description>
+        <id>52ec5414-989b-45f0-a5d1-76060b3b9712</id>
+        <masked>false</masked>
+        <name>index_1</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>15e1822c-8352-4903-b945-4fd341adfa82</id>
+        <masked>false</masked>
+        <name>input_subjectId2</name>
+    </variable>
+    <variable>
+        <defaultValue>'["SubjectId"]'</defaultValue>
+        <description>Input data variable</description>
+        <id>a581c5ac-6f09-4647-9fb1-7d7a548c306c</id>
+        <masked>false</masked>
+        <name>select_filter</name>
+    </variable>
+    <variable>
+        <defaultValue>'7'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>1fa1638c-f87f-4e73-a682-09d11c77c60b</id>
+        <masked>false</masked>
+        <name>td_siteSubjectIds_tdNthChild</name>
+    </variable>
+    <variable>
+        <defaultValue>'7'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>75dae521-e9e6-415b-914b-cca84f4675f6</id>
+        <masked>false</masked>
+        <name>td_siteSubjectIds_tdNthChild_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'7'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>a10b0105-2b22-4bd2-a9aa-80e74993fd24</id>
+        <masked>false</masked>
+        <name>td_siteSubjectIds_tdNthOfType</name>
+    </variable>
+    <variable>
+        <defaultValue>'7'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>e2a1a009-7782-445c-95d3-f839b4ac2c8d</id>
+        <masked>false</masked>
+        <name>td_siteSubjectIds_tdNthOfType_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'QC comments baseline 122211'</defaultValue>
+        <description>Input data variable</description>
+        <id>e076cae9-7fd5-4ed3-b4cd-fb9b6210ec38</id>
+        <masked>false</masked>
+        <name>textarea_addQcComment</name>
+    </variable>
+    <variable>
+        <defaultValue>'QC comments baseline 122211 QC comments baseline 122211QC comments baseline 122211QC comments baseline 122211QC comments baseline 122211QC comments baseline 122211QC comments baseline 122211QC comments baseline 122211QC comments baseline 122211QC comments baseline 122211QC comments baseline 122211QC comments baseline 122211QC comments baseline 122211QC comments baseline 122211QC comments baseline 122211QC comments baseline 122211QC comments baseline 122211QC comments baseline 122211QC comments baseline 1222'</defaultValue>
+        <description>Input data variable</description>
+        <id>06dbf7d9-6a06-494f-b29c-3bfcc840a074</id>
+        <masked>false</masked>
+        <name>textarea_addQcComment_1</name>
+    </variable>
+    <variableLinks>
+        <testDataLinkId>50341572-839e-4835-89fd-1fa86e650d69</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>button_superUserActions_internalHasText</value>
+        <variableId>1d4da86d-33bd-4bf3-9822-f491143e31a0</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>50341572-839e-4835-89fd-1fa86e650d69</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>button_taskManagement_class</value>
+        <variableId>64550439-2bfb-4033-a022-b55b0b1a7628</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>50341572-839e-4835-89fd-1fa86e650d69</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>button_taskManagement_class_1</value>
+        <variableId>e2ad0222-2ec4-46e1-a4c3-0fa564a9152f</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>50341572-839e-4835-89fd-1fa86e650d69</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>button_taskManagement_dataTestid</value>
+        <variableId>12e1f4ed-a29c-4c7d-880f-08dd28ee2a03</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>50341572-839e-4835-89fd-1fa86e650d69</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>button_taskManagement_dataTestid_1</value>
+        <variableId>973cd482-e3b9-4fea-b8ea-32b5be63cf30</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>50341572-839e-4835-89fd-1fa86e650d69</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>data_path_0</value>
+        <variableId>922848ab-ca17-4b80-94ac-e8ee56dee560</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>50341572-839e-4835-89fd-1fa86e650d69</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>data_path_1</value>
+        <variableId>b18673cb-badc-4aa8-b00f-9c205dc2af13</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>50341572-839e-4835-89fd-1fa86e650d69</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>index_0</value>
+        <variableId>94e0e2b3-706e-4839-8170-31585cbf6905</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>50341572-839e-4835-89fd-1fa86e650d69</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>index_1</value>
+        <variableId>52ec5414-989b-45f0-a5d1-76060b3b9712</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>50341572-839e-4835-89fd-1fa86e650d69</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>input_subjectId2</value>
+        <variableId>15e1822c-8352-4903-b945-4fd341adfa82</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>50341572-839e-4835-89fd-1fa86e650d69</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>select_filter</value>
+        <variableId>a581c5ac-6f09-4647-9fb1-7d7a548c306c</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>50341572-839e-4835-89fd-1fa86e650d69</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>td_siteSubjectIds_tdNthChild</value>
+        <variableId>1fa1638c-f87f-4e73-a682-09d11c77c60b</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>50341572-839e-4835-89fd-1fa86e650d69</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>td_siteSubjectIds_tdNthChild_1</value>
+        <variableId>75dae521-e9e6-415b-914b-cca84f4675f6</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>50341572-839e-4835-89fd-1fa86e650d69</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>td_siteSubjectIds_tdNthOfType</value>
+        <variableId>a10b0105-2b22-4bd2-a9aa-80e74993fd24</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>50341572-839e-4835-89fd-1fa86e650d69</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>td_siteSubjectIds_tdNthOfType_1</value>
+        <variableId>e2a1a009-7782-445c-95d3-f839b4ac2c8d</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>50341572-839e-4835-89fd-1fa86e650d69</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>textarea_addQcComment</value>
+        <variableId>e076cae9-7fd5-4ed3-b4cd-fb9b6210ec38</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>50341572-839e-4835-89fd-1fa86e650d69</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>textarea_addQcComment_1</value>
+        <variableId>06dbf7d9-6a06-494f-b29c-3bfcc840a074</variableId>
+    </variableLinks>
+</TestCaseEntity>

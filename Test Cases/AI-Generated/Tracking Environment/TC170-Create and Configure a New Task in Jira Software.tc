@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>74efb913-85b3-4151-a501-aeb7a3b546d5</id>
+        </flow>
+    </customField>
+    <description>Navigate to the Jira project backlog, create a new task with assignee and summary, configure the task, and save changes while verifying the home page.</description>
+    <name>TC170-Create and Configure a New Task in Jira Software</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>3afcb7f0-ba8b-447c-9c07-08bf8963cab8</testCaseGuid>
+    <testDataLinks>
+        <combinationType>ONE</combinationType>
+        <id>da579b5a-7069-49b2-b120-be7ff88eaf86</id>
+        <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+        </iterationEntity>
+        <testDataId>Data Files/AI-Generated/Tracking Environment/TC170-Create and Configure a New Task in Jira Software-test-data</testDataId>
+    </testDataLinks>
+    <variable>
+        <defaultValue>'6094be6ff0db130069f2a671'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>d467f5ed-1135-4897-b8e1-107311ca36b7</id>
+        <masked>false</masked>
+        <name>backlog_assignee</name>
+    </variable>
+    <variable>
+        <defaultValue>'311'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>931879fc-b63a-4bed-b827-8515e2b1434d</id>
+        <masked>false</masked>
+        <name>boards_id</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>96fd821a-9949-4fe6-a492-6df3ec983fe6</id>
+        <masked>false</masked>
+        <name>div_descriptionArea5</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>352efc1f-ceff-4b5a-9804-18c6a73ff963</id>
+        <masked>false</masked>
+        <name>div_descriptionArea6</name>
+    </variable>
+    <variable>
+        <defaultValue>'{{name}}'</defaultValue>
+        <description>Input data variable</description>
+        <id>ee92998a-b1ff-4266-b38f-4a2d2d3bf61d</id>
+        <masked>false</masked>
+        <name>input_assignee</name>
+    </variable>
+    <variable>
+        <defaultValue>'Add configuration for gen graph from session data'</defaultValue>
+        <description>Input data variable</description>
+        <id>e18718cd-026d-4da8-8381-a8ed6780cd3c</id>
+        <masked>false</masked>
+        <name>input_summary</name>
+    </variable>
+    <variable>
+        <defaultValue>'Anh Dao'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>621f49a7-2719-42fe-9295-435d5e7538e2</id>
+        <masked>false</masked>
+        <name>label_assigneeAvatar_internalHasText</name>
+    </variable>
+    <variableLinks>
+        <testDataLinkId>da579b5a-7069-49b2-b120-be7ff88eaf86</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>backlog_assignee</value>
+        <variableId>d467f5ed-1135-4897-b8e1-107311ca36b7</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>da579b5a-7069-49b2-b120-be7ff88eaf86</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>boards_id</value>
+        <variableId>931879fc-b63a-4bed-b827-8515e2b1434d</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>da579b5a-7069-49b2-b120-be7ff88eaf86</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>div_descriptionArea5</value>
+        <variableId>96fd821a-9949-4fe6-a492-6df3ec983fe6</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>da579b5a-7069-49b2-b120-be7ff88eaf86</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>div_descriptionArea6</value>
+        <variableId>352efc1f-ceff-4b5a-9804-18c6a73ff963</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>da579b5a-7069-49b2-b120-be7ff88eaf86</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>input_assignee</value>
+        <variableId>ee92998a-b1ff-4266-b38f-4a2d2d3bf61d</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>da579b5a-7069-49b2-b120-be7ff88eaf86</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>input_summary</value>
+        <variableId>e18718cd-026d-4da8-8381-a8ed6780cd3c</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>da579b5a-7069-49b2-b120-be7ff88eaf86</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>label_assigneeAvatar_internalHasText</value>
+        <variableId>621f49a7-2719-42fe-9295-435d5e7538e2</variableId>
+    </variableLinks>
+</TestCaseEntity>

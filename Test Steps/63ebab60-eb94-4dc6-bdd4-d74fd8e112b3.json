@@ -1,0 +1,31 @@
+{
+    "steps": [
+        "step 1: Navigate to /dashboard",
+        "step 2: Click on div uploaderActionBar",
+        "step 3: Select study or organization and apply a filter to the list",
+        "step 4: Click on td studyProtocol -> Navigate to page '/studies/*/dashboard'",
+        "step 5: Click on link studyLinks (qualityControl)",
+        "step 6: Click on div subjectDetails (subjectStatus2)",
+        "step 7: Select option with input value from select qcWorklistFilter",
+        "step 8: Click on input subjectIdFilter",
+        "step 9: Enter input value in input subjectIdFilter",
+        "step 10: Click on button apply3",
+        "step 11: Click on td visitDetails (visit2)",
+        "step 12: Select option with input value from select qcWorklistFilter",
+        "step 13: Click on input visitFilter",
+        "step 14: Enter input value in input visitFilter",
+        "step 15: Click on button apply4",
+        "step 16: Click on faIcon object14",
+        "step 17: Click on link openWorkitems (openQcWorkitem)",
+        "step 18: Click on button taskManagement (onHold)",
+        "step 19: Click on textarea enter",
+        "step 20: Enter input value in textarea enter",
+        "step 21: Click on div save -> Navigate to page '/dashboard'",
+        "step 22: Click on div actionbar",
+        "step 23: Click on button selectStudyOrOrganization",
+        "step 24: Click on button studyActions (dontDelEditAutoStudy) -> Navigate to page '/studies/*/dashboard'",
+        "step 25: Click on link studyLinks (qualityControl)",
+        "step 26: Click on div qualityControlWorkList -> Navigate to page ''",
+        "step 27: Take full page screenshot as checkpoint"
+    ]
+}

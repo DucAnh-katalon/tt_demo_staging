@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>4afc9f89-4e14-41df-a9ce-2cfee7f18d7a</id>
+        </flow>
+    </customField>
+    <description>Navigate to the project backlog, change task status, edit assignees, and verify updates in the application.</description>
+    <name>TC178-Manage Jira Software Project Tasks and Assignees</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>ad4cd98f-2576-4947-8d1e-de74b04f6be3</testCaseGuid>
+    <testDataLinks>
+        <combinationType>ONE</combinationType>
+        <id>e2f453b2-5ed3-405e-98b9-ff7e37004f2d</id>
+        <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+        </iterationEntity>
+        <testDataId>Data Files/AI-Generated/Tracking Environment/TC178-Manage Jira Software Project Tasks and Assignees-test-data</testDataId>
+    </testDataLinks>
+    <variable>
+        <defaultValue>'311'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>e13779d9-6822-4101-a6bb-5bf9227bf858</id>
+        <masked>false</masked>
+        <name>boards_id</name>
+    </variable>
+    <variable>
+        <defaultValue>'sc-1nlgjye-0\\\\ jDIYHm'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>35cde6b7-9b08-48de-ac01-4a0dad40013a</id>
+        <masked>false</masked>
+        <name>button_editAssignee_class</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>8a5eb7b3-0c2d-4a7b-8911-d669bd54486c</id>
+        <masked>false</masked>
+        <name>button_editAssignee_class_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'issue-field-assignee\\\\.ui\\\\.popover\\\\.edit-view\\\\.test'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>fc8fa07a-883e-4dbc-95c7-da148eeb2751</id>
+        <masked>false</masked>
+        <name>button_editAssignee_dataTestid</name>
+    </variable>
+    <variable>
+        <defaultValue>'software-backlog\\\\.card-list\\\\.card\\\\.content-container\\\\.KIP-5273\\"] [data-testid=\\"issue-field-assignee\\\\.ui\\\\.popover\\\\.edit-view\\\\.test'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>2219fda5-eef0-4b8c-9467-65f28c992883</id>
+        <masked>false</masked>
+        <name>button_editAssignee_dataTestid_1</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>f5495382-256d-4b95-88a7-1791c09283e0</id>
+        <masked>false</masked>
+        <name>div_descriptionArea</name>
+    </variable>
+    <variable>
+        <defaultValue>'2'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>3db73186-c168-4ee8-8d91-fc2c7d1d0573</id>
+        <masked>false</masked>
+        <name>div_options_option</name>
+    </variable>
+    <variable>
+        <defaultValue>'0'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>a84ac419-5595-4da5-a2f6-1eb21023986a</id>
+        <masked>false</masked>
+        <name>div_options_option_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'3'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>f26460fd-e67f-4309-b30b-749cd016942a</id>
+        <masked>false</masked>
+        <name>div_options_reactSelect</name>
+    </variable>
+    <variable>
+        <defaultValue>'5'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>47eef7d5-2467-485d-bf1e-30d26b9c40a0</id>
+        <masked>false</masked>
+        <name>div_options_reactSelect_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'khue'</defaultValue>
+        <description>Input data variable</description>
+        <id>1d87de48-cebd-4d81-ae0b-666905d5c094</id>
+        <masked>false</masked>
+        <name>input_searchAssignee</name>
+    </variable>
+    <variable>
+        <defaultValue>'Anh Dao'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>3645ec96-7b55-4f72-9a3d-f284f2514704</id>
+        <masked>false</masked>
+        <name>label_assigneeAvatar_internalHasText</name>
+    </variable>
+    <variable>
+        <defaultValue>'Anh Dao'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>9d9913d1-71bd-4d1c-bca0-383d61f4c0ab</id>
+        <masked>false</masked>
+        <name>label_assigneeAvatar_internalHasText_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'Anh Dao'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>6ae83112-6210-4fb2-8a4e-8b36df26a14d</id>
+        <masked>false</masked>
+        <name>label_assigneeAvatar_internalHasText_2</name>
+    </variable>
+    <variable>
+        <defaultValue>'Anh Dao'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>3822ba06-266a-4d67-a8fe-85428753131b</id>
+        <masked>false</masked>
+        <name>label_assigneeAvatar_internalHasText_3</name>
+    </variable>
+    <variable>
+        <defaultValue>'Anh Dao'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>91cf4bc1-3d74-4c70-82cd-8becbcde7e42</id>
+        <masked>false</masked>
+        <name>label_assigneeAvatar_internalHasText_4</name>
+    </variable>
+    <variable>
+        <defaultValue>'Anh Dao'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>51cd35dc-e05e-4ae3-8356-02df5197aaff</id>
+        <masked>false</masked>
+        <name>label_assigneeAvatar_internalHasText_5</name>
+    </variable>
+    <variable>
+        <defaultValue>'software-backlog\\\\.card-list\\\\.card\\\\.content-container\\\\.KIP-5273\\"] [data-testid=\\"issue-field-summary\\\\.ui\\\\.multiline-inline-summary\\\\.ui\\\\.read\\\\.link-item'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>49ce1741-9346-4a65-bb2f-e64f7330b6a7</id>
+        <masked>false</masked>
+        <name>link_tableSessionize_dataTestid</name>
+    </variable>
+    <variable>
+        <defaultValue>'2'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>113f83d3-22f2-4a09-bda7-3a55e2288a5b</id>
+        <masked>false</masked>
+        <name>link_tableSessionize_divNthOfType</name>
+    </variable>
+    <variable>
+        <defaultValue>'5'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>cf3a2329-6104-4aea-88fe-60690f169881</id>
+        <masked>false</masked>
+        <name>link_tableSessionize_divNthOfType_1</name>
+    </variable>
+    <variableLinks>
+        <testDataLinkId>e2f453b2-5ed3-405e-98b9-ff7e37004f2d</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>boards_id</value>
+        <variableId>e13779d9-6822-4101-a6bb-5bf9227bf858</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>e2f453b2-5ed3-405e-98b9-ff7e37004f2d</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>button_editAssignee_class</value>
+        <variableId>35cde6b7-9b08-48de-ac01-4a0dad40013a</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>e2f453b2-5ed3-405e-98b9-ff7e37004f2d</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>button_editAssignee_class_1</value>
+        <variableId>8a5eb7b3-0c2d-4a7b-8911-d669bd54486c</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>e2f453b2-5ed3-405e-98b9-ff7e37004f2d</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>button_editAssignee_dataTestid</value>
+        <variableId>fc8fa07a-883e-4dbc-95c7-da148eeb2751</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>e2f453b2-5ed3-405e-98b9-ff7e37004f2d</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>button_editAssignee_dataTestid_1</value>
+        <variableId>2219fda5-eef0-4b8c-9467-65f28c992883</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>e2f453b2-5ed3-405e-98b9-ff7e37004f2d</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>div_descriptionArea</value>
+        <variableId>f5495382-256d-4b95-88a7-1791c09283e0</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>e2f453b2-5ed3-405e-98b9-ff7e37004f2d</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>div_options_option</value>
+        <variableId>3db73186-c168-4ee8-8d91-fc2c7d1d0573</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>e2f453b2-5ed3-405e-98b9-ff7e37004f2d</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>div_options_option_1</value>
+        <variableId>a84ac419-5595-4da5-a2f6-1eb21023986a</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>e2f453b2-5ed3-405e-98b9-ff7e37004f2d</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>div_options_reactSelect</value>
+        <variableId>f26460fd-e67f-4309-b30b-749cd016942a</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>e2f453b2-5ed3-405e-98b9-ff7e37004f2d</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>div_options_reactSelect_1</value>
+        <variableId>47eef7d5-2467-485d-bf1e-30d26b9c40a0</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>e2f453b2-5ed3-405e-98b9-ff7e37004f2d</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>input_searchAssignee</value>
+        <variableId>1d87de48-cebd-4d81-ae0b-666905d5c094</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>e2f453b2-5ed3-405e-98b9-ff7e37004f2d</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>label_assigneeAvatar_internalHasText</value>
+        <variableId>3645ec96-7b55-4f72-9a3d-f284f2514704</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>e2f453b2-5ed3-405e-98b9-ff7e37004f2d</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>label_assigneeAvatar_internalHasText_1</value>
+        <variableId>9d9913d1-71bd-4d1c-bca0-383d61f4c0ab</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>e2f453b2-5ed3-405e-98b9-ff7e37004f2d</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>label_assigneeAvatar_internalHasText_2</value>
+        <variableId>6ae83112-6210-4fb2-8a4e-8b36df26a14d</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>e2f453b2-5ed3-405e-98b9-ff7e37004f2d</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>label_assigneeAvatar_internalHasText_3</value>
+        <variableId>3822ba06-266a-4d67-a8fe-85428753131b</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>e2f453b2-5ed3-405e-98b9-ff7e37004f2d</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>label_assigneeAvatar_internalHasText_4</value>
+        <variableId>91cf4bc1-3d74-4c70-82cd-8becbcde7e42</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>e2f453b2-5ed3-405e-98b9-ff7e37004f2d</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>label_assigneeAvatar_internalHasText_5</value>
+        <variableId>51cd35dc-e05e-4ae3-8356-02df5197aaff</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>e2f453b2-5ed3-405e-98b9-ff7e37004f2d</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_tableSessionize_dataTestid</value>
+        <variableId>49ce1741-9346-4a65-bb2f-e64f7330b6a7</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>e2f453b2-5ed3-405e-98b9-ff7e37004f2d</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_tableSessionize_divNthOfType</value>
+        <variableId>113f83d3-22f2-4a09-bda7-3a55e2288a5b</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>e2f453b2-5ed3-405e-98b9-ff7e37004f2d</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_tableSessionize_divNthOfType_1</value>
+        <variableId>cf3a2329-6104-4aea-88fe-60690f169881</variableId>
+    </variableLinks>
+</TestCaseEntity>

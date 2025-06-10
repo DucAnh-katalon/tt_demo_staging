@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>8ca42a93-553a-4f45-9e9c-aef8858237d7</id>
+        </flow>
+    </customField>
+    <description>Login and access the meeting overview. Interact with various elements, input meeting notes, and manage meeting topics. Complete actions and verify navigation.</description>
+    <name>TC139-Navigate and Interact with Meeting Overview and Notes</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>0ca64e78-d90c-41d9-9697-ea61552248dc</testCaseGuid>
+    <testDataLinks>
+        <combinationType>ONE</combinationType>
+        <id>ea8196e6-33df-42b4-afd9-858b7fdb2fe2</id>
+        <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+        </iterationEntity>
+        <testDataId>Data Files/AI-Generated/Tracking Environment/TC139-Navigate and Interact with Meeting Overview and Notes-test-data</testDataId>
+    </testDataLinks>
+    <variable>
+        <defaultValue>'reaction-picker__custom-reaction-emoji\\\\ button\\\\ button--large\\\\ button--reaction\\\\ dropdown__close-on-command-complete\\\\ command\\\\ command--unselected\\\\ popover__target'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>3d6d418b-20cb-4018-81b0-a79c63328e1f</id>
+        <masked>false</masked>
+        <name>button_meetingActions_class</name>
+    </variable>
+    <variable>
+        <defaultValue>'reaction-picker__default-reactions'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>5d413226-eec6-4ffe-85db-d35a9d9b8583</id>
+        <masked>false</masked>
+        <name>button_meetingActions_class_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'\\ud83d\\udc36'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>360ed719-3256-4a17-a74c-daecfe669e80</id>
+        <masked>false</masked>
+        <name>button_meetingActions_internalText</name>
+    </variable>
+    <variable>
+        <defaultValue>'\\ud83d\\udc4d'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>db44d25c-6f6e-435f-9504-d8289d5ab551</id>
+        <masked>false</masked>
+        <name>button_meetingActions_internalText_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'{{url}}'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>9afe8d8c-5ea6-40c6-9205-13bc226dc9b9</id>
+        <masked>false</masked>
+        <name>login_redirectUrl</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>ea1e42aa-ac3c-4678-b284-0023fcf9c4d6</id>
+        <masked>false</masked>
+        <name>textarea_meetingNotes</name>
+    </variable>
+    <variable>
+        <defaultValue>'dedicated team to suport {{name}}'</defaultValue>
+        <description>Input data variable</description>
+        <id>1199297d-c1ed-4ae4-843e-516467d94cfc</id>
+        <masked>false</masked>
+        <name>textarea_meetingNotes_1</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>01044b85-0420-49ad-ad4a-fc3b9e57ea3e</id>
+        <masked>false</masked>
+        <name>textarea_meetingNotes_2</name>
+    </variable>
+    <variable>
+        <defaultValue>'4'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>3d98fada-e9f4-4699-a775-0e04590e8619</id>
+        <masked>false</masked>
+        <name>textarea_meetingNotes_articleNthOfType</name>
+    </variable>
+    <variable>
+        <defaultValue>'1'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>45b2860a-c5dc-479d-9632-89188427efdf</id>
+        <masked>false</masked>
+        <name>textarea_meetingNotes_articleNthOfType_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'2'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>fbbd672b-c9b3-459e-9aa7-b881eec5ca95</id>
+        <masked>false</masked>
+        <name>textarea_meetingNotes_articleNthOfType_10</name>
+    </variable>
+    <variable>
+        <defaultValue>'2'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>2704532c-bf43-4195-a6fb-28e6f88e6033</id>
+        <masked>false</masked>
+        <name>textarea_meetingNotes_articleNthOfType_11</name>
+    </variable>
+    <variable>
+        <defaultValue>'2'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>23c70694-d7d7-4b2e-9b3f-ebf1dfba2a20</id>
+        <masked>false</masked>
+        <name>textarea_meetingNotes_articleNthOfType_12</name>
+    </variable>
+    <variable>
+        <defaultValue>'3'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>b43af054-4a62-4f0c-b660-5a03197dc068</id>
+        <masked>false</masked>
+        <name>textarea_meetingNotes_articleNthOfType_13</name>
+    </variable>
+    <variable>
+        <defaultValue>'2'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>704ab85c-21d2-41f0-9bb0-90840955c96f</id>
+        <masked>false</masked>
+        <name>textarea_meetingNotes_articleNthOfType_14</name>
+    </variable>
+    <variable>
+        <defaultValue>'3'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>71db0295-6fe3-4ee8-8d38-8ebe0d5a4632</id>
+        <masked>false</masked>
+        <name>textarea_meetingNotes_articleNthOfType_15</name>
+    </variable>
+    <variable>
+        <defaultValue>'3'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>9c88f8be-5e87-47bf-8638-4f9a3cc5dba8</id>
+        <masked>false</masked>
+        <name>textarea_meetingNotes_articleNthOfType_16</name>
+    </variable>
+    <variable>
+        <defaultValue>'2'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>872b2232-f34b-4fb6-9fcb-b477b407c6d4</id>
+        <masked>false</masked>
+        <name>textarea_meetingNotes_articleNthOfType_17</name>
+    </variable>
+    <variable>
+        <defaultValue>'2'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>b5442eaa-d317-4d53-9426-f23a883434da</id>
+        <masked>false</masked>
+        <name>textarea_meetingNotes_articleNthOfType_18</name>
+    </variable>
+    <variable>
+        <defaultValue>'1'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>677e37bf-31f3-4f8b-a8e9-1dc8f8323064</id>
+        <masked>false</masked>
+        <name>textarea_meetingNotes_articleNthOfType_2</name>
+    </variable>
+    <variable>
+        <defaultValue>'2'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>9dcc510c-28e0-4d01-8707-13ec4644dc9c</id>
+        <masked>false</masked>
+        <name>textarea_meetingNotes_articleNthOfType_3</name>
+    </variable>
+    <variable>
+        <defaultValue>'1'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>8b24428e-5fc2-4e4f-8e1e-d76d9de739d2</id>
+        <masked>false</masked>
+        <name>textarea_meetingNotes_articleNthOfType_4</name>
+    </variable>
+    <variable>
+        <defaultValue>'1'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>d135db0a-8f05-4cd0-8cc0-4d0eed6dbd5b</id>
+        <masked>false</masked>
+        <name>textarea_meetingNotes_articleNthOfType_5</name>
+    </variable>
+    <variable>
+        <defaultValue>'3'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>ca61fbdf-71ef-43ac-9d58-b738e931ac40</id>
+        <masked>false</masked>
+        <name>textarea_meetingNotes_articleNthOfType_6</name>
+    </variable>
+    <variable>
+        <defaultValue>'2'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>71f9183b-9eba-4e75-bb8c-4bd1f64fc91d</id>
+        <masked>false</masked>
+        <name>textarea_meetingNotes_articleNthOfType_7</name>
+    </variable>
+    <variable>
+        <defaultValue>'2'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>c5fcfe9c-451c-4e29-9d84-0beee134af64</id>
+        <masked>false</masked>
+        <name>textarea_meetingNotes_articleNthOfType_8</name>
+    </variable>
+    <variable>
+        <defaultValue>'2'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>35b0d24f-64a7-4659-bf25-46e3021ce6c2</id>
+        <masked>false</masked>
+        <name>textarea_meetingNotes_articleNthOfType_9</name>
+    </variable>
+    <variable>
+        <defaultValue>'Add What puzzles us?'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>6b054f66-233c-420f-b4ea-5d2f59b69cc3</id>
+        <masked>false</masked>
+        <name>textarea_meetingNotes_internalLabel</name>
+    </variable>
+    <variable>
+        <defaultValue>'Add What went well?'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>7ffecb22-6570-4513-8561-3d5b16bc2f22</id>
+        <masked>false</masked>
+        <name>textarea_meetingNotes_internalLabel_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'Add What went less well?'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>e8379b09-2959-47b5-90be-1deadbb8e2b0</id>
+        <masked>false</masked>
+        <name>textarea_meetingNotes_internalLabel_10</name>
+    </variable>
+    <variable>
+        <defaultValue>'Add What went less well?'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>d30e2fad-742d-4349-afde-c12996146c43</id>
+        <masked>false</masked>
+        <name>textarea_meetingNotes_internalLabel_11</name>
+    </variable>
+    <variable>
+        <defaultValue>'Add What went less well?'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>e4fd44b1-781d-454e-9743-ab4b15e24397</id>
+        <masked>false</masked>
+        <name>textarea_meetingNotes_internalLabel_12</name>
+    </variable>
+    <variable>
+        <defaultValue>'Add What do we want to try next?'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>62fc1eac-af3c-45bd-9e5c-ee68fb477e0c</id>
+        <masked>false</masked>
+        <name>textarea_meetingNotes_internalLabel_13</name>
+    </variable>
+    <variable>
+        <defaultValue>'Add What went less well?'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>6d0082d8-5bb3-4601-add5-de7df9acc3a5</id>
+        <masked>false</masked>
+        <name>textarea_meetingNotes_internalLabel_14</name>
+    </variable>
+    <variable>
+        <defaultValue>'Add What do we want to try next?'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>86db36df-4e1e-4067-a993-818aeff42e2c</id>
+        <masked>false</masked>
+        <name>textarea_meetingNotes_internalLabel_15</name>
+    </variable>
+    <variable>
+        <defaultValue>'Add What do we want to try next?'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>a24f9e09-a993-4a1d-8795-a678b49dfcca</id>
+        <masked>false</masked>
+        <name>textarea_meetingNotes_internalLabel_16</name>
+    </variable>
+    <variable>
+        <defaultValue>'Add What went less well?'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>0e91a9b4-4fb1-40dc-8e17-c77e3b520323</id>
+        <masked>false</masked>
+        <name>textarea_meetingNotes_internalLabel_17</name>
+    </variable>
+    <variable>
+        <defaultValue>'Add What went less well?'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>2e2b0069-17bf-46f3-bc19-dfc262c586eb</id>
+        <masked>false</masked>
+        <name>textarea_meetingNotes_internalLabel_18</name>
+    </variable>
+    <variable>
+        <defaultValue>'Add What went well?'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>5d28c8ed-316a-4cce-b98b-3515d8ed144c</id>
+        <masked>false</masked>
+        <name>textarea_meetingNotes_internalLabel_2</name>
+    </variable>
+    <variable>
+        <defaultValue>'Add What went less well?'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>1e75cf4b-f825-40e3-8c6c-91da7f7cbead</id>
+        <masked>false</masked>
+        <name>textarea_meetingNotes_internalLabel_3</name>
+    </variable>
+    <variable>
+        <defaultValue>'Add What went well?'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>2d74d251-e468-4e62-b8ef-f88da23b6adc</id>
+        <masked>false</masked>
+        <name>textarea_meetingNotes_internalLabel_4</name>
+    </variable>
+    <variable>
+        <defaultValue>'Add What went well?'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>1b08e034-7573-484c-9042-9da7843ddf4e</id>
+        <masked>false</masked>
+        <name>textarea_meetingNotes_internalLabel_5</name>
+    </variable>
+    <variable>
+        <defaultValue>'Add What do we want to try next?'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>f7433c70-8db2-4a06-a17b-ea6dc7fe7d32</id>
+        <masked>false</masked>
+        <name>textarea_meetingNotes_internalLabel_6</name>
+    </variable>
+    <variable>
+        <defaultValue>'Add What went less well?'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>615b0a70-39d9-419c-9b15-aaa83601fb8b</id>
+        <masked>false</masked>
+        <name>textarea_meetingNotes_internalLabel_7</name>
+    </variable>
+    <variable>
+        <defaultValue>'Add What went less well?'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>9929fac9-ad82-438a-84db-bac9f63cfb47</id>
+        <masked>false</masked>
+        <name>textarea_meetingNotes_internalLabel_8</name>
+    </variable>
+    <variable>
+        <defaultValue>'Add What went less well?'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>24931b44-246c-4742-9848-096042a075ad</id>
+        <masked>false</masked>
+        <name>textarea_meetingNotes_internalLabel_9</name>
+    </variable>
+    <variableLinks>
+        <testDataLinkId>ea8196e6-33df-42b4-afd9-858b7fdb2fe2</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>button_meetingActions_class</value>
+        <variableId>3d6d418b-20cb-4018-81b0-a79c63328e1f</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>ea8196e6-33df-42b4-afd9-858b7fdb2fe2</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>button_meetingActions_class_1</value>
+        <variableId>5d413226-eec6-4ffe-85db-d35a9d9b8583</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>ea8196e6-33df-42b4-afd9-858b7fdb2fe2</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>button_meetingActions_internalText</value>
+        <variableId>360ed719-3256-4a17-a74c-daecfe669e80</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>ea8196e6-33df-42b4-afd9-858b7fdb2fe2</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>button_meetingActions_internalText_1</value>
+        <variableId>db44d25c-6f6e-435f-9504-d8289d5ab551</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>ea8196e6-33df-42b4-afd9-858b7fdb2fe2</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>login_redirectUrl</value>
+        <variableId>9afe8d8c-5ea6-40c6-9205-13bc226dc9b9</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>ea8196e6-33df-42b4-afd9-858b7fdb2fe2</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>textarea_meetingNotes</value>
+        <variableId>ea1e42aa-ac3c-4678-b284-0023fcf9c4d6</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>ea8196e6-33df-42b4-afd9-858b7fdb2fe2</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>textarea_meetingNotes_1</value>
+        <variableId>1199297d-c1ed-4ae4-843e-516467d94cfc</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>ea8196e6-33df-42b4-afd9-858b7fdb2fe2</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>textarea_meetingNotes_2</value>
+        <variableId>01044b85-0420-49ad-ad4a-fc3b9e57ea3e</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>ea8196e6-33df-42b4-afd9-858b7fdb2fe2</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>textarea_meetingNotes_articleNthOfType</value>
+        <variableId>3d98fada-e9f4-4699-a775-0e04590e8619</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>ea8196e6-33df-42b4-afd9-858b7fdb2fe2</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>textarea_meetingNotes_articleNthOfType_1</value>
+        <variableId>45b2860a-c5dc-479d-9632-89188427efdf</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>ea8196e6-33df-42b4-afd9-858b7fdb2fe2</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>textarea_meetingNotes_articleNthOfType_10</value>
+        <variableId>fbbd672b-c9b3-459e-9aa7-b881eec5ca95</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>ea8196e6-33df-42b4-afd9-858b7fdb2fe2</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>textarea_meetingNotes_articleNthOfType_11</value>
+        <variableId>2704532c-bf43-4195-a6fb-28e6f88e6033</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>ea8196e6-33df-42b4-afd9-858b7fdb2fe2</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>textarea_meetingNotes_articleNthOfType_12</value>
+        <variableId>23c70694-d7d7-4b2e-9b3f-ebf1dfba2a20</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>ea8196e6-33df-42b4-afd9-858b7fdb2fe2</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>textarea_meetingNotes_articleNthOfType_13</value>
+        <variableId>b43af054-4a62-4f0c-b660-5a03197dc068</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>ea8196e6-33df-42b4-afd9-858b7fdb2fe2</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>textarea_meetingNotes_articleNthOfType_14</value>
+        <variableId>704ab85c-21d2-41f0-9bb0-90840955c96f</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>ea8196e6-33df-42b4-afd9-858b7fdb2fe2</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>textarea_meetingNotes_articleNthOfType_15</value>
+        <variableId>71db0295-6fe3-4ee8-8d38-8ebe0d5a4632</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>ea8196e6-33df-42b4-afd9-858b7fdb2fe2</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>textarea_meetingNotes_articleNthOfType_16</value>
+        <variableId>9c88f8be-5e87-47bf-8638-4f9a3cc5dba8</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>ea8196e6-33df-42b4-afd9-858b7fdb2fe2</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>textarea_meetingNotes_articleNthOfType_17</value>
+        <variableId>872b2232-f34b-4fb6-9fcb-b477b407c6d4</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>ea8196e6-33df-42b4-afd9-858b7fdb2fe2</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>textarea_meetingNotes_articleNthOfType_18</value>
+        <variableId>b5442eaa-d317-4d53-9426-f23a883434da</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>ea8196e6-33df-42b4-afd9-858b7fdb2fe2</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>textarea_meetingNotes_articleNthOfType_2</value>
+        <variableId>677e37bf-31f3-4f8b-a8e9-1dc8f8323064</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>ea8196e6-33df-42b4-afd9-858b7fdb2fe2</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>textarea_meetingNotes_articleNthOfType_3</value>
+        <variableId>9dcc510c-28e0-4d01-8707-13ec4644dc9c</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>ea8196e6-33df-42b4-afd9-858b7fdb2fe2</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>textarea_meetingNotes_articleNthOfType_4</value>
+        <variableId>8b24428e-5fc2-4e4f-8e1e-d76d9de739d2</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>ea8196e6-33df-42b4-afd9-858b7fdb2fe2</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>textarea_meetingNotes_articleNthOfType_5</value>
+        <variableId>d135db0a-8f05-4cd0-8cc0-4d0eed6dbd5b</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>ea8196e6-33df-42b4-afd9-858b7fdb2fe2</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>textarea_meetingNotes_articleNthOfType_6</value>
+        <variableId>ca61fbdf-71ef-43ac-9d58-b738e931ac40</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>ea8196e6-33df-42b4-afd9-858b7fdb2fe2</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>textarea_meetingNotes_articleNthOfType_7</value>
+        <variableId>71f9183b-9eba-4e75-bb8c-4bd1f64fc91d</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>ea8196e6-33df-42b4-afd9-858b7fdb2fe2</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>textarea_meetingNotes_articleNthOfType_8</value>
+        <variableId>c5fcfe9c-451c-4e29-9d84-0beee134af64</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>ea8196e6-33df-42b4-afd9-858b7fdb2fe2</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>textarea_meetingNotes_articleNthOfType_9</value>
+        <variableId>35b0d24f-64a7-4659-bf25-46e3021ce6c2</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>ea8196e6-33df-42b4-afd9-858b7fdb2fe2</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>textarea_meetingNotes_internalLabel</value>
+        <variableId>6b054f66-233c-420f-b4ea-5d2f59b69cc3</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>ea8196e6-33df-42b4-afd9-858b7fdb2fe2</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>textarea_meetingNotes_internalLabel_1</value>
+        <variableId>7ffecb22-6570-4513-8561-3d5b16bc2f22</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>ea8196e6-33df-42b4-afd9-858b7fdb2fe2</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>textarea_meetingNotes_internalLabel_10</value>
+        <variableId>e8379b09-2959-47b5-90be-1deadbb8e2b0</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>ea8196e6-33df-42b4-afd9-858b7fdb2fe2</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>textarea_meetingNotes_internalLabel_11</value>
+        <variableId>d30e2fad-742d-4349-afde-c12996146c43</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>ea8196e6-33df-42b4-afd9-858b7fdb2fe2</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>textarea_meetingNotes_internalLabel_12</value>
+        <variableId>e4fd44b1-781d-454e-9743-ab4b15e24397</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>ea8196e6-33df-42b4-afd9-858b7fdb2fe2</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>textarea_meetingNotes_internalLabel_13</value>
+        <variableId>62fc1eac-af3c-45bd-9e5c-ee68fb477e0c</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>ea8196e6-33df-42b4-afd9-858b7fdb2fe2</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>textarea_meetingNotes_internalLabel_14</value>
+        <variableId>6d0082d8-5bb3-4601-add5-de7df9acc3a5</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>ea8196e6-33df-42b4-afd9-858b7fdb2fe2</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>textarea_meetingNotes_internalLabel_15</value>
+        <variableId>86db36df-4e1e-4067-a993-818aeff42e2c</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>ea8196e6-33df-42b4-afd9-858b7fdb2fe2</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>textarea_meetingNotes_internalLabel_16</value>
+        <variableId>a24f9e09-a993-4a1d-8795-a678b49dfcca</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>ea8196e6-33df-42b4-afd9-858b7fdb2fe2</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>textarea_meetingNotes_internalLabel_17</value>
+        <variableId>0e91a9b4-4fb1-40dc-8e17-c77e3b520323</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>ea8196e6-33df-42b4-afd9-858b7fdb2fe2</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>textarea_meetingNotes_internalLabel_18</value>
+        <variableId>2e2b0069-17bf-46f3-bc19-dfc262c586eb</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>ea8196e6-33df-42b4-afd9-858b7fdb2fe2</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>textarea_meetingNotes_internalLabel_2</value>
+        <variableId>5d28c8ed-316a-4cce-b98b-3515d8ed144c</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>ea8196e6-33df-42b4-afd9-858b7fdb2fe2</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>textarea_meetingNotes_internalLabel_3</value>
+        <variableId>1e75cf4b-f825-40e3-8c6c-91da7f7cbead</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>ea8196e6-33df-42b4-afd9-858b7fdb2fe2</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>textarea_meetingNotes_internalLabel_4</value>
+        <variableId>2d74d251-e468-4e62-b8ef-f88da23b6adc</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>ea8196e6-33df-42b4-afd9-858b7fdb2fe2</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>textarea_meetingNotes_internalLabel_5</value>
+        <variableId>1b08e034-7573-484c-9042-9da7843ddf4e</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>ea8196e6-33df-42b4-afd9-858b7fdb2fe2</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>textarea_meetingNotes_internalLabel_6</value>
+        <variableId>f7433c70-8db2-4a06-a17b-ea6dc7fe7d32</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>ea8196e6-33df-42b4-afd9-858b7fdb2fe2</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>textarea_meetingNotes_internalLabel_7</value>
+        <variableId>615b0a70-39d9-419c-9b15-aaa83601fb8b</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>ea8196e6-33df-42b4-afd9-858b7fdb2fe2</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>textarea_meetingNotes_internalLabel_8</value>
+        <variableId>9929fac9-ad82-438a-84db-bac9f63cfb47</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>ea8196e6-33df-42b4-afd9-858b7fdb2fe2</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>textarea_meetingNotes_internalLabel_9</value>
+        <variableId>24931b44-246c-4742-9848-096042a075ad</variableId>
+    </variableLinks>
+</TestCaseEntity>

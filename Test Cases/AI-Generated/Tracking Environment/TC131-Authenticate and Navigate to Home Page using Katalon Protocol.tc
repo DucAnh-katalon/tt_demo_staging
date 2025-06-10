@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>65e5bb06-cd29-4883-8184-ed66c402e4fb</id>
+        </flow>
+    </customField>
+    <description>Navigate through the Katalon authentication process, log in multiple times, and verify successful navigation to the home page.</description>
+    <name>TC131-Authenticate and Navigate to Home Page using Katalon Protocol</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>f25967b2-a64e-435c-a146-a12c176bddd7</testCaseGuid>
+    <testDataLinks>
+        <combinationType>ONE</combinationType>
+        <id>c9e2b83c-38fd-4b76-badf-32f5432fe62d</id>
+        <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+        </iterationEntity>
+        <testDataId>Data Files/AI-Generated/Tracking Environment/TC131-Authenticate and Navigate to Home Page using Katalon Protocol-test-data</testDataId>
+    </testDataLinks>
+    <variable>
+        <defaultValue>'katalon-testops-gen3'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>f830cad2-598f-49dc-9109-f16951b5a8a7</id>
+        <masked>false</masked>
+        <name>auth_client_id</name>
+    </variable>
+    <variable>
+        <defaultValue>'k2xgs6O6uVozqjojJWICFKNsVCnDnoJiRNGnwSkpTwk'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>868a46f0-0e22-4e67-942d-f8ac64a677e1</id>
+        <masked>false</masked>
+        <name>auth_code_challenge</name>
+    </variable>
+    <variable>
+        <defaultValue>'S256'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>3d02cb93-823d-4d3b-859e-707904e50adb</id>
+        <masked>false</masked>
+        <name>auth_code_challenge_method</name>
+    </variable>
+    <variable>
+        <defaultValue>'{{url}}'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>fc826b41-d924-45de-9fce-97e9ab7d6061</id>
+        <masked>false</masked>
+        <name>auth_redirect_uri</name>
+    </variable>
+    <variable>
+        <defaultValue>'code'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>b31f61ba-5ffb-4149-b5b9-c50769f77cb4</id>
+        <masked>false</masked>
+        <name>auth_response_type</name>
+    </variable>
+    <variable>
+        <defaultValue>'openid'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>096d70d8-0adc-4348-838a-8644a707fd57</id>
+        <masked>false</masked>
+        <name>auth_scope</name>
+    </variable>
+    <variable>
+        <defaultValue>'3fbea9309d8d4692a4a88af723126d4d'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>ce27e1db-d38d-43e4-9a1a-42181bfc2c58</id>
+        <masked>false</masked>
+        <name>auth_state</name>
+    </variable>
+    <variableLinks>
+        <testDataLinkId>c9e2b83c-38fd-4b76-badf-32f5432fe62d</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>auth_client_id</value>
+        <variableId>f830cad2-598f-49dc-9109-f16951b5a8a7</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>c9e2b83c-38fd-4b76-badf-32f5432fe62d</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>auth_code_challenge</value>
+        <variableId>868a46f0-0e22-4e67-942d-f8ac64a677e1</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>c9e2b83c-38fd-4b76-badf-32f5432fe62d</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>auth_code_challenge_method</value>
+        <variableId>3d02cb93-823d-4d3b-859e-707904e50adb</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>c9e2b83c-38fd-4b76-badf-32f5432fe62d</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>auth_redirect_uri</value>
+        <variableId>fc826b41-d924-45de-9fce-97e9ab7d6061</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>c9e2b83c-38fd-4b76-badf-32f5432fe62d</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>auth_response_type</value>
+        <variableId>b31f61ba-5ffb-4149-b5b9-c50769f77cb4</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>c9e2b83c-38fd-4b76-badf-32f5432fe62d</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>auth_scope</value>
+        <variableId>096d70d8-0adc-4348-838a-8644a707fd57</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>c9e2b83c-38fd-4b76-badf-32f5432fe62d</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>auth_state</value>
+        <variableId>ce27e1db-d38d-43e4-9a1a-42181bfc2c58</variableId>
+    </variableLinks>
+</TestCaseEntity>
