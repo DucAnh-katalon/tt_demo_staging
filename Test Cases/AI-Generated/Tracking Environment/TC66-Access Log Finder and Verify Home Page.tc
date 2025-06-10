@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>206e3627-4f7e-4e84-b639-821303dcbad5</id>
+        </flow>
+    </customField>
+    <description>Navigate to the cloud home app, access the log finder, and verify that the home page is displayed.</description>
+    <name>TC66-Access Log Finder and Verify Home Page</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>23df3016-4fb9-4e11-87b2-a1eb9585f12b</testCaseGuid>
+</TestCaseEntity>

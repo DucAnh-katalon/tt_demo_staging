@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>6383f25a-4fe9-45ec-8148-24e04dc6a0a2</id>
+        </flow>
+    </customField>
+    <description>Navigate to the home page and click on the Chill Morning Lofi link. Verify that the home page is displayed correctly.</description>
+    <name>TC38-Verify Chill Morning Lofi Link Functionality</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>6b161dad-7f40-4805-b3dc-c6d244c58c52</testCaseGuid>
+</TestCaseEntity>

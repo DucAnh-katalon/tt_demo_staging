@@ -1,0 +1,11 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Click on link production -> Navigate to page '/env/production/aut/*'",
+        "step 3: Click on button historyDetails -> Navigate to page '/env/production/aut/*/history'",
+        "step 4: Click on link historyEntries (history) -> Navigate to page '/env/production/aut/*/history/*'",
+        "step 5: Click on div collapsedFlows",
+        "step 6: Click on div collapsedParams -> Navigate to page ''",
+        "step 7: Take full page screenshot as checkpoint"
+    ]
+}

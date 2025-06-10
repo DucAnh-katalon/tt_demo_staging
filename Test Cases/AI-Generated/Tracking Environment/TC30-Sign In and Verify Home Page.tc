@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>98e0215f-4c88-4541-aea1-e2d4913b9c3c</id>
+        </flow>
+    </customField>
+    <description>Choose an account to sign in and verify that the home page is displayed successfully.</description>
+    <name>TC30-Sign In and Verify Home Page</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>84bfc353-f64a-48ac-aafe-3e0a61830cf0</testCaseGuid>
+    <testDataLinks>
+        <combinationType>ONE</combinationType>
+        <id>508e226b-1be6-4264-8ba8-a2edc5a8dda2</id>
+        <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+        </iterationEntity>
+        <testDataId>Data Files/AI-Generated/Tracking Environment/TC30-Sign In and Verify Home Page-test-data</testDataId>
+    </testDataLinks>
+    <variable>
+        <defaultValue>'https://meet.google.com/pon-eyan-sks'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>27047e85-df49-4ecb-8d69-96deafce9a02</id>
+        <masked>false</masked>
+        <name>accountchooser_continue</name>
+    </variable>
+    <variable>
+        <defaultValue>'S1981372103:1745891935487043'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>0d25fc46-7a6b-40f5-b058-4ca129d56605</id>
+        <masked>false</masked>
+        <name>accountchooser_dsh</name>
+    </variable>
+    <variable>
+        <defaultValue>'AccountChooser'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>1b647229-1b08-4169-b78f-194edb4e441d</id>
+        <masked>false</masked>
+        <name>accountchooser_flowEntry</name>
+    </variable>
+    <variable>
+        <defaultValue>'GlifWebSignIn'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>09d270e4-2e60-49bc-8b86-b5a2a59de38e</id>
+        <masked>false</masked>
+        <name>accountchooser_flowName</name>
+    </variable>
+    <variable>
+        <defaultValue>'vi'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>7486ac37-575a-4582-a697-f324ec0e66d7</id>
+        <masked>false</masked>
+        <name>accountchooser_hl</name>
+    </variable>
+    <variable>
+        <defaultValue>'v3'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>9d2f3e4f-1768-4354-808f-b24e3d1a3282</id>
+        <masked>false</masked>
+        <name>path_param_1</name>
+    </variable>
+    <variableLinks>
+        <testDataLinkId>508e226b-1be6-4264-8ba8-a2edc5a8dda2</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>accountchooser_continue</value>
+        <variableId>27047e85-df49-4ecb-8d69-96deafce9a02</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>508e226b-1be6-4264-8ba8-a2edc5a8dda2</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>accountchooser_dsh</value>
+        <variableId>0d25fc46-7a6b-40f5-b058-4ca129d56605</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>508e226b-1be6-4264-8ba8-a2edc5a8dda2</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>accountchooser_flowEntry</value>
+        <variableId>1b647229-1b08-4169-b78f-194edb4e441d</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>508e226b-1be6-4264-8ba8-a2edc5a8dda2</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>accountchooser_flowName</value>
+        <variableId>09d270e4-2e60-49bc-8b86-b5a2a59de38e</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>508e226b-1be6-4264-8ba8-a2edc5a8dda2</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>accountchooser_hl</value>
+        <variableId>7486ac37-575a-4582-a697-f324ec0e66d7</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>508e226b-1be6-4264-8ba8-a2edc5a8dda2</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>path_param_1</value>
+        <variableId>9d2f3e4f-1768-4354-808f-b24e3d1a3282</variableId>
+    </variableLinks>
+</TestCaseEntity>

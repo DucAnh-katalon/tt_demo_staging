@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>7f0c8b60-fd60-47e5-997d-4ba3eb15bdad</id>
+        </flow>
+    </customField>
+    <description>Browse through descriptions, record a Loom video, and save the details. Verify that the home page is displayed correctly afterward.</description>
+    <name>TC29-Record Loom Video and Verify Home Page</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>ede617bc-60ef-4ebe-8fb6-dc75703299a7</testCaseGuid>
+    <testDataLinks>
+        <combinationType>ONE</combinationType>
+        <id>d5a36e43-b202-4704-8c11-ec6567077b9e</id>
+        <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+        </iterationEntity>
+        <testDataId>Data Files/AI-Generated/Tracking Environment/TC29-Record Loom Video and Verify Home Page-test-data</testDataId>
+    </testDataLinks>
+    <variable>
+        <defaultValue>'KIP-5098'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>e368be47-411b-4197-bb72-ff6a4a0e739a</id>
+        <masked>false</masked>
+        <name>browse_id</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>5760d3cc-647f-4f54-89d9-b92a69523a9e</id>
+        <masked>false</masked>
+        <name>div_descriptionArea</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>0ebb0f7c-efa3-4588-ae8b-12c738738fc6</id>
+        <masked>false</masked>
+        <name>div_editor</name>
+    </variable>
+    <variableLinks>
+        <testDataLinkId>d5a36e43-b202-4704-8c11-ec6567077b9e</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>browse_id</value>
+        <variableId>e368be47-411b-4197-bb72-ff6a4a0e739a</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>d5a36e43-b202-4704-8c11-ec6567077b9e</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>div_descriptionArea</value>
+        <variableId>5760d3cc-647f-4f54-89d9-b92a69523a9e</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>d5a36e43-b202-4704-8c11-ec6567077b9e</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>div_editor</value>
+        <variableId>0ebb0f7c-efa3-4588-ae8b-12c738738fc6</variableId>
+    </variableLinks>
+</TestCaseEntity>

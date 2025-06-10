@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>64bede69-2723-445f-b330-d33d70d7ad5d</id>
+        </flow>
+    </customField>
+    <description>Access the production environment, view history details, and verify that the home page is displayed correctly.</description>
+    <name>TC27-Navigate to Production Environment and Verify Home Page</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>85f34860-4e80-4d16-9374-5008704aac7f</testCaseGuid>
+    <testDataLinks>
+        <combinationType>ONE</combinationType>
+        <id>58e69852-f9fc-43f7-9c62-a7ae049cae13</id>
+        <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+        </iterationEntity>
+        <testDataId>Data Files/AI-Generated/Tracking Environment/TC27-Navigate to Production Environment and Verify Home Page-test-data</testDataId>
+    </testDataLinks>
+    <variable>
+        <defaultValue>'/env/production/aut/KA-2062937-1/history/79085b0e-0547-484f-89f4-7d8e4ceb8751'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>5bd5f59c-6b0c-44c1-a889-b743345d0819</id>
+        <masked>false</masked>
+        <name>link_historyEntries_href_variable</name>
+    </variable>
+    <variable>
+        <defaultValue>'79085b0'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>4d346f8b-25f2-43b9-b11b-6ccc2e4c9c1b</id>
+        <masked>false</masked>
+        <name>link_historyEntries_internalText</name>
+    </variable>
+    <variable>
+        <defaultValue>'5'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>026f2513-18cf-4243-9d8a-73682c32c964</id>
+        <masked>false</masked>
+        <name>link_historyEntries_trNthOfType</name>
+    </variable>
+    <variableLinks>
+        <testDataLinkId>58e69852-f9fc-43f7-9c62-a7ae049cae13</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_historyEntries_href_variable</value>
+        <variableId>5bd5f59c-6b0c-44c1-a889-b743345d0819</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>58e69852-f9fc-43f7-9c62-a7ae049cae13</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_historyEntries_internalText</value>
+        <variableId>4d346f8b-25f2-43b9-b11b-6ccc2e4c9c1b</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>58e69852-f9fc-43f7-9c62-a7ae049cae13</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_historyEntries_trNthOfType</value>
+        <variableId>026f2513-18cf-4243-9d8a-73682c32c964</variableId>
+    </variableLinks>
+</TestCaseEntity>

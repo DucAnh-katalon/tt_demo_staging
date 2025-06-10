@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>c8638c49-b09c-461e-83b7-f5f1621a9d79</id>
+        </flow>
+    </customField>
+    <description>Navigate to the OpenID Connect authentication page, click to continue with Google, and verify that the home page is displayed.</description>
+    <name>TC40-Authenticate with Google and Access Home Page</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>e6ea2276-c1bf-475f-840f-19ed852188e1</testCaseGuid>
+    <testDataLinks>
+        <combinationType>ONE</combinationType>
+        <id>edb5504f-715c-4024-8e78-b9f23123f410</id>
+        <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+        </iterationEntity>
+        <testDataId>Data Files/AI-Generated/Tracking Environment/TC40-Authenticate with Google and Access Home Page-test-data</testDataId>
+    </testDataLinks>
+    <variable>
+        <defaultValue>'katalon-truetest'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>891216c1-2673-4335-b690-70dc876a7ee4</id>
+        <masked>false</masked>
+        <name>auth_client_id</name>
+    </variable>
+    <variable>
+        <defaultValue>'{{aws_secret_key}}-7W3tiozkoU'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>06f2c04f-33fb-461a-9a1a-bf1a915c0981</id>
+        <masked>false</masked>
+        <name>auth_code_challenge</name>
+    </variable>
+    <variable>
+        <defaultValue>'S256'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>67eed9a4-80c1-4a53-87cb-cb1a8e8cae38</id>
+        <masked>false</masked>
+        <name>auth_code_challenge_method</name>
+    </variable>
+    <variable>
+        <defaultValue>'{{url}}'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>74a017e8-3c0f-4747-a242-d9d360b84faa</id>
+        <masked>false</masked>
+        <name>auth_redirect_uri</name>
+    </variable>
+    <variable>
+        <defaultValue>'code'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>6375bd38-4b2d-4867-8004-7f3c8faad122</id>
+        <masked>false</masked>
+        <name>auth_response_type</name>
+    </variable>
+    <variable>
+        <defaultValue>'openid'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>059087b0-f74f-436f-ac6b-8fcbb9746d16</id>
+        <masked>false</masked>
+        <name>auth_scope</name>
+    </variable>
+    <variableLinks>
+        <testDataLinkId>edb5504f-715c-4024-8e78-b9f23123f410</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>auth_client_id</value>
+        <variableId>891216c1-2673-4335-b690-70dc876a7ee4</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>edb5504f-715c-4024-8e78-b9f23123f410</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>auth_code_challenge</value>
+        <variableId>06f2c04f-33fb-461a-9a1a-bf1a915c0981</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>edb5504f-715c-4024-8e78-b9f23123f410</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>auth_code_challenge_method</value>
+        <variableId>67eed9a4-80c1-4a53-87cb-cb1a8e8cae38</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>edb5504f-715c-4024-8e78-b9f23123f410</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>auth_redirect_uri</value>
+        <variableId>74a017e8-3c0f-4747-a242-d9d360b84faa</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>edb5504f-715c-4024-8e78-b9f23123f410</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>auth_response_type</value>
+        <variableId>6375bd38-4b2d-4867-8004-7f3c8faad122</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>edb5504f-715c-4024-8e78-b9f23123f410</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>auth_scope</value>
+        <variableId>059087b0-f74f-436f-ac6b-8fcbb9746d16</variableId>
+    </variableLinks>
+</TestCaseEntity>

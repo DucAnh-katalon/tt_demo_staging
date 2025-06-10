@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>a045abdc-6690-4e7e-9840-0de7737e4005</id>
+        </flow>
+    </customField>
+    <description>Navigate to the backlog in Jira, update tasks, and interact with various boards and features. Verify navigation back to the home page.</description>
+    <name>TC45-Manage Tasks and Boards in Jira Software</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>f015b753-2975-48c2-83ba-63c7fe19a605</testCaseGuid>
+    <testDataLinks>
+        <combinationType>ONE</combinationType>
+        <id>011a330d-e2c4-40dd-83d3-cdca3996a736</id>
+        <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+        </iterationEntity>
+        <testDataId>Data Files/AI-Generated/Tracking Environment/TC45-Manage Tasks and Boards in Jira Software-test-data</testDataId>
+    </testDataLinks>
+    <variable>
+        <defaultValue>'311'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>131ac7f0-55f5-441e-8089-d5cc72118038</id>
+        <masked>false</masked>
+        <name>boards_id</name>
+    </variable>
+    <variable>
+        <defaultValue>'Anh Dao'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>dd529f77-69f4-4ffa-9f47-f0543345280f</id>
+        <masked>false</masked>
+        <name>label_assigneeAvatar_internalHasText</name>
+    </variable>
+    <variable>
+        <defaultValue>'/jira/software/c/projects/KIP/boards/358'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>b0db153b-deb3-4e21-b230-6246ad3a40c4</id>
+        <masked>false</masked>
+        <name>link_customerPocs_href_variable</name>
+    </variable>
+    <variable>
+        <defaultValue>'react-select-3-option-0-0'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>e65780c3-36f5-4a0b-8166-f6dc3d635fb5</id>
+        <masked>false</masked>
+        <name>link_customerPocs_id</name>
+    </variable>
+    <variable>
+        <defaultValue>'3'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>8cb91e40-2e1e-4843-8166-740fa8a9f121</id>
+        <masked>false</masked>
+        <name>link_customerPocs_reactSelect</name>
+    </variable>
+    <variable>
+        <defaultValue>'3856'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>e75d9409-8d4a-4849-baf4-97c0385a1b2f</id>
+        <masked>false</masked>
+        <name>span_trueTestPocDetails_cardKip</name>
+    </variable>
+    <variable>
+        <defaultValue>'4'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>5e5b9c20-a9dd-4f38-9044-c8d6870d8b80</id>
+        <masked>false</masked>
+        <name>span_trueTestPocDetails_divNthOfType</name>
+    </variable>
+    <variable>
+        <defaultValue>'3'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>37a8f96c-6092-46ea-9caa-6b186ad21995</id>
+        <masked>false</masked>
+        <name>span_trueTestPocDetails_divNthOfType_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'1'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>b8053598-55d9-4ac8-aa35-022e3b934b89</id>
+        <masked>false</masked>
+        <name>span_trueTestPocDetails_liNthOfType</name>
+    </variable>
+    <variableLinks>
+        <testDataLinkId>011a330d-e2c4-40dd-83d3-cdca3996a736</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>boards_id</value>
+        <variableId>131ac7f0-55f5-441e-8089-d5cc72118038</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>011a330d-e2c4-40dd-83d3-cdca3996a736</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>label_assigneeAvatar_internalHasText</value>
+        <variableId>dd529f77-69f4-4ffa-9f47-f0543345280f</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>011a330d-e2c4-40dd-83d3-cdca3996a736</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_customerPocs_href_variable</value>
+        <variableId>b0db153b-deb3-4e21-b230-6246ad3a40c4</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>011a330d-e2c4-40dd-83d3-cdca3996a736</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_customerPocs_id</value>
+        <variableId>e65780c3-36f5-4a0b-8166-f6dc3d635fb5</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>011a330d-e2c4-40dd-83d3-cdca3996a736</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_customerPocs_reactSelect</value>
+        <variableId>8cb91e40-2e1e-4843-8166-740fa8a9f121</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>011a330d-e2c4-40dd-83d3-cdca3996a736</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>span_trueTestPocDetails_cardKip</value>
+        <variableId>e75d9409-8d4a-4849-baf4-97c0385a1b2f</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>011a330d-e2c4-40dd-83d3-cdca3996a736</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>span_trueTestPocDetails_divNthOfType</value>
+        <variableId>5e5b9c20-a9dd-4f38-9044-c8d6870d8b80</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>011a330d-e2c4-40dd-83d3-cdca3996a736</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>span_trueTestPocDetails_divNthOfType_1</value>
+        <variableId>37a8f96c-6092-46ea-9caa-6b186ad21995</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>011a330d-e2c4-40dd-83d3-cdca3996a736</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>span_trueTestPocDetails_liNthOfType</value>
+        <variableId>b8053598-55d9-4ac8-aa35-022e3b934b89</variableId>
+    </variableLinks>
+</TestCaseEntity>

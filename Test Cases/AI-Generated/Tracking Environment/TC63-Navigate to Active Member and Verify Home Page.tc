@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>f9174bcd-458b-493c-829e-bb393ddd7dab</id>
+        </flow>
+    </customField>
+    <description>Access the home page, click on the active member link, navigate to the messages section, and verify that the home page is displayed.</description>
+    <name>TC63-Navigate to Active Member and Verify Home Page</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>913540da-ba1c-48da-87b4-1d8274af66b3</testCaseGuid>
+</TestCaseEntity>

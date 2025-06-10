@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>02c4f32b-0216-4814-be2b-4f631ab7a738</id>
+        </flow>
+    </customField>
+    <description>Navigate to the home page, input data into a text area, and click decode. Verify that the home page is displayed correctly.</description>
+    <name>TC69-Decode Input Data and Verify Home Page</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>68cf52a8-1ec4-4bbb-a516-a3b203738ad3</testCaseGuid>
+    <testDataLinks>
+        <combinationType>ONE</combinationType>
+        <id>a081a6e2-cc60-46ea-b0e3-20eeec686934</id>
+        <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+        </iterationEntity>
+        <testDataId>Data Files/AI-Generated/Tracking Environment/TC69-Decode Input Data and Verify Home Page-test-data</testDataId>
+    </testDataLinks>
+    <variable>
+        <defaultValue>'vPEMo0L8P9CGPzHTc+JnMVRRacISxo7GSXhjDKSHIr1jLncFpuAHi4QhGVPmkfwXNFXcS+ktc89/in3VZCMvexA/DncmroJquURLqZRrX5ZhbyGBbMcfDooWtbqe9wx1Is+k7XZeehmFwTDA6DJzeq72Z9lVEJfEdUOiXC9ITPP6UH0SPMYELllr7L4njpJqCfjB9Yc{{aws_access_key}}LYU2YKLkhFSgtmA8PVR3cOy8aswa6UYbrUD585dvd3bUjJFUAm1/nU2xwULMhFI/SGcrlK5g1ZznKQuTV1sl8OJG3i1AJTh/Kwu'</defaultValue>
+        <description>Input data variable</description>
+        <id>31d7abce-8d1d-4798-b2ea-8dab6ad381d5</id>
+        <masked>false</masked>
+        <name>textarea_dataInput</name>
+    </variable>
+    <variableLinks>
+        <testDataLinkId>a081a6e2-cc60-46ea-b0e3-20eeec686934</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>textarea_dataInput</value>
+        <variableId>31d7abce-8d1d-4798-b2ea-8dab6ad381d5</variableId>
+    </variableLinks>
+</TestCaseEntity>

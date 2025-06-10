@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>41831d44-25b5-4c22-b41b-943c61e308c0</id>
+        </flow>
+    </customField>
+    <description>Navigate to the OAuth account selection page, select an account, and verify successful navigation to the home page.</description>
+    <name>TC8-OAuth Account Selection and Home Page Verification</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>f80964d2-b8d7-4f5d-9d03-03c1564779ab</testCaseGuid>
+    <testDataLinks>
+        <combinationType>ONE</combinationType>
+        <id>41cfa014-6770-4e8e-8b38-faba18497f93</id>
+        <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+        </iterationEntity>
+        <testDataId>Data Files/AI-Generated/Tracking Environment/TC8-OAuth Account Selection and Home Page Verification-test-data</testDataId>
+    </testDataLinks>
+    <variable>
+        <defaultValue>'oauth2'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>ac1b83c7-da4f-45dd-be68-e95c094fe2a7</id>
+        <masked>false</masked>
+        <name>o_id</name>
+    </variable>
+    <variable>
+        <defaultValue>'669340669174-uegjfk8ds228s64e64n6o3jenaf9rk95.apps.googleusercontent.com'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>88748a52-ce48-4a04-835a-d28bf5f2d127</id>
+        <masked>false</masked>
+        <name>oauthchooseaccount_client_id</name>
+    </variable>
+    <variable>
+        <defaultValue>'O1hTynQw-MOmdE4BMR3-RvKVHF1GYBnwYGhpp6g9LuU'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>9ba349d3-50f7-437f-bde1-b1abf3e23cd4</id>
+        <masked>false</masked>
+        <name>oauthchooseaccount_code_challenge</name>
+    </variable>
+    <variable>
+        <defaultValue>'S256'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>e2739380-6f12-403d-b1b5-fc9759b23eb3</id>
+        <masked>false</masked>
+        <name>oauthchooseaccount_code_challenge_method</name>
+    </variable>
+    <variable>
+        <defaultValue>'1'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>aa60ce30-b8ea-46bd-875f-3d63c412441a</id>
+        <masked>false</masked>
+        <name>oauthchooseaccount_ddm</name>
+    </variable>
+    <variable>
+        <defaultValue>'GeneralOAuthFlow'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>25a7a24b-0784-49b7-85a8-96327b8b7f49</id>
+        <masked>false</masked>
+        <name>oauthchooseaccount_flowName</name>
+    </variable>
+    <variable>
+        <defaultValue>'dSCuMm18xnbGot7_p5tqwcIqGX4DIqkicEiSF2P8u6g'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>1ac6e75c-1c27-4b91-a6d4-2bf9c0f25493</id>
+        <masked>false</masked>
+        <name>oauthchooseaccount_nonce</name>
+    </variable>
+    <variable>
+        <defaultValue>'2'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>1c6fea0c-ff9d-4110-bfb7-b56ead399f0d</id>
+        <masked>false</masked>
+        <name>oauthchooseaccount_o2v</name>
+    </variable>
+    <variable>
+        <defaultValue>'https://katalon-team.1password.com/sso/oidc/redirect/'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>ca3310a4-dc3d-4651-b913-abe22b6f5085</id>
+        <masked>false</masked>
+        <name>oauthchooseaccount_redirect_uri</name>
+    </variable>
+    <variable>
+        <defaultValue>'code'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>631197e2-a268-41e1-ac06-a6c8151690c5</id>
+        <masked>false</masked>
+        <name>oauthchooseaccount_response_type</name>
+    </variable>
+    <variable>
+        <defaultValue>'email profile openid'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>477dc1d3-d26e-4fbc-9aa2-f1a7b7bb9ea6</id>
+        <masked>false</masked>
+        <name>oauthchooseaccount_scope</name>
+    </variable>
+    <variable>
+        <defaultValue>'lso'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>31acb832-e4b4-46d0-8140-e7b1094e71d3</id>
+        <masked>false</masked>
+        <name>oauthchooseaccount_service</name>
+    </variable>
+    <variable>
+        <defaultValue>'{"accountUuid":"NVW4FBDHMVDDLOABV3A5HL5WLU","b5State":"5HqeL1FwxiIRL8kK2mffew","clientShortCode":"X"}'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>8dfef3ba-ffe4-475d-bae0-ebecbdf986a2</id>
+        <masked>false</masked>
+        <name>oauthchooseaccount_state</name>
+    </variable>
+    <variable>
+        <defaultValue>'v2'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>39a70dde-a0a0-4b26-af79-04679bb3515d</id>
+        <masked>false</masked>
+        <name>path_param_3</name>
+    </variable>
+    <variableLinks>
+        <testDataLinkId>41cfa014-6770-4e8e-8b38-faba18497f93</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>o_id</value>
+        <variableId>ac1b83c7-da4f-45dd-be68-e95c094fe2a7</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>41cfa014-6770-4e8e-8b38-faba18497f93</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>oauthchooseaccount_client_id</value>
+        <variableId>88748a52-ce48-4a04-835a-d28bf5f2d127</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>41cfa014-6770-4e8e-8b38-faba18497f93</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>oauthchooseaccount_code_challenge</value>
+        <variableId>9ba349d3-50f7-437f-bde1-b1abf3e23cd4</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>41cfa014-6770-4e8e-8b38-faba18497f93</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>oauthchooseaccount_code_challenge_method</value>
+        <variableId>e2739380-6f12-403d-b1b5-fc9759b23eb3</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>41cfa014-6770-4e8e-8b38-faba18497f93</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>oauthchooseaccount_ddm</value>
+        <variableId>aa60ce30-b8ea-46bd-875f-3d63c412441a</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>41cfa014-6770-4e8e-8b38-faba18497f93</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>oauthchooseaccount_flowName</value>
+        <variableId>25a7a24b-0784-49b7-85a8-96327b8b7f49</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>41cfa014-6770-4e8e-8b38-faba18497f93</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>oauthchooseaccount_nonce</value>
+        <variableId>1ac6e75c-1c27-4b91-a6d4-2bf9c0f25493</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>41cfa014-6770-4e8e-8b38-faba18497f93</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>oauthchooseaccount_o2v</value>
+        <variableId>1c6fea0c-ff9d-4110-bfb7-b56ead399f0d</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>41cfa014-6770-4e8e-8b38-faba18497f93</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>oauthchooseaccount_redirect_uri</value>
+        <variableId>ca3310a4-dc3d-4651-b913-abe22b6f5085</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>41cfa014-6770-4e8e-8b38-faba18497f93</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>oauthchooseaccount_response_type</value>
+        <variableId>631197e2-a268-41e1-ac06-a6c8151690c5</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>41cfa014-6770-4e8e-8b38-faba18497f93</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>oauthchooseaccount_scope</value>
+        <variableId>477dc1d3-d26e-4fbc-9aa2-f1a7b7bb9ea6</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>41cfa014-6770-4e8e-8b38-faba18497f93</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>oauthchooseaccount_service</value>
+        <variableId>31acb832-e4b4-46d0-8140-e7b1094e71d3</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>41cfa014-6770-4e8e-8b38-faba18497f93</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>oauthchooseaccount_state</value>
+        <variableId>8dfef3ba-ffe4-475d-bae0-ebecbdf986a2</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>41cfa014-6770-4e8e-8b38-faba18497f93</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>path_param_3</value>
+        <variableId>39a70dde-a0a0-4b26-af79-04679bb3515d</variableId>
+    </variableLinks>
+</TestCaseEntity>

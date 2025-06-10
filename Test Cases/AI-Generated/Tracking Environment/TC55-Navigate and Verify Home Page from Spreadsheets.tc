@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>f5698108-cfd1-4ee7-a67c-801778dcbe5e</id>
+        </flow>
+    </customField>
+    <description>Access the spreadsheets edit page, interact with multiple objects, and navigate back to the home page to verify its presence.</description>
+    <name>TC55-Navigate and Verify Home Page from Spreadsheets</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>2d35ba9c-da7c-4cac-a451-6565434a38a7</testCaseGuid>
+    <testDataLinks>
+        <combinationType>ONE</combinationType>
+        <id>6633d71e-36cd-4847-b5af-609507753b2e</id>
+        <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+        </iterationEntity>
+        <testDataId>Data Files/AI-Generated/Tracking Environment/TC55-Navigate and Verify Home Page from Spreadsheets-test-data</testDataId>
+    </testDataLinks>
+    <variable>
+        <defaultValue>'1NMUK9wmQ75-BnygWX98fn7NsKonIoKRFsLsFZOeqrXI'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>eb37aaaf-fb3e-4d56-86e2-b0a570971cca</id>
+        <masked>false</masked>
+        <name>d_id</name>
+    </variable>
+    <variable>
+        <defaultValue>'504354497'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>5b8f0010-ea23-4c92-adf6-9234f0a027fe</id>
+        <masked>false</masked>
+        <name>edit_gid</name>
+    </variable>
+    <variable>
+        <defaultValue>'H1'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>99b91dd4-de91-4875-9494-4db07822e3ff</id>
+        <masked>false</masked>
+        <name>span_stepInstructions_internalLabel</name>
+    </variable>
+    <variableLinks>
+        <testDataLinkId>6633d71e-36cd-4847-b5af-609507753b2e</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>d_id</value>
+        <variableId>eb37aaaf-fb3e-4d56-86e2-b0a570971cca</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>6633d71e-36cd-4847-b5af-609507753b2e</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>edit_gid</value>
+        <variableId>5b8f0010-ea23-4c92-adf6-9234f0a027fe</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>6633d71e-36cd-4847-b5af-609507753b2e</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>span_stepInstructions_internalLabel</value>
+        <variableId>99b91dd4-de91-4875-9494-4db07822e3ff</variableId>
+    </variableLinks>
+</TestCaseEntity>

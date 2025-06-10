@@ -1,0 +1,18 @@
+{
+    "steps": [
+        "step 1: Navigate to /browse/*",
+        "step 2: Click on div description",
+        "step 3: Click on div description",
+        "step 4: Click on div description",
+        "step 5: Click on div description",
+        "step 6: Click on p linkMessage",
+        "step 7: Click on div missingStepHover",
+        "step 8: Click on p missingStepHover",
+        "step 9: Click on button recordLoomVideo",
+        "step 10: Enter input value in div editor",
+        "step 11: Enter input value in div descriptionArea",
+        "step 12: Click on button save",
+        "step 13: Click on link issueSummary -> Navigate to page ''",
+        "step 14: Take full page screenshot as checkpoint"
+    ]
+}

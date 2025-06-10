@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>e94ac3ce-8028-489f-a227-d19d41fb101f</id>
+        </flow>
+    </customField>
+    <description>Access the dashboard, click on the action bar, logout as a super user, and verify that the home page is displayed.</description>
+    <name>TC4-Logout as Super User and Verify Home Page</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>b2c1e911-43a8-4346-9aeb-793d085886e9</testCaseGuid>
+</TestCaseEntity>

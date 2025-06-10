@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>0ff756a3-d6ba-4609-8217-f89c012e4829</id>
+        </flow>
+    </customField>
+    <description>Search for a guide, access the help guide, watch a video preview, and verify the home page after returning.</description>
+    <name>TC37-Verify Help Guide Access and Video Preview</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>0df694bc-1888-4ac5-8d94-535b327d76f3</testCaseGuid>
+    <testDataLinks>
+        <combinationType>ONE</combinationType>
+        <id>9f521554-34bf-4823-aaa8-87c617aaba74</id>
+        <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+        </iterationEntity>
+        <testDataId>Data Files/AI-Generated/Tracking Environment/TC37-Verify Help Guide Access and Video Preview-test-data</testDataId>
+    </testDataLinks>
+    <variable>
+        <defaultValue>'c\u00e1ch ng\u1ed3i thi'</defaultValue>
+        <description>Input data variable</description>
+        <id>ebd6cdc6-7e41-4407-9867-594476852c68</id>
+        <masked>false</masked>
+        <name>input_search</name>
+    </variable>
+    <variableLinks>
+        <testDataLinkId>9f521554-34bf-4823-aaa8-87c617aaba74</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>input_search</value>
+        <variableId>ebd6cdc6-7e41-4407-9867-594476852c68</variableId>
+    </variableLinks>
+</TestCaseEntity>

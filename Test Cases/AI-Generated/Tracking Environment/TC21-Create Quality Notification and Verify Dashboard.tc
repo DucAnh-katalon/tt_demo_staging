@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>216ec65d-b063-4361-8a52-93509abb20f8</id>
+        </flow>
+    </customField>
+    <description>Access the studies dashboard, create a quality notification, and verify the home page after navigating through subject details.</description>
+    <name>TC21-Create Quality Notification and Verify Dashboard</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>ba4b4a98-cae0-4e5e-a7a1-9b2691ee0977</testCaseGuid>
+    <testDataLinks>
+        <combinationType>ONE</combinationType>
+        <id>2911fb76-e82f-494e-b964-5572f54c642c</id>
+        <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+        </iterationEntity>
+        <testDataId>Data Files/AI-Generated/Tracking Environment/TC21-Create Quality Notification and Verify Dashboard-test-data</testDataId>
+    </testDataLinks>
+    <variable>
+        <defaultValue>'2'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>c677d896-8667-4b2f-a978-d5cdd357a2eb</id>
+        <masked>false</masked>
+        <name>div_subjectDetails_trNthChild</name>
+    </variable>
+    <variable>
+        <defaultValue>'2'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>27d8666c-e8e1-4f89-9dd2-300adc656dbd</id>
+        <masked>false</masked>
+        <name>div_subjectDetails_trNthChild_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'2'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>588f61c9-6f9c-466f-84bd-a78f84aa8450</id>
+        <masked>false</masked>
+        <name>div_subjectDetails_trNthOfType</name>
+    </variable>
+    <variable>
+        <defaultValue>'2'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>8d9d26d8-8af1-4c48-8189-017c2291d2b8</id>
+        <masked>false</masked>
+        <name>div_subjectDetails_trNthOfType_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'Quality Control'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>99ff5b88-b61c-4f3f-b466-a5337126bc13</id>
+        <masked>false</masked>
+        <name>link_studyLinks_aTitle</name>
+    </variable>
+    <variable>
+        <defaultValue>'es-button'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>c19b897f-4fb7-4b20-ba17-e5ac20f2d6f2</id>
+        <masked>false</masked>
+        <name>link_studyLinks_class</name>
+    </variable>
+    <variable>
+        <defaultValue>'{{url}}'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>bfec4c36-8cde-4a29-868d-bd3fefac22cb</id>
+        <masked>false</masked>
+        <name>link_studyLinks_href_variable</name>
+    </variable>
+    <variable>
+        <defaultValue>'5'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>944549ef-14dc-4d61-bb70-257476ca77b8</id>
+        <masked>false</masked>
+        <name>link_studyLinks_liNthOfType</name>
+    </variable>
+    <variable>
+        <defaultValue>'["ABC-Test TrueTest AI Flow"]'</defaultValue>
+        <description>Input data variable</description>
+        <id>9c0cf93c-913a-495e-8cd1-8ed267bd1e0f</id>
+        <masked>false</masked>
+        <name>select_typeValue</name>
+    </variable>
+    <variable>
+        <defaultValue>'STY-f9sqohfl;uniqueId=STY-f9sqohfl'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>3dc41ac3-4fd3-498d-a463-2ec20567aad9</id>
+        <masked>false</masked>
+        <name>studies_id</name>
+    </variable>
+    <variableLinks>
+        <testDataLinkId>2911fb76-e82f-494e-b964-5572f54c642c</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>div_subjectDetails_trNthChild</value>
+        <variableId>c677d896-8667-4b2f-a978-d5cdd357a2eb</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>2911fb76-e82f-494e-b964-5572f54c642c</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>div_subjectDetails_trNthChild_1</value>
+        <variableId>27d8666c-e8e1-4f89-9dd2-300adc656dbd</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>2911fb76-e82f-494e-b964-5572f54c642c</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>div_subjectDetails_trNthOfType</value>
+        <variableId>588f61c9-6f9c-466f-84bd-a78f84aa8450</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>2911fb76-e82f-494e-b964-5572f54c642c</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>div_subjectDetails_trNthOfType_1</value>
+        <variableId>8d9d26d8-8af1-4c48-8189-017c2291d2b8</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>2911fb76-e82f-494e-b964-5572f54c642c</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_studyLinks_aTitle</value>
+        <variableId>99ff5b88-b61c-4f3f-b466-a5337126bc13</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>2911fb76-e82f-494e-b964-5572f54c642c</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_studyLinks_class</value>
+        <variableId>c19b897f-4fb7-4b20-ba17-e5ac20f2d6f2</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>2911fb76-e82f-494e-b964-5572f54c642c</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_studyLinks_href_variable</value>
+        <variableId>bfec4c36-8cde-4a29-868d-bd3fefac22cb</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>2911fb76-e82f-494e-b964-5572f54c642c</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_studyLinks_liNthOfType</value>
+        <variableId>944549ef-14dc-4d61-bb70-257476ca77b8</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>2911fb76-e82f-494e-b964-5572f54c642c</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>select_typeValue</value>
+        <variableId>9c0cf93c-913a-495e-8cd1-8ed267bd1e0f</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>2911fb76-e82f-494e-b964-5572f54c642c</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>studies_id</value>
+        <variableId>3dc41ac3-4fd3-498d-a463-2ec20567aad9</variableId>
+    </variableLinks>
+</TestCaseEntity>

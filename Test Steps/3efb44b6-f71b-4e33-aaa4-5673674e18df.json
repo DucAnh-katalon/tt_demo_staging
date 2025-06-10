@@ -1,0 +1,21 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Click on input environment",
+        "step 3: Click on div staging",
+        "step 4: Click on input password -> Navigate to page '/env/staging'",
+        "step 5: Click on link clientCodes (clientCode) -> Navigate to page '/env/staging/aut/*'",
+        "step 6: Click on span false",
+        "step 7: Click on div dynamicObject (trueIndicator)",
+        "step 8: Click on button submit",
+        "step 9: Click on button yes",
+        "step 10: Click on span false",
+        "step 11: Click on div dynamicObject (trueIndicator)",
+        "step 12: Click on span falseStatus",
+        "step 13: Click on div selectOption",
+        "step 14: Click on button submit",
+        "step 15: Click on button yes",
+        "step 16: Click on p createAut -> Navigate to page ''",
+        "step 17: Take full page screenshot as checkpoint"
+    ]
+}

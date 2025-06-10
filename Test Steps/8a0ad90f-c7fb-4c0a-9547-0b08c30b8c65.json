@@ -1,0 +1,9 @@
+{
+    "steps": [
+        "step 1: Navigate to /realms/katalon/protocol/openid-connect/auth with params (client id, code challenge, code challenge method, redirect uri, response type, scope, state)",
+        "step 2: Click on link continueWithEmail",
+        "step 3: Login -> Navigate to page '/realms/katalon/login-actions/authenticate'",
+        "step 4: Login",
+        "step 5: Take full page screenshot as checkpoint"
+    ]
+}

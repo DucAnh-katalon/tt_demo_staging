@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>6c073869-80ae-42de-b527-2a4d8a0cb611</id>
+        </flow>
+    </customField>
+    <description>Navigate to the Katalon Studio pull request page, review the changed files, and verify the home page after reviewing the changes.</description>
+    <name>TC36-Verify Changes in Katalon Studio Pull Request</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>040ca4fa-8133-42ff-a88e-3c58e898e039</testCaseGuid>
+    <testDataLinks>
+        <combinationType>ONE</combinationType>
+        <id>8a71b0d3-21a0-4bfc-af87-456aca3478a7</id>
+        <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+        </iterationEntity>
+        <testDataId>Data Files/AI-Generated/Tracking Environment/TC36-Verify Changes in Katalon Studio Pull Request-test-data</testDataId>
+    </testDataLinks>
+    <variable>
+        <defaultValue>'/katalon-studio/katalon-atg/pull/3745/files'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>5a3bb38c-bc76-44ba-a179-ccb694adc6d7</id>
+        <masked>false</masked>
+        <name>link_filesChanged_href_variable</name>
+    </variable>
+    <variable>
+        <defaultValue>'Files changed 6'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>6ce9d09c-36d3-47c6-b7cf-d4cc9a16bcdd</id>
+        <masked>false</masked>
+        <name>link_filesChanged_internalText</name>
+    </variable>
+    <variable>
+        <defaultValue>'3745'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>55d74c2b-012c-4649-a57f-f393f3052e7b</id>
+        <masked>false</masked>
+        <name>pull_id</name>
+    </variable>
+    <variable>
+        <defaultValue>'40'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>dc62099e-9658-4b5a-967d-6e11005b56f9</id>
+        <masked>false</masked>
+        <name>span_diffLineChange_trNthChild</name>
+    </variable>
+    <variable>
+        <defaultValue>'42'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>23dd947c-09b0-4259-b588-7ae3f39278f1</id>
+        <masked>false</masked>
+        <name>span_diffLineChange_trNthChild_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'42'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>9f3f1857-bb5f-4669-bf0c-7e32c5a96f14</id>
+        <masked>false</masked>
+        <name>span_diffLineChange_trNthChild_2</name>
+    </variable>
+    <variable>
+        <defaultValue>'48'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>6ee0614d-e497-4f41-940b-063e0d68dfc3</id>
+        <masked>false</masked>
+        <name>span_diffLineChange_trNthChild_3</name>
+    </variable>
+    <variable>
+        <defaultValue>'48'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>6220b792-f028-43ca-adde-6942538d4aea</id>
+        <masked>false</masked>
+        <name>span_diffLineChange_trNthChild_4</name>
+    </variable>
+    <variable>
+        <defaultValue>'53'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>5a2f0a4c-846e-4c88-930e-836e674fb0ed</id>
+        <masked>false</masked>
+        <name>span_diffLineChange_trNthChild_5</name>
+    </variable>
+    <variable>
+        <defaultValue>'53'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>a8f1c8f5-8a64-4f82-a3c5-09f380ed7cab</id>
+        <masked>false</masked>
+        <name>span_diffLineChange_trNthChild_6</name>
+    </variable>
+    <variableLinks>
+        <testDataLinkId>8a71b0d3-21a0-4bfc-af87-456aca3478a7</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_filesChanged_href_variable</value>
+        <variableId>5a3bb38c-bc76-44ba-a179-ccb694adc6d7</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>8a71b0d3-21a0-4bfc-af87-456aca3478a7</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_filesChanged_internalText</value>
+        <variableId>6ce9d09c-36d3-47c6-b7cf-d4cc9a16bcdd</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>8a71b0d3-21a0-4bfc-af87-456aca3478a7</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>pull_id</value>
+        <variableId>55d74c2b-012c-4649-a57f-f393f3052e7b</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>8a71b0d3-21a0-4bfc-af87-456aca3478a7</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>span_diffLineChange_trNthChild</value>
+        <variableId>dc62099e-9658-4b5a-967d-6e11005b56f9</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>8a71b0d3-21a0-4bfc-af87-456aca3478a7</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>span_diffLineChange_trNthChild_1</value>
+        <variableId>23dd947c-09b0-4259-b588-7ae3f39278f1</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>8a71b0d3-21a0-4bfc-af87-456aca3478a7</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>span_diffLineChange_trNthChild_2</value>
+        <variableId>9f3f1857-bb5f-4669-bf0c-7e32c5a96f14</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>8a71b0d3-21a0-4bfc-af87-456aca3478a7</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>span_diffLineChange_trNthChild_3</value>
+        <variableId>6ee0614d-e497-4f41-940b-063e0d68dfc3</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>8a71b0d3-21a0-4bfc-af87-456aca3478a7</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>span_diffLineChange_trNthChild_4</value>
+        <variableId>6220b792-f028-43ca-adde-6942538d4aea</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>8a71b0d3-21a0-4bfc-af87-456aca3478a7</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>span_diffLineChange_trNthChild_5</value>
+        <variableId>5a2f0a4c-846e-4c88-930e-836e674fb0ed</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>8a71b0d3-21a0-4bfc-af87-456aca3478a7</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>span_diffLineChange_trNthChild_6</value>
+        <variableId>a8f1c8f5-8a64-4f82-a3c5-09f380ed7cab</variableId>
+    </variableLinks>
+</TestCaseEntity>

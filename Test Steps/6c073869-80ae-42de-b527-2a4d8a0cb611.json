@@ -1,0 +1,20 @@
+{
+    "steps": [
+        "step 1: Navigate to /katalon-studio/katalon-atg/pull/*",
+        "step 2: Click on link filesChanged (filesChanged) -> Navigate to page '/katalon-studio/katalon-atg/pull/*/files'",
+        "step 3: Click on span diffLineChange",
+        "step 4: Click on span diffLineChange",
+        "step 5: Click on span diffLineChange (diffLineChange2)",
+        "step 6: Click on span diffLineChange3",
+        "step 7: Click on span diffLineChange (diffLineChange4)",
+        "step 8: Click on span diffLineChange (diffLineChange4)",
+        "step 9: Click on span diffLineChange (diffLineChange5)",
+        "step 10: Click on span diffLineChange (diffLineChange5)",
+        "step 11: Click on span diffLineChange6",
+        "step 12: Click on span diffLineChange6",
+        "step 13: Click on span diffLineChange6",
+        "step 14: Click on span diffLineChange (diffLineChange7)",
+        "step 15: Click on span diffLineChange (diffLineChange7) -> Navigate to page ''",
+        "step 16: Take full page screenshot as checkpoint"
+    ]
+}

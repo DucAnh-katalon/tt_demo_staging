@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>9eb64832-e778-4baa-9b2d-58115e570666</id>
+        </flow>
+    </customField>
+    <description>Navigate to the account chooser page, click to continue, and verify that the next page loads successfully.</description>
+    <name>TC47-Verify Account Chooser Navigation and Page Load</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>0a33c267-2628-4381-9e9b-8b8eef52c683</testCaseGuid>
+    <testDataLinks>
+        <combinationType>ONE</combinationType>
+        <id>cc301738-462b-4d4d-8921-843fac79a38f</id>
+        <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+        </iterationEntity>
+        <testDataId>Data Files/AI-Generated/Tracking Environment/TC47-Verify Account Chooser Navigation and Page Load-test-data</testDataId>
+    </testDataLinks>
+    <variable>
+        <defaultValue>'{{url}}&amp;RelayState=2f29b8eb-d477-4d8d-a0b4-fb0e1584eb1f&amp;omethod=POST'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>39e4bfdf-cea3-43ef-93a3-8447cecda147</id>
+        <masked>false</masked>
+        <name>accountchooser_continue</name>
+    </variable>
+    <variable>
+        <defaultValue>'{{passport_number}}:1746589256408451'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>9eaf265d-a291-48b2-ac1d-b2dbb111a1d9</id>
+        <masked>false</masked>
+        <name>accountchooser_dsh</name>
+    </variable>
+    <variable>
+        <defaultValue>'1'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>2d501e8c-5ae4-4465-a1cf-761b6bc0d031</id>
+        <masked>false</masked>
+        <name>accountchooser_faa</name>
+    </variable>
+    <variable>
+        <defaultValue>'AccountChooser'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>0466dc70-01d7-43d4-be7d-43e16e253463</id>
+        <masked>false</masked>
+        <name>accountchooser_flowEntry</name>
+    </variable>
+    <variable>
+        <defaultValue>'GlifWebSignIn'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>01888889-3739-474a-b426-acbf846648c7</id>
+        <masked>false</masked>
+        <name>accountchooser_flowName</name>
+    </variable>
+    <variable>
+        <defaultValue>'v3'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>09ef2385-04bb-4d8c-b35e-62d9e6aaf2fa</id>
+        <masked>false</masked>
+        <name>path_param_1</name>
+    </variable>
+    <variableLinks>
+        <testDataLinkId>cc301738-462b-4d4d-8921-843fac79a38f</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>accountchooser_continue</value>
+        <variableId>39e4bfdf-cea3-43ef-93a3-8447cecda147</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>cc301738-462b-4d4d-8921-843fac79a38f</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>accountchooser_dsh</value>
+        <variableId>9eaf265d-a291-48b2-ac1d-b2dbb111a1d9</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>cc301738-462b-4d4d-8921-843fac79a38f</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>accountchooser_faa</value>
+        <variableId>2d501e8c-5ae4-4465-a1cf-761b6bc0d031</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>cc301738-462b-4d4d-8921-843fac79a38f</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>accountchooser_flowEntry</value>
+        <variableId>0466dc70-01d7-43d4-be7d-43e16e253463</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>cc301738-462b-4d4d-8921-843fac79a38f</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>accountchooser_flowName</value>
+        <variableId>01888889-3739-474a-b426-acbf846648c7</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>cc301738-462b-4d4d-8921-843fac79a38f</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>path_param_1</value>
+        <variableId>09ef2385-04bb-4d8c-b35e-62d9e6aaf2fa</variableId>
+    </variableLinks>
+</TestCaseEntity>

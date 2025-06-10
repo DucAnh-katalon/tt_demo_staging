@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>43d96539-9f77-4b82-bf1e-15497f67490c</id>
+        </flow>
+    </customField>
+    <description>Navigate to the iframes page, interact with a button in the same domain iframe, and verify that the home page is displayed.</description>
+    <name>TC64-Interact with Iframes and Verify Home Page</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>90b1d2dc-d54d-4811-a588-a95171555f8d</testCaseGuid>
+    <testDataLinks>
+        <combinationType>ONE</combinationType>
+        <id>f748fa32-7418-4af3-8c8a-bda472ebda73</id>
+        <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+        </iterationEntity>
+        <testDataId>Data Files/AI-Generated/Tracking Environment/TC64-Interact with Iframes and Verify Home Page-test-data</testDataId>
+    </testDataLinks>
+    <variable>
+        <defaultValue>'space-y-1'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>eb04d928-4095-4a4c-89c9-0facbc17b571</id>
+        <masked>false</masked>
+        <name>link_dynamicElements_class</name>
+    </variable>
+    <variable>
+        <defaultValue>'nav-drag-drop'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>9f66670c-fdb2-414d-8689-34bd552d8258</id>
+        <masked>false</masked>
+        <name>link_dynamicElements_dataTest</name>
+    </variable>
+    <variable>
+        <defaultValue>'2'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>6b22c207-a843-4781-8e64-54cc0b738338</id>
+        <masked>false</masked>
+        <name>link_dynamicElements_divNthOfType</name>
+    </variable>
+    <variable>
+        <defaultValue>'1'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>76025db7-ef51-41d9-b9cd-bd9a4bb68059</id>
+        <masked>false</masked>
+        <name>link_dynamicElements_liNthOfType</name>
+    </variable>
+    <variableLinks>
+        <testDataLinkId>f748fa32-7418-4af3-8c8a-bda472ebda73</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_dynamicElements_class</value>
+        <variableId>eb04d928-4095-4a4c-89c9-0facbc17b571</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>f748fa32-7418-4af3-8c8a-bda472ebda73</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_dynamicElements_dataTest</value>
+        <variableId>9f66670c-fdb2-414d-8689-34bd552d8258</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>f748fa32-7418-4af3-8c8a-bda472ebda73</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_dynamicElements_divNthOfType</value>
+        <variableId>6b22c207-a843-4781-8e64-54cc0b738338</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>f748fa32-7418-4af3-8c8a-bda472ebda73</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_dynamicElements_liNthOfType</value>
+        <variableId>76025db7-ef51-41d9-b9cd-bd9a4bb68059</variableId>
+    </variableLinks>
+</TestCaseEntity>

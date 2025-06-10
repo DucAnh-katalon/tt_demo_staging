@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>bb992aaa-f7fe-4ccf-9e25-5e41e54863a2</id>
+        </flow>
+    </customField>
+    <description>Navigate to the sign-in chooser and select to sign in. Verify that the home page loads successfully.</description>
+    <name>TC12-Sign In and Verify Home Page</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>3d2e07e2-816d-4b85-b6d7-cef33fee3e65</testCaseGuid>
+    <testDataLinks>
+        <combinationType>ONE</combinationType>
+        <id>a6ab0641-5610-424a-8b1c-27b8af202d62</id>
+        <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+        </iterationEntity>
+        <testDataId>Data Files/AI-Generated/Tracking Environment/TC12-Sign In and Verify Home Page-test-data</testDataId>
+    </testDataLinks>
+    <variable>
+        <defaultValue>'https://meet.google.com/cdp-mnwm-iab'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>d23ccd6a-05bc-4092-9269-8361ec1303bc</id>
+        <masked>false</masked>
+        <name>signinchooser_continue</name>
+    </variable>
+    <variable>
+        <defaultValue>'1'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>f0c78510-a53c-432e-8a38-c696cf0d961f</id>
+        <masked>false</masked>
+        <name>signinchooser_ddm</name>
+    </variable>
+    <variable>
+        <defaultValue>'AccountChooser'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>9501843d-ce57-42ae-9204-df5a101b50c2</id>
+        <masked>false</masked>
+        <name>signinchooser_flowEntry</name>
+    </variable>
+    <variable>
+        <defaultValue>'GlifWebSignIn'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>d9038e5d-027f-4a09-9c03-37e15d3c198d</id>
+        <masked>false</masked>
+        <name>signinchooser_flowName</name>
+    </variable>
+    <variable>
+        <defaultValue>'vi'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>39da80a1-3ece-4f4b-8bfb-d9ac875325fc</id>
+        <masked>false</masked>
+        <name>signinchooser_hl</name>
+    </variable>
+    <variableLinks>
+        <testDataLinkId>a6ab0641-5610-424a-8b1c-27b8af202d62</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>signinchooser_continue</value>
+        <variableId>d23ccd6a-05bc-4092-9269-8361ec1303bc</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>a6ab0641-5610-424a-8b1c-27b8af202d62</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>signinchooser_ddm</value>
+        <variableId>f0c78510-a53c-432e-8a38-c696cf0d961f</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>a6ab0641-5610-424a-8b1c-27b8af202d62</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>signinchooser_flowEntry</value>
+        <variableId>9501843d-ce57-42ae-9204-df5a101b50c2</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>a6ab0641-5610-424a-8b1c-27b8af202d62</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>signinchooser_flowName</value>
+        <variableId>d9038e5d-027f-4a09-9c03-37e15d3c198d</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>a6ab0641-5610-424a-8b1c-27b8af202d62</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>signinchooser_hl</value>
+        <variableId>39da80a1-3ece-4f4b-8bfb-d9ac875325fc</variableId>
+    </variableLinks>
+</TestCaseEntity>

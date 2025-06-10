@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>10b6dd5f-9304-459a-ae61-2e26cd4a7b17</id>
+        </flow>
+    </customField>
+    <description>Go to the home page, access the about section, browse accessories, and adjust item quantities in the cart before returning to the home page.</description>
+    <name>TC2-Navigate to About Page and Adjust Cart Items</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>641cc52a-2730-4d1f-8fb0-feefa0587c54</testCaseGuid>
+</TestCaseEntity>

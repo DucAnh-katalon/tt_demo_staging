@@ -1,0 +1,16 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Click on span indicatorButton",
+        "step 3: Login",
+        "step 4: Click on link chatBox -> Navigate to page '/chat-box.html'",
+        "step 5: Click on link indicatorButton",
+        "step 6: Click on link orderPurchased -> Navigate to page '/orders-buy.html'",
+        "step 7: Click on td orderStatus",
+        "step 8: Click on td orderStatus",
+        "step 9: Click on link netflixAccount",
+        "step 10: Click on td gianHang",
+        "step 11: Click on link skvedhjfjz -> Navigate to page '/order-detail.html/*'",
+        "step 12: Take full page screenshot as checkpoint"
+    ]
+}

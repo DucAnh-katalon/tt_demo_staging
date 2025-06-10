@@ -1,0 +1,12 @@
+{
+    "steps": [
+        "step 1: Navigate to /dashboard",
+        "step 2: Click on div quicklinkList",
+        "step 3: Select study or organization and navigate to dashboard",
+        "step 4: Click on crIcon subjects",
+        "step 5: Click on div dashboardSections (forms)",
+        "step 6: Click on div dashboardSections (visitSchedule)",
+        "step 7: Click on div dataNotificationAndRules -> Navigate to page ''",
+        "step 8: Take full page screenshot as checkpoint"
+    ]
+}

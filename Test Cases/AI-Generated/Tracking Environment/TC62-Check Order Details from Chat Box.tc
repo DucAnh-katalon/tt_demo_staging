@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>eb473722-403d-4d0f-85b8-d027cf669b76</id>
+        </flow>
+    </customField>
+    <description>Login from the home page, access the chat box, view order status, and navigate to order details for further information.</description>
+    <name>TC62-Check Order Details from Chat Box</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>e31417a5-faf4-45d1-b63c-525dc09ba411</testCaseGuid>
+</TestCaseEntity>

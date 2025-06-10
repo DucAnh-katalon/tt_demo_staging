@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>3efb44b6-f71b-4e33-aaa4-5673674e18df</id>
+        </flow>
+    </customField>
+    <description>Navigate to the home page, select the staging environment, and submit client codes. Confirm the submission and verify the home page.</description>
+    <name>TC35-Verify Environment Setup and Client Code Submission</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>d1b40600-960b-4405-8978-067c038f2533</testCaseGuid>
+    <testDataLinks>
+        <combinationType>ONE</combinationType>
+        <id>83a0f324-61d1-4e24-81fe-3eed830db062</id>
+        <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+        </iterationEntity>
+        <testDataId>Data Files/AI-Generated/Tracking Environment/TC35-Verify Environment Setup and Client Code Submission-test-data</testDataId>
+    </testDataLinks>
+    <variable>
+        <defaultValue>'true'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>07008ee5-95f8-4e49-813d-d4b67d8ac3c0</id>
+        <masked>false</masked>
+        <name>div_dynamicObject_divTitle</name>
+    </variable>
+    <variable>
+        <defaultValue>'true'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>01091de9-4ae7-4d13-839f-2425939d363f</id>
+        <masked>false</masked>
+        <name>div_dynamicObject_divTitle_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'/env/staging/aut/KA-463428-1'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>4a072174-36d5-4ff2-a499-cb7c7ced396a</id>
+        <masked>false</masked>
+        <name>link_clientCodes_href_variable</name>
+    </variable>
+    <variable>
+        <defaultValue>'0'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>2e81b96a-f69f-489a-85a4-e37bf510289c</id>
+        <masked>false</masked>
+        <name>link_clientCodes_nth</name>
+    </variable>
+    <variableLinks>
+        <testDataLinkId>83a0f324-61d1-4e24-81fe-3eed830db062</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>div_dynamicObject_divTitle</value>
+        <variableId>07008ee5-95f8-4e49-813d-d4b67d8ac3c0</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>83a0f324-61d1-4e24-81fe-3eed830db062</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>div_dynamicObject_divTitle_1</value>
+        <variableId>01091de9-4ae7-4d13-839f-2425939d363f</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>83a0f324-61d1-4e24-81fe-3eed830db062</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_clientCodes_href_variable</value>
+        <variableId>4a072174-36d5-4ff2-a499-cb7c7ced396a</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>83a0f324-61d1-4e24-81fe-3eed830db062</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_clientCodes_nth</value>
+        <variableId>2e81b96a-f69f-489a-85a4-e37bf510289c</variableId>
+    </variableLinks>
+</TestCaseEntity>

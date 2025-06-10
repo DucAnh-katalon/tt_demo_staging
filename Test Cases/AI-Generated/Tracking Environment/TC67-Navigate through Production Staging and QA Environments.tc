@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>7a8c8f05-dcee-4737-b910-018c623de271</id>
+        </flow>
+    </customField>
+    <description>Access the home page and navigate through production, staging, and QA environments. Verify the QA environment page.</description>
+    <name>TC67-Navigate through Production Staging and QA Environments</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>51593302-4528-4e4b-96f1-e10d36e0eb89</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>872d6fef-fa70-4226-8d37-88fcfceefa71</id>
+        </flow>
+    </customField>
+    <description>Navigate to the account chooser page, click to sign in, and verify that the continuation page is displayed.</description>
+    <name>TC39-Sign In to Account Chooser and Verify Continuation Page</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>7a99e7f9-37eb-4975-b598-54cfe1457a92</testCaseGuid>
+    <testDataLinks>
+        <combinationType>ONE</combinationType>
+        <id>560908aa-e94c-48ea-969e-638acf72cd73</id>
+        <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+        </iterationEntity>
+        <testDataId>Data Files/AI-Generated/Tracking Environment/TC39-Sign In to Account Chooser and Verify Continuation Page-test-data</testDataId>
+    </testDataLinks>
+    <variable>
+        <defaultValue>'{{url}}&amp;RelayState=5030c1b7-888d-457e-bd08-e40e7e02e294&amp;omethod=POST'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>4f14b183-6d9a-4974-ba3f-a7260cf2c11e</id>
+        <masked>false</masked>
+        <name>signinchooser_continue</name>
+    </variable>
+    <variable>
+        <defaultValue>'1'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>a813eeb1-a77e-41f8-8e73-dc214643e78a</id>
+        <masked>false</masked>
+        <name>signinchooser_ddm</name>
+    </variable>
+    <variable>
+        <defaultValue>'1'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>c1b76455-7f65-4159-936e-b93e28441bdf</id>
+        <masked>false</masked>
+        <name>signinchooser_faa</name>
+    </variable>
+    <variable>
+        <defaultValue>'AccountChooser'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>509ea801-957d-486b-8730-dbaa7905f40f</id>
+        <masked>false</masked>
+        <name>signinchooser_flowEntry</name>
+    </variable>
+    <variable>
+        <defaultValue>'GlifWebSignIn'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>f1fc40c8-9c33-469b-b405-e5a562bb10de</id>
+        <masked>false</masked>
+        <name>signinchooser_flowName</name>
+    </variable>
+    <variableLinks>
+        <testDataLinkId>560908aa-e94c-48ea-969e-638acf72cd73</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>signinchooser_continue</value>
+        <variableId>4f14b183-6d9a-4974-ba3f-a7260cf2c11e</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>560908aa-e94c-48ea-969e-638acf72cd73</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>signinchooser_ddm</value>
+        <variableId>a813eeb1-a77e-41f8-8e73-dc214643e78a</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>560908aa-e94c-48ea-969e-638acf72cd73</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>signinchooser_faa</value>
+        <variableId>c1b76455-7f65-4159-936e-b93e28441bdf</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>560908aa-e94c-48ea-969e-638acf72cd73</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>signinchooser_flowEntry</value>
+        <variableId>509ea801-957d-486b-8730-dbaa7905f40f</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>560908aa-e94c-48ea-969e-638acf72cd73</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>signinchooser_flowName</value>
+        <variableId>f1fc40c8-9c33-469b-b405-e5a562bb10de</variableId>
+    </variableLinks>
+</TestCaseEntity>

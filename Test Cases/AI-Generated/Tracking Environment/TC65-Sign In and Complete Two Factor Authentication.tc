@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>88cee899-1315-4473-a2a1-2ae0a766dcfd</id>
+        </flow>
+    </customField>
+    <description>Navigate to the home page, sign in, complete the two-factor authentication, and verify that the home page is displayed.</description>
+    <name>TC65-Sign In and Complete Two Factor Authentication</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>0e770d5c-294c-4fbf-bf69-5417ae7dc7d3</testCaseGuid>
+</TestCaseEntity>
