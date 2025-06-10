@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>68bf193c-58af-437e-b038-6a45cf02293f</id>
+        </flow>
+    </customField>
+    <description>Navigate to the user menu, sign out, and verify successful logout by checking the return to the home page.</description>
+    <name>TC97-Test User Logout Process and Return to Home Page</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>b47ae2ad-a614-4e64-9f60-6cd8adc42bd9</testCaseGuid>
+    <testDataLinks>
+        <combinationType>ONE</combinationType>
+        <id>48c610d6-9d78-4c0d-82c1-ae27d00fa015</id>
+        <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+        </iterationEntity>
+        <testDataId>Data Files/AI-Generated/Tracking Environment/TC97-Test User Logout Process and Return to Home Page-test-data</testDataId>
+    </testDataLinks>
+    <variable>
+        <defaultValue>'IwY2xjawJ74fFleHRuA2FlbQIxMABicmlkETFRM25OaEtETldhV3hSazllAR5edUGJownSzgpfBOYBjyvRlumr3NVUjdNKGgpAN0RdHBpIbmj2ix5vpmX22g_aem_9osiKs3tvFCdicmWJY0RJw'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>43ad4e73-de7e-4ea9-b178-f07d4d224f15</id>
+        <masked>false</masked>
+        <name>VAEs_fbclid</name>
+    </variable>
+    <variable>
+        <defaultValue>'ducanh2505'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>b52c7929-9988-4b99-afe5-5dfe59c88f0a</id>
+        <masked>false</masked>
+        <name>path_param_1</name>
+    </variable>
+    <variableLinks>
+        <testDataLinkId>48c610d6-9d78-4c0d-82c1-ae27d00fa015</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>VAEs_fbclid</value>
+        <variableId>43ad4e73-de7e-4ea9-b178-f07d4d224f15</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>48c610d6-9d78-4c0d-82c1-ae27d00fa015</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>path_param_1</value>
+        <variableId>b52c7929-9988-4b99-afe5-5dfe59c88f0a</variableId>
+    </variableLinks>
+</TestCaseEntity>

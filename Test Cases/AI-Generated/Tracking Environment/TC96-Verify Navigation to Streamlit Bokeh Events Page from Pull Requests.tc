@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>89e63449-4df8-4cfe-b5ae-ca717f258686</id>
+        </flow>
+    </customField>
+    <description>Navigate to the Katalon Studio page and click on the pull requests link to verify successful navigation to the Streamlit Bokeh Events page.</description>
+    <name>TC96-Verify Navigation to Streamlit Bokeh Events Page from Pull Requests</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>3d79a6a2-3fce-4593-bb46-4b1f75db0535</testCaseGuid>
+    <testDataLinks>
+        <combinationType>ONE</combinationType>
+        <id>19a5ae53-a00a-471b-9f59-fe571e7b9b3c</id>
+        <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+        </iterationEntity>
+        <testDataId>Data Files/AI-Generated/Tracking Environment/TC96-Verify Navigation to Streamlit Bokeh Events Page from Pull Requests-test-data</testDataId>
+    </testDataLinks>
+    <variable>
+        <defaultValue>'3760'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>ad6b32fb-025b-444f-b125-b383f5e0278e</id>
+        <masked>false</masked>
+        <name>pull_id</name>
+    </variable>
+    <variableLinks>
+        <testDataLinkId>19a5ae53-a00a-471b-9f59-fe571e7b9b3c</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>pull_id</value>
+        <variableId>ad6b32fb-025b-444f-b125-b383f5e0278e</variableId>
+    </variableLinks>
+</TestCaseEntity>

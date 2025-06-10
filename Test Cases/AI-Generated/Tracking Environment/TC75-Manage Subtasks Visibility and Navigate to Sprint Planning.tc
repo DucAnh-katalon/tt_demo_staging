@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>fa82a043-0677-44b1-985b-134034cda3dd</id>
+        </flow>
+    </customField>
+    <description>Navigate to the backlog, toggle subtasks visibility, and access sprint planning multiple times. Verify navigation to the home page.</description>
+    <name>TC75-Manage Subtasks Visibility and Navigate to Sprint Planning</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>5ae087af-ebd0-4a75-a91d-a8671d4727a9</testCaseGuid>
+    <testDataLinks>
+        <combinationType>ONE</combinationType>
+        <id>71765c90-f90b-456b-a0bc-f4595b09d15d</id>
+        <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+        </iterationEntity>
+        <testDataId>Data Files/AI-Generated/Tracking Environment/TC75-Manage Subtasks Visibility and Navigate to Sprint Planning-test-data</testDataId>
+    </testDataLinks>
+    <variable>
+        <defaultValue>'{{mac_address}}'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>d0bef2cf-d188-4846-bda3-03f59148c315</id>
+        <masked>false</masked>
+        <name>backlog_assignee</name>
+    </variable>
+    <variable>
+        <defaultValue>'311'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>d15fbc7b-572b-4e70-b4c0-75b6ae378bbd</id>
+        <masked>false</masked>
+        <name>boards_id</name>
+    </variable>
+    <variable>
+        <defaultValue>'software-backlog\\\\.card-list\\\\.card\\\\.content-container\\\\.KIP-5094\\"] [data-testid=\\"issue-field-summary\\\\.ui\\\\.multiline-inline-summary\\\\.ui\\\\.read\\\\.link-item'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>0ba9320a-d643-4409-8776-8c9b295734ae</id>
+        <masked>false</masked>
+        <name>link_tableSessionize_dataTestid</name>
+    </variable>
+    <variable>
+        <defaultValue>'3'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>df76b2d0-af5c-4466-a74d-13e84dfb7515</id>
+        <masked>false</masked>
+        <name>link_tableSessionize_divNthOfType</name>
+    </variable>
+    <variable>
+        <defaultValue>'1'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>c820e7e6-5627-41aa-8069-376332ad0cdc</id>
+        <masked>false</masked>
+        <name>link_tableSessionize_divNthOfType_1</name>
+    </variable>
+    <variableLinks>
+        <testDataLinkId>71765c90-f90b-456b-a0bc-f4595b09d15d</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>backlog_assignee</value>
+        <variableId>d0bef2cf-d188-4846-bda3-03f59148c315</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>71765c90-f90b-456b-a0bc-f4595b09d15d</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>boards_id</value>
+        <variableId>d15fbc7b-572b-4e70-b4c0-75b6ae378bbd</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>71765c90-f90b-456b-a0bc-f4595b09d15d</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_tableSessionize_dataTestid</value>
+        <variableId>0ba9320a-d643-4409-8776-8c9b295734ae</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>71765c90-f90b-456b-a0bc-f4595b09d15d</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_tableSessionize_divNthOfType</value>
+        <variableId>df76b2d0-af5c-4466-a74d-13e84dfb7515</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>71765c90-f90b-456b-a0bc-f4595b09d15d</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_tableSessionize_divNthOfType_1</value>
+        <variableId>c820e7e6-5627-41aa-8069-376332ad0cdc</variableId>
+    </variableLinks>
+</TestCaseEntity>

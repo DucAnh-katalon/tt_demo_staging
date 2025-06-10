@@ -1,0 +1,23 @@
+{
+    "steps": [
+        "step 1: Navigate to /jira/software/c/projects/KIP/boards/*/backlog with params (assignee)",
+        "step 2: Click on button showSubtasks",
+        "step 3: Click on button hideSubtasks",
+        "step 4: Click on button showSubtasks",
+        "step 5: Click on button hideSubtasks",
+        "step 6: Click on div accessibleCard",
+        "step 7: Hover over button actions",
+        "step 8: Click on button closeModal",
+        "step 9: Click on span object",
+        "step 10: Click on span object",
+        "step 11: Click on div sprintPlanning",
+        "step 12: Click on div sprintPlanning",
+        "step 13: Click on div sprintPlanning",
+        "step 14: Click on div sprintPlanning",
+        "step 15: Click on div sprintPlanning",
+        "step 16: Click on link tableSessionize (dontTreatIframe)",
+        "step 17: Click on link trueTestPoc -> Navigate to page '/browse/*'",
+        "step 18: Click on code object -> Navigate to page ''",
+        "step 19: Take full page screenshot as checkpoint"
+    ]
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>a180c727-2b0e-48c3-8722-5f170fde38a7</id>
+        </flow>
+    </customField>
+    <description>Navigate to the Wiki Spaces page, hover over elements, cancel an action, and verify that the home page is displayed correctly.</description>
+    <name>TC108-Cancel Action and Verify Home Page in Wiki Spaces</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>bac5a3fa-bc40-433b-be08-7107203b1824</testCaseGuid>
+    <testDataLinks>
+        <combinationType>ONE</combinationType>
+        <id>17b01e55-e2c0-471c-a2b0-009c682a8052</id>
+        <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+        </iterationEntity>
+        <testDataId>Data Files/AI-Generated/Tracking Environment/TC108-Cancel Action and Verify Home Page in Wiki Spaces-test-data</testDataId>
+    </testDataLinks>
+    <variable>
+        <defaultValue>'4096295092'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>b5b14896-02e8-4d8f-aedb-11b3a21e7c8d</id>
+        <masked>false</masked>
+        <name>pages_id</name>
+    </variable>
+    <variableLinks>
+        <testDataLinkId>17b01e55-e2c0-471c-a2b0-009c682a8052</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>pages_id</value>
+        <variableId>b5b14896-02e8-4d8f-aedb-11b3a21e7c8d</variableId>
+    </variableLinks>
+</TestCaseEntity>

@@ -1,0 +1,10 @@
+{
+    "steps": [
+        "step 1: Navigate to /dashboard",
+        "step 2: Click on button clarioApps",
+        "step 3: Click on link administrationTool -> Navigate to page '/gssoadmin'",
+        "step 4: Click on button superUser",
+        "step 5: Click on link logout -> Navigate to page '/gateway'",
+        "step 6: Take full page screenshot as checkpoint"
+    ]
+}

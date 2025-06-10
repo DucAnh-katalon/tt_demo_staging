@@ -1,0 +1,14 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Click on link login",
+        "step 3: Enter input value in input password2",
+        "step 4: Press key Enter on input password2 -> Navigate to page '/login/device-based/regular/login'",
+        "step 5: Click on div logIn",
+        "step 6: Click on div object",
+        "step 7: Click on div object",
+        "step 8: Click on link login",
+        "step 9: Click on button login -> Navigate to page '/'",
+        "step 10: Take full page screenshot as checkpoint"
+    ]
+}

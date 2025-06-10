@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>af5b58e4-91a1-41e9-81d8-dc6958ee78da</id>
+        </flow>
+    </customField>
+    <description>Access the environment staging history page and click the header link to return to the home page, verifying its display.</description>
+    <name>TC106-Navigate to environment staging and verify home page</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>c0f99f5f-cf3e-4ec6-964b-d578ca95366f</testCaseGuid>
+    <testDataLinks>
+        <combinationType>ONE</combinationType>
+        <id>f0b0f930-02ff-4aa6-9c8e-58b309cdfda7</id>
+        <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+        </iterationEntity>
+        <testDataId>Data Files/AI-Generated/Tracking Environment/TC106-Navigate to environment staging and verify home page-test-data</testDataId>
+    </testDataLinks>
+    <variable>
+        <defaultValue>'KA-346522-37'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>c3b1a30a-b3bb-48f4-9716-4669dee3ad80</id>
+        <masked>false</masked>
+        <name>aut_id</name>
+    </variable>
+    <variable>
+        <defaultValue>'9a76012b-f9d9-46ce-b878-6bee4ed0ec52'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>cd048169-3567-4d8e-b8d2-b907bb33841a</id>
+        <masked>false</masked>
+        <name>history_id</name>
+    </variable>
+    <variableLinks>
+        <testDataLinkId>f0b0f930-02ff-4aa6-9c8e-58b309cdfda7</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>aut_id</value>
+        <variableId>c3b1a30a-b3bb-48f4-9716-4669dee3ad80</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>f0b0f930-02ff-4aa6-9c8e-58b309cdfda7</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>history_id</value>
+        <variableId>cd048169-3567-4d8e-b8d2-b907bb33841a</variableId>
+    </variableLinks>
+</TestCaseEntity>

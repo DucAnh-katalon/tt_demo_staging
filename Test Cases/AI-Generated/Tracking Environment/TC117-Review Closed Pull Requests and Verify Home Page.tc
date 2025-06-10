@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>58380fda-823c-4dd6-bb83-5f5a92062266</id>
+        </flow>
+    </customField>
+    <description>Navigate to the Katalon Studio pull requests section, review closed pull requests, and verify the home page after interactions.</description>
+    <name>TC117-Review Closed Pull Requests and Verify Home Page</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>3e9875f2-a68d-4d1e-89f1-ab9add46a43c</testCaseGuid>
+    <testDataLinks>
+        <combinationType>ONE</combinationType>
+        <id>ede4adfe-27a5-49c6-9058-92f1f1cbe511</id>
+        <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+        </iterationEntity>
+        <testDataId>Data Files/AI-Generated/Tracking Environment/TC117-Review Closed Pull Requests and Verify Home Page-test-data</testDataId>
+    </testDataLinks>
+    <variable>
+        <defaultValue>'3'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>f756d47e-5883-48b7-a527-65ea5dc03c94</id>
+        <masked>false</masked>
+        <name>link_pageNavigation_aNthOfType</name>
+    </variable>
+    <variable>
+        <defaultValue>'4'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>4a5859a7-c7d5-4eb4-afef-b6ba0b5209f0</id>
+        <masked>false</masked>
+        <name>link_pageNavigation_aNthOfType_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'Page 3'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>3c0851d4-fce7-4812-a156-5d3d27a7e00d</id>
+        <masked>false</masked>
+        <name>link_pageNavigation_internalLabel</name>
+    </variable>
+    <variable>
+        <defaultValue>'Page 4'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>ba63ba17-16f4-426f-815f-f27aea7a202f</id>
+        <masked>false</masked>
+        <name>link_pageNavigation_internalLabel_1</name>
+    </variable>
+    <variableLinks>
+        <testDataLinkId>ede4adfe-27a5-49c6-9058-92f1f1cbe511</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_pageNavigation_aNthOfType</value>
+        <variableId>f756d47e-5883-48b7-a527-65ea5dc03c94</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>ede4adfe-27a5-49c6-9058-92f1f1cbe511</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_pageNavigation_aNthOfType_1</value>
+        <variableId>4a5859a7-c7d5-4eb4-afef-b6ba0b5209f0</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>ede4adfe-27a5-49c6-9058-92f1f1cbe511</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_pageNavigation_internalLabel</value>
+        <variableId>3c0851d4-fce7-4812-a156-5d3d27a7e00d</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>ede4adfe-27a5-49c6-9058-92f1f1cbe511</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_pageNavigation_internalLabel_1</value>
+        <variableId>ba63ba17-16f4-426f-815f-f27aea7a202f</variableId>
+    </variableLinks>
+</TestCaseEntity>

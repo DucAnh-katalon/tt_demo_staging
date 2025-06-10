@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>532c3125-6fa2-4fcd-a83c-3d8dffd13e4d</id>
+        </flow>
+    </customField>
+    <description>Navigate to the staging environment, show detail flow, and verify successful navigation back to the home page.</description>
+    <name>TC126-Show Detail Flow and Verify Home Page</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>284e1f3b-7422-40d7-a668-5d43ef5fc13c</testCaseGuid>
+    <testDataLinks>
+        <combinationType>ONE</combinationType>
+        <id>6c07016a-cbb3-4f1e-bb27-a84958702fca</id>
+        <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+        </iterationEntity>
+        <testDataId>Data Files/AI-Generated/Tracking Environment/TC126-Show Detail Flow and Verify Home Page-test-data</testDataId>
+    </testDataLinks>
+    <variable>
+        <defaultValue>'KA-348536-53'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>84ab50c3-739a-47dd-a8e8-0cdec2173f13</id>
+        <masked>false</masked>
+        <name>aut_id</name>
+    </variable>
+    <variable>
+        <defaultValue>'1876a3e6-0a48-4b8a-939d-d84b346a4a1d'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>13ada71b-0277-4a55-9d8c-01f4bc3efd61</id>
+        <masked>false</masked>
+        <name>graph_id</name>
+    </variable>
+    <variable>
+        <defaultValue>'63660bcf-558a-458c-b7cd-1052b083a5a7'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>1ffecbbe-050a-429a-af0d-d6e6ec81501e</id>
+        <masked>false</masked>
+        <name>history_id</name>
+    </variable>
+    <variableLinks>
+        <testDataLinkId>6c07016a-cbb3-4f1e-bb27-a84958702fca</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>aut_id</value>
+        <variableId>84ab50c3-739a-47dd-a8e8-0cdec2173f13</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>6c07016a-cbb3-4f1e-bb27-a84958702fca</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>graph_id</value>
+        <variableId>13ada71b-0277-4a55-9d8c-01f4bc3efd61</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>6c07016a-cbb3-4f1e-bb27-a84958702fca</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>history_id</value>
+        <variableId>1ffecbbe-050a-429a-af0d-d6e6ec81501e</variableId>
+    </variableLinks>
+</TestCaseEntity>

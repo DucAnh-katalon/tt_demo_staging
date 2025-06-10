@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>2b030d57-1a36-44d1-8d10-2cd4f3b4cb57</id>
+        </flow>
+    </customField>
+    <description>Navigate to the email verification page, click the verification link, and confirm navigation to the home page.</description>
+    <name>TC99-Verify Email Verification Process and Navigation to Home Page</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>026faa29-d5d0-4d81-a34a-0704e8540fbe</testCaseGuid>
+    <testDataLinks>
+        <combinationType>ONE</combinationType>
+        <id>2e3d3ef9-6baf-4b2e-abbf-491ad74d8d9d</id>
+        <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+        </iterationEntity>
+        <testDataId>Data Files/AI-Generated/Tracking Environment/TC99-Verify Email Verification Process and Navigation to Home Page-test-data</testDataId>
+    </testDataLinks>
+    <variable>
+        <defaultValue>'1'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>cfe89da0-b2cd-4c4a-89c9-d8fecb051ba7</id>
+        <masked>false</masked>
+        <name>u_id</name>
+    </variable>
+    <variableLinks>
+        <testDataLinkId>2e3d3ef9-6baf-4b2e-abbf-491ad74d8d9d</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>u_id</value>
+        <variableId>cfe89da0-b2cd-4c4a-89c9-d8fecb051ba7</variableId>
+    </variableLinks>
+</TestCaseEntity>

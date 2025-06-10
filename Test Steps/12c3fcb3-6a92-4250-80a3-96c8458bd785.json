@@ -1,0 +1,9 @@
+{
+    "steps": [
+        "step 1: Navigate to /katalon-studio/katalon-atg",
+        "step 2: Click on button openUserMenu",
+        "step 3: Click on link signOut -> Navigate to page '/logout'",
+        "step 4: Click on input signOut2 -> Navigate to page ''",
+        "step 5: Take full page screenshot as checkpoint"
+    ]
+}

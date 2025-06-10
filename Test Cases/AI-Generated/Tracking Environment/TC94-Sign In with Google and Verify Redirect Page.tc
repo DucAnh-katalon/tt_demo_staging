@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>41176d6e-fb21-4012-ac6e-1437295ccea9</id>
+        </flow>
+    </customField>
+    <description>Navigate to the home page, click to sign in with Google, and verify the redirect to the sign-in page.</description>
+    <name>TC94-Sign In with Google and Verify Redirect Page</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>b713408e-b665-48c4-ae8e-7a3198fed0c9</testCaseGuid>
+    <testDataLinks>
+        <combinationType>ONE</combinationType>
+        <id>6f79ec6c-c299-4047-9870-835ae1367f17</id>
+        <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+        </iterationEntity>
+        <testDataId>Data Files/AI-Generated/Tracking Environment/TC94-Sign In with Google and Verify Redirect Page-test-data</testDataId>
+    </testDataLinks>
+    <variable>
+        <defaultValue>'/ssb/signin_redirect?revoke_parent_session_if_ssb=1&amp;is_ssb_browser_signin=1'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>ffc91997-1645-46f7-94bf-ed5235563dfb</id>
+        <masked>false</masked>
+        <name>var_redir</name>
+    </variable>
+    <variableLinks>
+        <testDataLinkId>6f79ec6c-c299-4047-9870-835ae1367f17</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>var_redir</value>
+        <variableId>ffc91997-1645-46f7-94bf-ed5235563dfb</variableId>
+    </variableLinks>
+</TestCaseEntity>

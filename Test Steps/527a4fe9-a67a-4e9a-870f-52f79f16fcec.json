@@ -1,0 +1,18 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Click on link qa (qa)",
+        "step 3: Click on link qa2 -> Navigate to page '/env/qa'",
+        "step 4: Click on div exitCode",
+        "step 5: Click on div exitCode",
+        "step 6: Click on div exitCode",
+        "step 7: Click on div exitCode",
+        "step 8: Click on div exitCode2",
+        "step 9: Click on div exitCode2",
+        "step 10: Click on div exitCode2",
+        "step 11: Click on div exitCode2",
+        "step 12: Click on td clientCode",
+        "step 13: Click on link clientCode -> Navigate to page ''",
+        "step 14: Take full page screenshot as checkpoint"
+    ]
+}

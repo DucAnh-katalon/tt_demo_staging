@@ -1,0 +1,7 @@
+{
+    "steps": [
+        "step 1: Navigate to /katalon-studio/katalon-atg/pull/*",
+        "step 2: Click on link pullRequests2 -> Navigate to page '/*/streamlit-bokeh-events'",
+        "step 3: Take full page screenshot as checkpoint"
+    ]
+}

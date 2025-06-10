@@ -1,0 +1,18 @@
+{
+    "steps": [
+        "step 1: Navigate to /katalon-studio/katalon-atg",
+        "step 2: Click on link pullRequests -> Navigate to page '/katalon-studio/katalon-atg/pulls'",
+        "step 3: Click on link closedPullRequests",
+        "step 4: Click on input searchIssues",
+        "step 5: Click on link page2",
+        "step 6: Click on link pageNavigation (page3)",
+        "step 7: Click on link pageNavigation (page4)",
+        "step 8: Click on link improveNamingProcess -> Navigate to page '/katalon-studio/katalon-atg/pull/*'",
+        "step 9: Click on link filesChanged4",
+        "step 10: Click on link filesChanged4 -> Navigate to page '/katalon-studio/katalon-atg/pull/*/files'",
+        "step 11: Click on td diffLineChange",
+        "step 12: Click on td originalFileLine",
+        "step 13: Click on link pullRequests -> Navigate to page ''",
+        "step 14: Take full page screenshot as checkpoint"
+    ]
+}

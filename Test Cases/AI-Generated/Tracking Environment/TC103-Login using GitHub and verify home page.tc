@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>75973e4e-8d6d-475a-8c4c-b8b9834f8f19</id>
+        </flow>
+    </customField>
+    <description>Navigate to the login page, sign in with GitHub, and verify that the home page is displayed correctly.</description>
+    <name>TC103-Login using GitHub and verify home page</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>0eacd5ff-95c9-4ce8-9268-79942a3711f4</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>1a3d2f3f-b945-48bc-bf8c-f958c4e59e48</id>
+        </flow>
+    </customField>
+    <description>Navigate to the browse page, interact with activity descriptions, and verify the home page after returning from activities.</description>
+    <name>TC70-Browse Activities and Verify Home Page</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>0959714e-7a02-4bd3-b019-3d0b4a8a313d</testCaseGuid>
+    <testDataLinks>
+        <combinationType>ONE</combinationType>
+        <id>c841d703-01dd-44ef-ac8f-f3348331b1c3</id>
+        <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+        </iterationEntity>
+        <testDataId>Data Files/AI-Generated/Tracking Environment/TC70-Browse Activities and Verify Home Page-test-data</testDataId>
+    </testDataLinks>
+    <variable>
+        <defaultValue>'KIP-5102'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>a47d8048-c2c9-426c-815b-c1426c9a0e53</id>
+        <masked>false</masked>
+        <name>browse_id</name>
+    </variable>
+    <variableLinks>
+        <testDataLinkId>c841d703-01dd-44ef-ac8f-f3348331b1c3</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>browse_id</value>
+        <variableId>a47d8048-c2c9-426c-815b-c1426c9a0e53</variableId>
+    </variableLinks>
+</TestCaseEntity>

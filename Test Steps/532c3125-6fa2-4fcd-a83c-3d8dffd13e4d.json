@@ -1,0 +1,9 @@
+{
+    "steps": [
+        "step 1: Navigate to /env/staging/aut/*/history/*/graph/*",
+        "step 2: Hover over link qa",
+        "step 3: Click on button showDetailFlow",
+        "step 4: Click on button showDetailFlowPanel -> Navigate to page ''",
+        "step 5: Take full page screenshot as checkpoint"
+    ]
+}

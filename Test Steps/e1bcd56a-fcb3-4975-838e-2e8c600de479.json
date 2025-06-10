@@ -1,0 +1,27 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Click on link signIn -> Navigate to page '/login'",
+        "step 3: Click on input username",
+        "step 4: Enter input value in input username",
+        "step 5: Click on input signIn -> Navigate to page '/'",
+        "step 6: Hover over button javaListConversionGuide",
+        "step 7: Click on link ducanh2505Vaes -> Navigate to page '/*/VAEs'",
+        "step 8: Click on link settings -> Navigate to page '/*/VAEs/settings'",
+        "step 9: Click on button changeVisibility",
+        "step 10: Click on button changeVisibility2",
+        "step 11: Click on button makePublic",
+        "step 12: Click on button confirmReadEffects",
+        "step 13: Click on button makeRepositoryPublic",
+        "step 14: Click on link code -> Navigate to page '/*/VAEs'",
+        "step 15: Click on link issues -> Navigate to page '/*/VAEs/issues'",
+        "step 16: Click on link openIssues",
+        "step 17: Click on link code -> Navigate to page '/*/VAEs'",
+        "step 18: Click on link refreshAtWill",
+        "step 19: Click on div name",
+        "step 20: Click on link pdfDirectory -> Navigate to page '/*/VAEs/tree/main/pdf'",
+        "step 21: Click on div nameCell",
+        "step 22: Click on link mainPdf -> Navigate to page ''",
+        "step 23: Take full page screenshot as checkpoint"
+    ]
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>d2b3dfcd-009f-4bbc-9a0e-b1c9eb25a05c</id>
+        </flow>
+    </customField>
+    <description>Navigate to the login page, attempt to sign in with various credentials, and verify the home page after successful login.</description>
+    <name>TC92-Login and Verify Home Page with Multiple Attempts</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>5d35799c-5b39-467e-8712-ba2954275990</testCaseGuid>
+</TestCaseEntity>

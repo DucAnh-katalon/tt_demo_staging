@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>83fe33e5-0454-4fce-8652-d74b37be40e9</id>
+        </flow>
+    </customField>
+    <description>Navigate to the Cloud Home application, click on the most recent button, and access the log finder. Verify that the home page is displayed.</description>
+    <name>TC109-Access Recent Logs from Cloud Home Application</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>d08b676b-391f-48e7-b2be-0e63b3f9c062</testCaseGuid>
+</TestCaseEntity>

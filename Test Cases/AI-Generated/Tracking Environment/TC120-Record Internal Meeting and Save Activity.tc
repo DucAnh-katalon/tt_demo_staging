@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>e0406035-cc89-4deb-ad77-5d95c488b056</id>
+        </flow>
+    </customField>
+    <description>Navigate to the browse page, select a mouse status issue, and record an internal meeting. Save the activity and verify the home page.</description>
+    <name>TC120-Record Internal Meeting and Save Activity</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>c2eb517f-2f94-4bab-a72c-4dece968c290</testCaseGuid>
+    <testDataLinks>
+        <combinationType>ONE</combinationType>
+        <id>e5c7c7a0-89b7-4c25-8aa3-19614305bbe2</id>
+        <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+        </iterationEntity>
+        <testDataId>Data Files/AI-Generated/Tracking Environment/TC120-Record Internal Meeting and Save Activity-test-data</testDataId>
+    </testDataLinks>
+    <variable>
+        <defaultValue>'KIP-5098'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>7ea86863-03bf-4b76-97b6-c83a9d7f3a74</id>
+        <masked>false</masked>
+        <name>browse_id</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>5f26fbdb-8414-41c9-8337-a7648c67497b</id>
+        <masked>false</masked>
+        <name>div_descriptionArea</name>
+    </variable>
+    <variableLinks>
+        <testDataLinkId>e5c7c7a0-89b7-4c25-8aa3-19614305bbe2</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>browse_id</value>
+        <variableId>7ea86863-03bf-4b76-97b6-c83a9d7f3a74</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>e5c7c7a0-89b7-4c25-8aa3-19614305bbe2</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>div_descriptionArea</value>
+        <variableId>5f26fbdb-8414-41c9-8337-a7648c67497b</variableId>
+    </variableLinks>
+</TestCaseEntity>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>2b736cf6-88ff-4cd8-8013-9c772909f5b7</id>
+        </flow>
+    </customField>
+    <description>Navigate to the home page, access chat history, share a link, and verify that the home page is displayed correctly.</description>
+    <name>TC115-Verify Chat History Navigation and Home Page</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>d19c6969-9872-4bc0-b26d-ba550a6b6330</testCaseGuid>
+</TestCaseEntity>

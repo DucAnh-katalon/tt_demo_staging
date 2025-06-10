@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>000e5ee1-77d3-45af-992a-655c644cbfdd</id>
+        </flow>
+    </customField>
+    <description>Navigate to the browse page, access video conferencing details, and interact with comments. Verify the browse page after exploring.</description>
+    <name>TC111-Explore Video Conferencing Information and Comments</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>a24c11df-5763-4296-a508-65e09f65e361</testCaseGuid>
+    <testDataLinks>
+        <combinationType>ONE</combinationType>
+        <id>9f2a6af0-4cec-4458-a9ac-396dd666cb00</id>
+        <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+        </iterationEntity>
+        <testDataId>Data Files/AI-Generated/Tracking Environment/TC111-Explore Video Conferencing Information and Comments-test-data</testDataId>
+    </testDataLinks>
+    <variable>
+        <defaultValue>'KIP-4593'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>fdf57819-30e2-4ea0-be39-ae86854ef007</id>
+        <masked>false</masked>
+        <name>browse_id</name>
+    </variable>
+    <variableLinks>
+        <testDataLinkId>9f2a6af0-4cec-4458-a9ac-396dd666cb00</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>browse_id</value>
+        <variableId>fdf57819-30e2-4ea0-be39-ae86854ef007</variableId>
+    </variableLinks>
+</TestCaseEntity>

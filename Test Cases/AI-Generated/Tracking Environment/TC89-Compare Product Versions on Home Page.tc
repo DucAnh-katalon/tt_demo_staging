@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>dae65886-4c28-4d5d-a133-2f8971a72035</id>
+        </flow>
+    </customField>
+    <description>Navigate to the home page, input product version details in text areas, and initiate a comparison, then verify the home page.</description>
+    <name>TC89-Compare Product Versions on Home Page</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>d87176db-4c77-4b2d-914c-128010fb41a5</testCaseGuid>
+    <testDataLinks>
+        <combinationType>ONE</combinationType>
+        <id>67a772d5-1591-42fa-a4d7-c69c8ef60757</id>
+        <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+        </iterationEntity>
+        <testDataId>Data Files/AI-Generated/Tracking Environment/TC89-Compare Product Versions on Home Page-test-data</testDataId>
+    </testDataLinks>
+    <variable>
+        <defaultValue>'//body/div[1]/div[3]/main[1]/div[1]/div[1]/div[1]/nav[1]/ul[2]/li[1]/div[1]'</defaultValue>
+        <description>Input data variable</description>
+        <id>c2f9c9a6-ac58-4d5f-8b20-76693c252ffe</id>
+        <masked>false</masked>
+        <name>textarea_pasteAnotherVersion</name>
+    </variable>
+    <variable>
+        <defaultValue>'//body/div[1]/div[3]/nav[1]/div[1]/ul[1]/li[2]/ul[1]/li[1]/div[1]'</defaultValue>
+        <description>Input data variable</description>
+        <id>02d7b034-f14b-4801-a93e-94c15073348e</id>
+        <masked>false</masked>
+        <name>textarea_pasteVersionText</name>
+    </variable>
+    <variableLinks>
+        <testDataLinkId>67a772d5-1591-42fa-a4d7-c69c8ef60757</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>textarea_pasteAnotherVersion</value>
+        <variableId>c2f9c9a6-ac58-4d5f-8b20-76693c252ffe</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>67a772d5-1591-42fa-a4d7-c69c8ef60757</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>textarea_pasteVersionText</value>
+        <variableId>02d7b034-f14b-4801-a93e-94c15073348e</variableId>
+    </variableLinks>
+</TestCaseEntity>

@@ -1,0 +1,7 @@
+{
+    "steps": [
+        "step 1: Navigate to /rec/component-page with params (accessLevel, action, clusterId, componentName, meetingId, originRequestUrl, requestFrom, sharelevel, useWhichPasswd)",
+        "step 2: Click on input passcode -> Navigate to page ''",
+        "step 3: Take full page screenshot as checkpoint"
+    ]
+}

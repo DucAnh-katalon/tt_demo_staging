@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>e1bcd56a-fcb3-4975-838e-2e8c600de479</id>
+        </flow>
+    </customField>
+    <description>Sign in, navigate to settings, change repository visibility, and verify navigation through various links, ensuring return to the home page.</description>
+    <name>TC98-Verify User Sign In and Repository Visibility Changes</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>497fb67b-d5e0-4607-b913-e651e2d98080</testCaseGuid>
+    <testDataLinks>
+        <combinationType>ONE</combinationType>
+        <id>85d0aeed-bf91-4101-8d2e-9a607dd2e46c</id>
+        <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+        </iterationEntity>
+        <testDataId>Data Files/AI-Generated/Tracking Environment/TC98-Verify User Sign In and Repository Visibility Changes-test-data</testDataId>
+    </testDataLinks>
+    <variable>
+        <defaultValue>'duc'</defaultValue>
+        <description>Input data variable</description>
+        <id>cf46d50a-6db7-4153-910c-3dd7a55a0b80</id>
+        <masked>false</masked>
+        <name>input_username</name>
+    </variable>
+    <variableLinks>
+        <testDataLinkId>85d0aeed-bf91-4101-8d2e-9a607dd2e46c</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>input_username</value>
+        <variableId>cf46d50a-6db7-4153-910c-3dd7a55a0b80</variableId>
+    </variableLinks>
+</TestCaseEntity>

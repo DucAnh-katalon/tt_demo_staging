@@ -1,0 +1,12 @@
+{
+    "steps": [
+        "step 1: Navigate to /*/VAEs with params (fbclid)",
+        "step 2: Click on button openUserNavigationMenu",
+        "step 3: Click on link signOut -> Navigate to page '/logout'",
+        "step 4: Click on div logout",
+        "step 5: Click on div signedInUser",
+        "step 6: Click on div logout2",
+        "step 7: Click on input signOut -> Navigate to page ''",
+        "step 8: Take full page screenshot as checkpoint"
+    ]
+}

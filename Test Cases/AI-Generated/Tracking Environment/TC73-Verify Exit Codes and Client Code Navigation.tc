@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>527a4fe9-a67a-4e9a-870f-52f79f16fcec</id>
+        </flow>
+    </customField>
+    <description>Navigate to the QA page, interact with exit code elements, and verify navigation back to the home page through client code links.</description>
+    <name>TC73-Verify Exit Codes and Client Code Navigation</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>a57a2f4b-0c30-4e87-90ff-dc0030204051</testCaseGuid>
+    <testDataLinks>
+        <combinationType>ONE</combinationType>
+        <id>8cefaec0-04b5-4be4-9a83-4ef9ccd74d2f</id>
+        <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+        </iterationEntity>
+        <testDataId>Data Files/AI-Generated/Tracking Environment/TC73-Verify Exit Codes and Client Code Navigation-test-data</testDataId>
+    </testDataLinks>
+    <variable>
+        <defaultValue>'2'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>a42f1aff-e075-47de-9583-8911e4f98c09</id>
+        <masked>false</masked>
+        <name>link_qa_aNthOfType</name>
+    </variable>
+    <variable>
+        <defaultValue>'QA'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>d483b2ae-e362-498d-801b-3e8f20ca6c91</id>
+        <masked>false</masked>
+        <name>link_qa_internalHasText</name>
+    </variable>
+    <variableLinks>
+        <testDataLinkId>8cefaec0-04b5-4be4-9a83-4ef9ccd74d2f</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_qa_aNthOfType</value>
+        <variableId>a42f1aff-e075-47de-9583-8911e4f98c09</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>8cefaec0-04b5-4be4-9a83-4ef9ccd74d2f</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_qa_internalHasText</value>
+        <variableId>d483b2ae-e362-498d-801b-3e8f20ca6c91</variableId>
+    </variableLinks>
+</TestCaseEntity>

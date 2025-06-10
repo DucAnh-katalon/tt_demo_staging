@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>72ea3ac0-3c06-4594-9ca8-435c5ccbf4f1</id>
+        </flow>
+    </customField>
+    <description>Navigate to the browse page, click on a message link, and verify that the home page is displayed.</description>
+    <name>TC90-Access Message and Verify Home Page</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>1b99157d-6a4d-45bc-b970-069c931951e8</testCaseGuid>
+    <testDataLinks>
+        <combinationType>ONE</combinationType>
+        <id>4b968b06-30f4-4d23-b016-346a11bc669b</id>
+        <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+        </iterationEntity>
+        <testDataId>Data Files/AI-Generated/Tracking Environment/TC90-Access Message and Verify Home Page-test-data</testDataId>
+    </testDataLinks>
+    <variable>
+        <defaultValue>'KIP-5098'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>304a77e4-1f8e-4edc-b809-9384a9a1ec6b</id>
+        <masked>false</masked>
+        <name>browse_id</name>
+    </variable>
+    <variableLinks>
+        <testDataLinkId>4b968b06-30f4-4d23-b016-346a11bc669b</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>browse_id</value>
+        <variableId>304a77e4-1f8e-4edc-b809-9384a9a1ec6b</variableId>
+    </variableLinks>
+</TestCaseEntity>

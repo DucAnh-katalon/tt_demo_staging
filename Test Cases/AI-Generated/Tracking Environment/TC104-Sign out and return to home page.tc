@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>12c3fcb3-6a92-4250-80a3-96c8458bd785</id>
+        </flow>
+    </customField>
+    <description>Navigate to the Katalon Studio page, open the user menu, sign out, and verify that the home page is displayed.</description>
+    <name>TC104-Sign out and return to home page</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>6e572cfc-f3d1-4513-8285-8441916ca160</testCaseGuid>
+</TestCaseEntity>

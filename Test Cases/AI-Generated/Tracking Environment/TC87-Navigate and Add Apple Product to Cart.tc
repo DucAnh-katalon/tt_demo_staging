@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>67a1b3cd-450f-496b-9360-8d132590e557</id>
+        </flow>
+    </customField>
+    <description>Navigate to the home page, hover over the phone link, select Apple category, add an item to the cart, and return to the home page.</description>
+    <name>TC87-Navigate and Add Apple Product to Cart</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>7883964f-66b7-444c-9cdd-273fcbe7473d</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>96a883f6-2eab-4ce2-bd89-7d0a1e7eeeeb</id>
+        </flow>
+    </customField>
+    <description>Navigate to the search page, access the Base64 decode link, and verify that the home page is displayed correctly.</description>
+    <name>TC118-Base64 Decode Navigation and Home Page Verification</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>11e2a67e-bdd2-4797-8507-b7b2d7903ee8</testCaseGuid>
+    <testDataLinks>
+        <combinationType>ONE</combinationType>
+        <id>a74db985-eac6-4a63-8140-fc38a0a897db</id>
+        <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+        </iterationEntity>
+        <testDataId>Data Files/AI-Generated/Tracking Environment/TC118-Base64 Decode Navigation and Home Page Verification-test-data</testDataId>
+    </testDataLinks>
+    <variable>
+        <defaultValue>'EgZjaHJvbWUqDQgBEAAYgwEYsQMYgAQyDggAEEUYJxg7GIAEGIoFMg0IARAAGIMBGLEDGIAEMgcIAhAAGIAEMgcIAxAAGIAEMgcIBBAAGIAEMgcIBRAAGIAEMgYIBhBFGD0yBggHEEUYPNIBCDE1NTZqMGo3qAIAsAIA'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>0d68b400-0101-49ff-a167-1124ad0c7844</id>
+        <masked>false</masked>
+        <name>search_gs_lcrp</name>
+    </variable>
+    <variable>
+        <defaultValue>'UTF-8'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>78c794fb-fb54-466e-a7be-257ad0717587</id>
+        <masked>false</masked>
+        <name>search_ie</name>
+    </variable>
+    <variable>
+        <defaultValue>'decode'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>e5d24622-8ee8-4155-a8d6-19effa187d78</id>
+        <masked>false</masked>
+        <name>search_oq</name>
+    </variable>
+    <variable>
+        <defaultValue>'decode base64'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>b920fcbd-53ee-4da8-b983-c99c1c27396d</id>
+        <masked>false</masked>
+        <name>search_q</name>
+    </variable>
+    <variable>
+        <defaultValue>'chrome'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>ad36f59f-bbbc-4f9c-bc78-b89788ef0c18</id>
+        <masked>false</masked>
+        <name>search_sourceid</name>
+    </variable>
+    <variableLinks>
+        <testDataLinkId>a74db985-eac6-4a63-8140-fc38a0a897db</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>search_gs_lcrp</value>
+        <variableId>0d68b400-0101-49ff-a167-1124ad0c7844</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>a74db985-eac6-4a63-8140-fc38a0a897db</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>search_ie</value>
+        <variableId>78c794fb-fb54-466e-a7be-257ad0717587</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>a74db985-eac6-4a63-8140-fc38a0a897db</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>search_oq</value>
+        <variableId>e5d24622-8ee8-4155-a8d6-19effa187d78</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>a74db985-eac6-4a63-8140-fc38a0a897db</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>search_q</value>
+        <variableId>b920fcbd-53ee-4da8-b983-c99c1c27396d</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>a74db985-eac6-4a63-8140-fc38a0a897db</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>search_sourceid</value>
+        <variableId>ad36f59f-bbbc-4f9c-bc78-b89788ef0c18</variableId>
+    </variableLinks>
+</TestCaseEntity>

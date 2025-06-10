@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>214743a5-9ec1-4a24-a400-a17d577a5a4c</id>
+        </flow>
+    </customField>
+    <description>Navigate to the administration tool, perform actions as a super user, and logout. Verify the gateway page.</description>
+    <name>TC82-Access Administration Tool and Logout</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>f7b25f8a-c548-47f0-80e3-c1c3ea4f15bc</testCaseGuid>
+</TestCaseEntity>

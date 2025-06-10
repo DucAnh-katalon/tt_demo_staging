@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>81f3b99c-0627-4bdf-ad4a-af44afe88198</id>
+        </flow>
+    </customField>
+    <description>Browse projects, interact with the Kanban board, add reactions to items, and verify navigation back to the home page.</description>
+    <name>TC100-Verify Interaction with Kanban Board and Reaction Addition</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>d7a1ba5c-3173-4bc3-87f2-0d262ea1cbbd</testCaseGuid>
+    <testDataLinks>
+        <combinationType>ONE</combinationType>
+        <id>b9934981-2486-4fb7-abcd-6436832bf3a2</id>
+        <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+        </iterationEntity>
+        <testDataId>Data Files/AI-Generated/Tracking Environment/TC100-Verify Interaction with Kanban Board and Reaction Addition-test-data</testDataId>
+    </testDataLinks>
+    <variable>
+        <defaultValue>'225846'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>f35b3ee6-4c30-43db-961f-c507dece96f3</id>
+        <masked>false</masked>
+        <name>browse_focusedCommentId</name>
+    </variable>
+    <variable>
+        <defaultValue>'KIP-4593'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>8cb15fc5-3229-4144-bab9-ed16268dd8f7</id>
+        <masked>false</masked>
+        <name>browse_id</name>
+    </variable>
+    <variable>
+        <defaultValue>'4224'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>675f95ca-fa3b-4663-9efb-491b9efbeb63</id>
+        <masked>false</masked>
+        <name>span_trueTestPocDetails_cardKip</name>
+    </variable>
+    <variable>
+        <defaultValue>'4547'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>111e03a0-ff18-4deb-8097-15a5f7241a8d</id>
+        <masked>false</masked>
+        <name>span_trueTestPocDetails_cardKip_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'4224'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>30129029-fba2-4a4b-9789-c307b9add4b2</id>
+        <masked>false</masked>
+        <name>span_trueTestPocDetails_cardKip_2</name>
+    </variable>
+    <variable>
+        <defaultValue>'4547'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>a48d0ffc-19ac-4748-947e-5b5ebd12e0a5</id>
+        <masked>false</masked>
+        <name>span_trueTestPocDetails_cardKip_3</name>
+    </variable>
+    <variable>
+        <defaultValue>'1'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>19057fa5-a229-47e9-a2c5-12b272fbc98b</id>
+        <masked>false</masked>
+        <name>span_trueTestPocDetails_divNthOfType</name>
+    </variable>
+    <variable>
+        <defaultValue>'3'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>6ddca0bb-44e7-4900-89e1-c346456bd883</id>
+        <masked>false</masked>
+        <name>span_trueTestPocDetails_divNthOfType_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'3'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>c0e14e4f-b52e-4263-9023-db5ae5a718d4</id>
+        <masked>false</masked>
+        <name>span_trueTestPocDetails_divNthOfType_1_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'3'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>d60121e6-3e44-4adc-bfa7-e6fc84cde837</id>
+        <masked>false</masked>
+        <name>span_trueTestPocDetails_divNthOfType_1_2</name>
+    </variable>
+    <variable>
+        <defaultValue>'3'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>1ee30a57-65ff-416d-8d21-3172c692ec2b</id>
+        <masked>false</masked>
+        <name>span_trueTestPocDetails_divNthOfType_1_3</name>
+    </variable>
+    <variable>
+        <defaultValue>'1'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>34da1542-2238-42cf-9ae6-4dc615dd9518</id>
+        <masked>false</masked>
+        <name>span_trueTestPocDetails_divNthOfType_2</name>
+    </variable>
+    <variable>
+        <defaultValue>'1'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>547282f4-ca17-4914-8d63-2261771ca8ad</id>
+        <masked>false</masked>
+        <name>span_trueTestPocDetails_divNthOfType_3</name>
+    </variable>
+    <variable>
+        <defaultValue>'1'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>a1105f72-b386-4cd3-a082-a815ccac99c0</id>
+        <masked>false</masked>
+        <name>span_trueTestPocDetails_liNthOfType</name>
+    </variable>
+    <variable>
+        <defaultValue>'2'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>02e64053-8bff-4077-8a78-0f1f485d575d</id>
+        <masked>false</masked>
+        <name>span_trueTestPocDetails_liNthOfType_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'1'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>d8c39da4-f8ce-4046-8c37-4f2314d15de3</id>
+        <masked>false</masked>
+        <name>span_trueTestPocDetails_liNthOfType_2</name>
+    </variable>
+    <variable>
+        <defaultValue>'2'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>564527c4-b003-49cb-b68e-7448bdf73bf9</id>
+        <masked>false</masked>
+        <name>span_trueTestPocDetails_liNthOfType_3</name>
+    </variable>
+    <variableLinks>
+        <testDataLinkId>b9934981-2486-4fb7-abcd-6436832bf3a2</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>browse_focusedCommentId</value>
+        <variableId>f35b3ee6-4c30-43db-961f-c507dece96f3</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>b9934981-2486-4fb7-abcd-6436832bf3a2</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>browse_id</value>
+        <variableId>8cb15fc5-3229-4144-bab9-ed16268dd8f7</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>b9934981-2486-4fb7-abcd-6436832bf3a2</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>span_trueTestPocDetails_cardKip</value>
+        <variableId>675f95ca-fa3b-4663-9efb-491b9efbeb63</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>b9934981-2486-4fb7-abcd-6436832bf3a2</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>span_trueTestPocDetails_cardKip_1</value>
+        <variableId>111e03a0-ff18-4deb-8097-15a5f7241a8d</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>b9934981-2486-4fb7-abcd-6436832bf3a2</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>span_trueTestPocDetails_cardKip_2</value>
+        <variableId>30129029-fba2-4a4b-9789-c307b9add4b2</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>b9934981-2486-4fb7-abcd-6436832bf3a2</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>span_trueTestPocDetails_cardKip_3</value>
+        <variableId>a48d0ffc-19ac-4748-947e-5b5ebd12e0a5</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>b9934981-2486-4fb7-abcd-6436832bf3a2</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>span_trueTestPocDetails_divNthOfType</value>
+        <variableId>19057fa5-a229-47e9-a2c5-12b272fbc98b</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>b9934981-2486-4fb7-abcd-6436832bf3a2</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>span_trueTestPocDetails_divNthOfType_1</value>
+        <variableId>6ddca0bb-44e7-4900-89e1-c346456bd883</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>b9934981-2486-4fb7-abcd-6436832bf3a2</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>span_trueTestPocDetails_divNthOfType_1_1</value>
+        <variableId>c0e14e4f-b52e-4263-9023-db5ae5a718d4</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>b9934981-2486-4fb7-abcd-6436832bf3a2</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>span_trueTestPocDetails_divNthOfType_1_2</value>
+        <variableId>d60121e6-3e44-4adc-bfa7-e6fc84cde837</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>b9934981-2486-4fb7-abcd-6436832bf3a2</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>span_trueTestPocDetails_divNthOfType_1_3</value>
+        <variableId>1ee30a57-65ff-416d-8d21-3172c692ec2b</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>b9934981-2486-4fb7-abcd-6436832bf3a2</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>span_trueTestPocDetails_divNthOfType_2</value>
+        <variableId>34da1542-2238-42cf-9ae6-4dc615dd9518</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>b9934981-2486-4fb7-abcd-6436832bf3a2</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>span_trueTestPocDetails_divNthOfType_3</value>
+        <variableId>547282f4-ca17-4914-8d63-2261771ca8ad</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>b9934981-2486-4fb7-abcd-6436832bf3a2</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>span_trueTestPocDetails_liNthOfType</value>
+        <variableId>a1105f72-b386-4cd3-a082-a815ccac99c0</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>b9934981-2486-4fb7-abcd-6436832bf3a2</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>span_trueTestPocDetails_liNthOfType_1</value>
+        <variableId>02e64053-8bff-4077-8a78-0f1f485d575d</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>b9934981-2486-4fb7-abcd-6436832bf3a2</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>span_trueTestPocDetails_liNthOfType_2</value>
+        <variableId>d8c39da4-f8ce-4046-8c37-4f2314d15de3</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>b9934981-2486-4fb7-abcd-6436832bf3a2</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>span_trueTestPocDetails_liNthOfType_3</value>
+        <variableId>564527c4-b003-49cb-b68e-7448bdf73bf9</variableId>
+    </variableLinks>
+</TestCaseEntity>

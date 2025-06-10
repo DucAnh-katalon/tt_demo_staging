@@ -1,0 +1,20 @@
+{
+    "steps": [
+        "step 1: Navigate to /browse/* with params (focusedCommentId)",
+        "step 2: Click on link allWork",
+        "step 3: Click on link backToProject",
+        "step 4: Click on link kanbanBoard -> Navigate to page '/jira/software/c/projects/KIP/boards/*'",
+        "step 5: Click on span trueTestPocDetails (projectName)",
+        "step 6: Click on div object7",
+        "step 7: Click on span trueTestPocDetails (trueTestPoc4)",
+        "step 8: Click on span trueTestPocDetails (projectName)",
+        "step 9: Click on button addReaction",
+        "step 10: Click on button reactWithClap",
+        "step 11: Click on p comment",
+        "step 12: Click on p comment",
+        "step 13: Click on p comment",
+        "step 14: Click on div issueDetailsModal2",
+        "step 15: Click on span trueTestPocDetails (trueTestPoc4) -> Navigate to page ''",
+        "step 16: Take full page screenshot as checkpoint"
+    ]
+}

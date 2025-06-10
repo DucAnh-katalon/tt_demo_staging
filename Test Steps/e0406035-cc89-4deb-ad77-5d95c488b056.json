@@ -1,0 +1,13 @@
+{
+    "steps": [
+        "step 1: Navigate to /browse/*",
+        "step 2: Click on p mouseStatusIssue",
+        "step 3: Click on div none",
+        "step 4: Click on link recordingSession",
+        "step 5: Click on p internalMeeting",
+        "step 6: Click on button save",
+        "step 7: Enter input value in div descriptionArea",
+        "step 8: Click on button allActivity -> Navigate to page ''",
+        "step 9: Take full page screenshot as checkpoint"
+    ]
+}

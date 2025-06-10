@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>b98aef12-6562-46ec-987d-d91c763acd22</id>
+        </flow>
+    </customField>
+    <description>Navigate to the browse page and click on the message link to access the home page. Verify that the home page is displayed.</description>
+    <name>TC119-Navigate to Home Page from Browse Section</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>034115fb-f272-4949-81c5-4fba7a639aa6</testCaseGuid>
+    <testDataLinks>
+        <combinationType>ONE</combinationType>
+        <id>3f6edcc0-c270-42c3-9724-55af35cf1edf</id>
+        <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+        </iterationEntity>
+        <testDataId>Data Files/AI-Generated/Tracking Environment/TC119-Navigate to Home Page from Browse Section-test-data</testDataId>
+    </testDataLinks>
+    <variable>
+        <defaultValue>'KIP-5098'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>e90d9abe-95b2-4c5d-bd60-85fb567b1308</id>
+        <masked>false</masked>
+        <name>browse_id</name>
+    </variable>
+    <variableLinks>
+        <testDataLinkId>3f6edcc0-c270-42c3-9724-55af35cf1edf</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>browse_id</value>
+        <variableId>e90d9abe-95b2-4c5d-bd60-85fb567b1308</variableId>
+    </variableLinks>
+</TestCaseEntity>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>2b2ea026-8b53-49bc-ac7b-9fe8fe93d634</id>
+        </flow>
+    </customField>
+    <description>Navigate to the OAM server, click the copyright footer, log in, and verify successful navigation to the home page.</description>
+    <name>TC124-Login and Verify Home Page from OAM Server</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>f8bdfc79-4aa9-424b-bbe5-688924b77248</testCaseGuid>
+    <testDataLinks>
+        <combinationType>ONE</combinationType>
+        <id>f9cd236a-1f88-4f56-8099-f6156b7d7813</id>
+        <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+        </iterationEntity>
+        <testDataId>Data Files/AI-Generated/Tracking Environment/TC124-Login and Verify Home Page from OAM Server-test-data</testDataId>
+    </testDataLinks>
+    <variable>
+        <defaultValue>'{{aws_secret_key}};kXjE'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>bb9befda-a61d-419a-9aca-bc286e2990e7</id>
+        <masked>false</masked>
+        <name>obrareq_ECID_Context</name>
+    </variable>
+    <variableLinks>
+        <testDataLinkId>f9cd236a-1f88-4f56-8099-f6156b7d7813</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>obrareq_ECID_Context</value>
+        <variableId>bb9befda-a61d-419a-9aca-bc286e2990e7</variableId>
+    </variableLinks>
+</TestCaseEntity>

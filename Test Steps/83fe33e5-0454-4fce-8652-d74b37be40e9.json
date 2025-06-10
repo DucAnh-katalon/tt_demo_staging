@@ -1,0 +1,8 @@
+{
+    "steps": [
+        "step 1: Navigate to /a/cloud-home-app",
+        "step 2: Click on button mostRecent",
+        "step 3: Click on link logFinder -> Navigate to page ''",
+        "step 4: Take full page screenshot as checkpoint"
+    ]
+}

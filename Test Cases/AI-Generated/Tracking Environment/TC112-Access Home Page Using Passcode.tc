@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>edc467bf-f905-407d-8e96-a347c7b66370</id>
+        </flow>
+    </customField>
+    <description>Navigate to the component page, input the passcode, and verify successful access to the home page.</description>
+    <name>TC112-Access Home Page Using Passcode</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>a4a30b81-b30d-4eae-a0ab-193f4757f04a</testCaseGuid>
+    <testDataLinks>
+        <combinationType>ONE</combinationType>
+        <id>ee87a506-dc7d-4bf8-b54b-aeda112d7e9d</id>
+        <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+        </iterationEntity>
+        <testDataId>Data Files/AI-Generated/Tracking Environment/TC112-Access Home Page Using Passcode-test-data</testDataId>
+    </testDataLinks>
+    <variable>
+        <defaultValue>'meeting'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>45a9678a-03ce-488a-8c8d-b78297e87729</id>
+        <masked>false</masked>
+        <name>component_page_accessLevel</name>
+    </variable>
+    <variable>
+        <defaultValue>'viewdetailpage'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>321cf587-f818-4011-893d-eac42969a8c4</id>
+        <masked>false</masked>
+        <name>component_page_action</name>
+    </variable>
+    <variable>
+        <defaultValue>'us02'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>623e185f-6ee9-43b6-bfa8-f3bb78ac84a3</id>
+        <masked>false</masked>
+        <name>component_page_clusterId</name>
+    </variable>
+    <variable>
+        <defaultValue>'need-password'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>2caf37be-1290-4935-ac40-19c075883aef</id>
+        <masked>false</masked>
+        <name>component_page_componentName</name>
+    </variable>
+    <variable>
+        <defaultValue>'{{password}}'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>af199131-d4c0-44d7-bcad-a3ec83509188</id>
+        <masked>false</masked>
+        <name>component_page_meetingId</name>
+    </variable>
+    <variable>
+        <defaultValue>'{{url}}'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>c4556713-2c07-4bc8-aec5-f1fddc1ca5d7</id>
+        <masked>false</masked>
+        <name>component_page_originRequestUrl</name>
+    </variable>
+    <variable>
+        <defaultValue>'pwdCheck'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>24270c61-387e-4060-8944-ff082256b35c</id>
+        <masked>false</masked>
+        <name>component_page_requestFrom</name>
+    </variable>
+    <variable>
+        <defaultValue>'meeting'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>ae068456-448d-46ea-be4d-f712664bb1a2</id>
+        <masked>false</masked>
+        <name>component_page_sharelevel</name>
+    </variable>
+    <variable>
+        <defaultValue>'meeting'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>03afc847-8ebe-431e-9232-b59933a3e614</id>
+        <masked>false</masked>
+        <name>component_page_useWhichPasswd</name>
+    </variable>
+    <variableLinks>
+        <testDataLinkId>ee87a506-dc7d-4bf8-b54b-aeda112d7e9d</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>component_page_accessLevel</value>
+        <variableId>45a9678a-03ce-488a-8c8d-b78297e87729</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>ee87a506-dc7d-4bf8-b54b-aeda112d7e9d</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>component_page_action</value>
+        <variableId>321cf587-f818-4011-893d-eac42969a8c4</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>ee87a506-dc7d-4bf8-b54b-aeda112d7e9d</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>component_page_clusterId</value>
+        <variableId>623e185f-6ee9-43b6-bfa8-f3bb78ac84a3</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>ee87a506-dc7d-4bf8-b54b-aeda112d7e9d</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>component_page_componentName</value>
+        <variableId>2caf37be-1290-4935-ac40-19c075883aef</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>ee87a506-dc7d-4bf8-b54b-aeda112d7e9d</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>component_page_meetingId</value>
+        <variableId>af199131-d4c0-44d7-bcad-a3ec83509188</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>ee87a506-dc7d-4bf8-b54b-aeda112d7e9d</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>component_page_originRequestUrl</value>
+        <variableId>c4556713-2c07-4bc8-aec5-f1fddc1ca5d7</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>ee87a506-dc7d-4bf8-b54b-aeda112d7e9d</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>component_page_requestFrom</value>
+        <variableId>24270c61-387e-4060-8944-ff082256b35c</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>ee87a506-dc7d-4bf8-b54b-aeda112d7e9d</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>component_page_sharelevel</value>
+        <variableId>ae068456-448d-46ea-be4d-f712664bb1a2</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>ee87a506-dc7d-4bf8-b54b-aeda112d7e9d</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>component_page_useWhichPasswd</value>
+        <variableId>03afc847-8ebe-431e-9232-b59933a3e614</variableId>
+    </variableLinks>
+</TestCaseEntity>

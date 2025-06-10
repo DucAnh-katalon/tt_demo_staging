@@ -1,0 +1,17 @@
+{
+    "steps": [
+        "step 1: Navigate to /browse/*",
+        "step 2: Click on link katalonTrueTestPocmeetings",
+        "step 3: Click on button showMoreComments",
+        "step 4: Click on link videoConferencing",
+        "step 5: Click on p videoConferencingInfo",
+        "step 6: Click on p videoConferencingInfo",
+        "step 7: Click on link videoConferencing",
+        "step 8: Click on button showMoreComments",
+        "step 9: Click on p videoConferencingInfo",
+        "step 10: Click on p videoConferencingInfo",
+        "step 11: Click on p videoConferencingInfo",
+        "step 12: Click on p videoConferencingInfo",
+        "step 13: Take full page screenshot as checkpoint"
+    ]
+}
