@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>f2c3e0f4-eb8d-4c2f-9967-de61ff41c9c2</id>
+        </flow>
+    </customField>
+    <description>Navigate to the dashboard, access the administration tool multiple times, and logout as a super user. Verify navigation back to the home page.</description>
+    <name>TC158-Access Administration Tool and Logout as Super User</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>114958b0-99b7-469c-aa02-bdc696f6f4fb</testCaseGuid>
+    <testDataLinks>
+        <combinationType>ONE</combinationType>
+        <id>92e4b24d-6e1d-48e2-919f-6148239c23ff</id>
+        <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+        </iterationEntity>
+        <testDataId>Data Files/AI-Generated/Tracking Environment/TC158-Access Administration Tool and Logout as Super User-test-data</testDataId>
+    </testDataLinks>
+    <variable>
+        <defaultValue>'test true test'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>c54ed9b1-4d46-45c9-a8ae-ce1547900016</id>
+        <masked>false</masked>
+        <name>button_superUserActions_internalHasText</name>
+    </variable>
+    <variableLinks>
+        <testDataLinkId>92e4b24d-6e1d-48e2-919f-6148239c23ff</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>button_superUserActions_internalHasText</value>
+        <variableId>c54ed9b1-4d46-45c9-a8ae-ce1547900016</variableId>
+    </variableLinks>
+</TestCaseEntity>

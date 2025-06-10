@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>e32ce4f1-2979-4821-931b-8bf4f42365a0</id>
+        </flow>
+    </customField>
+    <description>Navigate through the dashboard, access various library links, and verify successful navigation back to the home page.</description>
+    <name>TC50-Explore Dashboard and Library Links</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>633d65f1-85ef-4bee-b5d4-411a3279424f</testCaseGuid>
+    <testDataLinks>
+        <combinationType>ONE</combinationType>
+        <id>8c838c0b-f5a5-44ff-8aed-cf0e97283d6b</id>
+        <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+        </iterationEntity>
+        <testDataId>Data Files/AI-Generated/Tracking Environment/TC50-Explore Dashboard and Library Links-test-data</testDataId>
+    </testDataLinks>
+    <variable>
+        <defaultValue>'Forms'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>01acc4e6-5487-451d-ac52-81248cc73262</id>
+        <masked>false</masked>
+        <name>link_templateLinks_aTitle</name>
+    </variable>
+    <variableLinks>
+        <testDataLinkId>8c838c0b-f5a5-44ff-8aed-cf0e97283d6b</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_templateLinks_aTitle</value>
+        <variableId>01acc4e6-5487-451d-ac52-81248cc73262</variableId>
+    </variableLinks>
+</TestCaseEntity>

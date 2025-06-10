@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>904b6ee0-100a-4160-9305-cbbe7e4550ac</id>
+        </flow>
+    </customField>
+    <description>Navigate to the history details page, interact with various elements, input numbers, and toggle views while verifying the home page.</description>
+    <name>TC130-Interact with History Details and User Journey Graph</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>f1bb7336-91ee-40ab-b3cb-42e506a6b4b8</testCaseGuid>
+    <testDataLinks>
+        <combinationType>ONE</combinationType>
+        <id>c9a2df26-3de0-4edf-8c73-cacc382a0217</id>
+        <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+        </iterationEntity>
+        <testDataId>Data Files/AI-Generated/Tracking Environment/TC130-Interact with History Details and User Journey Graph-test-data</testDataId>
+    </testDataLinks>
+    <variable>
+        <defaultValue>'KA-7584-68'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>7234851a-c1e7-4a71-beb7-2b5d935cca4c</id>
+        <masked>false</masked>
+        <name>aut_id</name>
+    </variable>
+    <variable>
+        <defaultValue>'Data Files/AI-Generated/Tracking Environment/Common/interactWithDivsAndInputNumber-test-data'</defaultValue>
+        <description>Common function data file id</description>
+        <id>5db264b1-b26b-41bb-8aac-22a6f54b7895</id>
+        <masked>false</masked>
+        <name>data_path_0</name>
+    </variable>
+    <variable>
+        <defaultValue>'Data Files/AI-Generated/Tracking Environment/Common/interactWithObjectsAndInputNumber-test-data'</defaultValue>
+        <description>Common function data file id</description>
+        <id>234e9cc5-c2d0-4524-ba0c-966fb232895e</id>
+        <masked>false</masked>
+        <name>data_path_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'1'</defaultValue>
+        <description>Common function data row index</description>
+        <id>edc156b2-37df-48b1-afc0-e9ad2f61d902</id>
+        <masked>false</masked>
+        <name>index_0</name>
+    </variable>
+    <variable>
+        <defaultValue>'1'</defaultValue>
+        <description>Common function data row index</description>
+        <id>29bc59b6-7442-4ac6-90c9-ec1ac69b8e3b</id>
+        <masked>false</masked>
+        <name>index_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'500'</defaultValue>
+        <description>Input data variable</description>
+        <id>e495d179-aa9c-4d69-a7bd-e0d45a844aad</id>
+        <masked>false</masked>
+        <name>input_object</name>
+    </variable>
+    <variable>
+        <defaultValue>'1000'</defaultValue>
+        <description>Input data variable</description>
+        <id>8f9f351a-bd2d-4678-8115-62d643849f80</id>
+        <masked>false</masked>
+        <name>input_object_1</name>
+    </variable>
+    <variableLinks>
+        <testDataLinkId>c9a2df26-3de0-4edf-8c73-cacc382a0217</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>aut_id</value>
+        <variableId>7234851a-c1e7-4a71-beb7-2b5d935cca4c</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>c9a2df26-3de0-4edf-8c73-cacc382a0217</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>data_path_0</value>
+        <variableId>5db264b1-b26b-41bb-8aac-22a6f54b7895</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>c9a2df26-3de0-4edf-8c73-cacc382a0217</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>data_path_1</value>
+        <variableId>234e9cc5-c2d0-4524-ba0c-966fb232895e</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>c9a2df26-3de0-4edf-8c73-cacc382a0217</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>index_0</value>
+        <variableId>edc156b2-37df-48b1-afc0-e9ad2f61d902</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>c9a2df26-3de0-4edf-8c73-cacc382a0217</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>index_1</value>
+        <variableId>29bc59b6-7442-4ac6-90c9-ec1ac69b8e3b</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>c9a2df26-3de0-4edf-8c73-cacc382a0217</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>input_object</value>
+        <variableId>e495d179-aa9c-4d69-a7bd-e0d45a844aad</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>c9a2df26-3de0-4edf-8c73-cacc382a0217</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>input_object_1</value>
+        <variableId>8f9f351a-bd2d-4678-8115-62d643849f80</variableId>
+    </variableLinks>
+</TestCaseEntity>

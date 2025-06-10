@@ -1,0 +1,29 @@
+{
+    "steps": [
+        "step 1: Navigate to /dashboard",
+        "step 2: Click on button development2",
+        "step 3: Click on link modFedDefault -> Navigate to page '/modfed-app/*'",
+        "step 4: Click on link modFedApp",
+        "step 5: Click on link modFedApp",
+        "step 6: Click on link home -> Navigate to page '/dashboard'",
+        "step 7: Click on button development2",
+        "step 8: Click on button libraries",
+        "step 9: Click on link examLabels -> Navigate to page '/exam-management/exam label'",
+        "step 10: Click on link home -> Navigate to page '/dashboard'",
+        "step 11: Click on button libraries",
+        "step 12: Click on link forms -> Navigate to page '/forms'",
+        "step 13: Click on link home -> Navigate to page '/dashboard'",
+        "step 14: Click on button libraries",
+        "step 15: Click on link forms -> Navigate to page '/forms'",
+        "step 16: Click on link home -> Navigate to page '/dashboard'",
+        "step 17: Click on button libraries",
+        "step 18: Click on link forms -> Navigate to page '/forms'",
+        "step 19: Click on link home -> Navigate to page '/dashboard'",
+        "step 20: Click on button libraries",
+        "step 21: Click on link forms -> Navigate to page '/forms'",
+        "step 22: Click on link home -> Navigate to page '/dashboard'",
+        "step 23: Click on button libraries",
+        "step 24: Click on link templateLinks (forms2) -> Navigate to page ''",
+        "step 25: Take full page screenshot as checkpoint"
+    ]
+}

@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>64907171-f484-462d-ae0b-1a3316088df5</id>
+        </flow>
+    </customField>
+    <description>Navigate through the dashboard, access quality control links, and manage work items. Verify navigation to the home page.</description>
+    <name>TC77-Explore Dashboard and Quality Control Links</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>940b0ddb-6435-4595-899e-cb697711ab5f</testCaseGuid>
+    <testDataLinks>
+        <combinationType>ONE</combinationType>
+        <id>882d0d57-807a-4611-bd75-e3d8c1dc15a8</id>
+        <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+        </iterationEntity>
+        <testDataId>Data Files/AI-Generated/Tracking Environment/TC77-Explore Dashboard and Quality Control Links-test-data</testDataId>
+    </testDataLinks>
+    <variable>
+        <defaultValue>'Sites'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>1e566739-eab4-44d4-9ab3-415c023c8bf9</id>
+        <masked>false</masked>
+        <name>div_dashboardSections_dataTestid</name>
+    </variable>
+    <variable>
+        <defaultValue>'Forms'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>31e49b03-ce38-4fa3-b305-f684fb46d7b2</id>
+        <masked>false</masked>
+        <name>div_dashboardSections_dataTestid_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'Site Assessment'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>50537108-b514-41a0-87f3-0f6196470d13</id>
+        <masked>false</masked>
+        <name>div_dataUploadSections_dataTestid</name>
+    </variable>
+    <variable>
+        <defaultValue>'Visit Schedule'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>2ecd05e0-6da5-4c3f-9e2b-9f7c693211f2</id>
+        <masked>false</masked>
+        <name>div_dataUploadSections_dataTestid_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'Data Notification \\\\&amp; Rules'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>6353fb02-d4b1-4157-a6d1-69311613e420</id>
+        <masked>false</masked>
+        <name>div_dataUploadSections_dataTestid_2</name>
+    </variable>
+    <variable>
+        <defaultValue>'Data Upload'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>edefc346-81f3-41e7-b721-0f6c6366f6d9</id>
+        <masked>false</masked>
+        <name>div_dataUploadSections_dataTestid_3</name>
+    </variable>
+    <variable>
+        <defaultValue>'Data Upload'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>c37d1752-45d0-4ad4-907d-e17798c994af</id>
+        <masked>false</masked>
+        <name>div_dataUploadSections_dataTestid_4</name>
+    </variable>
+    <variable>
+        <defaultValue>'qc-worklist-open-qc-workitem'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>ccc84a9f-9b3b-4510-a3da-514b882d9360</id>
+        <masked>false</masked>
+        <name>link_openWorkItems_dataTestid</name>
+    </variable>
+    <variable>
+        <defaultValue>'qc-worklist-open-qc-workitem'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>b21101f4-15e5-4add-9eff-1b53b27ed88e</id>
+        <masked>false</masked>
+        <name>link_openWorkItems_dataTestid_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'Quality Control'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>591351c3-5ba0-410a-b2cc-e0f3d64d94a1</id>
+        <masked>false</masked>
+        <name>link_qualityControlLinks_aTitle</name>
+    </variable>
+    <variable>
+        <defaultValue>'Subjects'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>54b2b22e-9666-4d7b-b45a-06d119b5b0e6</id>
+        <masked>false</masked>
+        <name>link_studyLinks_aTitle</name>
+    </variable>
+    <variable>
+        <defaultValue>'Subjects'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>5320e5f6-326b-4d36-a682-3906c0e7740d</id>
+        <masked>false</masked>
+        <name>link_studyLinks_aTitle_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'Subjects'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>30588169-5e86-48bf-a18b-9b9a9bca9a39</id>
+        <masked>false</masked>
+        <name>link_studyLinks_aTitle_2</name>
+    </variable>
+    <variable>
+        <defaultValue>'{{url}}'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>affd40d0-d89b-4bdd-a8d1-20a406c54a1d</id>
+        <masked>false</masked>
+        <name>link_studyLinks_href_variable</name>
+    </variable>
+    <variable>
+        <defaultValue>'{{url}}'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>e8b0dc37-0feb-4d73-aa20-fc98b1edba34</id>
+        <masked>false</masked>
+        <name>link_studyLinks_href_variable_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'{{url}}'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>939d921a-239f-40bb-9fd1-8759f74fd8b1</id>
+        <masked>false</masked>
+        <name>link_studyLinks_href_variable_2</name>
+    </variable>
+    <variable>
+        <defaultValue>'modfed - page1'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>3e4489e7-df8d-41f6-9329-d31dbac667aa</id>
+        <masked>false</masked>
+        <name>link_templateLinks_aTitle</name>
+    </variable>
+    <variableLinks>
+        <testDataLinkId>882d0d57-807a-4611-bd75-e3d8c1dc15a8</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>div_dashboardSections_dataTestid</value>
+        <variableId>1e566739-eab4-44d4-9ab3-415c023c8bf9</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>882d0d57-807a-4611-bd75-e3d8c1dc15a8</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>div_dashboardSections_dataTestid_1</value>
+        <variableId>31e49b03-ce38-4fa3-b305-f684fb46d7b2</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>882d0d57-807a-4611-bd75-e3d8c1dc15a8</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>div_dataUploadSections_dataTestid</value>
+        <variableId>50537108-b514-41a0-87f3-0f6196470d13</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>882d0d57-807a-4611-bd75-e3d8c1dc15a8</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>div_dataUploadSections_dataTestid_1</value>
+        <variableId>2ecd05e0-6da5-4c3f-9e2b-9f7c693211f2</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>882d0d57-807a-4611-bd75-e3d8c1dc15a8</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>div_dataUploadSections_dataTestid_2</value>
+        <variableId>6353fb02-d4b1-4157-a6d1-69311613e420</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>882d0d57-807a-4611-bd75-e3d8c1dc15a8</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>div_dataUploadSections_dataTestid_3</value>
+        <variableId>edefc346-81f3-41e7-b721-0f6c6366f6d9</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>882d0d57-807a-4611-bd75-e3d8c1dc15a8</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>div_dataUploadSections_dataTestid_4</value>
+        <variableId>c37d1752-45d0-4ad4-907d-e17798c994af</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>882d0d57-807a-4611-bd75-e3d8c1dc15a8</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_openWorkItems_dataTestid</value>
+        <variableId>ccc84a9f-9b3b-4510-a3da-514b882d9360</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>882d0d57-807a-4611-bd75-e3d8c1dc15a8</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_openWorkItems_dataTestid_1</value>
+        <variableId>b21101f4-15e5-4add-9eff-1b53b27ed88e</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>882d0d57-807a-4611-bd75-e3d8c1dc15a8</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_qualityControlLinks_aTitle</value>
+        <variableId>591351c3-5ba0-410a-b2cc-e0f3d64d94a1</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>882d0d57-807a-4611-bd75-e3d8c1dc15a8</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_studyLinks_aTitle</value>
+        <variableId>54b2b22e-9666-4d7b-b45a-06d119b5b0e6</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>882d0d57-807a-4611-bd75-e3d8c1dc15a8</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_studyLinks_aTitle_1</value>
+        <variableId>5320e5f6-326b-4d36-a682-3906c0e7740d</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>882d0d57-807a-4611-bd75-e3d8c1dc15a8</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_studyLinks_aTitle_2</value>
+        <variableId>30588169-5e86-48bf-a18b-9b9a9bca9a39</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>882d0d57-807a-4611-bd75-e3d8c1dc15a8</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_studyLinks_href_variable</value>
+        <variableId>affd40d0-d89b-4bdd-a8d1-20a406c54a1d</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>882d0d57-807a-4611-bd75-e3d8c1dc15a8</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_studyLinks_href_variable_1</value>
+        <variableId>e8b0dc37-0feb-4d73-aa20-fc98b1edba34</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>882d0d57-807a-4611-bd75-e3d8c1dc15a8</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_studyLinks_href_variable_2</value>
+        <variableId>939d921a-239f-40bb-9fd1-8759f74fd8b1</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>882d0d57-807a-4611-bd75-e3d8c1dc15a8</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_templateLinks_aTitle</value>
+        <variableId>3e4489e7-df8d-41f6-9329-d31dbac667aa</variableId>
+    </variableLinks>
+</TestCaseEntity>

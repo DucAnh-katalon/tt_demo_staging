@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>52e01cd1-3688-4f2c-866a-a417ebaaf456</id>
+        </flow>
+    </customField>
+    <description>Navigate to the history graph page, interact with various input objects, and toggle change modes while viewing and editing multiple objects.</description>
+    <name>TC72-Interact with History Graph and Input Values</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>e44af148-fc30-447c-902c-988eebf3607a</testCaseGuid>
+    <testDataLinks>
+        <combinationType>ONE</combinationType>
+        <id>e012aa56-4a1a-4e5c-9393-ba824b108bd9</id>
+        <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+        </iterationEntity>
+        <testDataId>Data Files/AI-Generated/Tracking Environment/TC72-Interact with History Graph and Input Values-test-data</testDataId>
+    </testDataLinks>
+    <variable>
+        <defaultValue>'KA-7584-68'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>4da45899-45d5-4619-a479-c3b25edb40f2</id>
+        <masked>false</masked>
+        <name>aut_id</name>
+    </variable>
+    <variable>
+        <defaultValue>'Data Files/AI-Generated/Tracking Environment/Common/editInputNumberInMultipleObjects-test-data'</defaultValue>
+        <description>Common function data file id</description>
+        <id>1f18f791-0e56-4f70-a69c-bf83eadf0cb5</id>
+        <masked>false</masked>
+        <name>data_path_0</name>
+    </variable>
+    <variable>
+        <defaultValue>'Data Files/AI-Generated/Tracking Environment/Common/interactWithObjectsAndInputNumberAgain-test-data'</defaultValue>
+        <description>Common function data file id</description>
+        <id>19089dad-96ac-47fe-b9f8-3e5c8fb5a757</id>
+        <masked>false</masked>
+        <name>data_path_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'4f282fed-f394-498a-bfa2-380dc0519a3a'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>b6355407-2d6a-4869-9c38-17a066d30f42</id>
+        <masked>false</masked>
+        <name>graph_id</name>
+    </variable>
+    <variable>
+        <defaultValue>'35b4bf27-e341-409c-b33d-5f64959172d1'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>9d3ebbae-951b-4e51-a674-1b83dbaf2602</id>
+        <masked>false</masked>
+        <name>history_id</name>
+    </variable>
+    <variable>
+        <defaultValue>'1'</defaultValue>
+        <description>Common function data row index</description>
+        <id>11edc0a7-0bbb-4d4f-92f2-b5a4db43266d</id>
+        <masked>false</masked>
+        <name>index_0</name>
+    </variable>
+    <variable>
+        <defaultValue>'1'</defaultValue>
+        <description>Common function data row index</description>
+        <id>68a796c3-0ba7-4a01-bf3c-a396e411494d</id>
+        <masked>false</masked>
+        <name>index_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'2000'</defaultValue>
+        <description>Input data variable</description>
+        <id>aef107f5-2871-4749-b705-9665a53e5f1e</id>
+        <masked>false</masked>
+        <name>input_numberInput</name>
+    </variable>
+    <variable>
+        <defaultValue>'200'</defaultValue>
+        <description>Input data variable</description>
+        <id>01dad844-d699-4258-bce2-e220c4af82a2</id>
+        <masked>false</masked>
+        <name>input_numberInput_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'250'</defaultValue>
+        <description>Input data variable</description>
+        <id>0df989f9-822f-41d2-a4f8-4200c422d223</id>
+        <masked>false</masked>
+        <name>input_numberInput_2</name>
+    </variable>
+    <variable>
+        <defaultValue>'1000'</defaultValue>
+        <description>Input data variable</description>
+        <id>84e970f0-ff67-4e6a-8bf0-e4338d7a23e8</id>
+        <masked>false</masked>
+        <name>input_object</name>
+    </variable>
+    <variableLinks>
+        <testDataLinkId>e012aa56-4a1a-4e5c-9393-ba824b108bd9</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>aut_id</value>
+        <variableId>4da45899-45d5-4619-a479-c3b25edb40f2</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>e012aa56-4a1a-4e5c-9393-ba824b108bd9</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>data_path_0</value>
+        <variableId>1f18f791-0e56-4f70-a69c-bf83eadf0cb5</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>e012aa56-4a1a-4e5c-9393-ba824b108bd9</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>data_path_1</value>
+        <variableId>19089dad-96ac-47fe-b9f8-3e5c8fb5a757</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>e012aa56-4a1a-4e5c-9393-ba824b108bd9</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>graph_id</value>
+        <variableId>b6355407-2d6a-4869-9c38-17a066d30f42</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>e012aa56-4a1a-4e5c-9393-ba824b108bd9</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>history_id</value>
+        <variableId>9d3ebbae-951b-4e51-a674-1b83dbaf2602</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>e012aa56-4a1a-4e5c-9393-ba824b108bd9</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>index_0</value>
+        <variableId>11edc0a7-0bbb-4d4f-92f2-b5a4db43266d</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>e012aa56-4a1a-4e5c-9393-ba824b108bd9</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>index_1</value>
+        <variableId>68a796c3-0ba7-4a01-bf3c-a396e411494d</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>e012aa56-4a1a-4e5c-9393-ba824b108bd9</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>input_numberInput</value>
+        <variableId>aef107f5-2871-4749-b705-9665a53e5f1e</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>e012aa56-4a1a-4e5c-9393-ba824b108bd9</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>input_numberInput_1</value>
+        <variableId>01dad844-d699-4258-bce2-e220c4af82a2</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>e012aa56-4a1a-4e5c-9393-ba824b108bd9</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>input_numberInput_2</value>
+        <variableId>0df989f9-822f-41d2-a4f8-4200c422d223</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>e012aa56-4a1a-4e5c-9393-ba824b108bd9</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>input_object</value>
+        <variableId>84e970f0-ff67-4e6a-8bf0-e4338d7a23e8</variableId>
+    </variableLinks>
+</TestCaseEntity>
