@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>84dd00f8-8c03-4c1e-9b22-85b280d20a99</id>
+        </flow>
+    </customField>
+    <description>Navigate to the studies dashboard, access administration settings, and verify navigation back to the home page after reviewing study links.</description>
+    <name>TC10-Access Study Settings and Return to Home Page</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>292357b9-9f59-45ca-aabc-7976074663f5</testCaseGuid>
+    <testDataLinks>
+        <combinationType>ONE</combinationType>
+        <id>b9c60725-f722-4beb-a92f-aae290761288</id>
+        <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+        </iterationEntity>
+        <testDataId>Data Files/AI-Generated/Tracking Environment/TC10-Access Study Settings and Return to Home Page-test-data</testDataId>
+    </testDataLinks>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>f3a1c027-76d8-4579-a7a1-0df235cb0253</id>
+        <masked>false</masked>
+        <name>div_dashboardSections_class</name>
+    </variable>
+    <variable>
+        <defaultValue>'Quality Control'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>cf916b7d-824d-49f2-af26-5205b5c16a0c</id>
+        <masked>false</masked>
+        <name>div_dashboardSections_dataTestid</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>d4df55ba-5a10-4eb0-a22b-000645226f2a</id>
+        <masked>false</masked>
+        <name>div_dashboardSections_divNthOfType</name>
+    </variable>
+    <variable>
+        <defaultValue>'DONT_Del_Edit_AutoStd_75240_3'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>80e7212d-492b-4cd5-8690-bd07516e1b86</id>
+        <masked>false</masked>
+        <name>link_dynamicObject_internalText</name>
+    </variable>
+    <variable>
+        <defaultValue>'Study Configuration'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>82606ab9-cbf2-412d-843e-a10ff445940e</id>
+        <masked>false</masked>
+        <name>link_studyLinks_aTitle</name>
+    </variable>
+    <variable>
+        <defaultValue>'es-button'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>9cbe0430-cc5b-4896-aa49-d6520c83f3fc</id>
+        <masked>false</masked>
+        <name>link_studyLinks_class</name>
+    </variable>
+    <variable>
+        <defaultValue>'{{url}}'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>44c0ecdc-24a4-404b-90ff-99b4a0515ad4</id>
+        <masked>false</masked>
+        <name>link_studyLinks_href_variable</name>
+    </variable>
+    <variable>
+        <defaultValue>'3'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>4168b77a-2923-4fa0-8741-6eb48516eaf8</id>
+        <masked>false</masked>
+        <name>link_studyLinks_liNthOfType</name>
+    </variable>
+    <variable>
+        <defaultValue>'STY-tlfh5qpt;uniqueId=STY-tlfh5qpt'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>eb17784b-eae8-42b4-a04b-e804653c103d</id>
+        <masked>false</masked>
+        <name>studies_id</name>
+    </variable>
+    <variableLinks>
+        <testDataLinkId>b9c60725-f722-4beb-a92f-aae290761288</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>div_dashboardSections_class</value>
+        <variableId>f3a1c027-76d8-4579-a7a1-0df235cb0253</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>b9c60725-f722-4beb-a92f-aae290761288</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>div_dashboardSections_dataTestid</value>
+        <variableId>cf916b7d-824d-49f2-af26-5205b5c16a0c</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>b9c60725-f722-4beb-a92f-aae290761288</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>div_dashboardSections_divNthOfType</value>
+        <variableId>d4df55ba-5a10-4eb0-a22b-000645226f2a</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>b9c60725-f722-4beb-a92f-aae290761288</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_dynamicObject_internalText</value>
+        <variableId>80e7212d-492b-4cd5-8690-bd07516e1b86</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>b9c60725-f722-4beb-a92f-aae290761288</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_studyLinks_aTitle</value>
+        <variableId>82606ab9-cbf2-412d-843e-a10ff445940e</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>b9c60725-f722-4beb-a92f-aae290761288</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_studyLinks_class</value>
+        <variableId>9cbe0430-cc5b-4896-aa49-d6520c83f3fc</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>b9c60725-f722-4beb-a92f-aae290761288</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_studyLinks_href_variable</value>
+        <variableId>44c0ecdc-24a4-404b-90ff-99b4a0515ad4</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>b9c60725-f722-4beb-a92f-aae290761288</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_studyLinks_liNthOfType</value>
+        <variableId>4168b77a-2923-4fa0-8741-6eb48516eaf8</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>b9c60725-f722-4beb-a92f-aae290761288</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>studies_id</value>
+        <variableId>eb17784b-eae8-42b4-a04b-e804653c103d</variableId>
+    </variableLinks>
+</TestCaseEntity>

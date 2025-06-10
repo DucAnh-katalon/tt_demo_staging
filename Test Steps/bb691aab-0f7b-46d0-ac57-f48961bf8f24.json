@@ -1,0 +1,33 @@
+{
+    "steps": [
+        "step 1: Navigate to /feed",
+        "step 2: Click on button repost",
+        "step 3: Click on div feedUpdate",
+        "step 4: Click on link viewProfile -> Navigate to page '/in/*'",
+        "step 5: Click on link showAllExperiences",
+        "step 6: Click on link showAllExperiences -> Navigate to page '/in/*/details/experience'",
+        "step 7: Hover over button object",
+        "step 8: Hover over image quocLe",
+        "step 9: Click on liIcon object -> Navigate to page '/feed'",
+        "step 10: Click on liIcon networkUpdate -> Navigate to page '/mynetwork'",
+        "step 11: Click on link messagingNotification -> Navigate to page '/messaging/thread/*'",
+        "step 12: Hover over button unread",
+        "step 13: Click on liIcon notifications -> Navigate to page '/notifications'",
+        "step 14: Hover over link defaultBackground",
+        "step 15: Click on liIcon notification -> Navigate to page '/feed'",
+        "step 16: Click on button seeMore",
+        "step 17: Click on link viewMore",
+        "step 18: Click on div feedMedia",
+        "step 19: Click on button seeMore2",
+        "step 20: Click on button seeMore3",
+        "step 21: Click on button newPosts",
+        "step 22: Click on span fluentSpeakers",
+        "step 23: Click on button seeMore4",
+        "step 24: Click on button seeMore5",
+        "step 25: Click on button seeMore6",
+        "step 26: Click on div feedContent",
+        "step 27: Click on button seeMore7",
+        "step 28: Click on button seeMore8 -> Navigate to page ''",
+        "step 29: Take full page screenshot as checkpoint"
+    ]
+}

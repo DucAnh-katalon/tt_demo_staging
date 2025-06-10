@@ -1,0 +1,12 @@
+{
+    "steps": [
+        "step 1: Navigate to /mail/u/*",
+        "step 2: Click on div updatedInvitation",
+        "step 3: Click on tr unreadMessages (unreadEmail)",
+        "step 4: Click on div mailItem",
+        "step 5: Click on tr unreadMessages (unreadMessage)",
+        "step 6: Click on tr unreadMessages (unreadInvitation)",
+        "step 7: Click on link joinRetrospective -> Navigate to page ''",
+        "step 8: Take full page screenshot as checkpoint"
+    ]
+}

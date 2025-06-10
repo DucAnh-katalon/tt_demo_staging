@@ -1,0 +1,26 @@
+{
+    "steps": [
+        "step 1: Navigate to /html/html iframe.asp",
+        "step 2: Hover over link startLearningHtml",
+        "step 3: Hover over link pythonTutorial",
+        "step 4: Hover over link services",
+        "step 5: Hover over link php",
+        "step 6: Click on link htmlElements -> Navigate to page '/html/html elements.asp'",
+        "step 7: Click on span doctypeHtml",
+        "step 8: Click on div htmlCode",
+        "step 9: Click on div htmlCode",
+        "step 10: Click on div htmlCode",
+        "step 11: Click on span htmlTags (h1Tag)",
+        "step 12: Click on input searchField",
+        "step 13: Enter input value in input searchField",
+        "step 14: Click on span htmlTags (titleTag)",
+        "step 15: Click on span htmlTags (titleTag)",
+        "step 16: Click on div htmlCode -> Navigate to page '/html/html iframe.asp'",
+        "step 17: Click on div htmlIframe",
+        "step 18: Click on header syntax",
+        "step 19: Click on div iframeContainer",
+        "step 20: Click on span urlAttribute",
+        "step 21: Click on div htmlIframe -> Navigate to page ''",
+        "step 22: Take full page screenshot as checkpoint"
+    ]
+}

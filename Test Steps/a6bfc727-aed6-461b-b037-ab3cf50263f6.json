@@ -1,0 +1,18 @@
+{
+    "steps": [
+        "step 1: Navigate to /env/staging/aut/*",
+        "step 2: Click on span historyDetails -> Navigate to page '/env/staging/aut/*/history'",
+        "step 3: Click on td object2",
+        "step 4: Click on td object2",
+        "step 5: Click on td object2",
+        "step 6: Click on td object2",
+        "step 7: Click on td object2",
+        "step 8: Click on link historyEntries (history3) -> Navigate to page '/env/staging/aut/*/history/*'",
+        "step 9: Click on html object2",
+        "step 10: Click on div collapsedFlows",
+        "step 11: Click on button viewFlow",
+        "step 12: Click on button downloadActions (downloadGraph)",
+        "step 13: Click on button downloadActions (downloadTrackingPath) -> Navigate to page ''",
+        "step 14: Take full page screenshot as checkpoint"
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Click on link staging -> Navigate to page '/env/staging'",
+        "step 3: Click on link staging",
+        "step 4: Click on nav staging",
+        "step 5: Click on link staging",
+        "step 6: Click on b trueTestInternal",
+        "step 7: Click on link jobId -> Navigate to page '/env/staging/aut/*/history/*'",
+        "step 8: Click on div collapsedParams2",
+        "step 9: Click on dynamic objects multiple times",
+        "step 10: Click on pre object2",
+        "step 11: Interact with several dynamic objects by clicking on them",
+        "step 12: Click on div environmentHeader",
+        "step 13: Click on link history2 -> Navigate to page '/env/staging/aut/*/history'",
+        "step 14: Click on td object",
+        "step 15: Click on link historyEntries (ca24978)",
+        "step 16: Click on link historyEntries (ca24978) -> Navigate to page '/env/staging/aut/*/history/*'",
+        "step 17: Click on div collapsedParams3",
+        "step 18: Click on pre object3",
+        "step 19: Click on span dynamicObject (dateTime)",
+        "step 20: Click on span dynamicObject (dateTime)",
+        "step 21: Click on html object",
+        "step 22: Click on html object",
+        "step 23: Click on html object -> Navigate to page ''",
+        "step 24: Take full page screenshot as checkpoint"
+    ]
+}

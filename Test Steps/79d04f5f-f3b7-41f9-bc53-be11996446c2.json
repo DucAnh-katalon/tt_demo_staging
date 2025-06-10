@@ -1,0 +1,25 @@
+{
+    "steps": [
+        "step 1: Navigate to /dashboard",
+        "step 2: Click on list quicklink",
+        "step 3: Select study or organization and navigate to dashboard",
+        "step 4: Click on div dashboardSections (subjects)",
+        "step 5: Click on div dashboardSections (visitSchedule)",
+        "step 6: Click on div dataNotificationAndRules",
+        "step 7: Click on div dashboardSections (dataUpload)",
+        "step 8: Click on faIcon qualityControl",
+        "step 9: Click on div dashboardSections (forms)",
+        "step 10: Click on div dashboardSections (sites)",
+        "step 11: Click on div dashboardSections (siteAssessment)",
+        "step 12: Click on div dashboardSections (subjects)",
+        "step 13: Click on div dashboardSections (sites)",
+        "step 14: Click on faIcon visitSchedule2",
+        "step 15: Click on div dashboardSections (forms)",
+        "step 16: Click on div dashboardSections (visitSchedule)",
+        "step 17: Click on div dashboardSections (sites2)",
+        "step 18: Click on div dashboardSections (forms)",
+        "step 19: Click on faIcon backLink",
+        "step 20: Click on button confirm -> Navigate to page ''",
+        "step 21: Take full page screenshot as checkpoint"
+    ]
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>58580351-edd7-4561-be5e-ec24769db9cb</id>
+        </flow>
+    </customField>
+    <description>Navigate to the home page, click on the link to the Boundless Store, and verify that the home page is displayed.</description>
+    <name>TC167-Navigate to Home and Access Boundless Store</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>e28cce0c-c6a6-4c14-b27c-c05c8287c3d1</testCaseGuid>
+</TestCaseEntity>

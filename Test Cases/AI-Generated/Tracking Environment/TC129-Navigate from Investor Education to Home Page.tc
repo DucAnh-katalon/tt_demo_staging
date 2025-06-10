@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>2632ebe0-3860-4ee5-89f9-adda47b51b73</id>
+        </flow>
+    </customField>
+    <description>Access the investor education page for mutual funds and click on investments to return to the home page, verifying the navigation.</description>
+    <name>TC129-Navigate from Investor Education to Home Page</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>4d9801eb-1042-40d4-b64f-88082c30e0dc</testCaseGuid>
+</TestCaseEntity>

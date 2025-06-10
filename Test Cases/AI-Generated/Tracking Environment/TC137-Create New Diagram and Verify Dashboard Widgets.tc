@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>233bfb6a-05a9-45aa-b4ee-b49d88c3a497</id>
+        </flow>
+    </customField>
+    <description>Navigate to the home page, create a new diagram, and interact with multiple dashboard widgets before verifying the home page.</description>
+    <name>TC137-Create New Diagram and Verify Dashboard Widgets</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>7a62caa7-6695-49dc-88e9-1556f1aba720</testCaseGuid>
+    <testDataLinks>
+        <combinationType>ONE</combinationType>
+        <id>cceb9aa7-609f-4494-899a-1fd3679f773f</id>
+        <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+        </iterationEntity>
+        <testDataId>Data Files/AI-Generated/Tracking Environment/TC137-Create New Diagram and Verify Dashboard Widgets-test-data</testDataId>
+    </testDataLinks>
+    <variable>
+        <defaultValue>'6'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>b657b927-c431-440e-afb9-f07eea8ab257</id>
+        <masked>false</masked>
+        <name>div_dashboardWidgets_divNthOfType</name>
+    </variable>
+    <variable>
+        <defaultValue>'7'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>4a319f79-d986-496b-97ae-de32970f0a17</id>
+        <masked>false</masked>
+        <name>div_dashboardWidgets_divNthOfType_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'6'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>02617522-d728-47d1-b4d8-5455bcacf5d8</id>
+        <masked>false</masked>
+        <name>div_dashboardWidgets_divNthOfType_10</name>
+    </variable>
+    <variable>
+        <defaultValue>'3'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>b049c774-0115-40e9-b46a-86b611ade38d</id>
+        <masked>false</masked>
+        <name>div_dashboardWidgets_divNthOfType_11</name>
+    </variable>
+    <variable>
+        <defaultValue>'2'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>1cbc3401-81a3-4478-a697-1b7c5861ebca</id>
+        <masked>false</masked>
+        <name>div_dashboardWidgets_divNthOfType_12</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>b94e07da-7c8c-493e-a747-6bb3f0d277dd</id>
+        <masked>false</masked>
+        <name>div_dashboardWidgets_divNthOfType_13</name>
+    </variable>
+    <variable>
+        <defaultValue>'2'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>ff9a1f60-3aa3-4349-a8ae-d1531023d5d9</id>
+        <masked>false</masked>
+        <name>div_dashboardWidgets_divNthOfType_14</name>
+    </variable>
+    <variable>
+        <defaultValue>'3'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>de2cd74e-164d-432a-a16f-da3a993161ba</id>
+        <masked>false</masked>
+        <name>div_dashboardWidgets_divNthOfType_15</name>
+    </variable>
+    <variable>
+        <defaultValue>'4'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>cc8604bc-42aa-4bad-8403-43581c520ff7</id>
+        <masked>false</masked>
+        <name>div_dashboardWidgets_divNthOfType_16</name>
+    </variable>
+    <variable>
+        <defaultValue>'5'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>f8c0ea2e-5622-451c-b52e-7256f08e304a</id>
+        <masked>false</masked>
+        <name>div_dashboardWidgets_divNthOfType_17</name>
+    </variable>
+    <variable>
+        <defaultValue>'6'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>82b35b97-519c-4262-85af-bab845c5076d</id>
+        <masked>false</masked>
+        <name>div_dashboardWidgets_divNthOfType_18</name>
+    </variable>
+    <variable>
+        <defaultValue>'8'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>cdfbedb0-2518-4f54-8e5e-0f134fa18526</id>
+        <masked>false</masked>
+        <name>div_dashboardWidgets_divNthOfType_19</name>
+    </variable>
+    <variable>
+        <defaultValue>'8'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>274878ed-2d5d-45e8-b7b9-e28c5d99228d</id>
+        <masked>false</masked>
+        <name>div_dashboardWidgets_divNthOfType_2</name>
+    </variable>
+    <variable>
+        <defaultValue>'11'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>b27a9df4-d864-4916-a296-e597243496c1</id>
+        <masked>false</masked>
+        <name>div_dashboardWidgets_divNthOfType_3</name>
+    </variable>
+    <variable>
+        <defaultValue>'12'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>076cc906-ac69-4885-890a-4f20beb70f43</id>
+        <masked>false</masked>
+        <name>div_dashboardWidgets_divNthOfType_4</name>
+    </variable>
+    <variable>
+        <defaultValue>'15'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>389c9c60-681c-46d6-8dc4-7807c5870773</id>
+        <masked>false</masked>
+        <name>div_dashboardWidgets_divNthOfType_5</name>
+    </variable>
+    <variable>
+        <defaultValue>'14'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>6bc730ea-c31f-4690-9716-2d83284fb93f</id>
+        <masked>false</masked>
+        <name>div_dashboardWidgets_divNthOfType_6</name>
+    </variable>
+    <variable>
+        <defaultValue>'13'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>ff182b1f-8546-4d55-a99a-2493d65bffcd</id>
+        <masked>false</masked>
+        <name>div_dashboardWidgets_divNthOfType_7</name>
+    </variable>
+    <variable>
+        <defaultValue>'5'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>be7aa24a-83bf-496f-9f30-e9e2e10d888e</id>
+        <masked>false</masked>
+        <name>div_dashboardWidgets_divNthOfType_8</name>
+    </variable>
+    <variable>
+        <defaultValue>'5'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>add44b82-df79-427a-aef6-c193c1f44ee4</id>
+        <masked>false</masked>
+        <name>div_dashboardWidgets_divNthOfType_9</name>
+    </variable>
+    <variable>
+        <defaultValue>'Flowcharts \\\\(9\\\\)'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>9f0530f6-869d-4b18-8246-148c0fb9f767</id>
+        <masked>false</masked>
+        <name>div_dashboardWidgets_divTitle</name>
+    </variable>
+    <variable>
+        <defaultValue>'Maps \\\\(5\\\\)'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>a137df4d-4e42-46f4-ac90-57363c0a9fdf</id>
+        <masked>false</masked>
+        <name>div_dashboardWidgets_divTitle_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'Flowcharts \\\\(9\\\\)'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>e343c8b4-5f4d-4256-99c1-6af5f024c2fc</id>
+        <masked>false</masked>
+        <name>div_dashboardWidgets_divTitle_10</name>
+    </variable>
+    <variable>
+        <defaultValue>'Business \\\\(15\\\\)'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>e0cab71f-97cd-45cf-a68c-d43e1ec8e1fd</id>
+        <masked>false</masked>
+        <name>div_dashboardWidgets_divTitle_11</name>
+    </variable>
+    <variable>
+        <defaultValue>'Smart Template'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>b7484067-4ff8-42db-8970-134246324845</id>
+        <masked>false</masked>
+        <name>div_dashboardWidgets_divTitle_12</name>
+    </variable>
+    <variable>
+        <defaultValue>'Basic \\\\(12\\\\)'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>8f74aef5-5a0f-41ac-9a1d-9677ebf7f9b7</id>
+        <masked>false</masked>
+        <name>div_dashboardWidgets_divTitle_13</name>
+    </variable>
+    <variable>
+        <defaultValue>'Smart Template'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>70a504da-5e0f-4842-9c84-c046d9802ce1</id>
+        <masked>false</masked>
+        <name>div_dashboardWidgets_divTitle_14</name>
+    </variable>
+    <variable>
+        <defaultValue>'Business \\\\(15\\\\)'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>6a5d30f2-40ad-4d54-a0c8-a770f48f30f0</id>
+        <masked>false</masked>
+        <name>div_dashboardWidgets_divTitle_15</name>
+    </variable>
+    <variable>
+        <defaultValue>'Charts \\\\(6\\\\)'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>f65d403a-9050-4d5a-94fb-422f78aac95e</id>
+        <masked>false</masked>
+        <name>div_dashboardWidgets_divTitle_16</name>
+    </variable>
+    <variable>
+        <defaultValue>'Engineering \\\\(3\\\\)'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>fc8ad5b9-12da-4e02-9b9e-4299aab75a43</id>
+        <masked>false</masked>
+        <name>div_dashboardWidgets_divTitle_17</name>
+    </variable>
+    <variable>
+        <defaultValue>'Flowcharts \\\\(9\\\\)'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>483c49cd-48fb-4fa1-a72b-7a52b0512c6e</id>
+        <masked>false</masked>
+        <name>div_dashboardWidgets_divTitle_18</name>
+    </variable>
+    <variable>
+        <defaultValue>'Network \\\\(13\\\\)'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>f67379d0-00a1-434f-9212-60bb17d5a719</id>
+        <masked>false</masked>
+        <name>div_dashboardWidgets_divTitle_19</name>
+    </variable>
+    <variable>
+        <defaultValue>'Network \\\\(13\\\\)'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>1bb94ca8-8811-4227-92a6-be4a8bf16144</id>
+        <masked>false</masked>
+        <name>div_dashboardWidgets_divTitle_2</name>
+    </variable>
+    <variable>
+        <defaultValue>'Tables \\\\(4\\\\)'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>5f17b0d4-023d-41f4-8879-a265c38d9ced</id>
+        <masked>false</masked>
+        <name>div_dashboardWidgets_divTitle_3</name>
+    </variable>
+    <variable>
+        <defaultValue>'UML \\\\(8\\\\)'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>d4776aed-84bf-4688-889d-634e4eccb27d</id>
+        <masked>false</masked>
+        <name>div_dashboardWidgets_divTitle_4</name>
+    </variable>
+    <variable>
+        <defaultValue>'Layout \\\\(4\\\\)'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>05d4b838-a49c-40fa-8bdc-843289e91218</id>
+        <masked>false</masked>
+        <name>div_dashboardWidgets_divTitle_5</name>
+    </variable>
+    <variable>
+        <defaultValue>'Wireframes \\\\(5\\\\)'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>6dc3b6f4-32e3-4c96-9a0e-e29c04e36ca5</id>
+        <masked>false</masked>
+        <name>div_dashboardWidgets_divTitle_6</name>
+    </variable>
+    <variable>
+        <defaultValue>'Venn \\\\(8\\\\)'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>24707fb3-71cf-4a91-bf5c-aefdc1c83d55</id>
+        <masked>false</masked>
+        <name>div_dashboardWidgets_divTitle_7</name>
+    </variable>
+    <variable>
+        <defaultValue>'Engineering \\\\(3\\\\)'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>36ffa70d-552f-490f-86c9-c6050c148371</id>
+        <masked>false</masked>
+        <name>div_dashboardWidgets_divTitle_8</name>
+    </variable>
+    <variable>
+        <defaultValue>'Engineering \\\\(3\\\\)'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>b0f33bd5-9918-4e42-b505-cf32b048723a</id>
+        <masked>false</masked>
+        <name>div_dashboardWidgets_divTitle_9</name>
+    </variable>
+    <variableLinks>
+        <testDataLinkId>cceb9aa7-609f-4494-899a-1fd3679f773f</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>div_dashboardWidgets_divNthOfType</value>
+        <variableId>b657b927-c431-440e-afb9-f07eea8ab257</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>cceb9aa7-609f-4494-899a-1fd3679f773f</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>div_dashboardWidgets_divNthOfType_1</value>
+        <variableId>4a319f79-d986-496b-97ae-de32970f0a17</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>cceb9aa7-609f-4494-899a-1fd3679f773f</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>div_dashboardWidgets_divNthOfType_10</value>
+        <variableId>02617522-d728-47d1-b4d8-5455bcacf5d8</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>cceb9aa7-609f-4494-899a-1fd3679f773f</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>div_dashboardWidgets_divNthOfType_11</value>
+        <variableId>b049c774-0115-40e9-b46a-86b611ade38d</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>cceb9aa7-609f-4494-899a-1fd3679f773f</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>div_dashboardWidgets_divNthOfType_12</value>
+        <variableId>1cbc3401-81a3-4478-a697-1b7c5861ebca</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>cceb9aa7-609f-4494-899a-1fd3679f773f</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>div_dashboardWidgets_divNthOfType_13</value>
+        <variableId>b94e07da-7c8c-493e-a747-6bb3f0d277dd</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>cceb9aa7-609f-4494-899a-1fd3679f773f</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>div_dashboardWidgets_divNthOfType_14</value>
+        <variableId>ff9a1f60-3aa3-4349-a8ae-d1531023d5d9</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>cceb9aa7-609f-4494-899a-1fd3679f773f</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>div_dashboardWidgets_divNthOfType_15</value>
+        <variableId>de2cd74e-164d-432a-a16f-da3a993161ba</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>cceb9aa7-609f-4494-899a-1fd3679f773f</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>div_dashboardWidgets_divNthOfType_16</value>
+        <variableId>cc8604bc-42aa-4bad-8403-43581c520ff7</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>cceb9aa7-609f-4494-899a-1fd3679f773f</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>div_dashboardWidgets_divNthOfType_17</value>
+        <variableId>f8c0ea2e-5622-451c-b52e-7256f08e304a</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>cceb9aa7-609f-4494-899a-1fd3679f773f</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>div_dashboardWidgets_divNthOfType_18</value>
+        <variableId>82b35b97-519c-4262-85af-bab845c5076d</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>cceb9aa7-609f-4494-899a-1fd3679f773f</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>div_dashboardWidgets_divNthOfType_19</value>
+        <variableId>cdfbedb0-2518-4f54-8e5e-0f134fa18526</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>cceb9aa7-609f-4494-899a-1fd3679f773f</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>div_dashboardWidgets_divNthOfType_2</value>
+        <variableId>274878ed-2d5d-45e8-b7b9-e28c5d99228d</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>cceb9aa7-609f-4494-899a-1fd3679f773f</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>div_dashboardWidgets_divNthOfType_3</value>
+        <variableId>b27a9df4-d864-4916-a296-e597243496c1</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>cceb9aa7-609f-4494-899a-1fd3679f773f</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>div_dashboardWidgets_divNthOfType_4</value>
+        <variableId>076cc906-ac69-4885-890a-4f20beb70f43</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>cceb9aa7-609f-4494-899a-1fd3679f773f</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>div_dashboardWidgets_divNthOfType_5</value>
+        <variableId>389c9c60-681c-46d6-8dc4-7807c5870773</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>cceb9aa7-609f-4494-899a-1fd3679f773f</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>div_dashboardWidgets_divNthOfType_6</value>
+        <variableId>6bc730ea-c31f-4690-9716-2d83284fb93f</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>cceb9aa7-609f-4494-899a-1fd3679f773f</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>div_dashboardWidgets_divNthOfType_7</value>
+        <variableId>ff182b1f-8546-4d55-a99a-2493d65bffcd</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>cceb9aa7-609f-4494-899a-1fd3679f773f</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>div_dashboardWidgets_divNthOfType_8</value>
+        <variableId>be7aa24a-83bf-496f-9f30-e9e2e10d888e</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>cceb9aa7-609f-4494-899a-1fd3679f773f</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>div_dashboardWidgets_divNthOfType_9</value>
+        <variableId>add44b82-df79-427a-aef6-c193c1f44ee4</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>cceb9aa7-609f-4494-899a-1fd3679f773f</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>div_dashboardWidgets_divTitle</value>
+        <variableId>9f0530f6-869d-4b18-8246-148c0fb9f767</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>cceb9aa7-609f-4494-899a-1fd3679f773f</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>div_dashboardWidgets_divTitle_1</value>
+        <variableId>a137df4d-4e42-46f4-ac90-57363c0a9fdf</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>cceb9aa7-609f-4494-899a-1fd3679f773f</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>div_dashboardWidgets_divTitle_10</value>
+        <variableId>e343c8b4-5f4d-4256-99c1-6af5f024c2fc</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>cceb9aa7-609f-4494-899a-1fd3679f773f</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>div_dashboardWidgets_divTitle_11</value>
+        <variableId>e0cab71f-97cd-45cf-a68c-d43e1ec8e1fd</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>cceb9aa7-609f-4494-899a-1fd3679f773f</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>div_dashboardWidgets_divTitle_12</value>
+        <variableId>b7484067-4ff8-42db-8970-134246324845</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>cceb9aa7-609f-4494-899a-1fd3679f773f</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>div_dashboardWidgets_divTitle_13</value>
+        <variableId>8f74aef5-5a0f-41ac-9a1d-9677ebf7f9b7</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>cceb9aa7-609f-4494-899a-1fd3679f773f</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>div_dashboardWidgets_divTitle_14</value>
+        <variableId>70a504da-5e0f-4842-9c84-c046d9802ce1</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>cceb9aa7-609f-4494-899a-1fd3679f773f</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>div_dashboardWidgets_divTitle_15</value>
+        <variableId>6a5d30f2-40ad-4d54-a0c8-a770f48f30f0</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>cceb9aa7-609f-4494-899a-1fd3679f773f</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>div_dashboardWidgets_divTitle_16</value>
+        <variableId>f65d403a-9050-4d5a-94fb-422f78aac95e</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>cceb9aa7-609f-4494-899a-1fd3679f773f</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>div_dashboardWidgets_divTitle_17</value>
+        <variableId>fc8ad5b9-12da-4e02-9b9e-4299aab75a43</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>cceb9aa7-609f-4494-899a-1fd3679f773f</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>div_dashboardWidgets_divTitle_18</value>
+        <variableId>483c49cd-48fb-4fa1-a72b-7a52b0512c6e</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>cceb9aa7-609f-4494-899a-1fd3679f773f</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>div_dashboardWidgets_divTitle_19</value>
+        <variableId>f67379d0-00a1-434f-9212-60bb17d5a719</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>cceb9aa7-609f-4494-899a-1fd3679f773f</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>div_dashboardWidgets_divTitle_2</value>
+        <variableId>1bb94ca8-8811-4227-92a6-be4a8bf16144</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>cceb9aa7-609f-4494-899a-1fd3679f773f</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>div_dashboardWidgets_divTitle_3</value>
+        <variableId>5f17b0d4-023d-41f4-8879-a265c38d9ced</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>cceb9aa7-609f-4494-899a-1fd3679f773f</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>div_dashboardWidgets_divTitle_4</value>
+        <variableId>d4776aed-84bf-4688-889d-634e4eccb27d</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>cceb9aa7-609f-4494-899a-1fd3679f773f</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>div_dashboardWidgets_divTitle_5</value>
+        <variableId>05d4b838-a49c-40fa-8bdc-843289e91218</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>cceb9aa7-609f-4494-899a-1fd3679f773f</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>div_dashboardWidgets_divTitle_6</value>
+        <variableId>6dc3b6f4-32e3-4c96-9a0e-e29c04e36ca5</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>cceb9aa7-609f-4494-899a-1fd3679f773f</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>div_dashboardWidgets_divTitle_7</value>
+        <variableId>24707fb3-71cf-4a91-bf5c-aefdc1c83d55</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>cceb9aa7-609f-4494-899a-1fd3679f773f</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>div_dashboardWidgets_divTitle_8</value>
+        <variableId>36ffa70d-552f-490f-86c9-c6050c148371</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>cceb9aa7-609f-4494-899a-1fd3679f773f</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>div_dashboardWidgets_divTitle_9</value>
+        <variableId>b0f33bd5-9918-4e42-b505-cf32b048723a</variableId>
+    </variableLinks>
+</TestCaseEntity>

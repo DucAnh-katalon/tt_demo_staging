@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>6e2e31ee-4aa7-4aa0-8e7a-9d5c10f6a5ef</id>
+        </flow>
+    </customField>
+    <description>Access the staging environment and interact with various dynamic objects. Verify navigation and functionality across multiple pages.</description>
+    <name>TC23-Navigate and Interact with Dynamic Objects in Staging Environment</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>4613312e-99d2-4114-93d2-97f0c22704e9</testCaseGuid>
+    <testDataLinks>
+        <combinationType>ONE</combinationType>
+        <id>18777a4e-e237-4209-b265-db94dbf9abad</id>
+        <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+        </iterationEntity>
+        <testDataId>Data Files/AI-Generated/Tracking Environment/TC23-Navigate and Interact with Dynamic Objects in Staging Environment-test-data</testDataId>
+    </testDataLinks>
+    <variable>
+        <defaultValue>'Data Files/AI-Generated/Tracking Environment/Common/clickDynamicObjectsMultipleTimes-test-data'</defaultValue>
+        <description>Common function data file id</description>
+        <id>5b6cfe29-7c1d-45f4-ac04-d1fe1794cc23</id>
+        <masked>false</masked>
+        <name>data_path_0</name>
+    </variable>
+    <variable>
+        <defaultValue>'Data Files/AI-Generated/Tracking Environment/Common/clickMultipleDynamicObjects-test-data'</defaultValue>
+        <description>Common function data file id</description>
+        <id>feea5b0a-888c-487f-9fba-b001d3a4cb0c</id>
+        <masked>false</masked>
+        <name>data_path_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'1'</defaultValue>
+        <description>Common function data row index</description>
+        <id>5d5e17ce-fe71-451d-bac2-87a298faae8f</id>
+        <masked>false</masked>
+        <name>index_0</name>
+    </variable>
+    <variable>
+        <defaultValue>'1'</defaultValue>
+        <description>Common function data row index</description>
+        <id>99595b33-f65e-46f4-a51c-7e3e9e3cf821</id>
+        <masked>false</masked>
+        <name>index_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'https://truetest.aut.katalon.com/env/staging/aut/KA-346522-52/history/ca249784-ecb1-43cd-8ac9-8b52bbfa123e'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>2affd27f-556c-47ef-83ad-1c68262aa2ee</id>
+        <masked>false</masked>
+        <name>link_historyEntries_href_variable</name>
+    </variable>
+    <variable>
+        <defaultValue>'https://truetest.aut.katalon.com/env/staging/aut/KA-346522-52/history/ca249784-ecb1-43cd-8ac9-8b52bbfa123e'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>fecae565-e137-45bd-980c-9be0842272b9</id>
+        <masked>false</masked>
+        <name>link_historyEntries_href_variable_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'ca24978'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>cf0f6ce1-eda8-4185-a9f8-5e7cb490d54c</id>
+        <masked>false</masked>
+        <name>link_historyEntries_internalText</name>
+    </variable>
+    <variable>
+        <defaultValue>'ca24978'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>cf81d33f-0ac5-4d0c-9b76-52959964c273</id>
+        <masked>false</masked>
+        <name>link_historyEntries_internalText_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'4'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>e27a5645-9aea-4e28-949c-fa2dd7622172</id>
+        <masked>false</masked>
+        <name>link_historyEntries_trNthOfType</name>
+    </variable>
+    <variable>
+        <defaultValue>'4'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>775355e3-3865-4388-90e9-bc4ae3e16c50</id>
+        <masked>false</masked>
+        <name>link_historyEntries_trNthOfType_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'51'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>b1a804aa-314d-43ff-946e-c7144a0cf71f</id>
+        <masked>false</masked>
+        <name>span_dynamicObject_spanNthChild</name>
+    </variable>
+    <variable>
+        <defaultValue>'51'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>b5f52f14-01ad-47c4-9fe0-ec942ec94a7d</id>
+        <masked>false</masked>
+        <name>span_dynamicObject_spanNthChild_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'51'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>6f3feb7f-c68d-41a7-8c9a-e9a6ee2e676a</id>
+        <masked>false</masked>
+        <name>span_dynamicObject_spanNthOfType</name>
+    </variable>
+    <variable>
+        <defaultValue>'51'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>2c69fced-402c-4a1e-b533-77aad53379d7</id>
+        <masked>false</masked>
+        <name>span_dynamicObject_spanNthOfType_1</name>
+    </variable>
+    <variableLinks>
+        <testDataLinkId>18777a4e-e237-4209-b265-db94dbf9abad</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>data_path_0</value>
+        <variableId>5b6cfe29-7c1d-45f4-ac04-d1fe1794cc23</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>18777a4e-e237-4209-b265-db94dbf9abad</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>data_path_1</value>
+        <variableId>feea5b0a-888c-487f-9fba-b001d3a4cb0c</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>18777a4e-e237-4209-b265-db94dbf9abad</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>index_0</value>
+        <variableId>5d5e17ce-fe71-451d-bac2-87a298faae8f</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>18777a4e-e237-4209-b265-db94dbf9abad</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>index_1</value>
+        <variableId>99595b33-f65e-46f4-a51c-7e3e9e3cf821</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>18777a4e-e237-4209-b265-db94dbf9abad</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_historyEntries_href_variable</value>
+        <variableId>2affd27f-556c-47ef-83ad-1c68262aa2ee</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>18777a4e-e237-4209-b265-db94dbf9abad</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_historyEntries_href_variable_1</value>
+        <variableId>fecae565-e137-45bd-980c-9be0842272b9</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>18777a4e-e237-4209-b265-db94dbf9abad</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_historyEntries_internalText</value>
+        <variableId>cf0f6ce1-eda8-4185-a9f8-5e7cb490d54c</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>18777a4e-e237-4209-b265-db94dbf9abad</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_historyEntries_internalText_1</value>
+        <variableId>cf81d33f-0ac5-4d0c-9b76-52959964c273</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>18777a4e-e237-4209-b265-db94dbf9abad</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_historyEntries_trNthOfType</value>
+        <variableId>e27a5645-9aea-4e28-949c-fa2dd7622172</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>18777a4e-e237-4209-b265-db94dbf9abad</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_historyEntries_trNthOfType_1</value>
+        <variableId>775355e3-3865-4388-90e9-bc4ae3e16c50</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>18777a4e-e237-4209-b265-db94dbf9abad</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>span_dynamicObject_spanNthChild</value>
+        <variableId>b1a804aa-314d-43ff-946e-c7144a0cf71f</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>18777a4e-e237-4209-b265-db94dbf9abad</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>span_dynamicObject_spanNthChild_1</value>
+        <variableId>b5f52f14-01ad-47c4-9fe0-ec942ec94a7d</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>18777a4e-e237-4209-b265-db94dbf9abad</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>span_dynamicObject_spanNthOfType</value>
+        <variableId>6f3feb7f-c68d-41a7-8c9a-e9a6ee2e676a</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>18777a4e-e237-4209-b265-db94dbf9abad</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>span_dynamicObject_spanNthOfType_1</value>
+        <variableId>2c69fced-402c-4a1e-b533-77aad53379d7</variableId>
+    </variableLinks>
+</TestCaseEntity>

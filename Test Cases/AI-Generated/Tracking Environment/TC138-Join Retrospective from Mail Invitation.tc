@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>31dc03fd-d29f-46b7-9a94-d1ec395cb4c2</id>
+        </flow>
+    </customField>
+    <description>Access the mail page, interact with unread messages, and join the retrospective meeting through the invitation link.</description>
+    <name>TC138-Join Retrospective from Mail Invitation</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>5c63a39a-5c7f-424f-aa49-6829527a546e</testCaseGuid>
+    <testDataLinks>
+        <combinationType>ONE</combinationType>
+        <id>17edfaf5-e034-49db-9678-aa33ec8e72cf</id>
+        <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+        </iterationEntity>
+        <testDataId>Data Files/AI-Generated/Tracking Environment/TC138-Join Retrospective from Mail Invitation-test-data</testDataId>
+    </testDataLinks>
+    <variable>
+        <defaultValue>'unread, nghiatr. .. nghiatr. 15, Re: [katalon-studio/katalon-atg] [KIP 5087] Refactor PrevGraphManager (PR #3754), {{date_time}}, @nghiatran-katalon pushed 1 commit. - 0c883e7 Refactor AppGraphManager and FlowProcessor to improve graph handling and streamline snapshot processing You are re.'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>9dae031d-d48d-4d91-a288-ea4d2e9d5d54</id>
+        <masked>false</masked>
+        <name>tr_unreadMessages_internalLabel</name>
+    </variable>
+    <variable>
+        <defaultValue>'unread, Duy Pham (Jira), [JIRA] (KIP-4224) [TrueTest POC] Axis Bank, 2:31 PM, Duy Pham added 1 new comment. Katalon Intelligent Platform/KIP-4224 [TrueTest POC] Axis Bank \\u200c \\u200c \\u200c \\u200c \\u200c \\u200c \\u200c \\u200c \\u200c \\u200c \\u200c \\u200c \\u200c \\u200c \\u200c \\u200c \\u200c \\u200c \\u200c \\u200c \\u200c \\u200c \\u200c \\u200c \\u200c \\u200c \\u200c \\u200c \\u200c \\u200c \\u200c \\u200c \\u200c \\u200c \\u200c \\u200c \\u200c \\u200c \\u200c \\u200c \\u200c \\u200c \\u200c \\u200c \\u200c \\u200c \\u200c \\u200c \\u200c \\u200c \\u200c \\u200c \\u200c \\u200c.'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>5aed52f9-b344-4ba0-933f-f2fdce52eed9</id>
+        <masked>false</masked>
+        <name>tr_unreadMessages_internalLabel_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'unread, TeamRetro, Tuan Tran {{date_time}} you to join a retrospective \\u2022 TrueTest \\u2022 Sprint 4-5 \\u2022 May 6, 4:04 PM, You\'re invited to join a retrospective Tuan Tran has invited you to share your ideas and feedback in retrospective TrueTest \\u2022 Sprint 4-5 \\u2022 May 6. By proceeding, {{date_time}} {{name}} Privacy.'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>9d295d71-06e2-4286-8956-8cd5b5a6b221</id>
+        <masked>false</masked>
+        <name>tr_unreadMessages_internalLabel_2</name>
+    </variable>
+    <variable>
+        <defaultValue>'2'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>db2eeb4f-7738-4d08-9d77-efdf515b7363</id>
+        <masked>false</masked>
+        <name>u_id</name>
+    </variable>
+    <variableLinks>
+        <testDataLinkId>17edfaf5-e034-49db-9678-aa33ec8e72cf</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>tr_unreadMessages_internalLabel</value>
+        <variableId>9dae031d-d48d-4d91-a288-ea4d2e9d5d54</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>17edfaf5-e034-49db-9678-aa33ec8e72cf</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>tr_unreadMessages_internalLabel_1</value>
+        <variableId>5aed52f9-b344-4ba0-933f-f2fdce52eed9</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>17edfaf5-e034-49db-9678-aa33ec8e72cf</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>tr_unreadMessages_internalLabel_2</value>
+        <variableId>9d295d71-06e2-4286-8956-8cd5b5a6b221</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>17edfaf5-e034-49db-9678-aa33ec8e72cf</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>u_id</value>
+        <variableId>db2eeb4f-7738-4d08-9d77-efdf515b7363</variableId>
+    </variableLinks>
+</TestCaseEntity>

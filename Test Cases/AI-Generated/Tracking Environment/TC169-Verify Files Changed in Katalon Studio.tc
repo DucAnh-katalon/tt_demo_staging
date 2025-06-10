@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>6ca12d5c-abfe-4635-a27c-b93b2a9d628a</id>
+        </flow>
+    </customField>
+    <description>Navigate to the Katalon Studio page, click on the link for changed files, and verify that the home page is displayed.</description>
+    <name>TC169-Verify Files Changed in Katalon Studio</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>32dd33fc-4e9b-48c8-bfdf-c60f3b1c2ec7</testCaseGuid>
+    <testDataLinks>
+        <combinationType>ONE</combinationType>
+        <id>9b2964fb-8083-4837-b334-9171011da883</id>
+        <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+        </iterationEntity>
+        <testDataId>Data Files/AI-Generated/Tracking Environment/TC169-Verify Files Changed in Katalon Studio-test-data</testDataId>
+    </testDataLinks>
+    <variable>
+        <defaultValue>'3992'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>8e945592-8d22-4618-9aca-fa088158a2f2</id>
+        <masked>false</masked>
+        <name>pull_id</name>
+    </variable>
+    <variableLinks>
+        <testDataLinkId>9b2964fb-8083-4837-b334-9171011da883</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>pull_id</value>
+        <variableId>8e945592-8d22-4618-9aca-fa088158a2f2</variableId>
+    </variableLinks>
+</TestCaseEntity>

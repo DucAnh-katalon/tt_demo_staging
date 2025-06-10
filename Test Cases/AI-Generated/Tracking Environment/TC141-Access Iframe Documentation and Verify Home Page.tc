@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>c77aab85-d952-4616-8535-00fe94d584d7</id>
+        </flow>
+    </customField>
+    <description>Navigate to the documentation page, access iframe links, and explore attributes. Verify successful navigation back to the home page.</description>
+    <name>TC141-Access Iframe Documentation and Verify Home Page</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>dd8e3849-5890-4278-89d2-8a0229c3d3ee</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>6a52e194-f254-4ec0-bd1d-bf91d334b2fa</id>
+        </flow>
+    </customField>
+    <description>Access the dashboard, select studies, and perform administrative actions. Complete the process and verify the home page.</description>
+    <name>TC17-Navigate and Confirm Studies Administration Tool Actions</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>66373d99-d251-4fc4-a57a-def7b45c62f1</testCaseGuid>
+</TestCaseEntity>

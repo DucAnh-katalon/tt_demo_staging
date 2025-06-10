@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>af234fef-8ac3-47e6-a72b-ce29a14cad39</id>
+        </flow>
+    </customField>
+    <description>Access the staging environment, navigate to history entries, expand flows and parameters, and verify navigation back to the home page.</description>
+    <name>TC7-Navigate and Verify History Entries in Staging Environment</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>b9d4d715-caa1-4a8c-9854-6d8d9a8f858e</testCaseGuid>
+    <testDataLinks>
+        <combinationType>ONE</combinationType>
+        <id>3096db6e-89f8-440c-8568-1efaa2ab781b</id>
+        <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+        </iterationEntity>
+        <testDataId>Data Files/AI-Generated/Tracking Environment/TC7-Navigate and Verify History Entries in Staging Environment-test-data</testDataId>
+    </testDataLinks>
+    <variable>
+        <defaultValue>'KA-346522-37'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>85242707-fb90-4676-8b38-82271ebc1a37</id>
+        <masked>false</masked>
+        <name>aut_id</name>
+    </variable>
+    <variable>
+        <defaultValue>'/env/staging/aut/KA-346522-37/history/4b101357-f7f8-4e35-b489-29cdccbada86'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>d8fd9867-21b7-4e5e-85ba-83af25e902c1</id>
+        <masked>false</masked>
+        <name>link_historyEntries_href_variable</name>
+    </variable>
+    <variable>
+        <defaultValue>'4b10135'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>23721209-4545-49cd-9e14-fc915cfb95b6</id>
+        <masked>false</masked>
+        <name>link_historyEntries_internalText</name>
+    </variable>
+    <variable>
+        <defaultValue>'13'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>f586e6ca-4d81-45b9-a75c-17fae69d080b</id>
+        <masked>false</masked>
+        <name>link_historyEntries_trNthOfType</name>
+    </variable>
+    <variable>
+        <defaultValue>'452'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>e27f919a-ba53-461f-a42c-53a6d94f9595</id>
+        <masked>false</masked>
+        <name>span_dynamicObject_spanNthChild</name>
+    </variable>
+    <variable>
+        <defaultValue>'452'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>889adb3d-848e-46fc-8152-838b0196e9db</id>
+        <masked>false</masked>
+        <name>span_dynamicObject_spanNthOfType</name>
+    </variable>
+    <variableLinks>
+        <testDataLinkId>3096db6e-89f8-440c-8568-1efaa2ab781b</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>aut_id</value>
+        <variableId>85242707-fb90-4676-8b38-82271ebc1a37</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>3096db6e-89f8-440c-8568-1efaa2ab781b</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_historyEntries_href_variable</value>
+        <variableId>d8fd9867-21b7-4e5e-85ba-83af25e902c1</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>3096db6e-89f8-440c-8568-1efaa2ab781b</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_historyEntries_internalText</value>
+        <variableId>23721209-4545-49cd-9e14-fc915cfb95b6</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>3096db6e-89f8-440c-8568-1efaa2ab781b</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_historyEntries_trNthOfType</value>
+        <variableId>f586e6ca-4d81-45b9-a75c-17fae69d080b</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>3096db6e-89f8-440c-8568-1efaa2ab781b</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>span_dynamicObject_spanNthChild</value>
+        <variableId>e27f919a-ba53-461f-a42c-53a6d94f9595</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>3096db6e-89f8-440c-8568-1efaa2ab781b</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>span_dynamicObject_spanNthOfType</value>
+        <variableId>889adb3d-848e-46fc-8152-838b0196e9db</variableId>
+    </variableLinks>
+</TestCaseEntity>

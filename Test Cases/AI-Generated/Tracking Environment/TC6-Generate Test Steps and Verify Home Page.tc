@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>997402f8-209b-4c3e-8ea9-edcad4388351</id>
+        </flow>
+    </customField>
+    <description>Navigate to system settings, access project overview, generate test steps, save changes, and verify the home page.</description>
+    <name>TC6-Generate Test Steps and Verify Home Page</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>5f9d4aa7-7752-4818-97d9-bbee02370ad7</testCaseGuid>
+    <testDataLinks>
+        <combinationType>ONE</combinationType>
+        <id>10a48a59-c499-493a-8a5b-d7e2e623a422</id>
+        <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+        </iterationEntity>
+        <testDataId>Data Files/AI-Generated/Tracking Environment/TC6-Generate Test Steps and Verify Home Page-test-data</testDataId>
+    </testDataLinks>
+    <variable>
+        <defaultValue>'MuiButtonBase-root\\\\ MuiButton-root\\\\ MuiButton-contained\\\\ MuiButton-containedBlue500\\\\ MuiButton-sizeMedium\\\\ MuiButton-containedSizeMedium\\\\ MuiButton-colorBlue500\\\\ MuiButton-disableElevation\\\\ MuiButton-root\\\\ MuiButton-contained\\\\ MuiButton-containedBlue500\\\\ MuiButton-sizeMedium\\\\ MuiButton-containedSizeMedium\\\\ MuiButton-colorBlue500\\\\ MuiButton-disableElevation\\\\ KuiButton-positive\\\\ css-1bxzbze'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>d3f45dc9-ad1a-4d73-9e2c-106a8d624d6f</id>
+        <masked>false</masked>
+        <name>button_saveOverwrite_class</name>
+    </variable>
+    <variable>
+        <defaultValue>'generate-steps-dialog-save-button'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>69343ce3-5e5d-4d15-bc02-e21343946416</id>
+        <masked>false</masked>
+        <name>button_saveOverwrite_dataTestid</name>
+    </variable>
+    <variable>
+        <defaultValue>'MuiDataGrid-cell\\\\ MuiDataGrid-cell--textLeft\\"] [class=\\"MuiTypography-root\\\\ MuiTypography-inherit\\\\ MuiLink-root\\\\ MuiLink-underlineNone\\\\ css-10fzk6f'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>f4172ec1-6f84-4f2e-b324-16e5af60fa8f</id>
+        <masked>false</masked>
+        <name>link_testCaseNavigation_class</name>
+    </variable>
+    <variable>
+        <defaultValue>'/project/466499/tests/test-cases/2852874'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>ab824935-5f60-4931-8d90-7756c7996dae</id>
+        <masked>false</masked>
+        <name>link_testCaseNavigation_href_variable</name>
+    </variable>
+    <variable>
+        <defaultValue>'Navigate to test'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>3d8f614e-0a2e-4a06-870f-9d6b5021d6fd</id>
+        <masked>false</masked>
+        <name>link_testCaseNavigation_internalLabel</name>
+    </variable>
+    <variableLinks>
+        <testDataLinkId>10a48a59-c499-493a-8a5b-d7e2e623a422</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>button_saveOverwrite_class</value>
+        <variableId>d3f45dc9-ad1a-4d73-9e2c-106a8d624d6f</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>10a48a59-c499-493a-8a5b-d7e2e623a422</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>button_saveOverwrite_dataTestid</value>
+        <variableId>69343ce3-5e5d-4d15-bc02-e21343946416</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>10a48a59-c499-493a-8a5b-d7e2e623a422</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_testCaseNavigation_class</value>
+        <variableId>f4172ec1-6f84-4f2e-b324-16e5af60fa8f</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>10a48a59-c499-493a-8a5b-d7e2e623a422</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_testCaseNavigation_href_variable</value>
+        <variableId>ab824935-5f60-4931-8d90-7756c7996dae</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>10a48a59-c499-493a-8a5b-d7e2e623a422</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_testCaseNavigation_internalLabel</value>
+        <variableId>3d8f614e-0a2e-4a06-870f-9d6b5021d6fd</variableId>
+    </variableLinks>
+</TestCaseEntity>

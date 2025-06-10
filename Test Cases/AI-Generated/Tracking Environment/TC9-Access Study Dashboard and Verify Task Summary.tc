@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>a9bde023-b5c7-4045-b802-6b6657fc5fbf</id>
+        </flow>
+    </customField>
+    <description>Navigate to the dashboard, apply filters to studies, access study details, and verify navigation to the home page after reviewing task summaries.</description>
+    <name>TC9-Access Study Dashboard and Verify Task Summary</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>01465d93-a29b-4bd8-8df8-ca63da75caa9</testCaseGuid>
+    <testDataLinks>
+        <combinationType>ONE</combinationType>
+        <id>3ef7199b-2df0-4143-a7de-0c676675ff19</id>
+        <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+        </iterationEntity>
+        <testDataId>Data Files/AI-Generated/Tracking Environment/TC9-Access Study Dashboard and Verify Task Summary-test-data</testDataId>
+    </testDataLinks>
+    <variable>
+        <defaultValue>'Data Files/AI-Generated/Tracking Environment/Common/selectStudyOrOrganizationAndApplyFilter-test-data'</defaultValue>
+        <description>Common function data file id</description>
+        <id>530abf28-1bd4-4b75-8464-5fb7e22fe46a</id>
+        <masked>false</masked>
+        <name>data_path_0</name>
+    </variable>
+    <variable>
+        <defaultValue>'8'</defaultValue>
+        <description>Common function data row index</description>
+        <id>439c5fc0-0046-4b46-b6cf-7ec8fd5133b9</id>
+        <masked>false</masked>
+        <name>index_0</name>
+    </variable>
+    <variable>
+        <defaultValue>'Quality Control'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>a74208ad-35cc-4b3c-8f02-77eb4727315c</id>
+        <masked>false</masked>
+        <name>link_studyLinks_aTitle</name>
+    </variable>
+    <variable>
+        <defaultValue>'es-button'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>cd3f8e3c-2267-4405-a1a6-9ac574a245c6</id>
+        <masked>false</masked>
+        <name>link_studyLinks_class</name>
+    </variable>
+    <variable>
+        <defaultValue>'{{url}}'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>84461802-26b4-4fbf-8b7c-524aebeaaa8d</id>
+        <masked>false</masked>
+        <name>link_studyLinks_href_variable</name>
+    </variable>
+    <variable>
+        <defaultValue>'5'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>7415f67b-598a-4008-bd16-74a51c7d54e6</id>
+        <masked>false</masked>
+        <name>link_studyLinks_liNthOfType</name>
+    </variable>
+    <variable>
+        <defaultValue>'9'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>ec9f36ab-3bf8-416d-b813-cd9e57eef3c0</id>
+        <masked>false</masked>
+        <name>td_visitDetails_trNthChild</name>
+    </variable>
+    <variable>
+        <defaultValue>'9'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>5b09b572-1bdc-4a14-815c-cf48dba9810b</id>
+        <masked>false</masked>
+        <name>td_visitDetails_trNthChild_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'9'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>bfb1e2ab-4083-4649-9352-9704d7c682ab</id>
+        <masked>false</masked>
+        <name>td_visitDetails_trNthOfType</name>
+    </variable>
+    <variable>
+        <defaultValue>'9'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>31884ee5-3511-4158-93a9-fd5bf0754ee5</id>
+        <masked>false</masked>
+        <name>td_visitDetails_trNthOfType_1</name>
+    </variable>
+    <variableLinks>
+        <testDataLinkId>3ef7199b-2df0-4143-a7de-0c676675ff19</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>data_path_0</value>
+        <variableId>530abf28-1bd4-4b75-8464-5fb7e22fe46a</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>3ef7199b-2df0-4143-a7de-0c676675ff19</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>index_0</value>
+        <variableId>439c5fc0-0046-4b46-b6cf-7ec8fd5133b9</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>3ef7199b-2df0-4143-a7de-0c676675ff19</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_studyLinks_aTitle</value>
+        <variableId>a74208ad-35cc-4b3c-8f02-77eb4727315c</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>3ef7199b-2df0-4143-a7de-0c676675ff19</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_studyLinks_class</value>
+        <variableId>cd3f8e3c-2267-4405-a1a6-9ac574a245c6</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>3ef7199b-2df0-4143-a7de-0c676675ff19</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_studyLinks_href_variable</value>
+        <variableId>84461802-26b4-4fbf-8b7c-524aebeaaa8d</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>3ef7199b-2df0-4143-a7de-0c676675ff19</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_studyLinks_liNthOfType</value>
+        <variableId>7415f67b-598a-4008-bd16-74a51c7d54e6</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>3ef7199b-2df0-4143-a7de-0c676675ff19</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>td_visitDetails_trNthChild</value>
+        <variableId>ec9f36ab-3bf8-416d-b813-cd9e57eef3c0</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>3ef7199b-2df0-4143-a7de-0c676675ff19</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>td_visitDetails_trNthChild_1</value>
+        <variableId>5b09b572-1bdc-4a14-815c-cf48dba9810b</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>3ef7199b-2df0-4143-a7de-0c676675ff19</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>td_visitDetails_trNthOfType</value>
+        <variableId>bfb1e2ab-4083-4649-9352-9704d7c682ab</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>3ef7199b-2df0-4143-a7de-0c676675ff19</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>td_visitDetails_trNthOfType_1</value>
+        <variableId>31884ee5-3511-4158-93a9-fd5bf0754ee5</variableId>
+    </variableLinks>
+</TestCaseEntity>

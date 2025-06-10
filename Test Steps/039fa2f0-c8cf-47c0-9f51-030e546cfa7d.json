@@ -1,0 +1,16 @@
+{
+    "steps": [
+        "step 1: Navigate to /dashboard",
+        "step 2: Click on item uploader",
+        "step 3: Click on link qualityControlLinks (uploader)",
+        "step 4: Click on button createUnscheduledVisit",
+        "step 5: Click on div inputField",
+        "step 6: Click on input search3",
+        "step 7: Enter input value in input search3",
+        "step 8: Press key Enter on input search3",
+        "step 9: Enter input value in input search3",
+        "step 10: Click on div noData",
+        "step 11: Click on faIcon dismiss2 -> Navigate to page ''",
+        "step 12: Take full page screenshot as checkpoint"
+    ]
+}

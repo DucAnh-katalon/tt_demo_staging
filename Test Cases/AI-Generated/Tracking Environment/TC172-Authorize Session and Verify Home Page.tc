@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>8c2d6d23-52a0-4ade-b06b-60af8e08cc52</id>
+        </flow>
+    </customField>
+    <description>Navigate to the sessions selector, authorize the session, and verify that the home page is displayed.</description>
+    <name>TC172-Authorize Session and Verify Home Page</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>060ccdbe-bf9c-476a-a2f0-23f1e169f373</testCaseGuid>
+    <testDataLinks>
+        <combinationType>ONE</combinationType>
+        <id>42230a54-63af-4ad5-a3f6-c8085a9d83d4</id>
+        <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+        </iterationEntity>
+        <testDataId>Data Files/AI-Generated/Tracking Environment/TC172-Authorize Session and Verify Home Page-test-data</testDataId>
+    </testDataLinks>
+    <variable>
+        <defaultValue>'arn:aws:signin:::console/canvas'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>97e4cce7-55f6-4777-bbe9-11c711330597</id>
+        <masked>false</masked>
+        <name>selector_client_id</name>
+    </variable>
+    <variable>
+        <defaultValue>'fvT7B7GbbYlfvrwnT998er02caYaj9_ghsMEF6zmSGs'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>92de9d18-2950-466a-a6b0-b3876d733ffe</id>
+        <masked>false</masked>
+        <name>selector_code_challenge</name>
+    </variable>
+    <variable>
+        <defaultValue>'SHA-256'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>f6ae6847-136b-4361-9c9c-c1b66d7372c2</id>
+        <masked>false</masked>
+        <name>selector_code_challenge_method</name>
+    </variable>
+    <variable>
+        <defaultValue>'{{url}}?hashArgs=%23&amp;isauthcode=true&amp;region=us-east-1&amp;state=hashArgsFromTB_us-east-1_7ff45a7fdaddab45'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>d197ce8f-e745-4cb7-9c63-10fb7a0661a7</id>
+        <masked>false</masked>
+        <name>selector_redirect_uri</name>
+    </variable>
+    <variable>
+        <defaultValue>'code'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>81d6623a-755b-43ee-bcb6-dda65c77db59</id>
+        <masked>false</masked>
+        <name>selector_response_type</name>
+    </variable>
+    <variable>
+        <defaultValue>'openid'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>94350c1a-c939-492b-ad10-71bde8a81347</id>
+        <masked>false</masked>
+        <name>selector_scope</name>
+    </variable>
+    <variableLinks>
+        <testDataLinkId>42230a54-63af-4ad5-a3f6-c8085a9d83d4</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>selector_client_id</value>
+        <variableId>97e4cce7-55f6-4777-bbe9-11c711330597</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>42230a54-63af-4ad5-a3f6-c8085a9d83d4</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>selector_code_challenge</value>
+        <variableId>92de9d18-2950-466a-a6b0-b3876d733ffe</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>42230a54-63af-4ad5-a3f6-c8085a9d83d4</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>selector_code_challenge_method</value>
+        <variableId>f6ae6847-136b-4361-9c9c-c1b66d7372c2</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>42230a54-63af-4ad5-a3f6-c8085a9d83d4</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>selector_redirect_uri</value>
+        <variableId>d197ce8f-e745-4cb7-9c63-10fb7a0661a7</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>42230a54-63af-4ad5-a3f6-c8085a9d83d4</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>selector_response_type</value>
+        <variableId>81d6623a-755b-43ee-bcb6-dda65c77db59</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>42230a54-63af-4ad5-a3f6-c8085a9d83d4</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>selector_scope</value>
+        <variableId>94350c1a-c939-492b-ad10-71bde8a81347</variableId>
+    </variableLinks>
+</TestCaseEntity>

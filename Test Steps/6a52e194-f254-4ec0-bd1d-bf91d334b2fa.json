@@ -1,0 +1,23 @@
+{
+    "steps": [
+        "step 1: Navigate to /dashboard",
+        "step 2: Click on list quicklink2",
+        "step 3: Click on button selectStudyOrOrganization",
+        "step 4: Click on list quicklink2",
+        "step 5: Click on button clarioApps",
+        "step 6: Click on link administrationTool -> Navigate to page '/gssoadmin'",
+        "step 7: Click on button clarioApps",
+        "step 8: Click on link studies",
+        "step 9: Click on div sites",
+        "step 10: Click on div siteAssessment",
+        "step 11: Click on div sites2",
+        "step 12: Click on faIcon object",
+        "step 13: Click on button confirm -> Navigate to page '/dashboard'",
+        "step 14: Click on button next",
+        "step 15: Click on button next",
+        "step 16: Click on button next",
+        "step 17: Click on button next",
+        "step 18: Click on button finish -> Navigate to page ''",
+        "step 19: Take full page screenshot as checkpoint"
+    ]
+}

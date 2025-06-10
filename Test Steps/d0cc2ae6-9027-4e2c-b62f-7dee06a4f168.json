@@ -1,0 +1,11 @@
+{
+    "steps": [
+        "step 1: Navigate to /en",
+        "step 2: Hover over button investments",
+        "step 3: Click on link mutualFunds -> Navigate to page '/en/investments/mutual-funds'",
+        "step 4: Click on button readMore -> Navigate to page '/en/investor-education/mutual-fund'",
+        "step 5: Hover over button investments",
+        "step 6: Click on link mutualFunds -> Navigate to page '/en/investments/mutual-funds'",
+        "step 7: Take full page screenshot as checkpoint"
+    ]
+}

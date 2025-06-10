@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>d0cc2ae6-9027-4e2c-b62f-7dee06a4f168</id>
+        </flow>
+    </customField>
+    <description>Navigate to the investments section, access mutual funds, read more about them, and verify the mutual funds page.</description>
+    <name>TC128-Explore Mutual Funds Section in Investor Education</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>b8262a3d-931b-4090-9b54-450751cd6ebe</testCaseGuid>
+</TestCaseEntity>

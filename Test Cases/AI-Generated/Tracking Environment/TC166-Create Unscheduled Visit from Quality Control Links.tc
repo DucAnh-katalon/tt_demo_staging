@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>039fa2f0-c8cf-47c0-9f51-030e546cfa7d</id>
+        </flow>
+    </customField>
+    <description>Access the dashboard, create an unscheduled visit, and verify navigation back to the home page.</description>
+    <name>TC166-Create Unscheduled Visit from Quality Control Links</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>02c2ce0a-6271-4375-a0ae-b41138be22cc</testCaseGuid>
+    <testDataLinks>
+        <combinationType>ONE</combinationType>
+        <id>0385f83a-187c-4c0d-a0fb-541566bee589</id>
+        <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+        </iterationEntity>
+        <testDataId>Data Files/AI-Generated/Tracking Environment/TC166-Create Unscheduled Visit from Quality Control Links-test-data</testDataId>
+    </testDataLinks>
+    <variable>
+        <defaultValue>'IMG_UP_6'</defaultValue>
+        <description>Input data variable</description>
+        <id>8a83de8b-1ed7-4486-98b0-2e80fdba9910</id>
+        <masked>false</masked>
+        <name>input_search3</name>
+    </variable>
+    <variable>
+        <defaultValue>'IMG_UP_6'</defaultValue>
+        <description>Input data variable</description>
+        <id>c0126ee1-ed07-43aa-89fa-58c26f39881c</id>
+        <masked>false</masked>
+        <name>input_search3_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'Uploader'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>b7c53748-6d3c-488b-8466-885ed824025c</id>
+        <masked>false</masked>
+        <name>link_qualityControlLinks_aTitle</name>
+    </variable>
+    <variable>
+        <defaultValue>'1'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>a35efa7e-94f7-4034-a978-f0c033b5443c</id>
+        <masked>false</masked>
+        <name>link_qualityControlLinks_liNthOfType</name>
+    </variable>
+    <variableLinks>
+        <testDataLinkId>0385f83a-187c-4c0d-a0fb-541566bee589</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>input_search3</value>
+        <variableId>8a83de8b-1ed7-4486-98b0-2e80fdba9910</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>0385f83a-187c-4c0d-a0fb-541566bee589</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>input_search3_1</value>
+        <variableId>c0126ee1-ed07-43aa-89fa-58c26f39881c</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>0385f83a-187c-4c0d-a0fb-541566bee589</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_qualityControlLinks_aTitle</value>
+        <variableId>b7c53748-6d3c-488b-8466-885ed824025c</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>0385f83a-187c-4c0d-a0fb-541566bee589</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_qualityControlLinks_liNthOfType</value>
+        <variableId>a35efa7e-94f7-4034-a978-f0c033b5443c</variableId>
+    </variableLinks>
+</TestCaseEntity>

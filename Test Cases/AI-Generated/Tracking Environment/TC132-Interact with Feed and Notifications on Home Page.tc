@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>bb691aab-0f7b-46d0-ac57-f48961bf8f24</id>
+        </flow>
+    </customField>
+    <description>Navigate to the feed, interact with posts, view profiles, and manage notifications while ensuring successful navigation to the home page.</description>
+    <name>TC132-Interact with Feed and Notifications on Home Page</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>b2f955f4-b070-431a-a4ac-9a52d8617b13</testCaseGuid>
+</TestCaseEntity>

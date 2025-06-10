@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>c9840845-1cad-4243-9e7e-7bcf15187e05</id>
+        </flow>
+    </customField>
+    <description>Navigate to HTML iframe documentation, explore various elements, and perform searches. Verify successful navigation back to the home page.</description>
+    <name>TC142-Explore HTML Iframe Elements and Verify Home Page</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>228a9d92-c71f-46dd-8d81-89d84a80a990</testCaseGuid>
+    <testDataLinks>
+        <combinationType>ONE</combinationType>
+        <id>5ac9d767-4d91-430e-8981-73d0a9777bb4</id>
+        <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+        </iterationEntity>
+        <testDataId>Data Files/AI-Generated/Tracking Environment/TC142-Explore HTML Iframe Elements and Verify Home Page-test-data</testDataId>
+    </testDataLinks>
+    <variable>
+        <defaultValue>'a'</defaultValue>
+        <description>Input data variable</description>
+        <id>215d396a-b0f0-4a6b-9359-e46bc841765c</id>
+        <masked>false</masked>
+        <name>input_searchField</name>
+    </variable>
+    <variable>
+        <defaultValue>'15'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>be044c8f-7210-4cdb-82a5-f0b0ded8b57c</id>
+        <masked>false</masked>
+        <name>span_htmlTags_spanNthChild</name>
+    </variable>
+    <variable>
+        <defaultValue>'8'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>110712b0-d2c3-4f53-bcb8-db4dd502a2ff</id>
+        <masked>false</masked>
+        <name>span_htmlTags_spanNthChild_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'8'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>fdce570e-eb9c-4c1c-9feb-382516a6fe2d</id>
+        <masked>false</masked>
+        <name>span_htmlTags_spanNthChild_2</name>
+    </variable>
+    <variable>
+        <defaultValue>'8'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>fd3f5fe6-5396-49bc-afe1-9d0698b549d1</id>
+        <masked>false</masked>
+        <name>span_htmlTags_spanNthOfType</name>
+    </variable>
+    <variable>
+        <defaultValue>'5'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>9e2a79ed-1e7c-4be8-8882-9f355f47c85a</id>
+        <masked>false</masked>
+        <name>span_htmlTags_spanNthOfType_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'5'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>f49152b7-ab04-47c6-bf3c-bd9b9e63742f</id>
+        <masked>false</masked>
+        <name>span_htmlTags_spanNthOfType_2</name>
+    </variable>
+    <variableLinks>
+        <testDataLinkId>5ac9d767-4d91-430e-8981-73d0a9777bb4</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>input_searchField</value>
+        <variableId>215d396a-b0f0-4a6b-9359-e46bc841765c</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>5ac9d767-4d91-430e-8981-73d0a9777bb4</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>span_htmlTags_spanNthChild</value>
+        <variableId>be044c8f-7210-4cdb-82a5-f0b0ded8b57c</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>5ac9d767-4d91-430e-8981-73d0a9777bb4</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>span_htmlTags_spanNthChild_1</value>
+        <variableId>110712b0-d2c3-4f53-bcb8-db4dd502a2ff</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>5ac9d767-4d91-430e-8981-73d0a9777bb4</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>span_htmlTags_spanNthChild_2</value>
+        <variableId>fdce570e-eb9c-4c1c-9feb-382516a6fe2d</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>5ac9d767-4d91-430e-8981-73d0a9777bb4</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>span_htmlTags_spanNthOfType</value>
+        <variableId>fd3f5fe6-5396-49bc-afe1-9d0698b549d1</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>5ac9d767-4d91-430e-8981-73d0a9777bb4</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>span_htmlTags_spanNthOfType_1</value>
+        <variableId>9e2a79ed-1e7c-4be8-8882-9f355f47c85a</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>5ac9d767-4d91-430e-8981-73d0a9777bb4</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>span_htmlTags_spanNthOfType_2</value>
+        <variableId>f49152b7-ab04-47c6-bf3c-bd9b9e63742f</variableId>
+    </variableLinks>
+</TestCaseEntity>

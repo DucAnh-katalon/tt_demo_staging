@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>529e750f-b023-4096-98c5-9ac9d61606c4</id>
+        </flow>
+    </customField>
+    <description>Navigate to the home page, access the QA environment, and verify the home page after multiple interactions with email links.</description>
+    <name>TC143-Navigate through QA Environment and Verify Home Page</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>65fb30c0-92f7-4f52-a93f-eb03c6b4a430</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>363d2cd3-df12-4025-9586-2f4a1e5bfad5</id>
+        </flow>
+    </customField>
+    <description>Navigate to the home page, access the K Cellphone Shop, hover over Accessories, and click on Apple category. Verify return to home page.</description>
+    <name>TC168-Access Apple Accessories from K Cellphone Shop</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>44646855-650b-49e6-8c05-8ec98be69fba</testCaseGuid>
+</TestCaseEntity>

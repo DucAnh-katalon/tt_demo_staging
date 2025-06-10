@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>234ae154-e95b-4d0d-813c-a006fa4e24fc</id>
+        </flow>
+    </customField>
+    <description>Navigate to the home page, attempt to log in with invalid credentials, and verify the error message. Then, log in using Google and confirm the home page.</description>
+    <name>TC127-Verify Login Functionality with Error Handling</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>f1201a0c-7f1c-4f0b-8d1d-fb29d722bc5c</testCaseGuid>
+</TestCaseEntity>

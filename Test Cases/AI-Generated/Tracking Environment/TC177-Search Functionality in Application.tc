@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>1e24cd34-37ca-4071-bf3d-d6c3d62e08c6</id>
+        </flow>
+    </customField>
+    <description>Navigate to the search page, input search criteria, and verify the search results on the home page.</description>
+    <name>TC177-Search Functionality in Application</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>031cf9b2-d000-464e-8f7d-ac829d668596</testCaseGuid>
+    <testDataLinks>
+        <combinationType>ONE</combinationType>
+        <id>04ffc781-df52-429f-9468-7cf9678b8621</id>
+        <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+        </iterationEntity>
+        <testDataId>Data Files/AI-Generated/Tracking Environment/TC177-Search Functionality in Application-test-data</testDataId>
+    </testDataLinks>
+    <variable>
+        <defaultValue>'EgZjaHJvbWUyBggAEEUYOTIJCAEQIRgKGKABMgkIAhAhGAoYoAEyCAgDECEYDRgVMgcIBBAhGI8CMgcIBRAhGI8C0gEJMTAzMTNqMGo3qAIAsAIA'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>670603c8-84b8-465d-8926-f6d2ebd5f94d</id>
+        <masked>false</masked>
+        <name>search_gs_lcrp</name>
+    </variable>
+    <variable>
+        <defaultValue>'UTF-8'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>dc30c23f-f0c3-492e-96f7-9b3f1634ce45</id>
+        <masked>false</masked>
+        <name>search_ie</name>
+    </variable>
+    <variable>
+        <defaultValue>'mks repairs  tabke'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>8491ca5f-9104-4aba-b1c9-9da4d8a16fa1</id>
+        <masked>false</masked>
+        <name>search_oq</name>
+    </variable>
+    <variable>
+        <defaultValue>'mks repairs tabke'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>4f4d399d-d66b-4c3d-b9fb-689a8eff3073</id>
+        <masked>false</masked>
+        <name>search_q</name>
+    </variable>
+    <variable>
+        <defaultValue>'chrome'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>c9ecc57d-0ccb-47ef-858f-49c14dc9c494</id>
+        <masked>false</masked>
+        <name>search_sourceid</name>
+    </variable>
+    <variable>
+        <defaultValue>'atgeba '</defaultValue>
+        <description>Input data variable</description>
+        <id>3aa62cc6-991a-46b8-87cb-3fb40fbebb00</id>
+        <masked>false</masked>
+        <name>textarea_search</name>
+    </variable>
+    <variableLinks>
+        <testDataLinkId>04ffc781-df52-429f-9468-7cf9678b8621</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>search_gs_lcrp</value>
+        <variableId>670603c8-84b8-465d-8926-f6d2ebd5f94d</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>04ffc781-df52-429f-9468-7cf9678b8621</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>search_ie</value>
+        <variableId>dc30c23f-f0c3-492e-96f7-9b3f1634ce45</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>04ffc781-df52-429f-9468-7cf9678b8621</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>search_oq</value>
+        <variableId>8491ca5f-9104-4aba-b1c9-9da4d8a16fa1</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>04ffc781-df52-429f-9468-7cf9678b8621</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>search_q</value>
+        <variableId>4f4d399d-d66b-4c3d-b9fb-689a8eff3073</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>04ffc781-df52-429f-9468-7cf9678b8621</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>search_sourceid</value>
+        <variableId>c9ecc57d-0ccb-47ef-858f-49c14dc9c494</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>04ffc781-df52-429f-9468-7cf9678b8621</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>textarea_search</value>
+        <variableId>3aa62cc6-991a-46b8-87cb-3fb40fbebb00</variableId>
+    </variableLinks>
+</TestCaseEntity>

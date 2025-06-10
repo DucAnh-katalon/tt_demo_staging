@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>8eac2bfe-847c-45b3-bca9-eaf6baf008db</id>
+        </flow>
+    </customField>
+    <description>Navigate to the home page and access the Tuan Dat News link, verifying successful navigation back to the home page.</description>
+    <name>TC133-Access Tuan Dat News from Home Page</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>96b80f15-52d2-4031-bddb-d7ddf6aeb33b</testCaseGuid>
+</TestCaseEntity>
